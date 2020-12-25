@@ -3,7 +3,7 @@ function createOponIfaWithOdu(){
     let opon_Right_side = document.getElementById("Right-Side");
     var firstOdu = document.getElementById("myInput").value;
     //Left Side
-    let opon_Ifa_Left_Side_Ogbe_Meji = "images\\Pictures\\Odus\\Left Half\\opon ifa - ogbe - left half.png; 
+    let opon_Ifa_Left_Side_Ogbe_Meji = "images\\Pictures\\Odus\\Left Half\\opon ifa - ogbe - left half.png"; 
     let opon_Ifa_Left_Side_Oyeku_Meji = "images\\Pictures\\Odus\\Left Half\\opon ifa - oyeku - left half.png";
     let opon_Ifa_Left_Side_Iwori_Meji = "images\\Pictures\\Odus\\Left Half\\opon ifa - iwori - left half.png";
     let opon_Ifa_Left_Side_Idi_Meji = "images\\Pictures\\Odus\\Left Half\\opon ifa - idi - left half.png";
