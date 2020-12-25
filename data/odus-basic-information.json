@@ -1,0 +1,1628 @@
+{
+"all-odus": ["Eji-Ogbe", "Oyeku-Meji", "iwori-Meji" ,"Idi-Meji" ,"Obara-Meji", "Okonron-Meji", "Irosun-Meji", "Owanrin-Meji", "Ogunda-Meji", "Osa-Meji", "Etura-Meji", "Irete-Meji", "Eka-Meji", "Eturukpon-Meji", "Ose-Meji", "Ofun-Meji", "Ogbe-Oyekun", "Ogbe-Iwori","Ogbe-Idi","Ogbe-Obara","Ogbe-Okonron","Ogbe-Irosun","Ogbe-Owanrin","Ogbe-Ogunda","Ogbe-Osa","Ogbe-Etura","Ogbe-Irete","Ogbe-Eka","Ogbe-Eturukpon","Ogbe-Ose","Ogbe-Ofun","Oyeku-Lo-Ogbe","Oyeku-Bi-Iwori","Oyeku-Di","Oyeku-Obara","Oyeku-Okonron","Oyeku-Irosun","Oyeku-Owanrin","Oyeku-Ogunda","Oyeku-Osa","Oyeku-Etura","Oyeku-Irete","Oyeku-Eturukpon","Oyeku-Be-Eka","Oyeku-Ose","Oyeku-Ofun","Iwori-Bo-Ogbe","Iwori-Oyeku","Iwori-Idi","Iwori-Obara","Iwori-Okonron","Iwori-Irosun","Iwori-Owanrin","Iwori-Ogunda","Iwori-Osa","Iwori-Etura","Iwori-Irete","Iwori-Eka","Iwori-Eturukpon","Iwori-Ose","Iwori-Ofun","Idi-Ogbe","Idi-Oyeku","Idi-Iwori","Idi-Obara","Idi-Okonron","Idi-Irosun","Idi-Owanrin","Idi-Ogunda","Idi-Osa","Idi-Etura","Idi-Irete","Idi-Eturukpon","Idi-Eka","Idi-Ose","Idi-Ofun","Obara-Ogbe","Obara-Oyeku","Obara-Iwori","Obara-Idi","Obara-Okonron","Obara-Irosun","Obara-Owanrin","Obara-Ogunda","Obara-Osa","Obara-Etura","Obara-Irete","Obara-Eka","Obara-Eturukpon","Obara-Ose","Obara-Ofun","Okonron-Ogbe","Okonron-Oyeku","Okonron-Iwori","Okonron-Idi","Okonron-Obara","Okonron-Irosun","Okonron-Owanrin","Okonron-Ogunda","Okonron-Osa","Okonron-Etura","Okonron-Irete","Okonron-Eka","Okonron-Eturukpon","Okonron-Ose","Okonron-Ofun","Irosun-Ogbe","Irosun-Oyeku","Irosun-Iwori","Irosun-Idi","Irosun-Obara","Irosun-Okonron","Irosun-Owanrin","Irosun-Ogunda","Irosun-Osa","Irosun-Etura","Irosun-Irete","Irosun-Eka","Irosun-Eturukpon","Irosun-Ose","Irosun-Ofun","Owanrin-So-Ogbe","Owanrin-Oyeku","Owanrin-Iwori","Owanrin-Idi","Owanrin-Obara","Owanrin-Okonron","Owanrin-Irosun","Owanrin-Ogunda","Owanrin-Osa","Owanrin-Etura","Owanrin-Irete","Owanrin-Eka","Owanrin-Eturukpon","Owanrin-Ose","Owanrin-Ofun","Ogunda-Ogbe","Ogunda-Oyeku","Ogunda-Iwori","Ogunda-Idi","Ogunda-Obara","Ogunda-Okonron","Ogunda-Irosun","Ogunda-Owanrin","Ogunda-Osa","Ogunda-Etura","Ogunda-Irete","Ogunda-Eka","Ogunda-Eturukpon","Ogunda-Ose","Ogunda-Ofun","Osa-Ogbe","Osa-Oyeku","Osa-Iwori","Osa-Idi","Osa-Obara","Osa-Okonron","Osa-Irosun","Osa-Ogunda","Osa-Owanrin","Osa-Etura","Osa-Irete","Osa-Eka","Osa-Eturukpon","Osa-Ose","Osa-Ofun","Etura-Ogbe","Etura-Oyeku","Etura-Iwori","Etura-Idi","Etura-Obara","Etura-Okonron","Etura-Irosun","Etura-Ogunda","Etura-Owanrin","Etura-Osa","Etura-Irete","Etura-Eka","Etura-Eturukpon","Etura-Ose","Etura-Ofun","Irete-Ogbe","Irete-Oyeku","Irete-Iwori","Irete-Idi","Irete-Obara","Irete-Okonron","Irete-Irosun","Irete-Ogunda","Irete-Owanrin","Irete-Osa","Irete-Etura","Irete-Eka","Irete-Eturukpon","Irete-Ose","Irete-Ofun","Eka-Ogbe","Eka-Oyeku","Eka-Iwori","Eka-Idi","Eka-Obara","Eka-Okonron","Eka-Irosun","Eka-Ogunda","Eka-Owanrin","Eka-Osa","Eka-Etura","Eka-Irete","Eka-Eturukpon","Eka-Ose","Eka-Ofun","Eturukpon-Ogbe","Eturukpon-Oyeku","Eturukpon-Iwori","Eturukpon-Idi","Eturukpon-Obara","Eturukpon-Okonron","Eturukpon-Irosun","Eturukpon-Ogunda","Eturukpon-Owanrin","Eturukpon-Osa","Eturukpon-Etura","Eturukpon-Irete","Eturukpon-Eka","Eturukpon-Ose","Eturukpon-Ofun","Ose-Ogbe","Ose-Oyeku","Ose-Iwori","Ose-Idi","Ose-Obara","Ose-Okonron","Ose-Irosun","Ose-Ogunda","Ose-Owanrin","Ose-Osa","Ose-Etura","Ose-Irete","Ose-Eka","Ose-Eturukpon","Ose-Ofun","Ofun-Ogbe","Ofun-Oyeku","Ofun-Iwori","Ofun-Idi","Ofun-Obara","Ofun-Okonron","Ofun-Irosun","Ofun-Ogunda","Ofun-Owanrin","Ofun-Osa","Ofun-Etura","Ofun-Irete","Ofun-Eka","Ofun-Eturukpon","Ofun-Ose"],
+"Eji-Ogbe":{
+    "ebbo":{
+        "id":{
+            "1":{ 
+                "Translation":{
+                    "ENG":"this is the test in eng",
+                    "SPA":"esta es la prueba en espanol",
+                    "Yoruba":"this is the prueba in yoruba"
+                },
+                "ISBN":{
+                    "ISBN-10":"",
+                    "ISBN-13":""
+                },
+                "page number":{},
+                "url":{},
+                "coverbook pictures":{}
+            }
+        }
+    },
+    "verses":{
+        "id":{
+            "1":{ 
+                "Translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "Yoruba":""
+                },
+                "ISBN":{
+                    "ISBN-10":"",
+                    "ISBN-13":""
+                },
+                "page number":{},
+                "url":{},
+                "coverbook pictures":{}
+            }
+
+        }
+
+    },
+    "taboos":{
+        "id":{
+            "1":{ 
+                "Translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "Yoruba":""
+                },
+                "ISBN":{
+                    "ISBN-10":"",
+                    "ISBN-13":""
+                },
+                "page number":{},
+                "url":{},
+                "coverbook pictures":{}
+            }
+
+        }
+
+    },
+    "names":{
+        "id":{
+            "1":{ 
+                "Translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "Yoruba":""
+                },
+                "ISBN":{
+                    "ISBN-10":"",
+                    "ISBN-13":""
+                },
+                "page number":{},
+                "url":{},
+                "coverbook pictures":{}
+            }
+
+        }
+
+    },
+    "general description":{
+        "id":{
+            "1":{ 
+                "Translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "Yoruba":""
+                },
+                "ISBN":{
+                    "ISBN-10":"",
+                    "ISBN-13":""
+                },
+                "page number":{},
+                "url":{},
+                "coverbook pictures":{}
+            }
+
+        }
+
+    }
+},
+"Oyeku-Meji":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"iwori-Meji":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Idi-Meji":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Obara-Meji":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Okonron-Meji":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irosun-Meji":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Owanrin-Meji":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogunda-Meji":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Osa-Meji":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Etura-Meji":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irete-Meji":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eka-Meji":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eturukpon-Meji":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ose-Meji":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ofun-Meji":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogbe-Oyekun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogbe-Iwori":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogbe-Idi":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogbe-Obara":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogbe-Okonron":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogbe-Irosun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogbe-Owanrin":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogbe-Ogunda":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogbe-Osa":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogbe-Etura":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogbe-Irete":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogbe-Eka":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogbe-Eturukpon":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogbe-Ose":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogbe-Ofun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Oyeku-Lo-Ogbe":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Oyeku-Bi-Iwori":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Oyeku-Di":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Oyeku-Obara":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Oyeku-Okonron":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Oyeku-Irosun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Oyeku-Owanrin":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Oyeku-Ogunda":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Oyeku-Osa":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Oyeku-Etura":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Oyeku-Irete":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Oyeku-Eturukpon":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Oyeku-Be-Eka":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Oyeku-Ose":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Oyeku-Ofun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Iwori-Bo-Ogbe":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Iwori-Oyeku":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Iwori-Idi":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Iwori-Obara":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Iwori-Okonron":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Iwori-Irosun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Iwori-Owanrin":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Iwori-Ogunda":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Iwori-Osa":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Iwori-Etura":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Iwori-Irete":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Iwori-Eka":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Iwori-Eturukpon":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Iwori-Ose":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Iwori-Ofun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Idi-Ogbe":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Idi-Oyeku":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Idi-Iwori":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Idi-Obara":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Idi-Okonron":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Idi-Irosun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Idi-Owanrin":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Idi-Ogunda":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Idi-Osa":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Idi-Etura":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Idi-Irete":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Idi-Eturukpon":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Idi-Eka":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Idi-Ose":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Idi-Ofun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Obara-Ogbe":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Obara-Oyeku":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Obara-Iwori":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Obara-Idi":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Obara-Okonron":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Obara-Irosun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Obara-Owanrin":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Obara-Ogunda":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Obara-Osa":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Obara-Etura":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Obara-Irete":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Obara-Eka":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Obara-Eturukpon":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Obara-Ose":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Obara-Ofun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Okonron-Ogbe":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Okonron-Oyeku":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Okonron-Iwori":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Okonron-Idi":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Okonron-Obara":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Okonron-Irosun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Okonron-Owanrin":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Okonron-Ogunda":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Okonron-Osa":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Okonron-Etura":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Okonron-Irete":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Okonron-Eka":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Okonron-Eturukpon":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Okonron-Ose":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Okonron-Ofun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irosun-Ogbe":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irosun-Oyeku":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irosun-Iwori":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irosun-Idi":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irosun-Obara":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irosun-Okonron":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irosun-Owanrin":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irosun-Ogunda":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irosun-Osa":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irosun-Etura":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irosun-Irete":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irosun-Eka":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irosun-Eturukpon":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irosun-Ose":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irosun-Ofun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Owanrin-So-Ogbe":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Owanrin-Oyeku":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Owanrin-Iwori":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Owanrin-Idi":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Owanrin-Obara":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Owanrin-Okonron":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Owanrin-Irosun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Owanrin-Ogunda":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Owanrin-Osa":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Owanrin-Etura":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Owanrin-Irete":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Owanrin-Eka":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Owanrin-Eturukpon":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Owanrin-Ose":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Owanrin-Ofun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogunda-Ogbe":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogunda-Oyeku":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogunda-Iwori":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogunda-Idi":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogunda-Obara":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogunda-Okonron":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogunda-Irosun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogunda-Owanrin":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogunda-Osa":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogunda-Etura":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogunda-Irete":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogunda-Eka":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogunda-Eturukpon":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogunda-Ose":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ogunda-Ofun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Osa-Ogbe":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Osa-Oyeku":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Osa-Iwori":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Osa-Idi":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Osa-Obara":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Osa-Okonron":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Osa-Irosun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Osa-Ogunda":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Osa-Owanrin":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Osa-Etura":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Osa-Irete":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Osa-Eka":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Osa-Eturukpon":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Osa-Ose":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Osa-Ofun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Etura-Ogbe":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Etura-Oyeku":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Etura-Iwori":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Etura-Idi":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Etura-Obara":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Etura-Okonron":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Etura-Irosun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Etura-Ogunda":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Etura-Owanrin":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Etura-Osa":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Etura-Irete":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Etura-Eka":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Etura-Eturukpon":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Etura-Ose":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Etura-Ofun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irete-Ogbe":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irete-Oyeku":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irete-Iwori":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irete-Idi":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irete-Obara":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irete-Okonron":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irete-Irosun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irete-Ogunda":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irete-Owanrin":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irete-Osa":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irete-Etura":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irete-Eka":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irete-Eturukpon":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irete-Ose":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Irete-Ofun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eka-Ogbe":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eka-Oyeku":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eka-Iwori":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eka-Idi":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eka-Obara":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eka-Okonron":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eka-Irosun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eka-Ogunda":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eka-Owanrin":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eka-Osa":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eka-Etura":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eka-Irete":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eka-Eturukpon":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eka-Ose":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eka-Ofun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eturukpon-Ogbe":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eturukpon-Oyeku":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eturukpon-Iwori":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eturukpon-Idi":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eturukpon-Obara":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eturukpon-Okonron":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eturukpon-Irosun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eturukpon-Ogunda":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eturukpon-Owanrin":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eturukpon-Osa":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eturukpon-Etura":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eturukpon-Irete":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eturukpon-Eka":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eturukpon-Ose":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Eturukpon-Ofun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ose-Ogbe":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ose-Oyeku":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ose-Iwori":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ose-Idi":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ose-Obara":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ose-Okonron":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ose-Irosun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ose-Ogunda":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ose-Owanrin":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ose-Osa":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ose-Etura":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ose-Irete":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ose-Eka":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ose-Eturukpon":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ose-Ofun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ofun-Ogbe":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ofun-Oyeku":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ofun-Iwori":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ofun-Idi":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ofun-Obara":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ofun-Okonron":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ofun-Irosun":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ofun-Ogunda":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ofun-Owanrin":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ofun-Osa":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ofun-Etura":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ofun-Irete":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ofun-Eka":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ofun-Eturukpon":{
+    "ebbo":{},
+    "verses":{},
+    "taboos":{},
+    "names":{}
+},
+"Ofun-Ose":{}
+    }
