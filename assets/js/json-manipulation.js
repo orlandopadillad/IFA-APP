@@ -5,7 +5,7 @@ const matchList = document.getElementById('match-list');//the result of the sear
 
    //search the values.json and filter it
    const searchStates = async searchText =>{
-      const res = await fetch('C:\\Users\\orlan\\Documents\\MEGA\\MEGAsync\\Proyectos\\IFA APP\\Text-Processing\\state_capitals.json'); // location of the json file
+      const res = await fetch('data/state_capitals.json'); // location of the json file
       const states = await res.json(); //bring the rough data (all the data from the json file)
 
       // get matches to current text input, this means meanwhile we type the letters will be part of the search
