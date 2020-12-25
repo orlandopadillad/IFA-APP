@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+	<title> 
+		How to toggle a boolean 
+		using JavaScript? 
+	</title> 
+</head> 
+
+<body> 
+	<h1 style="color: green"> 
+		GeeksforGeeks 
+	</h1> 
+	
+	<b> 
+		How to toggle a boolean 
+		using JavaScript? 
+	</b> 
+	
+	<p> 
+		The boolean is toggled 
+		whenever the button is 
+		pressed. 
+	</p> 
+	
+	<p> 
+		See the console 
+		for the output 
+	</p> 
+
+	<button onclick="toggle()"> 
+		Toggle Bool 
+	</button> 
+	
+	<script> 
+		let testBool = true; 
+		console.log('Default value of bool is', 
+					testBool); 
+	
+		function toggle() { 
+			testBool = testBool ? false : true; 
+			
+			console.log('Toggled bool is', 
+								testBool); 
+		} 
+	</script> 
+</body> 
+
+</html> 

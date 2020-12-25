@@ -1,0 +1,157 @@
+@charset "utf-8";
+  /* Start Opon configuration including image side to side --->orlando */
+    /* Start Opon configuration image side to side JUST 2 PICTURES SINGLE ODU OPON --->orlando */
+* {
+    box-sizing: border-box;
+  }
+  
+  .column-opon{
+    float: left;
+    width: 50%; /* remember the template is for 4 pictures and this percentage was 100%* that mean i have to addapt this number --->orlando  */
+    padding: 0px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row-opon::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+    /* END Opon configuration image side to side JUST 2 PICTURES SINGLE ODU OPON --->orlando */
+    
+    /* Start Opon configuration image side to side JUST 6 PICTURES DOUBLE ODU OPON --->orlando */
+      /* configuration image side to side this area is the left and rigth--->orlando */
+    .column-double-opon{
+      float: left;
+      width: 25%;
+      padding: 0px;
+    }
+      /* configuration image side to side this area the odu sections--->orlando */
+      .column-double-opon-two{
+        float: left;
+        width: 12.50%;
+        padding: 0px;
+      }
+    
+    /* End Opon configuration image side to side JUST 6 PICTURES DOUBLE ODU OPON --->orlando */
+
+    /* opon ifa sizes */
+.opon-size-small{
+      width: 30%;
+      margin-left: auto;
+      margin-right: auto;
+    
+  }
+.opon-size-medium{
+    width: 40%;
+}
+.opon-size-mediumLarge{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.opon-size-Large{
+    width: 80%;
+}
+.opon-size-full{
+    width: 100%;
+}
+.hide{
+    display: none;
+}
+/* end Opon configuration including image side to side --->orlando  */
+ /* Start autocomplete style configuration --->orlando */
+
+ body {
+  font: 16px Arial;  
+}
+
+/*the container must be positioned relative:*/
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+input[type=text] {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+
+input[type=submit] {
+  background-color: DodgerBlue;
+  color: #fff;
+  cursor: pointer;
+}
+
+button {
+  background-color: DodgerBlue;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: #e9e9e9; 
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+/* End autocomplete style configuration --->orlando */
+/* start SVG ConFig for  pictures map style configuration --->orlando */
+
+.hover_group:hover
+{
+    opacity:1;
+}
+.opon-touch-svg
+{ 
+    position: relative;
+    width: 100%; 
+    padding-bottom: 77%;
+    vertical-align: middle; 
+    margin: 0; 
+    overflow: hidden; 
+}
+.opon-touch-svg svg 
+{ 
+    display: inline-block;
+    position: absolute;
+    height:100%;
+    width: 100%; 
+    top: 0; 
+    left: 0; 
+}
+
+/* End  SVG ConFig for  pictures map style configuration --->orlando */
