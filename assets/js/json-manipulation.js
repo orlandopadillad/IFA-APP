@@ -14,7 +14,7 @@ const matchList = document.getElementById('match-list');//the result of the sear
            return state.name.match(regex) || state.abbr.match(regex); //return the values of the json on the location state.name or the value on the location state.abbr.
          });
          
-            if (searchText.leght === 0){ //this clean the data if the values on the search box is empty
+            if (searchText.length === 0){ //this clean the data if the values on the search box is empty
                matches = []; // this declare an emtpy array if the value of the search box is empty
                matchList.innerHTML = '';
             }
