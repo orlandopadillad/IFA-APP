@@ -1,5 +1,5 @@
 //json configuration for the new autocomplete searchbox
-const search = document.getElementById('search'); //the searchbox...orlandop
+const searchingg = document.getElementById('search'); //the searchbox...orlandop
 const matchList = document.getElementById('match-list');//the result of the search...orlandop
 
 
@@ -44,7 +44,7 @@ const matchList = document.getElementById('match-list');//the result of the sear
    //search the values.json and filter it
 
   
-  search.addEventListener('input', () => searchStates(search.value)); //function searchStates need to be change to "searchOdu"
+   searchingg.addEventListener('input', () => searchStates(searchingg.value)); //function searchStates need to be change to "searchOdu"
 
 //json configuration for the new autocomplete searchbox
 
