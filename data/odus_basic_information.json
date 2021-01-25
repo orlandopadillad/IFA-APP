@@ -33,9 +33,25 @@
             "page number": 0,
             "url": "",
             "coverbook pictures": ""
-         }
+         },
          {
             "id": 3, 
+            "Translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "Por":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "ISBN-10":"",
+                "ISBN-13":""
+                },
+            "page number": 0,
+            "url": "",
+            "coverbook pictures": ""
+         },
+         {
+            "id": 4, 
             "Translation":{
                 "ENG":"this is the test in eng",
                 "SPA":"esta es la prueba en espanol",
