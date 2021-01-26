@@ -1,0 +1,196 @@
+{
+    "eturukponEtura":{
+        "ebbos":[
+        {
+            "id": 1, 
+            "translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "POR":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "isbnTen":"",
+                "isbnThirteen":""
+                },
+            "pageNumber": 0,
+            "url": "",
+            "coverbookPictures": ""
+         },
+         {
+            "id": 2, 
+            "Translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "POR":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "isbnTen":"",
+                "isbnThirteen":""
+                },
+            "pageNumber": 0,
+            "url": "",
+            "coverbookPictures": ""
+         },
+         {
+            "id": 3, 
+            "Translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "POR":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "isbnTen":"",
+                "isbnThirteen":""
+                },
+            "pageNumber": 0,
+            "url": "",
+            "coverbookPictures": ""
+         },
+         {
+            "id": 4, 
+            "Translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "POR":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "isbnTen":"",
+                "isbnThirteen":""
+                },
+            "pageNumber": 0,
+            "url": "",
+            "coverbookPictures": ""
+         }
+        ],
+        "verses":[
+        {
+            "id": 1, 
+            "Translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "POR":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "isbnTen":"",
+                "isbnThirteen":""
+                },
+            "pageNumber": 0,
+            "url": "",
+            "coverbookPictures": ""
+         }
+        ],
+        "taboos":[
+        {
+            "id": 1, 
+            "Translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "POR":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "isbnTen":"",
+                "isbnThirteen":""
+                },
+            "pageNumber": 0,
+            "url": "",
+            "coverbookPictures": ""
+         }
+        ],
+        "names":[
+        {
+            "id": 1, 
+            "Translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "POR":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "isbnTen":"",
+                "isbnThirteen":""
+                },
+            "pageNumber": 0,
+            "url": "",
+            "coverbookPictures": ""
+         }
+        ],
+        "generalDescription":[
+        {
+            "id": 1, 
+            "Translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "POR":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "isbnTen":"",
+                "isbnThirteen":""
+                },
+            "pageNumber": 0,
+            "url": "",
+            "coverbookPictures": ""
+         }
+        ],
+        "medicines":[
+        {
+            "id": 1, 
+            "Translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "POR":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "isbnTen":"",
+                "isbnThirteen":""
+                },
+            "pageNumber": 0,
+            "url": "",
+            "coverbookPictures": ""
+         }
+        ],
+        "orisas":[
+        {
+            "id": 1, 
+            "Translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "POR":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "isbnTen":"",
+                "isbnThirteen":""
+                },
+            "pageNumber": 0,
+            "url": "",
+            "coverbookPictures": ""
+         }
+        ],
+        "orisasConsagration":[
+        {
+            "id": 1, 
+            "Translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "POR":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "isbnTen":"",
+                "isbnThirteen":""
+                },
+            "pageNumber": 0,
+            "url": "",
+            "coverbookPictures": ""
+         }
+        ]
+    }
+}
