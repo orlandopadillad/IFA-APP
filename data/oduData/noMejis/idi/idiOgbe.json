@@ -1,0 +1,778 @@
+{
+"idiOgbe":{
+    "ebbos":[
+        {
+            "id": 1, 
+            "translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "POR":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "isbnTen":"",
+                "isbnThirteen":""
+                },
+            "pageNumber": 0,
+            "url": "",
+            "coverbookPictures": ""
+         },
+         {
+            "id": 2, 
+            "Translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "POR":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "isbnTen":"",
+                "isbnThirteen":""
+                },
+            "pageNumber": 0,
+            "url": "",
+            "coverbookPictures": ""
+         },
+         {
+            "id": 3, 
+            "Translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "POR":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "isbnTen":"",
+                "isbnThirteen":""
+                },
+            "pageNumber": 0,
+            "url": "",
+            "coverbookPictures": ""
+         },
+         {
+            "id": 4, 
+            "Translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "POR":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "isbnTen":"",
+                "isbnThirteen":""
+                },
+            "pageNumber": 0,
+            "url": "",
+            "coverbookPictures": ""
+         }
+    ],
+    "verses":[
+        {
+            "id": 1, 
+            "Translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "POR":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "isbnTen":"",
+                "isbnThirteen":""
+                },
+            "pageNumber": 0,
+            "url": "",
+            "coverbookPictures": ""
+         }
+    ],
+    "taboos":[
+        {
+            "id": 1, 
+            "Translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "POR":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "isbnTen":"",
+                "isbnThirteen":""
+                },
+            "pageNumber": 0,
+            "url": "",
+            "coverbookPictures": ""
+         }
+    ],
+    "names":[
+        {
+            "id": 1, 
+            "Translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "POR":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "isbnTen":"",
+                "isbnThirteen":""
+                },
+            "pageNumber": 0,
+            "url": "",
+            "coverbookPictures": ""
+         }
+    ],
+    "generalDescription":[
+        {
+            "id": 1, 
+            "Translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "POR":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "isbnTen":"",
+                "isbnThirteen":""
+                },
+            "pageNumber": 0,
+            "url": "",
+            "coverbookPictures": ""
+         }
+    ],
+    "medicines":[
+        {
+            "id": 1, 
+            "Translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "POR":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "isbnTen":"",
+                "isbnThirteen":""
+                },
+            "pageNumber": 0,
+            "url": "",
+            "coverbookPictures": ""
+         }
+    ],
+    "orisas":[
+        {
+            "id": 1, 
+            "Translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "POR":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "isbnTen":"",
+                "isbnThirteen":""
+                },
+            "pageNumber": 0,
+            "url": "",
+            "coverbookPictures": ""
+         }
+    ],
+    "orisasConsagration":[
+        {
+            "id": 1, 
+            "Translation":{
+                "ENG":"this is the test in eng",
+                "SPA":"esta es la prueba en espanol",
+                "POR":"esta es la prueba en portugues",
+                "Yoruba":"this is the prueba in yoruba"
+            },
+            "ISBN":{
+                "isbnTen":"",
+                "isbnThirteen":""
+                },
+            "pageNumber": 0,
+            "url": "",
+            "coverbookPictures": ""
+         }
+    ]
+},
+
+
+"idiOyeku":{
+
+},
+"idiIwori":{
+
+},
+"idiObara":{
+
+},
+"idiOkonron":{
+
+},
+"idiIrosun":{
+
+},
+"idiOwanrin":{
+
+},
+"idiOgunda":{
+
+},
+"idiOsa":{
+
+},
+"idiEtura":{
+
+},
+"idiIrete":{
+
+},
+"idiEturukpon":{
+
+},
+"idiEka":{
+
+},
+"idiOse":{
+
+},
+"idiOfun":{
+
+},
+"obaraOgbe":{
+
+},
+"obaraOyeku":{
+
+},
+"obaraIwori":{
+
+},
+"obaraIdi":{
+
+},
+"obaraOkonron":{
+
+},
+"obaraIrosun":{
+
+},
+"obaraOwanrin":{
+
+},
+"obaraOgunda":{
+
+},
+"obaraOsa":{
+
+},
+"obaraEtura":{
+
+},
+"obaraIrete":{
+
+},
+"obaraEka":{
+
+},
+"obaraEturukpon":{
+
+},
+"obaraOse":{
+
+},
+"obaraOfun":{
+
+},
+"okonronOgbe":{
+
+},
+"okonronOyeku":{
+
+},
+"okonronIwori":{
+
+},
+"okonronIdi":{
+
+},
+"okonronObara":{
+
+},
+"okonronIrosun":{
+
+},
+"okonronOwanrin":{
+
+},
+"okonronOgunda":{
+
+},
+"okonronOsa":{
+
+},
+"okonronEtura":{
+
+},
+"okonronIrete":{
+
+},
+"okonronEka":{
+
+},
+"okonronEturukpon":{
+
+},
+"okonronOse":{
+
+},
+"okonronOfun":{
+
+},
+"irosunOgbe":{
+
+},
+"irosunOyeku":{
+
+},
+"irosunIwori":{
+
+},
+"irosunIdi":{
+
+},
+"irosunObara":{
+
+},
+"irosunOkonron":{
+
+},
+"irosunOwanrin":{
+
+},
+"irosunOgunda":{
+
+},
+"irosunOsa":{
+
+},
+"irosunEtura":{
+
+},
+"irosunIrete":{
+
+},
+"irosunEka":{
+
+},
+"irosunEturukpon":{
+
+},
+"irosunOse":{
+
+},
+"irosunOfun":{
+
+},
+"owanrinsoOgbe":{
+
+},
+"owanrinOyeku":{
+
+},
+"owanrinIwori":{
+
+},
+"owanrinIdi":{
+
+},
+"owanrinObara":{
+
+},
+"owanrinOkonron":{
+
+},
+"owanrinIrosun":{
+
+},
+"owanrinOgunda":{
+
+},
+"owanrinOsa":{
+
+},
+"owanrinEtura":{
+
+},
+"owanrinIrete":{
+
+},
+"owanrinEka":{
+
+},
+"owanrinEturukpon":{
+
+},
+"owanrinOse":{
+
+},
+"owanrinOfun":{
+
+},
+"ogundaOgbe":{
+
+},
+"ogundaOyeku":{
+
+},
+"ogundaIwori":{
+
+},
+"ogundaIdi":{
+
+},
+"ogundaObara":{
+
+},
+"ogundaOkonron":{
+
+},
+"ogundaIrosun":{
+
+},
+"ogundaOwanrin":{
+
+},
+"ogundaOsa":{
+
+},
+"ogundaEtura":{
+
+},
+"ogundaIrete":{
+
+},
+"ogundaEka":{
+
+},
+"ogundaEturukpon":{
+
+},
+"ogundaOse":{
+
+},
+"ogundaOfun":{
+
+},
+"osaOgbe":{
+
+},
+"osaOyeku":{
+
+},
+"osaIwori":{
+
+},
+"osaIdi":{
+
+},
+"osaObara":{
+
+},
+"osaOkonron":{
+
+},
+"osaIrosun":{
+
+},
+"osaOgunda":{
+
+},
+"osaOwanrin":{
+
+},
+"osaEtura":{
+
+},
+"osaIrete":{
+
+},
+"osaEka":{
+
+},
+"osaEturukpon":{
+
+},
+"osaOse":{
+
+},
+"osaOfun":{
+
+},
+"eturaOgbe":{
+
+},
+"eturaOyeku":{
+
+},
+"eturaIwori":{
+
+},
+"eturaIdi":{
+
+},
+"eturaObara":{
+
+},
+"eturaOkonron":{
+
+},
+"eturaIrosun":{
+
+},
+"eturaOgunda":{
+
+},
+"eturaOwanrin":{
+
+},
+"eturaOsa":{
+
+},
+"eturaIrete":{
+
+},
+"eturaEka":{
+
+},
+"eturaEturukpon":{
+
+},
+"eturaOse":{
+
+},
+"eturaOfun":{
+
+},
+"ireteOgbe":{
+
+},
+"ireteOyeku":{
+
+},
+"ireteIwori":{
+
+},
+"ireteIdi":{
+
+},
+"ireteObara":{
+
+},
+"ireteOkonron":{
+
+},
+"ireteIrosun":{
+
+},
+"ireteOgunda":{
+
+},
+"ireteOwanrin":{
+
+},
+"ireteOsa":{
+
+},
+"ireteEtura":{
+
+},
+"ireteEka":{
+
+},
+"ireteEturukpon":{
+
+},
+"ireteOse":{
+
+},
+"ireteOfun":{
+
+},
+"ekaOgbe":{
+
+},
+"ekaOyeku":{
+
+},
+"ekaIwori":{
+
+},
+"ekaIdi":{
+
+},
+"ekaObara":{
+
+},
+"ekaOkonron":{
+
+},
+"ekaIrosun":{
+
+},
+"ekaOgunda":{
+
+},
+"ekaOwanrin":{
+
+},
+"ekaOsa":{
+
+},
+"ekaEtura":{
+
+},
+"ekaIrete":{
+
+},
+"ekaEturukpon":{
+
+},
+"ekaOse":{
+
+},
+"ekaOfun":{
+
+},
+"eturukponOgbe":{
+
+},
+"eturukponOyeku":{
+
+},
+"eturukponIwori":{
+
+},
+"eturukponIdi":{
+
+},
+"eturukponObara":{
+
+},
+"eturukponOkonron":{
+
+},
+"eturukponIrosun":{
+
+},
+"eturukponOgunda":{
+
+},
+"eturukponOwanrin":{
+
+},
+"eturukponOsa":{
+
+},
+"eturukponEtura":{
+
+},
+"eturukponIrete":{
+
+},
+"eturukponEka":{
+
+},
+"eturukponOse":{
+
+},
+"eturukponOfun":{
+
+},
+"oseOgbe":{
+
+},
+"oseOyeku":{
+
+},
+"oseIwori":{
+
+},
+"oseIdi":{
+
+},
+"oseObara":{
+
+},
+"oseOkonron":{
+
+},
+"oseIrosun":{
+
+},
+"oseOgunda":{
+
+},
+"oseOwanrin":{
+
+},
+"oseOsa":{
+
+},
+"oseEtura":{
+
+},
+"oseIrete":{
+
+},
+"oseEka":{
+
+},
+"oseEturukpon":{
+
+},
+"oseOfun":{
+
+},
+"ofunOgbe":{
+
+},
+"ofunOyeku":{
+
+},
+"ofuniwori":{
+
+},
+"ofunIdi":{
+
+},
+"ofunObara":{
+
+},
+"ofunOkonron":{
+
+},
+"ofunIrosun":{
+
+},
+"ofunOgunda":{
+
+},
+"ofunOwanrin":{
+
+},
+"ofunOsa":{
+
+},
+"ofunEtura":{
+
+},
+"ofunIrete":{
+
+},
+"ofunEka":{
+
+},
+"ofunEturukpon":{
+
+},
+"ofunOse":{}
+    }
