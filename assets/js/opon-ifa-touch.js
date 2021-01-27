@@ -201,6 +201,7 @@ if (first_right === true && second_right === true && third_right === true && fou
 //Start of if cycle for assign value for var odu
 if (left_odu === "Ogbe" && right_odu === "Ogbe") {
     odu = odus[0];
+    oduInfoAddress = 'data\\oduData\\mejis\\ejiogbe.json';
 } else if (left_odu === "Oyeku" && right_odu === "Oyeku") {
     odu = odus[1];
 }else if (left_odu === "Iwori" && right_odu === "Iwori") {
@@ -503,6 +504,7 @@ if (left_odu === "Ogbe" && right_odu === "Ogbe") {
     odu = odus[150];
 }else if (left_odu === "Osa" && right_odu === "Ogbe") {
     odu = odus[151];
+    oduInfoAddress = 'data\\oduData\\noMejis\\osa\\osaOgbe.json';
 }else if (left_odu === "Osa" && right_odu === "Oyeku") {
     odu = odus[152];
 }else if (left_odu === "Osa" && right_odu === "Iwori") {
@@ -714,7 +716,9 @@ if (left_odu === "Ogbe" && right_odu === "Ogbe") {
 }
 //End of if cycle for assign value for var odu
 document.getElementById("oduToShow").innerHTML = odu;
-//console.log(odu)
+console.log(odu);
+oduIndexation = odus.indexOf(odu)//to know the index of the selected odu.
+console.log(oduIndexation);
 }// this bracket en the function
     
 
