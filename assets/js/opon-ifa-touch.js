@@ -11,7 +11,7 @@ var right_odu ;
 var left_odu ;
 var odu = odus[0];
 var oduInfoAddress = 'data\\oduData\\mejis\\ejiogbe.json'
-var eboDisplayinformation = datas.ejiogbe.ebbos;
+var eboDisplayinformation = 'datas.ejiogbe.ebbos';
 
 
 //Start toggle the value for opon on the  left side
