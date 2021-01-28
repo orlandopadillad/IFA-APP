@@ -1,7 +1,7 @@
 {
     "osaOgbe":{
         "ebbos":[
-        {
+            {
             "id": 1, 
             "translation":{
                 "ENG":"this is the test in eng",
@@ -16,8 +16,8 @@
             "pageNumber": 0,
             "url": "",
             "coverbookPictures": ""
-         },
-         {
+             },
+             {
             "id": 2, 
             "translation":{
                 "ENG":"this is the test in eng",
@@ -32,8 +32,8 @@
             "pageNumber": 0,
             "url": "",
             "coverbookPictures": ""
-         },
-         {
+             },
+             {
             "id": 3, 
             "translation":{
                 "ENG":"this is the test in eng",
@@ -48,8 +48,8 @@
             "pageNumber": 0,
             "url": "",
             "coverbookPictures": ""
-         },
-         {
+             },
+             {
             "id": 4, 
             "translation":{
                 "ENG":"this is the test in eng",
@@ -64,7 +64,7 @@
             "pageNumber": 0,
             "url": "",
             "coverbookPictures": ""
-         }
+             }
         ],
         "verses":[
         {
