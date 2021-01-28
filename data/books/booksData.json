@@ -1,12 +1,12 @@
 {
     "id": 1,
-    "name": "",
-    "Author": "",
     "ISBN":{
-            "isbnTen":"",
-            "isbnThirteen":""
-        },
-    "pageNumber": 0,
-    "url": "",
-    "coverbookPicture": ""
+        "nameOftheBook": "",
+        "isbnTen":"",
+        "isbnThirteen":"",
+        "pageNumber": 0,
+        "url": "",
+        "Author": "",
+        "coverbookPicture": ""
+    }
 }

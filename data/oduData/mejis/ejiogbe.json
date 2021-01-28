@@ -1,21 +1,25 @@
 {
     "ejiogbe":{
-        "ebbos":[
+        "ebo":[
             {
                 "id": 1, 
                 "translation":{
                     "ENG":"this is the test in eng",
                     "SPA":"esta es la prueba en espanol ejiogbe",
                     "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba"
+                    "Yoruba":"this is the prueba in yoruba ejiogbe"
                 },
                 "ISBN":{
-                    "isbnTen":"",
-                    "isbnThirteen":""
-                    },
-                "pageNumber": 0,
-                "url": "",
-                "coverbookPictures": ""
+                        "nameOftheBook": "Ifa Dida (An Invitation to Ifa Divination, VOLUME 1)",
+                        "isbnTen":"0981001319",
+                        "isbnThirteen":"978-0981001319",
+                        "pageNumber": 50,
+                        "url": "https://www.amazon.com/Ifa-Dida-Invitation-Divination/dp/0981001319/ref=sr_1_2?dchild=1&keywords=ifa+dida&qid=1611824538&s=books&sr=1-2",
+                        "Author": "S.Solagbade Popoola",
+                        "coverbookPicture": "images\\Pictures\\Odus\\Books\\Ifa-Dida-Volume-one.jpg",
+                        "publisher": "",
+                        "editor": ""
+                    }
              },
              {
                 "id": 2, 
@@ -23,15 +27,19 @@
                     "ENG":"this is the test in eng",
                     "SPA":"esta es la prueba en espanol ejiogbe",
                     "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba"
+                    "Yoruba":"this is the prueba in yoruba ejiogbe"
                 },
                 "ISBN":{
-                    "isbnTen":"",
-                    "isbnThirteen":""
-                    },
-                "pageNumber": 0,
-                "url": "",
-                "coverbookPictures": ""
+                        "nameOftheBook": "",
+                        "isbnTen":"",
+                        "isbnThirteen":"",
+                        "pageNumber": 0,
+                        "url": "",
+                        "Author": "",
+                        "coverbookPicture": "",
+                        "publisher": "",
+                        "editor": ""
+                    }
              },
              {
                 "id": 3, 
@@ -39,15 +47,19 @@
                     "ENG":"this is the test in eng",
                     "SPA":"esta es la prueba en espanol ejiogbe",
                     "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba"
+                    "Yoruba":"this is the prueba in yoruba ejiogbe"
                 },
                 "ISBN":{
-                    "isbnTen":"",
-                    "isbnThirteen":""
-                    },
-                "pageNumber": 0,
-                "url": "",
-                "coverbookPictures": ""
+                        "nameOftheBook": "",
+                        "isbnTen":"",
+                        "isbnThirteen":"",
+                        "pageNumber": 0,
+                        "url": "",
+                        "Author": "",
+                        "coverbookPicture": "",
+                        "publisher": "",
+                        "editor": ""
+                    }
              },
              {
                 "id": 4, 
@@ -55,15 +67,19 @@
                     "ENG":"this is the test in eng",
                     "SPA":"esta es la prueba en espanol ejiogbe",
                     "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba"
+                    "Yoruba":"this is the prueba in yoruba ejiogbe"
                 },
                 "ISBN":{
-                    "isbnTen":"",
-                    "isbnThirteen":""
-                    },
-                "pageNumber": 0,
-                "url": "",
-                "coverbookPictures": ""
+                        "nameOftheBook": "",
+                        "isbnTen":"",
+                        "isbnThirteen":"",
+                        "pageNumber": 0,
+                        "url": "",
+                        "Author": "",
+                        "coverbookPicture": "",
+                        "publisher": "",
+                        "editor": ""
+                    }
              }
         ],
         "verses":[
@@ -73,15 +89,39 @@
                     "ENG":"this is the test in eng",
                     "SPA":"esta es la prueba en espanol ejiogbe",
                     "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba"
+                    "Yoruba":"this is the prueba in yoruba ejiogbe"
                 },
                 "ISBN":{
-                    "isbnTen":"",
-                    "isbnThirteen":""
-                    },
-                "pageNumber": 0,
-                "url": "",
-                "coverbookPictures": ""
+                        "nameOftheBook": "",
+                        "isbnTen":"",
+                        "isbnThirteen":"",
+                        "pageNumber": 0,
+                        "url": "",
+                        "Author": "",
+                        "coverbookPicture": "",
+                        "publisher": "",
+                        "editor": ""
+                    }
+             },
+             {
+                "id": 2, 
+                "translation":{
+                    "ENG":"this is the test in eng",
+                    "SPA":"esta es la prueba en espanol ejiogbe",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ejiogbe"
+                },
+                "ISBN":{
+                        "nameOftheBook": "",
+                        "isbnTen":"",
+                        "isbnThirteen":"",
+                        "pageNumber": 0,
+                        "url": "",
+                        "Author": "",
+                        "coverbookPicture": "",
+                        "publisher": "",
+                        "editor": ""
+                    }
              }
         ],
         "taboos":[
@@ -91,15 +131,19 @@
                     "ENG":"this is the test in eng",
                     "SPA":"esta es la prueba en espanol ejiogbe",
                     "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba"
+                    "Yoruba":"this is the prueba in yoruba ejiogbe"
                 },
                 "ISBN":{
-                    "isbnTen":"",
-                    "isbnThirteen":""
-                    },
-                "pageNumber": 0,
-                "url": "",
-                "coverbookPictures": ""
+                        "nameOftheBook": "",
+                        "isbnTen":"",
+                        "isbnThirteen":"",
+                        "pageNumber": 0,
+                        "url": "",
+                        "Author": "",
+                        "coverbookPicture": "",
+                        "publisher": "",
+                        "editor": ""
+                    }
              }
         ],
         "names":[
@@ -109,15 +153,19 @@
                     "ENG":"this is the test in eng",
                     "SPA":"esta es la prueba en espanol ejiogbe",
                     "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba"
+                    "Yoruba":"this is the prueba in yoruba ejiogbe"
                 },
                 "ISBN":{
-                    "isbnTen":"",
-                    "isbnThirteen":""
-                    },
-                "pageNumber": 0,
-                "url": "",
-                "coverbookPictures": ""
+                        "nameOftheBook": "",
+                        "isbnTen":"",
+                        "isbnThirteen":"",
+                        "pageNumber": 0,
+                        "url": "",
+                        "Author": "",
+                        "coverbookPicture": "",
+                        "publisher": "",
+                        "editor": ""
+                    }
              }
         ],
         "generalDescription":[
@@ -127,15 +175,19 @@
                     "ENG":"this is the test in eng",
                     "SPA":"esta es la prueba en espanol ejiogbe",
                     "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba"
+                    "Yoruba":"this is the prueba in yoruba ejiogbe"
                 },
                 "ISBN":{
-                    "isbnTen":"",
-                    "isbnThirteen":""
-                    },
-                "pageNumber": 0,
-                "url": "",
-                "coverbookPictures": ""
+                        "nameOftheBook": "",
+                        "isbnTen":"",
+                        "isbnThirteen":"",
+                        "pageNumber": 0,
+                        "url": "",
+                        "Author": "",
+                        "coverbookPicture": "",
+                        "publisher": "",
+                        "editor": ""
+                    }
              }
         ],
         "medicines":[
@@ -145,15 +197,19 @@
                     "ENG":"this is the test in eng",
                     "SPA":"esta es la prueba en espanol ejiogbe",
                     "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba"
+                    "Yoruba":"this is the prueba in yoruba ejiogbe"
                 },
                 "ISBN":{
-                    "isbnTen":"",
-                    "isbnThirteen":""
-                    },
-                "pageNumber": 0,
-                "url": "",
-                "coverbookPictures": ""
+                        "nameOftheBook": "",
+                        "isbnTen":"",
+                        "isbnThirteen":"",
+                        "pageNumber": 0,
+                        "url": "",
+                        "Author": "",
+                        "coverbookPicture": "",
+                        "publisher": "",
+                        "editor": ""
+                    }
              }
         ],
         "orisas":[
@@ -163,15 +219,19 @@
                     "ENG":"this is the test in eng",
                     "SPA":"esta es la prueba en espanol ejiogbe",
                     "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba"
+                    "Yoruba":"this is the prueba in yoruba ejiogbe"
                 },
                 "ISBN":{
-                    "isbnTen":"",
-                    "isbnThirteen":""
-                    },
-                "pageNumber": 0,
-                "url": "",
-                "coverbookPictures": ""
+                        "nameOftheBook": "",
+                        "isbnTen":"",
+                        "isbnThirteen":"",
+                        "pageNumber": 0,
+                        "url": "",
+                        "Author": "",
+                        "coverbookPicture": "",
+                        "publisher": "",
+                        "editor": ""
+                    }
              }
         ],
         "orisasConsagration":[
@@ -181,15 +241,19 @@
                     "ENG":"this is the test in eng",
                     "SPA":"esta es la prueba en espanol ejiogbe",
                     "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba"
+                    "Yoruba":"this is the prueba in yoruba ejiogbe"
                 },
                 "ISBN":{
-                    "isbnTen":"",
-                    "isbnThirteen":""
-                    },
-                "pageNumber": 0,
-                "url": "",
-                "coverbookPictures": ""
+                        "nameOftheBook": "",
+                        "isbnTen":"",
+                        "isbnThirteen":"",
+                        "pageNumber": 0,
+                        "url": "",
+                        "Author": "",
+                        "coverbookPicture": "",
+                        "publisher": "",
+                        "editor": ""
+                    }
              }
         ]
     }
