@@ -204,7 +204,7 @@ if (first_right === true && second_right === true && third_right === true && fou
 if (left_odu === "Ogbe" && right_odu === "Ogbe") {
     odu = odus[0];
     oduJSONAddress = 'data\\oduData\\mejis\\ejiogbe.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[oduIndexation];
+    oduForTheJSON= ListofOdusNamesForTheJSON[0];
 
 } else if (left_odu === "Oyeku" && right_odu === "Oyeku") {
     odu = odus[1];
@@ -509,7 +509,7 @@ if (left_odu === "Ogbe" && right_odu === "Ogbe") {
 }else if (left_odu === "Osa" && right_odu === "Ogbe") {
     odu = odus[151];
     oduJSONAddress = 'data\\oduData\\noMejis\\osa\\osaOgbe.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[oduIndexation];
+    oduForTheJSON= ListofOdusNamesForTheJSON[151];
 }else if (left_odu === "Osa" && right_odu === "Oyeku") {
     odu = odus[152];
 }else if (left_odu === "Osa" && right_odu === "Iwori") {
@@ -724,6 +724,7 @@ document.getElementById("oduToShow").innerHTML = odu;
 console.log(odu);
 oduIndexation = odus.indexOf(odu)//to know the index of the selected odu.
 console.log(oduIndexation);
+console.log(oduForTheJSON)
 }// this bracket en the function
     
 

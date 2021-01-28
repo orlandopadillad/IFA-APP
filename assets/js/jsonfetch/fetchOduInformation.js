@@ -9,7 +9,7 @@ function fetchOduData (){
         return response.json();
     })
     .then(data =>{ //acces to load the info the name DATA --- can be change but need to be update on all the places.
-        console.log(data[oduForTheJSON]['ebbos']);//retrive  information information to the console, --- this can be deleted.
+        //console.log(data[oduForTheJSON]['ebbos']);//retrive  information information to the console, --- this can be deleted.
           htmlOutPut = data[oduForTheJSON]['ebbos'].map(infoDisplay => { //route to retreieve the information --- can be change but need to be update on all the places.
            //below code "return" the HTML code
            return `
@@ -20,7 +20,7 @@ function fetchOduData (){
         console.log(htmlOutPut) //log to grab all the info and put it into the HTML
         document
             .querySelector('#oduData') //id where to put the info
-            .insertAdjacentHTML("afterend" , htmlOutPut);// insert the text exactly after the id declared above
+            .insertAdjacentHTML("afterbegin" , htmlOutPut);// insert the text exactly after the id declared above
     }).catch(error => {
         console.log(error);
     });
