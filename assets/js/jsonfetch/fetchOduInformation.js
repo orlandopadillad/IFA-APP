@@ -8,11 +8,11 @@ function fetchOduData (){
         return response.json();
     })
     .then(datas =>{ //acces to load the info the name DATA --- can be change but need to be update on all the places.
-        console.log(eboDisplayinformation);//retreieved  information information to the console, --- this can be deleted.
-        var htmlOutPut = eboDisplayinformation.map(infoDisplay => { //route to retreieve the information --- can be change but need to be update on all the places.
+        console.log(datas.osaOgbe.ebbos);//retreieved  information information to the console, --- this can be deleted.
+        var htmlOutPut = datas.osaOgbe.ebbos.map(infoDisplay => { //route to retreieve the information --- can be change but need to be update on all the places.
            //below code "return" the HTML code
             return `
-            <p>${infoDisplay.translation.ENG}</p>
+            <p>${infoDisplay.ENG}</p>
             `;
         })
         .join('');//transform the HTML in a string

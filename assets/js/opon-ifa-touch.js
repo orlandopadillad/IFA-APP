@@ -11,7 +11,6 @@ var right_odu ;
 var left_odu ;
 var odu = odus[0];
 var oduInfoAddress = 'data\\oduData\\mejis\\ejiogbe.json'
-var eboDisplayinformation = 'datas.ejiogbe.ebbos';
 
 
 //Start toggle the value for opon on the  left side
@@ -202,7 +201,6 @@ if (first_right === true && second_right === true && third_right === true && fou
 if (left_odu === "Ogbe" && right_odu === "Ogbe") {
     odu = odus[0];
     oduInfoAddress = 'data\\oduData\\mejis\\ejiogbe.json';
-    eboDisplayinformation = 'datas.ejiogbe.ebbos';
 } else if (left_odu === "Oyeku" && right_odu === "Oyeku") {
     odu = odus[1];
 }else if (left_odu === "Iwori" && right_odu === "Iwori") {
@@ -506,7 +504,6 @@ if (left_odu === "Ogbe" && right_odu === "Ogbe") {
 }else if (left_odu === "Osa" && right_odu === "Ogbe") {
     odu = odus[151];
     oduInfoAddress = 'data\\oduData\\noMejis\\osa\\osaOgbe.json';
-    eboDisplayinformation = 'datas.osaOgbe.ebbos';
 }else if (left_odu === "Osa" && right_odu === "Oyeku") {
     odu = odus[152];
 }else if (left_odu === "Osa" && right_odu === "Iwori") {
