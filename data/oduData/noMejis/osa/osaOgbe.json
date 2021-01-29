@@ -4,7 +4,7 @@
             {
             "id": 1, 
             "translation":{
-                "ENG":"this is the test in eng",
+                "ENG":"this is the test in eng osaOgbe",
                 "SPA":"esta es la prueba en espanol osaOgbe",
                 "POR":"esta es la prueba en portugues",
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
@@ -16,7 +16,7 @@
                         "pageNumber": 50,
                         "url": "https://www.amazon.com/Ifa-Dida-Invitation-Divination/dp/0981001319/ref=sr_1_2?dchild=1&keywords=ifa+dida&qid=1611824538&s=books&sr=1-2",
                         "Author": "S.Solagbade Popoola",
-                        "coverbookPicture": "images\\Pictures\\Odus\\Books\\Ifa-Dida-Volume-one.jpg",
+                        "coverbookPicture": "images\\Pictures\\Books\\Ifa-Dida-Volume-one.jpg",
                         "publisher": "",
                         "editor": ""
                     }
@@ -24,7 +24,7 @@
              {
             "id": 2, 
             "translation":{
-                "ENG":"this is the test in eng",
+                "ENG":"this is the test in eng osaOgbe",
                 "SPA":"esta es la prueba en espanol osaOgbe",
                 "POR":"esta es la prueba en portugues",
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
@@ -44,7 +44,7 @@
              {
             "id": 3, 
             "translation":{
-                "ENG":"this is the test in eng",
+                "ENG":"this is the test in eng osaOgbe",
                 "SPA":"esta es la prueba en espanol osaOgbe",
                 "POR":"esta es la prueba en portugues",
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
@@ -64,7 +64,7 @@
              {
             "id": 4, 
             "translation":{
-                "ENG":"this is the test in eng",
+                "ENG":"this is the test in eng osaOgbe",
                 "SPA":"esta es la prueba en espanol osaOgbe",
                 "POR":"esta es la prueba en portugues",
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
@@ -86,49 +86,49 @@
         {
             "id": 1, 
             "translation":{
-                "ENG":"this is the test in eng",
+                "ENG":"this is the test in eng osaOgbe",
                 "SPA":"esta es la prueba en espanol osaOgbe",
                 "POR":"esta es la prueba en portugues",
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
             },
-                "ISBN":{
-                        "nameOftheBook": "",
-                        "isbnTen":"",
-                        "isbnThirteen":"",
-                        "pageNumber": 0,
-                        "url": "",
-                        "Author": "",
-                        "coverbookPicture": "",
-                        "publisher": "",
-                        "editor": ""
-                    }
+            "ISBN":{
+                "nameOftheBook": "Ifa Dida (An Invitation to Ifa Divination, VOLUME 1)",
+                "isbnTen":"0981001319",
+                "isbnThirteen":"978-0981001319",
+                "pageNumber": 50,
+                "url": "https://www.amazon.com/Ifa-Dida-Invitation-Divination/dp/0981001319/ref=sr_1_2?dchild=1&keywords=ifa+dida&qid=1611824538&s=books&sr=1-2",
+                "Author": "S.Solagbade Popoola",
+                "coverbookPicture": "images\\Pictures\\Books\\Ifa-Dida-Volume-one.jpg",
+                "publisher": "",
+                "editor": ""
+            }
          },
          {
             "id": 2, 
             "translation":{
-                "ENG":"this is the test in eng",
+                "ENG":"this is the test in eng osaOgbe",
                 "SPA":"esta es la prueba en espanol osaOgbe",
                 "POR":"esta es la prueba en portugues",
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
             },
-                "ISBN":{
-                        "nameOftheBook": "",
-                        "isbnTen":"",
-                        "isbnThirteen":"",
-                        "pageNumber": 0,
-                        "url": "",
-                        "Author": "",
-                        "coverbookPicture": "",
-                        "publisher": "",
-                        "editor": ""
-                    }
+            "ISBN":{
+                "nameOftheBook": "Ifa Dida (An Invitation to Ifa Divination, VOLUME 1)",
+                "isbnTen":"0981001319",
+                "isbnThirteen":"978-0981001319",
+                "pageNumber": 50,
+                "url": "https://www.amazon.com/Ifa-Dida-Invitation-Divination/dp/0981001319/ref=sr_1_2?dchild=1&keywords=ifa+dida&qid=1611824538&s=books&sr=1-2",
+                "Author": "S.Solagbade Popoola",
+                "coverbookPicture": "images\\Pictures\\Books\\Ifa-Dida-Volume-one.jpg",
+                "publisher": "",
+                "editor": ""
+            }
          }
         ],
         "taboos":[
         {
             "id": 1, 
             "translation":{
-                "ENG":"this is the test in eng",
+                "ENG":"this is the test in eng osaOgbe",
                 "SPA":"esta es la prueba en espanol osaOgbe",
                 "POR":"esta es la prueba en portugues",
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
@@ -150,7 +150,7 @@
         {
             "id": 1, 
             "translation":{
-                "ENG":"this is the test in eng",
+                "ENG":"this is the test in eng osaOgbe",
                 "SPA":"esta es la prueba en espanol osaOgbe",
                 "POR":"esta es la prueba en portugues",
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
@@ -170,7 +170,7 @@
          {
             "id": 2, 
             "translation":{
-                "ENG":"this is the test in eng",
+                "ENG":"this is the test in eng osaOgbe",
                 "SPA":"esta es la prueba en espanol osaOgbe",
                 "POR":"esta es la prueba en portugues",
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
@@ -192,7 +192,7 @@
         {
             "id": 1, 
             "translation":{
-                "ENG":"this is the test in eng",
+                "ENG":"this is the test in eng osaOgbe",
                 "SPA":"esta es la prueba en espanol osaOgbe",
                 "POR":"esta es la prueba en portugues",
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
@@ -214,7 +214,7 @@
         {
             "id": 1, 
             "translation":{
-                "ENG":"this is the test in eng",
+                "ENG":"this is the test in eng osaOgbe",
                 "SPA":"esta es la prueba en espanol osaOgbe",
                 "POR":"esta es la prueba en portugues",
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
@@ -236,7 +236,7 @@
         {
             "id": 1, 
             "translation":{
-                "ENG":"this is the test in eng",
+                "ENG":"this is the test in eng osaOgbe",
                 "SPA":"esta es la prueba en espanol osaOgbe",
                 "POR":"esta es la prueba en portugues",
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
@@ -258,7 +258,7 @@
         {
             "id": 1, 
             "translation":{
-                "ENG":"this is the test in eng",
+                "ENG":"this is the test in eng osaOgbe",
                 "SPA":"esta es la prueba en espanol osaOgbe",
                 "POR":"esta es la prueba en portugues",
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
