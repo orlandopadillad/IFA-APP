@@ -30,16 +30,16 @@
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
             },
                 "ISBN":{
-                        "nameOftheBook": "",
-                        "isbnTen":"",
-                        "isbnThirteen":"",
-                        "pageNumber": 0,
-                        "url": "",
-                        "Author": "",
-                        "coverbookPicture": "",
-                        "publisher": "",
-                        "editor": ""
-                    }
+                    "nameOftheBook": "Ifa Dida (An Invitation to Ifa Divination, VOLUME 1)",
+                    "isbnTen":"0981001319",
+                    "isbnThirteen":"978-0981001319",
+                    "pageNumber": 50,
+                    "url": "https://www.amazon.com/Ifa-Dida-Invitation-Divination/dp/0981001319/ref=sr_1_2?dchild=1&keywords=ifa+dida&qid=1611824538&s=books&sr=1-2",
+                    "Author": "S.Solagbade Popoola",
+                    "coverbookPicture": "images\\Pictures\\Books\\Ifa-Dida-Volume-one.jpg",
+                    "publisher": "AsefinMedia LLP - Publications Division",
+                    "editor": "Awoyinfa Kori Ifaloju"
+                }
              },
              {
             "id": 3, 
@@ -50,16 +50,16 @@
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
             },
                 "ISBN":{
-                        "nameOftheBook": "",
-                        "isbnTen":"",
-                        "isbnThirteen":"",
-                        "pageNumber": 0,
-                        "url": "",
-                        "Author": "",
-                        "coverbookPicture": "",
-                        "publisher": "",
-                        "editor": ""
-                    }
+                    "nameOftheBook": "Ifa Dida (An Invitation to Ifa Divination, VOLUME 1)",
+                    "isbnTen":"0981001319",
+                    "isbnThirteen":"978-0981001319",
+                    "pageNumber": 50,
+                    "url": "https://www.amazon.com/Ifa-Dida-Invitation-Divination/dp/0981001319/ref=sr_1_2?dchild=1&keywords=ifa+dida&qid=1611824538&s=books&sr=1-2",
+                    "Author": "S.Solagbade Popoola",
+                    "coverbookPicture": "images\\Pictures\\Books\\Ifa-Dida-Volume-one.jpg",
+                    "publisher": "AsefinMedia LLP - Publications Division",
+                    "editor": "Awoyinfa Kori Ifaloju"
+                }
              },
              {
             "id": 4, 
@@ -70,16 +70,16 @@
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
             },
                 "ISBN":{
-                        "nameOftheBook": "",
-                        "isbnTen":"",
-                        "isbnThirteen":"",
-                        "pageNumber": 0,
-                        "url": "",
-                        "Author": "",
-                        "coverbookPicture": "",
-                        "publisher": "",
-                        "editor": ""
-                    }
+                    "nameOftheBook": "Ifa Dida (An Invitation to Ifa Divination, VOLUME 1)",
+                    "isbnTen":"0981001319",
+                    "isbnThirteen":"978-0981001319",
+                    "pageNumber": 50,
+                    "url": "https://www.amazon.com/Ifa-Dida-Invitation-Divination/dp/0981001319/ref=sr_1_2?dchild=1&keywords=ifa+dida&qid=1611824538&s=books&sr=1-2",
+                    "Author": "S.Solagbade Popoola",
+                    "coverbookPicture": "images\\Pictures\\Books\\Ifa-Dida-Volume-one.jpg",
+                    "publisher": "AsefinMedia LLP - Publications Division",
+                    "editor": "Awoyinfa Kori Ifaloju"
+                }
              }
         ],
         "verses":[
@@ -134,16 +134,16 @@
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
             },
                 "ISBN":{
-                        "nameOftheBook": "",
-                        "isbnTen":"",
-                        "isbnThirteen":"",
-                        "pageNumber": 0,
-                        "url": "",
-                        "Author": "",
-                        "coverbookPicture": "",
-                        "publisher": "",
-                        "editor": ""
-                    }
+                    "nameOftheBook": "Ifa Dida (An Invitation to Ifa Divination, VOLUME 1)",
+                    "isbnTen":"0981001319",
+                    "isbnThirteen":"978-0981001319",
+                    "pageNumber": 50,
+                    "url": "https://www.amazon.com/Ifa-Dida-Invitation-Divination/dp/0981001319/ref=sr_1_2?dchild=1&keywords=ifa+dida&qid=1611824538&s=books&sr=1-2",
+                    "Author": "S.Solagbade Popoola",
+                    "coverbookPicture": "images\\Pictures\\Books\\Ifa-Dida-Volume-one.jpg",
+                    "publisher": "AsefinMedia LLP - Publications Division",
+                    "editor": "Awoyinfa Kori Ifaloju"
+                }
          }
         ],
         "names":[
@@ -156,16 +156,16 @@
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
             },
                 "ISBN":{
-                        "nameOftheBook": "",
-                        "isbnTen":"",
-                        "isbnThirteen":"",
-                        "pageNumber": 0,
-                        "url": "",
-                        "Author": "",
-                        "coverbookPicture": "",
-                        "publisher": "",
-                        "editor": ""
-                    }
+                    "nameOftheBook": "Ifa Dida (An Invitation to Ifa Divination, VOLUME 1)",
+                    "isbnTen":"0981001319",
+                    "isbnThirteen":"978-0981001319",
+                    "pageNumber": 50,
+                    "url": "https://www.amazon.com/Ifa-Dida-Invitation-Divination/dp/0981001319/ref=sr_1_2?dchild=1&keywords=ifa+dida&qid=1611824538&s=books&sr=1-2",
+                    "Author": "S.Solagbade Popoola",
+                    "coverbookPicture": "images\\Pictures\\Books\\Ifa-Dida-Volume-one.jpg",
+                    "publisher": "AsefinMedia LLP - Publications Division",
+                    "editor": "Awoyinfa Kori Ifaloju"
+                }
          },
          {
             "id": 2, 
@@ -176,16 +176,16 @@
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
             },
                 "ISBN":{
-                        "nameOftheBook": "",
-                        "isbnTen":"",
-                        "isbnThirteen":"",
-                        "pageNumber": 0,
-                        "url": "",
-                        "Author": "",
-                        "coverbookPicture": "",
-                        "publisher": "",
-                        "editor": ""
-                    }
+                    "nameOftheBook": "Ifa Dida (An Invitation to Ifa Divination, VOLUME 1)",
+                    "isbnTen":"0981001319",
+                    "isbnThirteen":"978-0981001319",
+                    "pageNumber": 50,
+                    "url": "https://www.amazon.com/Ifa-Dida-Invitation-Divination/dp/0981001319/ref=sr_1_2?dchild=1&keywords=ifa+dida&qid=1611824538&s=books&sr=1-2",
+                    "Author": "S.Solagbade Popoola",
+                    "coverbookPicture": "images\\Pictures\\Books\\Ifa-Dida-Volume-one.jpg",
+                    "publisher": "AsefinMedia LLP - Publications Division",
+                    "editor": "Awoyinfa Kori Ifaloju"
+                }
          }
         ],
         "generalDescription":[
@@ -198,16 +198,16 @@
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
             },
                 "ISBN":{
-                        "nameOftheBook": "",
-                        "isbnTen":"",
-                        "isbnThirteen":"",
-                        "pageNumber": 0,
-                        "url": "",
-                        "Author": "",
-                        "coverbookPicture": "",
-                        "publisher": "",
-                        "editor": ""
-                    }
+                    "nameOftheBook": "Ifa Dida (An Invitation to Ifa Divination, VOLUME 1)",
+                    "isbnTen":"0981001319",
+                    "isbnThirteen":"978-0981001319",
+                    "pageNumber": 50,
+                    "url": "https://www.amazon.com/Ifa-Dida-Invitation-Divination/dp/0981001319/ref=sr_1_2?dchild=1&keywords=ifa+dida&qid=1611824538&s=books&sr=1-2",
+                    "Author": "S.Solagbade Popoola",
+                    "coverbookPicture": "images\\Pictures\\Books\\Ifa-Dida-Volume-one.jpg",
+                    "publisher": "AsefinMedia LLP - Publications Division",
+                    "editor": "Awoyinfa Kori Ifaloju"
+                }
          }
         ],
         "medicines":[
@@ -220,16 +220,16 @@
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
             },
                 "ISBN":{
-                        "nameOftheBook": "",
-                        "isbnTen":"",
-                        "isbnThirteen":"",
-                        "pageNumber": 0,
-                        "url": "",
-                        "Author": "",
-                        "coverbookPicture": "",
-                        "publisher": "",
-                        "editor": ""
-                    }
+                    "nameOftheBook": "Ifa Dida (An Invitation to Ifa Divination, VOLUME 1)",
+                    "isbnTen":"0981001319",
+                    "isbnThirteen":"978-0981001319",
+                    "pageNumber": 50,
+                    "url": "https://www.amazon.com/Ifa-Dida-Invitation-Divination/dp/0981001319/ref=sr_1_2?dchild=1&keywords=ifa+dida&qid=1611824538&s=books&sr=1-2",
+                    "Author": "S.Solagbade Popoola",
+                    "coverbookPicture": "images\\Pictures\\Books\\Ifa-Dida-Volume-one.jpg",
+                    "publisher": "AsefinMedia LLP - Publications Division",
+                    "editor": "Awoyinfa Kori Ifaloju"
+                }
          }
         ],
         "orisas":[
@@ -242,16 +242,16 @@
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
             },
                 "ISBN":{
-                        "nameOftheBook": "",
-                        "isbnTen":"",
-                        "isbnThirteen":"",
-                        "pageNumber": 0,
-                        "url": "",
-                        "Author": "",
-                        "coverbookPicture": "",
-                        "publisher": "",
-                        "editor": ""
-                    }
+                    "nameOftheBook": "Ifa Dida (An Invitation to Ifa Divination, VOLUME 1)",
+                    "isbnTen":"0981001319",
+                    "isbnThirteen":"978-0981001319",
+                    "pageNumber": 50,
+                    "url": "https://www.amazon.com/Ifa-Dida-Invitation-Divination/dp/0981001319/ref=sr_1_2?dchild=1&keywords=ifa+dida&qid=1611824538&s=books&sr=1-2",
+                    "Author": "S.Solagbade Popoola",
+                    "coverbookPicture": "images\\Pictures\\Books\\Ifa-Dida-Volume-one.jpg",
+                    "publisher": "AsefinMedia LLP - Publications Division",
+                    "editor": "Awoyinfa Kori Ifaloju"
+                }
          }
         ],
         "orisasConsagration":[
@@ -264,16 +264,16 @@
                 "Yoruba":"this is the prueba in yoruba osaOgbe"
             },
                 "ISBN":{
-                        "nameOftheBook": "",
-                        "isbnTen":"",
-                        "isbnThirteen":"",
-                        "pageNumber": 0,
-                        "url": "",
-                        "Author": "",
-                        "coverbookPicture": "",
-                        "publisher": "",
-                        "editor": ""
-                    }
+                    "nameOftheBook": "Ifa Dida (An Invitation to Ifa Divination, VOLUME 1)",
+                    "isbnTen":"0981001319",
+                    "isbnThirteen":"978-0981001319",
+                    "pageNumber": 50,
+                    "url": "https://www.amazon.com/Ifa-Dida-Invitation-Divination/dp/0981001319/ref=sr_1_2?dchild=1&keywords=ifa+dida&qid=1611824538&s=books&sr=1-2",
+                    "Author": "S.Solagbade Popoola",
+                    "coverbookPicture": "images\\Pictures\\Books\\Ifa-Dida-Volume-one.jpg",
+                    "publisher": "AsefinMedia LLP - Publications Division",
+                    "editor": "Awoyinfa Kori Ifaloju"
+                }
          }
         ]
     }

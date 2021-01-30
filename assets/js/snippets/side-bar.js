@@ -24,6 +24,7 @@ document.write(`					<div id="sidebar">
                         <li><a href="#">Tempus Magna</a></li>
                         <li><a href="#">Feugiat Veroeros</a></li>
                     </ul>
+                    
                 </li>
                 <li><a href="#">Etiam Dolore</a></li>
                 <li><a href="#">Adipiscing</a></li>

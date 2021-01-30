@@ -34,7 +34,7 @@
 											<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 374 754" preserveAspectRatio="xMinYMin meet" >
 											  <image width="100%" height="100%" xlink:href="images\Pictures\Odus\Left Half\opon ifa - ogbe - left half.png" style="width:100%" id="Left-Side"></image>
 											  <g class="hover_group" opacity="0">
-												<a onclick="toggle_first_left(); opon_touch_func(); fetchEboDataSpa (); fetchVersesDataSpa ();" id="first-left">
+												<a onclick="toggle_first_left(); opon_touch_func(); globalOduFetchFunction();" id="first-left">
 												  <text x="308" y="152" font-size="20"></text><!-- you can put a text here -->
 												  <rect x="308" y="152" opacity="0.2" fill="#FFFFFF" width="62" height="90"></rect>
 												</a>
@@ -95,8 +95,8 @@
 									<hr class="major" />
 									
 									
-									<h2>ẹbọ</h2>
-									<div id="eboData"></div>
+								
+									
 
 
 									
@@ -119,87 +119,99 @@
 											<!-- Start English  Accordion Start -->
 											<div class="accordion accordion-flush" id="englishAccordionFlush" style="margin-top: 50px;">
 												<div class="accordion-item">
-												  <h2 class="accordion-header" id="flush-headingOne">
+													<h2 class="accordion-header" id="generalDescriptionFlush">
+													  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#generalDescriptionFlushCollapse" aria-expanded="false" aria-controls="generalDescriptionFlushCollapse">
+														General Description
+													  </button>
+													</h2>
+													<div id="generalDescriptionFlushCollapse" class="accordion-collapse collapse" aria-labelledby="generalDescriptionFlush" data-bs-parent="#englishAccordionFlush">
+													  <div class="accordion-body">
+														  <div id="generalDescriptionDataInEnglish">
+
+														  </div>
+													  </div>
+													</div>
+												</div>
+												<div class="accordion-item">
+												  <h2 class="accordion-header" id="versesFlush">
 													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
 													  Verses
 													</button>
 												  </h2>
-												  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#englishAccordionFlush">
+												  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="versesFlush" data-bs-parent="#englishAccordionFlush">
 													<div class="accordion-body">
-														<div id="dataInEnglish">	</div> <!--id json data-->
+														<div id="verseDataInEnglish"><!--id json data-->	
+														</div> 
 													</div>
 												  </div>
 												</div>
 												<div class="accordion-item">
-												  <h2 class="accordion-header" id="flush-headingTwo">
-													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+												  <h2 class="accordion-header" id="eboFlush">
+													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eboFlushCollapse" aria-expanded="false" aria-controls="eboFlushCollapse">
 														ẹbọ
 													</button>
 												  </h2>
-												  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#englishAccordionFlush">
-													<div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+												  <div id="eboFlushCollapse" class="accordion-collapse collapse" aria-labelledby="eboFlush" data-bs-parent="#englishAccordionFlush">
+													<div class="accordion-body">
+														<div id="eboDataInEnglish">
+														</div>
+													</div>
 												  </div>
 												</div>
 												<div class="accordion-item">
-												  <h2 class="accordion-header" id="flush-headingThree">
-													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-													  Accordion Item #3
+												  <h2 class="accordion-header" id="taboosFlush">
+													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#taboosFlushCollapse" aria-expanded="false" aria-controls="taboosFlushCollapse">
+													  taboos
 													</button>
 												  </h2>
-												  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#englishAccordionFlush">
-													<div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+												  <div id="taboosFlushCollapse" class="accordion-collapse collapse" aria-labelledby="taboosFlush" data-bs-parent="#englishAccordionFlush">
+													<div class="accordion-body">
+														<div id="taboosDataInEnglish">
+
+														</div>
+													</div>
 												  </div>
 												</div>
 												<div class="accordion-item">
-													<h2 class="accordion-header" id="flush-headingThree">
-													  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-														Accordion Item #3
+													<h2 class="accordion-header" id="namesFlush">
+													  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#namesFlushCollapse" aria-expanded="false" aria-controls="namesFlushCollapse">
+														names
 													  </button>
 													</h2>
-													<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#englishAccordionFlush">
+													<div id="namesFlushCollapse" class="accordion-collapse collapse" aria-labelledby="namesFlush" data-bs-parent="#englishAccordionFlush">
 													  <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
 													</div>
-												  </div>
-												  <div class="accordion-item">
-													<h2 class="accordion-header" id="flush-headingThree">
-													  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-														Accordion Item #3
+												</div>
+												<div class="accordion-item">
+													<h2 class="accordion-header" id="medicinesFlush">
+													  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#medicinesFlushCollapse" aria-expanded="false" aria-controls="medicinesFlushCollapse">
+														Medicines
 													  </button>
 													</h2>
-													<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#englishAccordionFlush">
+													<div id="medicinesFlushCollapse" class="accordion-collapse collapse" aria-labelledby="medicinesFlush" data-bs-parent="#englishAccordionFlush">
 													  <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
 													</div>
-												  </div>
-												  <div class="accordion-item">
-													<h2 class="accordion-header" id="flush-headingThree">
-													  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-														Accordion Item #3
+												</div>
+												<div class="accordion-item">
+													<h2 class="accordion-header" id="orisasFlush">
+													  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#orisasFlushCollapse" aria-expanded="false" aria-controls="orisasFlushCollapse">
+														Orisas
 													  </button>
 													</h2>
-													<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#englishAccordionFlush">
+													<div id="orisasFlushCollapse" class="accordion-collapse collapse" aria-labelledby="orisasFlush" data-bs-parent="#englishAccordionFlush">
 													  <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
 													</div>
-												  </div>
-												  <div class="accordion-item">
-													<h2 class="accordion-header" id="flush-headingThree">
-													  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-														Accordion Item #3
+												</div>
+												<div class="accordion-item">
+													<h2 class="accordion-header" id="orisasConsagrationFlush">
+													  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#orisasConsagratioFlushCollapse" aria-expanded="false" aria-controls="orisasConsagratioFlushCollapse">
+														Orisas Consagration
 													  </button>
 													</h2>
-													<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#englishAccordionFlush">
+													<div id="orisasConsagratioFlushCollapse" class="accordion-collapse collapse" aria-labelledby="orisasConsagrationFlush" data-bs-parent="#englishAccordionFlush">
 													  <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
 													</div>
-												  </div>
-												  <div class="accordion-item">
-													<h2 class="accordion-header" id="flush-headingThree">
-													  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-														Accordion Item #3
-													  </button>
-													</h2>
-													<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#englishAccordionFlush">
-													  <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
-													</div>
-												  </div>
+												</div>
 											</div> 
 		
 											<!-- End  English  Accordion Start End -->
@@ -254,7 +266,7 @@
 			</div>
 
 		<!-- Scripts -->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
