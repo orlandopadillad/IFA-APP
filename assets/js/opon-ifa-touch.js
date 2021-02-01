@@ -59,39 +59,39 @@ function opon_touch_func(){
 
       
     //Left Side
-    let opon_Ifa_Left_Side_Ogbe_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - ogbe - left half.png'; 
-    let opon_Ifa_Left_Side_Oyeku_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - oyeku - left half.png';
-    let opon_Ifa_Left_Side_Iwori_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - iwori - left half.png';
-    let opon_Ifa_Left_Side_Idi_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - idi - left half.png';
-    let opon_Ifa_Left_Side_Obara_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - obara - left half.png';
-    let opon_Ifa_Left_Side_Okonron_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - OKONRON - left half.png';
-    let opon_Ifa_Left_Side_Irosun_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - irosun - left half.png';
-    let opon_Ifa_Left_Side_Owanrin_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - owanrin - left half.png';
-    let opon_Ifa_Left_Side_Ogunda_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - ogunda- left half.png';
-    let opon_Ifa_Left_Side_Osa_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - osa - left half.png';
-    let opon_Ifa_Left_Side_Etura_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - etura - left half.png' ;
-    let opon_Ifa_Left_Side_Irete_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - irete - left half.png';
-    let opon_Ifa_Left_Side_Eka_Meji =  'images\\Pictures\\Odus\\Left Half\\opon ifa - eka - left half.png';
-    let opon_Ifa_Left_Side_Eturukpon_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - eturukpon - left half.png';
-    let opon_Ifa_Left_Side_Ose_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - ose - left half.png';
-    let opon_Ifa_Left_Side_Ofun_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - ofun - left half.png';
+    let opon_Ifa_Left_Side_Ogbe_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - ogbe - left half.jpg'; 
+    let opon_Ifa_Left_Side_Oyeku_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - oyeku - left half.jpg';
+    let opon_Ifa_Left_Side_Iwori_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - iwori - left half.jpg';
+    let opon_Ifa_Left_Side_Idi_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - idi - left half.jpg';
+    let opon_Ifa_Left_Side_Obara_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - obara - left half.jpg';
+    let opon_Ifa_Left_Side_Okonron_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - OKONRON - left half.jpg';
+    let opon_Ifa_Left_Side_Irosun_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - irosun - left half.jpg';
+    let opon_Ifa_Left_Side_Owanrin_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - owanrin - left half.jpg';
+    let opon_Ifa_Left_Side_Ogunda_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - ogunda- left half.jpg';
+    let opon_Ifa_Left_Side_Osa_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - osa - left half.jpg';
+    let opon_Ifa_Left_Side_Etura_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - etura - left half.jpg' ;
+    let opon_Ifa_Left_Side_Irete_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - irete - left half.jpg';
+    let opon_Ifa_Left_Side_Eka_Meji =  'images\\Pictures\\Odus\\Left Half\\opon ifa - eka - left half.jpg';
+    let opon_Ifa_Left_Side_Eturukpon_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - eturukpon - left half.jpg';
+    let opon_Ifa_Left_Side_Ose_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - ose - left half.jpg';
+    let opon_Ifa_Left_Side_Ofun_Meji = 'images\\Pictures\\Odus\\Left Half\\opon ifa - ofun - left half.jpg';
     //Right side
-    let opon_Ifa_Right_Side_Ogbe_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - Ogbe - right half.png'; 
-    let opon_Ifa_Right_Side_Oyeku_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - oyeku - right half.png';
-    let opon_Ifa_Right_Side_Iwori_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - iwori - right half.png';
-    let opon_Ifa_Right_Side_Idi_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - idi- right half.png';
-    let opon_Ifa_Right_Side_Obara_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - obara - right half.png' ;
-    let opon_Ifa_Right_Side_Okonron_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - okonron - right half.png' ;
-    let opon_Ifa_Right_Side_Irosun_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - irosun - right half.png';
-    let opon_Ifa_Right_Side_Owanrin_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - owanrin - right half.png';
-    let opon_Ifa_Right_Side_Ogunda_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - ogunda - right half.png';
-    let opon_Ifa_Right_Side_Osa_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - osa - right half.png';
-    let opon_Ifa_Right_Side_Etura_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - ETURA - right half.png';
-    let opon_Ifa_Right_Side_Irete_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - irete - right half.png';
-    let opon_Ifa_Right_Side_Eka_Meji =  'images\\Pictures\\Odus\\Right Half\\opon ifa - eka - right half.png';
-    let opon_Ifa_Right_Side_Eturukpon_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - eturukpon - right half.png';
-    let opon_Ifa_Right_Side_Ose_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - ose - right half.png';
-    let opon_Ifa_Right_Side_Ofun_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - ofun - right half.png';
+    let opon_Ifa_Right_Side_Ogbe_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - Ogbe - right half.jpg'; 
+    let opon_Ifa_Right_Side_Oyeku_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - oyeku - right half.jpg';
+    let opon_Ifa_Right_Side_Iwori_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - iwori - right half.jpg';
+    let opon_Ifa_Right_Side_Idi_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - idi- right half.jpg';
+    let opon_Ifa_Right_Side_Obara_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - obara - right half.jpg' ;
+    let opon_Ifa_Right_Side_Okonron_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - okonron - right half.jpg' ;
+    let opon_Ifa_Right_Side_Irosun_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - irosun - right half.jpg';
+    let opon_Ifa_Right_Side_Owanrin_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - owanrin - right half.jpg';
+    let opon_Ifa_Right_Side_Ogunda_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - ogunda - right half.jpg';
+    let opon_Ifa_Right_Side_Osa_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - osa - right half.jpg';
+    let opon_Ifa_Right_Side_Etura_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - ETURA - right half.jpg';
+    let opon_Ifa_Right_Side_Irete_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - irete - right half.jpg';
+    let opon_Ifa_Right_Side_Eka_Meji =  'images\\Pictures\\Odus\\Right Half\\opon ifa - eka - right half.jpg';
+    let opon_Ifa_Right_Side_Eturukpon_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - eturukpon - right half.jpg';
+    let opon_Ifa_Right_Side_Ose_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - ose - right half.jpg';
+    let opon_Ifa_Right_Side_Ofun_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - ofun - right half.jpg';
 
 
 //start of the  if cycle for the left side of the opon
