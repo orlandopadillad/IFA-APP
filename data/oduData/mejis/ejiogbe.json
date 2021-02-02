@@ -415,84 +415,59 @@
         "orisas":[
             {
                 "id": 1, 
-                "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe"
+                "orisanames":{
+                    "nameInYoruba":"Yemoja",
+                    "orisaUrl": "#"
+                },
+                "reasonsInENG":
+                [
+                    " BECAUSE SHE IS GOOD ejiogbe",
+                    " BECAUSE SHE IS GOOD the best ejiogbe"
+                ],
+                "reasonsInSpa":
+                {
+                    "reason1":"porque ella es buena ejiogbe",
+                    "reason2":"porque ella es la mejor ejiogbe"
+                },
+                "reasonsInPor":
+                {
+                    "reason1":"BECAUSE SHE IS GOOD portugues ejiogbe",
+                    "reason2":"BECAUSE SHE IS  the best portugues ejiogbe"
                 },
                 "ISBN":{
-                    "nameOftheBook": "Ifa Dida (An Invitation to Ifa Divination, VOLUME 1)",
-                    "isbnTen":"0981001319",
-                    "isbnThirteen":"978-0981001319",
-                    "pageNumber": 50,
-                    "url": "https://www.amazon.com/Ifa-Dida-Invitation-Divination/dp/0981001319/ref=sr_1_2?dchild=1&keywords=ifa+dida&qid=1611824538&s=books&sr=1-2",
-                    "Author": "S.Solagbade Popoola",
-                    "coverbookPicture": "images\\Pictures\\Books\\Ifa-Dida-Volume-one.jpg",
-                    "publisher": "AsefinMedia LLP - Publications Division",
-                    "editor": "Awoyinfa Kori Ifaloju"
+                    "reason1": {
+                        "isbnTen":"0981001319",
+                        "isbnThirteen":"978-0981001319",
+                        "pageNumber": 50
+                    }
                 }
-             },
-             {
+            },
+            {
                 "id": 2, 
-                "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe"
+                "orisanames":{
+                    "nameInYoruba":"Sango",
+                    "orisaUrl": "#"
+                },
+                "reasonsInENG":{
+                    "reason1":"BECAUSE SHE IS GOOD ejiogbe",
+                    "reason2":"BECAUSE SHE IS GOOD the best ejiogbe"
+                },
+                "reasonsInSpa":{
+                    "reason1":"porque ella es buena ejiogbe",
+                    "reason2":"porque ella es la mejor ejiogbe"
+                },
+                "reasonsInPor":{
+                    "reason1":"BECAUSE SHE IS GOOD portugues ejiogbe",
+                    "reason2":"BECAUSE SHE IS  the best portugues ejiogbe"
                 },
                 "ISBN":{
-                    "nameOftheBook": "Ifa Dida (An Invitation to Ifa Divination, VOLUME 1)",
-                    "isbnTen":"0981001319",
-                    "isbnThirteen":"978-0981001319",
-                    "pageNumber": 50,
-                    "url": "https://www.amazon.com/Ifa-Dida-Invitation-Divination/dp/0981001319/ref=sr_1_2?dchild=1&keywords=ifa+dida&qid=1611824538&s=books&sr=1-2",
-                    "Author": "S.Solagbade Popoola",
-                    "coverbookPicture": "images\\Pictures\\Books\\Ifa-Dida-Volume-one.jpg",
-                    "publisher": "AsefinMedia LLP - Publications Division",
-                    "editor": "Awoyinfa Kori Ifaloju"
+                    "reason1": {
+                        "isbnTen":"0981001319",
+                        "isbnThirteen":"978-0981001319",
+                        "pageNumber": 50
+                    }
                 }
-             },
-             {
-                "id": 3, 
-                "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe"
-                },
-                "ISBN":{
-                    "nameOftheBook": "Ifa Dida (An Invitation to Ifa Divination, VOLUME 1)",
-                    "isbnTen":"0981001319",
-                    "isbnThirteen":"978-0981001319",
-                    "pageNumber": 50,
-                    "url": "https://www.amazon.com/Ifa-Dida-Invitation-Divination/dp/0981001319/ref=sr_1_2?dchild=1&keywords=ifa+dida&qid=1611824538&s=books&sr=1-2",
-                    "Author": "S.Solagbade Popoola",
-                    "coverbookPicture": "images\\Pictures\\Books\\Ifa-Dida-Volume-one.jpg",
-                    "publisher": "AsefinMedia LLP - Publications Division",
-                    "editor": "Awoyinfa Kori Ifaloju"
-                }
-             },
-             {
-                "id": 4, 
-                "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe"
-                },
-                "ISBN":{
-                    "nameOftheBook": "Ifa Dida (An Invitation to Ifa Divination, VOLUME 1)",
-                    "isbnTen":"0981001319",
-                    "isbnThirteen":"978-0981001319",
-                    "pageNumber": 50,
-                    "url": "https://www.amazon.com/Ifa-Dida-Invitation-Divination/dp/0981001319/ref=sr_1_2?dchild=1&keywords=ifa+dida&qid=1611824538&s=books&sr=1-2",
-                    "Author": "S.Solagbade Popoola",
-                    "coverbookPicture": "images\\Pictures\\Books\\Ifa-Dida-Volume-one.jpg",
-                    "publisher": "AsefinMedia LLP - Publications Division",
-                    "editor": "Awoyinfa Kori Ifaloju"
-                }
-             }
+            }
         ],
         "orisasConsagration":[
             {

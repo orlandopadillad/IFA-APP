@@ -112,8 +112,8 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
         ebohtmlOutPut = dataFromJSON[oduForTheJSON]['ebo'].map(infoDisplayForEbo => { //route to retreieve the information --- can be change but need to be update on all the places.
             //below code "return" the HTML code
             return `
-                    <b>Ẹbọ   ${infoDisplayForEbo.id}</b><br><blockquote>\"${infoDisplayForEbo.translation.ENG}\"</blockquote>${infoDisplayForEbo.translation.ENG}<br>
-                    <br><p><a  data-bs-toggle="collapse" href="#eboBibliography${infoDisplayForEbo.translation.id}" role="button" aria-expanded="false" aria-controls="bibliography${infoDisplayForEbo.translation.id}">Bibliography of Verse ${infoDisplayForEbo.id}</a></p>
+                    <b>Ẹbọ   ${infoDisplayForEbo.id}</b><br>${infoDisplayForEbo.translation.ENG}
+                    <p><a  data-bs-toggle="collapse" href="#eboBibliography${infoDisplayForEbo.translation.id}" role="button" aria-expanded="false" aria-controls="bibliography${infoDisplayForEbo.translation.id}">Bibliography</a></p>
             
                        <div class="collapse" id="eboBibliography${infoDisplayForEbo.translation.id}">				
                        <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
@@ -152,8 +152,8 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
             return `
  
             
-            <b>${infoDisplayTaboos.id} </b>${infoDisplayTaboos.translation.ENG}<br>
-            <br><p><a  data-bs-toggle="collapse" href="#taboosBibliography${infoDisplayTaboos.id}" role="button" aria-expanded="false" aria-controls="taboosBibliography${infoDisplayTaboos.id}">Bibliography of Verse ${infoDisplayTaboos.id}</a></p>        
+            <b>Taboo ${infoDisplayTaboos.id} </b><br>${infoDisplayTaboos.translation.ENG}
+            <p><a  data-bs-toggle="collapse" href="#taboosBibliography${infoDisplayTaboos.id}" role="button" aria-expanded="false" aria-controls="taboosBibliography${infoDisplayTaboos.id}">Bibliography</a></p>        
  
          <div class="collapse" id="taboosBibliography${infoDisplayTaboos.id}">				
             <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
@@ -192,10 +192,10 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
             return `
         
             
-            <b>${infoDisplayNames.id} </b>${infoDisplayNames.translation.ENG}<br>
-            <br><p><a  data-bs-toggle="collapse" href="#medicinesBibliography${infoDisplayNames.id}" role="button" aria-expanded="false" aria-controls="medicinesBibliography${infoDisplayNames.id}">Bibliography of Verse ${infoDisplayNames.id}</a></p>        
+            <b>Name ${infoDisplayNames.id} </b><br><blockquote>\"${infoDisplayNames.translation.Yoruba}\"</blockquote>${infoDisplayNames.translation.ENG}
+            <br><p><a  data-bs-toggle="collapse" href="#namesBibliography${infoDisplayNames.id}" role="button" aria-expanded="false" aria-controls="namesBibliography${infoDisplayNames.id}">Bibliography </a></p>        
         
-         <div class="collapse" id="medicinesBibliography${infoDisplayNames.id}">				
+         <div class="collapse" id="namesBibliography${infoDisplayNames.id}">				
             <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
                 <img src="${infoDisplayNames.ISBN.coverbookPicture}" class="card-img-top" alt="${infoDisplayNames.ISBN.nameOftheBook}"style="width:200px; height:270px; margin-left:auto;
                 margin-right:auto; margin-top: 20px;">
@@ -228,12 +228,13 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
 
         //start of the medicines in ENGLISH
         medicineshtmlOutPut = dataFromJSON[oduForTheJSON]['medicines'].map(infoDisplayMedicines => { //route to retreieve the information --- can be change but need to be update on all the places.
+;
             //below code "return" the HTML code
             return `
  
             
-            <b>${infoDisplayMedicines.id} </b>${infoDisplayMedicines.translation.ENG}<br>
-            <br><p><a  data-bs-toggle="collapse" href="#medicinesBibliography${infoDisplayMedicines.id}" role="button" aria-expanded="false" aria-controls="medicinesBibliography${infoDisplayMedicines.id}">Bibliography of Verse ${infoDisplayMedicines.id}</a></p>        
+            <b>Medicine ${infoDisplayMedicines.id} </b><br>${infoDisplayMedicines.translation.ENG}
+            <p><a  data-bs-toggle="collapse" href="#medicinesBibliography${infoDisplayMedicines.id}" role="button" aria-expanded="false" aria-controls="medicinesBibliography${infoDisplayMedicines.id}">Bibliography</a></p>        
  
          <div class="collapse" id="medicinesBibliography${infoDisplayMedicines.id}">				
             <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
@@ -269,34 +270,40 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
         //start of the orisas in ENGLISH
         orisashtmlOutPut = dataFromJSON[oduForTheJSON]['orisas'].map(infoDisplayOrisas => { //route to retreieve the information --- can be change but need to be update on all the places.
             //below code "return" the HTML code
+;
             return `
         
             
-            <b>${infoDisplayOrisas.id} </b>${infoDisplayOrisas.translation.ENG}<br>
-            <br><p><a  data-bs-toggle="collapse" href="#medicinesBibliography${infoDisplayOrisas.id}" role="button" aria-expanded="false" aria-controls="medicinesBibliography${infoDisplayOrisas.id}">Bibliography of Verse ${infoDisplayOrisas.id}</a></p>        
-        
-         <div class="collapse" id="medicinesBibliography${infoDisplayOrisas.id}">				
-            <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
-                <img src="${infoDisplayOrisas.ISBN.coverbookPicture}" class="card-img-top" alt="${infoDisplayOrisas.ISBN.nameOftheBook}"style="width:200px; height:270px; margin-left:auto;
-                margin-right:auto; margin-top: 20px;">
-                <div class="card-body">
-                    <h3 class="card-title" style="text-align: center;">${infoDisplayOrisas.ISBN.nameOftheBook}</h3>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><b>Author:</b> ${infoDisplayOrisas.ISBN.Author}</li>
-                    <li class="list-group-item"><b>Editor:</b> ${infoDisplayOrisas.ISBN.editor}</li>
-                    <li class="list-group-item"><b>Publisher:</b> ${infoDisplayOrisas.ISBN.publisher}</li>
-                    <li class="list-group-item"><b>ISBN-10:</b> ${infoDisplayOrisas.ISBN.isbnTen}</li>
-                    <li class="list-group-item"><b>ISBN-13:</b> ${infoDisplayOrisas.ISBN.isbnThirteen}</li>
-                    <li class="list-group-item"><b>On The Page Number:</b> ${infoDisplayOrisas.ISBN.pageNumber}</li>
-                </ul>
-                <div class="card-body" style="text-align: center;">
-                    <a href="${infoDisplayOrisas.ISBN.url}" class="card-link" style="font-weight: bolder;">Buy This Book.</a>
-                </div>
-            </div>
-         </div>
+            <p><b>${infoDisplayOrisas.id}. Orisa Name: </b> <a href="${infoDisplayOrisas.orisanames.orisaUrl}"> ${infoDisplayOrisas.orisanames.nameInYoruba}</a><br>
+            <b>  Reasons: </b> ${infoDisplayOrisas.reasonsInENG}<p>
+            `
+            //<a  data-bs-toggle="collapse" onclick="fetchBibliography (${infoDisplayOrisas.reasons.ISBN.isbnTen}, ${infoDisplayOrisas.reasons.ISBN.isbnThirteen})" role="button" aria-expanded="false" aria-controls="orisasBibliography${infoDisplayOrisas.id}">Bibliography</a></p>        
+            // href="#orisasBibliography${infoDisplayOrisas.id}""
+        //     <div class="collapse" id="orisasBibliography${infoDisplayOrisas.id}">				
+        //     <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+        //         <img src="${infoDisplayOrisas.orisanames.reason.ISBN.coverbookPicture}" class="card-img-top" alt="${infoDisplayOrisas.orisanames.reason.ISBN.nameOftheBook}"style="width:200px; height:270px; margin-left:auto;
+        //         margin-right:auto; margin-top: 20px;">
+        //         <div class="card-body">
+        //             <h3 class="card-title" style="text-align: center;">${infoDisplayOrisas.orisanames.reason.ISBN.nameOftheBook}</h3>
+        //         </div>
+        //         <ul class="list-group list-group-flush">
+        //             <li class="list-group-item"><b>Author:</b> ${infoDisplayOrisas.orisanames.reasons.ISBN.Author}</li>
+        //             <li class="list-group-item"><b>Editor:</b> ${infoDisplayOrisas.orisanames.reasons.ISBN.editor}</li>
+        //             <li class="list-group-item"><b>Publisher:</b> ${infoDisplayOrisas.orisanames.reasons.ISBN.publisher}</li>
+        //             <li class="list-group-item"><b>ISBN-10:</b> ${infoDisplayOrisas.orisanames.reasons.ISBN.isbnTen}</li>
+        //             <li class="list-group-item"><b>ISBN-13:</b> ${infoDisplayOrisas.orisanames.reasons.ISBN.isbnThirteen}</li>
+        //             <li class="list-group-item"><b>On The Page Number:</b> ${infoDisplayOrisas.orisanames.reasons.ISBN.pageNumber}</li>
+        //         </ul>
+        //         <div class="card-body" style="text-align: center;">
+        //             <a href="${infoDisplayOrisas.orisanames.reason.ISBN.url}" class="card-link" style="font-weight: bolder;">Buy This Book.</a>
+        //         </div>
+        //     </div>
+        //  </div>
+
+
+
             
-            `;
+            ;
          })
          .join('');//transform the HTML in a string
          //console.log(orisashtmlOutPut) //log to grab all the info and put it into the HTML--- this can be deleted.
@@ -362,6 +369,38 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
 }
 
 
+function fetchBibliography (isbnTenValue, isbnThirteenValue){
 
+//Start of the fetch
+fetch ("data\\books\\booksData.json").then(response =>{ //url of the json
+    //console.log(response);//load if the json was loaded --- this can be deleted.
+    if (!response.ok){
+        throw Error ("ERROR");
+    }
+    return response.json();
+})
+//end of the fetch
+.then(dataFromJSON =>{ 
+    for (let i = 0; i < dataFromJSON.length; i++) {
+        if (dataFromJSON[i][isbnTen] == isbnTenValue || dataFromJSON[i][isbnThirteen] == isbnThirteenValue) {
+            return console.log(dataFromJSON[i][nameOftheBook]);
+        }
+        
+    }
+    
+    
+    
+    }//closer for dataFromJSON  
+    )//Ending of the .then  
+    //start of the catch error    
+    .catch(error => {
+        console.log(error);
+    });
+    //end of the catch error
+
+
+
+
+}
 
 
