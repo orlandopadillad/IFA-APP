@@ -1,14 +1,17 @@
 {
-    "id": 1,
-    "ISBN":{
-        "nameOftheBook": "Ifa Dida (An Invitation to Ifa Divination, VOLUME 1)",
-        "isbnTen":"0981001319",
-        "isbnThirteen":"978-0981001319",
-        "pageNumber": 50,
-        "url": "https://www.amazon.com/Ifa-Dida-Invitation-Divination/dp/0981001319/ref=sr_1_2?dchild=1&keywords=ifa+dida&qid=1611824538&s=books&sr=1-2",
-        "Author": "S.Solagbade Popoola",
-        "coverbookPicture": "images\\Pictures\\Books\\Ifa-Dida-Volume-one.jpg",
-        "publisher": "AsefinMedia LLP - Publications Division",
-        "editor": "Awoyinfa Kori Ifaloju"
-    }
+    
+    "books": [
+        {
+            "id": 1,
+            "nameOftheBook": "Ifa Dida (An Invitation to Ifa Divination, VOLUME 1)",
+            "isbnTen": "0981001319",
+            "isbnThirteen" : "9780981001319",
+            "url": "https://www.amazon.com/Ifa-Dida-Invitation-Divination/dp/0981001319/ref=sr_1_2?dchild=1&keywords=ifa+dida&qid=1611824538&s=books&sr=1-2",
+            "Author": "S.Solagbade Popoola",
+            "coverbookPicture": "images\\Pictures\\Books\\Ifa-Dida-Volume-one.jpg",
+            "publisher": "AsefinMedia LLP - Publications Division",
+            "editor": "Awoyinfa Kori Ifaloju"
+              
+        }
+    ]
 }

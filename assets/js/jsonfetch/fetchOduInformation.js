@@ -2,8 +2,10 @@
 //default functions declaration
 fetchGeneralDescriptionDataENG ();
 
+
 function globalOduFetchFunction(){
     fetchGeneralDescriptionDataENG ();
+
 
 }
 
@@ -38,30 +40,21 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
         generalDescriptionhtmlOutPut = dataFromJSON[oduForTheJSON]['generalDescription'].map(infoFilteredForgeneralDescription => { //route to retreieve the information --- can be change but need to be update on all the places.
            //below code "return" the HTML code
            return `
-                    <b>${infoFilteredForgeneralDescription.id} </b>${infoFilteredForgeneralDescription.translation.ENG}<br>
-                    <p><a  data-bs-toggle="collapse" href="#generalDescriptionBibliography${infoFilteredForgeneralDescription.id}" role="button" aria-expanded="false" aria-controls="generalDescriptionBibliography${infoFilteredForgeneralDescription.id}">Bibliography</a></p>        
-
-                    <div class="collapse" id="generalDescriptionBibliography${infoFilteredForgeneralDescription.id}">				
-                       <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
-                           <img src="${infoFilteredForgeneralDescription.ISBN.coverbookPicture}" class="card-img-top" alt="${infoFilteredForgeneralDescription.ISBN.nameOftheBook}"style="width:200px; height:270px; margin-left:auto;
-                           margin-right:auto; margin-top: 20px;">
-                           <div class="card-body">
-                               <h3 class="card-title" style="text-align: center;">${infoFilteredForgeneralDescription.ISBN.nameOftheBook}</h3>
-                           </div>
-                           <ul class="list-group list-group-flush">
-                               <li class="list-group-item"><b>Author:</b> ${infoFilteredForgeneralDescription.ISBN.Author}</li>
-                               <li class="list-group-item"><b>Editor:</b> ${infoFilteredForgeneralDescription.ISBN.editor}</li>
-                               <li class="list-group-item"><b>Publisher:</b> ${infoFilteredForgeneralDescription.ISBN.publisher}</li>
-                               <li class="list-group-item"><b>ISBN-10:</b> ${infoFilteredForgeneralDescription.ISBN.isbnTen}</li>
-                               <li class="list-group-item"><b>ISBN-13:</b> ${infoFilteredForgeneralDescription.ISBN.isbnThirteen}</li>
-                               <li class="list-group-item"><b>On The Page Number:</b> ${infoFilteredForgeneralDescription.ISBN.pageNumber}</li>
-                           </ul>
-                           <div class="card-body" style="text-align: center;">
-                               <a href="${infoFilteredForgeneralDescription.ISBN.url}" class="card-link" style="font-weight: bolder;">Buy This Book.</a>
-                           </div>
-                       </div>
+                    <p><b>${infoFilteredForgeneralDescription.id}. </b>${infoFilteredForgeneralDescription.translation.ENG}                  
+                    <a 
+             
+                    data-bs-toggle="collapse" 
+                    href="#generalDescriptionBibliographyFetched${infoFilteredForgeneralDescription.id}"  
+                    role="button" 
+                    aria-expanded="false" 
+                    aria-controls="generalDescriptionBibliography${infoFilteredForgeneralDescription.id}" 
+                    onclick="fetchBibliography(${infoFilteredForgeneralDescription.translation.ISBN}, 'idgeneralDescriptionBibliographyFetched${infoFilteredForgeneralDescription.id}');">Bibliography</a></li>
+               
+                <div class="collapse" id="generalDescriptionBibliographyFetched${infoFilteredForgeneralDescription.id}">				
+                    <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+                         <div id="idgeneralDescriptionBibliographyFetched${infoFilteredForgeneralDescription.id}"></div>
                     </div>
-
+                </div>
                 `;})
                      .join('');//transform the HTML in a string
                      //console.log(generalDescriptionhtmlOutPut) //log to grab all the info and put it into the HTML--- this can be deleted.
@@ -76,28 +69,21 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
             //below code "return" the HTML code
             return `
                     <b>Verse  ${infoDisplayForVerses.id}</b><br><blockquote>\"${infoDisplayForVerses.translation.Yoruba}\"</blockquote>${infoDisplayForVerses.translation.ENG}<br>
-                    <p><a  data-bs-toggle="collapse" href="#versesBibliography${infoDisplayForVerses.id}" role="button" aria-expanded="false" aria-controls="versesBibliography${infoDisplayForVerses.id}">Bibliography</a></p>
-                    <div class="collapse" id="versesBibliography${infoDisplayForVerses.id}">				
-                       <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
-                           <img src="${infoDisplayForVerses.ISBN.coverbookPicture}" class="card-img-top" alt="${infoDisplayForVerses.ISBN.nameOftheBook}"style="width:200px; height:270px; margin-left:auto;
-                           margin-right:auto; margin-top: 20px;">
-                           <div class="card-body">
-                               <h3 class="card-title" style="text-align: center;">${infoDisplayForVerses.ISBN.nameOftheBook}</h3>
-                           </div>
-                           <ul class="list-group list-group-flush">
-                               <li class="list-group-item"><b>Author:</b> ${infoDisplayForVerses.ISBN.Author}</li>
-                               <li class="list-group-item"><b>Editor:</b> ${infoDisplayForVerses.ISBN.editor}</li>
-                               <li class="list-group-item"><b>Publisher:</b> ${infoDisplayForVerses.ISBN.publisher}</li>
-                               <li class="list-group-item"><b>ISBN-10:</b> ${infoDisplayForVerses.ISBN.isbnTen}</li>
-                               <li class="list-group-item"><b>ISBN-13:</b> ${infoDisplayForVerses.ISBN.isbnThirteen}</li>
-                               <li class="list-group-item"><b>On The Page Number:</b> ${infoDisplayForVerses.ISBN.pageNumber}</li>
-                           </ul>
-                           <div class="card-body" style="text-align: center;">
-                               <a href="${infoDisplayForVerses.ISBN.url}" class="card-link" style="font-weight: bolder;">Buy This Book.</a>
-                           </div>
-                       </div>
+                    <p>                 
+                    <a 
+             
+                    data-bs-toggle="collapse" 
+                    href="#versesBibliographyFetched${infoDisplayForVerses.id}"  
+                    role="button" 
+                    aria-expanded="false" 
+                    aria-controls="versesBibliography${infoDisplayForVerses.id}" 
+                    onclick="fetchBibliography(${infoDisplayForVerses.translation.ISBN}, 'idversesBibliographyFetched${infoDisplayForVerses.id}');">Bibliography</a></p>
+               
+                <div class="collapse" id="versesBibliographyFetched${infoDisplayForVerses.id}">				
+                    <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+                         <div id="idversesBibliographyFetched${infoDisplayForVerses.id}"></div>
                     </div>
-
+                </div>
             `;
          })
          .join('');//transform the HTML in a string
@@ -113,28 +99,21 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
             //below code "return" the HTML code
             return `
                     <b>Ẹbọ   ${infoDisplayForEbo.id}</b><br>${infoDisplayForEbo.translation.ENG}
-                    <p><a  data-bs-toggle="collapse" href="#eboBibliography${infoDisplayForEbo.translation.id}" role="button" aria-expanded="false" aria-controls="bibliography${infoDisplayForEbo.translation.id}">Bibliography</a></p>
-            
-                       <div class="collapse" id="eboBibliography${infoDisplayForEbo.translation.id}">				
-                       <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
-                           <img src="${infoDisplayForEbo.ISBN.coverbookPicture}" class="card-img-top" alt="${infoDisplayForEbo.ISBN.nameOftheBook}"style="width:200px; height:270px; margin-left:auto;
-                           margin-right:auto; margin-top: 20px;">
-                           <div class="card-body">
-                               <h3 class="card-title" style="text-align: center;">${infoDisplayForEbo.ISBN.nameOftheBook}</h3>
-                           </div>
-                           <ul class="list-group list-group-flush">
-                               <li class="list-group-item"><b>Author:</b> ${infoDisplayForEbo.ISBN.Author}</li>
-                               <li class="list-group-item"><b>Editor:</b> ${infoDisplayForEbo.ISBN.editor}</li>
-                               <li class="list-group-item"><b>Publisher:</b> ${infoDisplayForEbo.ISBN.publisher}</li>
-                               <li class="list-group-item"><b>ISBN-10:</b> ${infoDisplayForEbo.ISBN.isbnTen}</li>
-                               <li class="list-group-item"><b>ISBN-13:</b> ${infoDisplayForEbo.ISBN.isbnThirteen}</li>
-                               <li class="list-group-item"><b>On The Page Number:</b> ${infoDisplayForEbo.ISBN.pageNumber}</li>
-                           </ul>
-                           <div class="card-body" style="text-align: center;">
-                               <a href="${infoDisplayForEbo.ISBN.url}" class="card-link" style="font-weight: bolder;">Buy This Book.</a>
-                           </div>
-                       </div>
+                    <p>                 
+                    <a 
+             
+                    data-bs-toggle="collapse" 
+                    href="#eboBibliographyFetched${infoDisplayForEbo.id}"  
+                    role="button" 
+                    aria-expanded="false" 
+                    aria-controls="eboBibliography${infoDisplayForEbo.id}" 
+                    onclick="fetchBibliography(${infoDisplayForEbo.translation.ISBN}, 'ideboBibliographyFetched${infoDisplayForEbo.id}');">Bibliography</a></p>
+               
+                <div class="collapse" id="eboBibliographyFetched${infoDisplayForEbo.id}">				
+                    <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+                         <div id="ideboBibliographyFetched${infoDisplayForEbo.id}"></div>
                     </div>
+                </div>
                 `;//to display otherlanguages modify the .SPA to the require language
          
          })
@@ -152,29 +131,22 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
             return `
  
             
-            <b>Taboo ${infoDisplayTaboos.id} </b><br>${infoDisplayTaboos.translation.ENG}
-            <p><a  data-bs-toggle="collapse" href="#taboosBibliography${infoDisplayTaboos.id}" role="button" aria-expanded="false" aria-controls="taboosBibliography${infoDisplayTaboos.id}">Bibliography</a></p>        
- 
-         <div class="collapse" id="taboosBibliography${infoDisplayTaboos.id}">				
-            <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
-                <img src="${infoDisplayTaboos.ISBN.coverbookPicture}" class="card-img-top" alt="${infoDisplayTaboos.ISBN.nameOftheBook}"style="width:200px; height:270px; margin-left:auto;
-                margin-right:auto; margin-top: 20px;">
-                <div class="card-body">
-                    <h3 class="card-title" style="text-align: center;">${infoDisplayTaboos.ISBN.nameOftheBook}</h3>
+            <b>Taboo ${infoDisplayTaboos.id}</b><br>${infoDisplayTaboos.translation.ENG}
+            <p>
+                <a 
+                    data-bs-toggle="collapse" 
+                    href="#tabooBibliographyFetched${infoDisplayTaboos.id}"  
+                    role="button" 
+                    aria-expanded="false" 
+                    aria-controls="tabooBibliography${infoDisplayTaboos.id}" 
+                    onclick="fetchBibliography(${infoDisplayTaboos.translation.ISBN}, 'idtabooBibliographyFetched${infoDisplayTaboos.id}');">Bibliography</a></p>
+            
+                <div class="collapse" id="tabooBibliographyFetched${infoDisplayTaboos.id}">				
+                    <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+                         <div id="idtabooBibliographyFetched${infoDisplayTaboos.id}"></div>
+                    </div>
                 </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><b>Author:</b> ${infoDisplayTaboos.ISBN.Author}</li>
-                    <li class="list-group-item"><b>Editor:</b> ${infoDisplayTaboos.ISBN.editor}</li>
-                    <li class="list-group-item"><b>Publisher:</b> ${infoDisplayTaboos.ISBN.publisher}</li>
-                    <li class="list-group-item"><b>ISBN-10:</b> ${infoDisplayTaboos.ISBN.isbnTen}</li>
-                    <li class="list-group-item"><b>ISBN-13:</b> ${infoDisplayTaboos.ISBN.isbnThirteen}</li>
-                    <li class="list-group-item"><b>On The Page Number:</b> ${infoDisplayTaboos.ISBN.pageNumber}</li>
-                </ul>
-                <div class="card-body" style="text-align: center;">
-                    <a href="${infoDisplayTaboos.ISBN.url}" class="card-link" style="font-weight: bolder;">Buy This Book.</a>
-                </div>
-            </div>
-         </div>
+           
             
             `;
          })
@@ -193,28 +165,22 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
         
             
             <b>Name ${infoDisplayNames.id} </b><br><blockquote>\"${infoDisplayNames.translation.Yoruba}\"</blockquote>${infoDisplayNames.translation.ENG}
-            <br><p><a  data-bs-toggle="collapse" href="#namesBibliography${infoDisplayNames.id}" role="button" aria-expanded="false" aria-controls="namesBibliography${infoDisplayNames.id}">Bibliography </a></p>        
-        
-         <div class="collapse" id="namesBibliography${infoDisplayNames.id}">				
-            <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
-                <img src="${infoDisplayNames.ISBN.coverbookPicture}" class="card-img-top" alt="${infoDisplayNames.ISBN.nameOftheBook}"style="width:200px; height:270px; margin-left:auto;
-                margin-right:auto; margin-top: 20px;">
-                <div class="card-body">
-                    <h3 class="card-title" style="text-align: center;">${infoDisplayNames.ISBN.nameOftheBook}</h3>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><b>Author:</b> ${infoDisplayNames.ISBN.Author}</li>
-                    <li class="list-group-item"><b>Editor:</b> ${infoDisplayNames.ISBN.editor}</li>
-                    <li class="list-group-item"><b>Publisher:</b> ${infoDisplayNames.ISBN.publisher}</li>
-                    <li class="list-group-item"><b>ISBN-10:</b> ${infoDisplayNames.ISBN.isbnTen}</li>
-                    <li class="list-group-item"><b>ISBN-13:</b> ${infoDisplayNames.ISBN.isbnThirteen}</li>
-                    <li class="list-group-item"><b>On The Page Number:</b> ${infoDisplayNames.ISBN.pageNumber}</li>
-                </ul>
-                <div class="card-body" style="text-align: center;">
-                    <a href="${infoDisplayNames.ISBN.url}" class="card-link" style="font-weight: bolder;">Buy This Book.</a>
+            <br>
+            <p>       
+            <a 
+                data-bs-toggle="collapse" 
+                href="#namesBibliographyFetched${infoDisplayNames.id}"  
+                role="button" 
+                aria-expanded="false" 
+                aria-controls="namesBibliography${infoDisplayNames.id}" 
+                onclick="fetchBibliography(${infoDisplayNames.translation.ISBN}, 'idnamesBibliographyFetched${infoDisplayNames.id}');">Bibliography</a></p>
+    
+            <div class="collapse" id="namesBibliographyFetched${infoDisplayNames.id}">				
+                <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+                     <div id="idnamesBibliographyFetched${infoDisplayNames.id}"></div>
                 </div>
             </div>
-         </div>
+
             
             `;
          })
@@ -228,34 +194,28 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
 
         //start of the medicines in ENGLISH
         medicineshtmlOutPut = dataFromJSON[oduForTheJSON]['medicines'].map(infoDisplayMedicines => { //route to retreieve the information --- can be change but need to be update on all the places.
-;
+
             //below code "return" the HTML code
             return `
  
             
             <b>Medicine ${infoDisplayMedicines.id} </b><br>${infoDisplayMedicines.translation.ENG}
-            <p><a  data-bs-toggle="collapse" href="#medicinesBibliography${infoDisplayMedicines.id}" role="button" aria-expanded="false" aria-controls="medicinesBibliography${infoDisplayMedicines.id}">Bibliography</a></p>        
- 
-         <div class="collapse" id="medicinesBibliography${infoDisplayMedicines.id}">				
-            <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
-                <img src="${infoDisplayMedicines.ISBN.coverbookPicture}" class="card-img-top" alt="${infoDisplayMedicines.ISBN.nameOftheBook}"style="width:200px; height:270px; margin-left:auto;
-                margin-right:auto; margin-top: 20px;">
-                <div class="card-body">
-                    <h3 class="card-title" style="text-align: center;">${infoDisplayMedicines.ISBN.nameOftheBook}</h3>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><b>Author:</b> ${infoDisplayMedicines.ISBN.Author}</li>
-                    <li class="list-group-item"><b>Editor:</b> ${infoDisplayMedicines.ISBN.editor}</li>
-                    <li class="list-group-item"><b>Publisher:</b> ${infoDisplayMedicines.ISBN.publisher}</li>
-                    <li class="list-group-item"><b>ISBN-10:</b> ${infoDisplayMedicines.ISBN.isbnTen}</li>
-                    <li class="list-group-item"><b>ISBN-13:</b> ${infoDisplayMedicines.ISBN.isbnThirteen}</li>
-                    <li class="list-group-item"><b>On The Page Number:</b> ${infoDisplayMedicines.ISBN.pageNumber}</li>
-                </ul>
-                <div class="card-body" style="text-align: center;">
-                    <a href="${infoDisplayMedicines.ISBN.url}" class="card-link" style="font-weight: bolder;">Buy This Book.</a>
+            <p>
+            <a 
+                data-bs-toggle="collapse" 
+                href="#medicinesBibliographyFetched${infoDisplayMedicines.id}"  
+                role="button" 
+                aria-expanded="false" 
+                aria-controls="medicinesBibliography${infoDisplayMedicines.id}" 
+                onclick="fetchBibliography(${infoDisplayMedicines.translation.ISBN}, 'idmedicinesBibliographyFetched${infoDisplayMedicines.id}');">Bibliography</a></p>
+
+            <div class="collapse" id="medicinesBibliographyFetched${infoDisplayMedicines.id}">				
+                <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+                     <div id="idmedicinesBibliographyFetched${infoDisplayMedicines.id}"></div>
                 </div>
             </div>
-         </div>
+ 
+
             
             `;
          })
@@ -266,51 +226,60 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
              .insertAdjacentHTML("afterbegin" , medicineshtmlOutPut);// insert the text exactly after the id declared above
         //end of the medicines in ENGLISH
 
-
         //start of the orisas in ENGLISH
-        orisashtmlOutPut = dataFromJSON[oduForTheJSON]['orisas'].map(infoDisplayOrisas => { //route to retreieve the information --- can be change but need to be update on all the places.
-            //below code "return" the HTML code
-;
-            return `
+        orisashtmlOutPut = orisasHtmlOutputENG();
+        function orisasHtmlOutputENG(){
+        document.getElementById('orisasDataInEnglish').innerHTML = "";
+        for (let i = 0; i < dataFromJSON[oduForTheJSON].orisas.length; i++) {
+            const loopToAllTheOrisasCreated = dataFromJSON[oduForTheJSON].orisas[i].reasonsENG; //iterates to all the reasons on all the orisas created
+            const loopToAllTheISBNCreated = dataFromJSON[oduForTheJSON].orisas[i].reasonsISBN;
+            var firstLevelOfLoopedInformationForAllTheOrisasCreated =`
+            <p><b>Orisa Name: </b><a href="${dataFromJSON[oduForTheJSON].orisas[i].orisaURL}">${dataFromJSON[oduForTheJSON].orisas[i].orisaName}</a><br>
+            <b>Reasons</b></p>
+            <ul>
+            <div id="reasons${dataFromJSON[oduForTheJSON].orisas[i].id}"></div>
+            </ul>`;
+            document
+              .querySelector('#orisasDataInEnglish') //id where to put the info
+              .insertAdjacentHTML("afterbegin" , firstLevelOfLoopedInformationForAllTheOrisasCreated)
         
+              valuesOfreasonsLoopENG = Object.values(loopToAllTheOrisasCreated);//iterates to all the values of the reasons
+              valuesOfreasonsISBN =  Object.values(loopToAllTheISBNCreated);//iterates to all the values of the ISBN
+              keysOfreasonsISBN =   Object.keys(loopToAllTheISBNCreated);
             
-            <p><b>${infoDisplayOrisas.id}. Orisa Name: </b> <a href="${infoDisplayOrisas.orisanames.orisaUrl}"> ${infoDisplayOrisas.orisanames.nameInYoruba}</a><br>
-            <b>  Reasons: </b> ${infoDisplayOrisas.reasonsInENG}<p>
-            `
-            //<a  data-bs-toggle="collapse" onclick="fetchBibliography (${infoDisplayOrisas.reasons.ISBN.isbnTen}, ${infoDisplayOrisas.reasons.ISBN.isbnThirteen})" role="button" aria-expanded="false" aria-controls="orisasBibliography${infoDisplayOrisas.id}">Bibliography</a></p>        
-            // href="#orisasBibliography${infoDisplayOrisas.id}""
-        //     <div class="collapse" id="orisasBibliography${infoDisplayOrisas.id}">				
-        //     <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
-        //         <img src="${infoDisplayOrisas.orisanames.reason.ISBN.coverbookPicture}" class="card-img-top" alt="${infoDisplayOrisas.orisanames.reason.ISBN.nameOftheBook}"style="width:200px; height:270px; margin-left:auto;
-        //         margin-right:auto; margin-top: 20px;">
-        //         <div class="card-body">
-        //             <h3 class="card-title" style="text-align: center;">${infoDisplayOrisas.orisanames.reason.ISBN.nameOftheBook}</h3>
-        //         </div>
-        //         <ul class="list-group list-group-flush">
-        //             <li class="list-group-item"><b>Author:</b> ${infoDisplayOrisas.orisanames.reasons.ISBN.Author}</li>
-        //             <li class="list-group-item"><b>Editor:</b> ${infoDisplayOrisas.orisanames.reasons.ISBN.editor}</li>
-        //             <li class="list-group-item"><b>Publisher:</b> ${infoDisplayOrisas.orisanames.reasons.ISBN.publisher}</li>
-        //             <li class="list-group-item"><b>ISBN-10:</b> ${infoDisplayOrisas.orisanames.reasons.ISBN.isbnTen}</li>
-        //             <li class="list-group-item"><b>ISBN-13:</b> ${infoDisplayOrisas.orisanames.reasons.ISBN.isbnThirteen}</li>
-        //             <li class="list-group-item"><b>On The Page Number:</b> ${infoDisplayOrisas.orisanames.reasons.ISBN.pageNumber}</li>
-        //         </ul>
-        //         <div class="card-body" style="text-align: center;">
-        //             <a href="${infoDisplayOrisas.orisanames.reason.ISBN.url}" class="card-link" style="font-weight: bolder;">Buy This Book.</a>
-        //         </div>
-        //     </div>
-        //  </div>
-
-
-
+          for (let j = 0; j < (valuesOfreasonsLoopENG.length) && (valuesOfreasonsISBN.length)  && (keysOfreasonsISBN.length); j++) {
+            console.log();  
+            const elementlooped = `<li>${valuesOfreasonsLoopENG[j]} <a 
+             
+            data-bs-toggle="collapse" 
+            href="#Orisa${dataFromJSON[oduForTheJSON].orisas[i].orisaNonSpecialCharactername}Bibliography${keysOfreasonsISBN[j]}Fetched"  
+            role="button" 
+            aria-expanded="false" 
+            aria-controls="Orisa${dataFromJSON[oduForTheJSON].orisas[i].orisaNonSpecialCharactername}Bibliography${keysOfreasonsISBN[j]}Fetched" 
+            onclick="fetchBibliography(${valuesOfreasonsISBN[j]}, 'idOrisa${dataFromJSON[oduForTheJSON].orisas[i].orisaNonSpecialCharactername}Bibliography${keysOfreasonsISBN[j]}Fetched');">Bibliography</a></li>
+               
+                <div class="collapse" id="Orisa${dataFromJSON[oduForTheJSON].orisas[i].orisaNonSpecialCharactername}Bibliography${keysOfreasonsISBN[j]}Fetched">				
+                <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+                     <div id="idOrisa${dataFromJSON[oduForTheJSON].orisas[i].orisaNonSpecialCharactername}Bibliography${keysOfreasonsISBN[j]}Fetched"></div>
+                </div>
+                </div>
+        
+            `;    
             
-            ;
-         })
-         .join('');//transform the HTML in a string
-         //console.log(orisashtmlOutPut) //log to grab all the info and put it into the HTML--- this can be deleted.
-         document
-             .querySelector('#orisasDataInEnglish') //id where to put the info
-             .insertAdjacentHTML("afterbegin" , orisashtmlOutPut);// insert the text exactly after the id declared above
-        //end of the orisas in ENGLISH
+              document
+              .querySelector(`#reasons${dataFromJSON[oduForTheJSON].orisas[i].id}`) //id where to put the info
+              .insertAdjacentHTML("afterbegin" , elementlooped);
+        
+              //console.log(`${elementlooped}`);
+            
+          }
+          
+        } 
+        
+        
+        
+        }
+         //end of the orisas in ENGLISH
 
         //start of the orisas consagration in ENGLISH
         orisasConsagrationhtmlOutPut = dataFromJSON[oduForTheJSON]['orisasConsagration'].map(infoDisplayOrisasConsagration => { //route to retreieve the information --- can be change but need to be update on all the places.
@@ -319,28 +288,21 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
         
             
             <b>${infoDisplayOrisasConsagration.id} </b>${infoDisplayOrisasConsagration.translation.ENG}<br>
-            <br><p><a  data-bs-toggle="collapse" href="#medicinesBibliography${infoDisplayOrisasConsagration.id}" role="button" aria-expanded="false" aria-controls="medicinesBibliography${infoDisplayOrisasConsagration.id}">Bibliography of Verse ${infoDisplayOrisasConsagration.id}</a></p>        
-        
-         <div class="collapse" id="medicinesBibliography${infoDisplayOrisasConsagration.id}">				
-            <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
-                <img src="${infoDisplayOrisasConsagration.ISBN.coverbookPicture}" class="card-img-top" alt="${infoDisplayOrisasConsagration.ISBN.nameOftheBook}"style="width:200px; height:270px; margin-left:auto;
-                margin-right:auto; margin-top: 20px;">
-                <div class="card-body">
-                    <h3 class="card-title" style="text-align: center;">${infoDisplayOrisasConsagration.ISBN.nameOftheBook}</h3>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><b>Author:</b> ${infoDisplayOrisasConsagration.ISBN.Author}</li>
-                    <li class="list-group-item"><b>Editor:</b> ${infoDisplayOrisasConsagration.ISBN.editor}</li>
-                    <li class="list-group-item"><b>Publisher:</b> ${infoDisplayOrisasConsagration.ISBN.publisher}</li>
-                    <li class="list-group-item"><b>ISBN-10:</b> ${infoDisplayOrisasConsagration.ISBN.isbnTen}</li>
-                    <li class="list-group-item"><b>ISBN-13:</b> ${infoDisplayOrisasConsagration.ISBN.isbnThirteen}</li>
-                    <li class="list-group-item"><b>On The Page Number:</b> ${infoDisplayOrisasConsagration.ISBN.pageNumber}</li>
-                </ul>
-                <div class="card-body" style="text-align: center;">
-                    <a href="${infoDisplayOrisasConsagration.ISBN.url}" class="card-link" style="font-weight: bolder;">Buy This Book.</a>
+            <br>
+            <p>
+                <a 
+                data-bs-toggle="collapse" 
+                href="#orisasConsagrationBibliographyFetched${infoDisplayOrisasConsagration.id}"  
+                role="button" 
+                aria-expanded="false" 
+                aria-controls="orisasConsagrationBibliography${infoDisplayOrisasConsagration.id}" 
+                onclick="fetchBibliography(${infoDisplayOrisasConsagration.translation.ISBN}, 'idorisasConsagrationBibliographyFetched${infoDisplayOrisasConsagration.id}');">Bibliography</a></p>
+
+            <div class="collapse" id="orisasConsagrationBibliographyFetched${infoDisplayOrisasConsagration.id}">				
+                <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+                     <div id="idorisasConsagrationBibliographyFetched${infoDisplayOrisasConsagration.id}"></div>
                 </div>
             </div>
-         </div>
             
             `;
          })
@@ -367,40 +329,3 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
 
 
 }
-
-
-function fetchBibliography (isbnTenValue, isbnThirteenValue){
-
-//Start of the fetch
-fetch ("data\\books\\booksData.json").then(response =>{ //url of the json
-    //console.log(response);//load if the json was loaded --- this can be deleted.
-    if (!response.ok){
-        throw Error ("ERROR");
-    }
-    return response.json();
-})
-//end of the fetch
-.then(dataFromJSON =>{ 
-    for (let i = 0; i < dataFromJSON.length; i++) {
-        if (dataFromJSON[i][isbnTen] == isbnTenValue || dataFromJSON[i][isbnThirteen] == isbnThirteenValue) {
-            return console.log(dataFromJSON[i][nameOftheBook]);
-        }
-        
-    }
-    
-    
-    
-    }//closer for dataFromJSON  
-    )//Ending of the .then  
-    //start of the catch error    
-    .catch(error => {
-        console.log(error);
-    });
-    //end of the catch error
-
-
-
-
-}
-
-
