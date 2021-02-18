@@ -1,196 +1,312 @@
 {
     "ogundaMeji":{
-        "ebbos":[
-        {
-            "id": 1, 
-            "translation":{
-                "ENG":"this is the test in eng",
-                "SPA":"esta es la prueba en espanol",
-                "POR":"esta es la prueba en portugues",
-                "Yoruba":"this is the prueba in yoruba"
-            },
-            "ISBN":{
-                "isbnTen":"",
-                "isbnThirteen":""
-                },
-            "pageNumber": 0,
-            "url": "",
-            "coverbookPictures": ""
-         },
-         {
-            "id": 2, 
-            "Translation":{
-                "ENG":"this is the test in eng",
-                "SPA":"esta es la prueba en espanol",
-                "POR":"esta es la prueba en portugues",
-                "Yoruba":"this is the prueba in yoruba"
-            },
-            "ISBN":{
-                "isbnTen":"",
-                "isbnThirteen":""
-                },
-            "pageNumber": 0,
-            "url": "",
-            "coverbookPictures": ""
-         },
-         {
-            "id": 3, 
-            "Translation":{
-                "ENG":"this is the test in eng",
-                "SPA":"esta es la prueba en espanol",
-                "POR":"esta es la prueba en portugues",
-                "Yoruba":"this is the prueba in yoruba"
-            },
-            "ISBN":{
-                "isbnTen":"",
-                "isbnThirteen":""
-                },
-            "pageNumber": 0,
-            "url": "",
-            "coverbookPictures": ""
-         },
-         {
-            "id": 4, 
-            "Translation":{
-                "ENG":"this is the test in eng",
-                "SPA":"esta es la prueba en espanol",
-                "POR":"esta es la prueba en portugues",
-                "Yoruba":"this is the prueba in yoruba"
-            },
-            "ISBN":{
-                "isbnTen":"",
-                "isbnThirteen":""
-                },
-            "pageNumber": 0,
-            "url": "",
-            "coverbookPictures": ""
-         }
+        "ebo":[
+            {
+                "id": 1, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 2, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 3, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji"
+                }
+             },
+             {
+                "id": 4, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji"
+                }
+             }
         ],
         "verses":[
-        {
-            "id": 1, 
-            "Translation":{
-                "ENG":"this is the test in eng",
-                "SPA":"esta es la prueba en espanol",
-                "POR":"esta es la prueba en portugues",
-                "Yoruba":"this is the prueba in yoruba"
-            },
-            "ISBN":{
-                "isbnTen":"",
-                "isbnThirteen":""
-                },
-            "pageNumber": 0,
-            "url": "",
-            "coverbookPictures": ""
-         }
+            {
+                "id": 1, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 2, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 3, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji",
+                    "ISBN": "0981001319"
+                }
+             }
         ],
         "taboos":[
-        {
-            "id": 1, 
-            "Translation":{
-                "ENG":"this is the test in eng",
-                "SPA":"esta es la prueba en espanol",
-                "POR":"esta es la prueba en portugues",
-                "Yoruba":"this is the prueba in yoruba"
-            },
-            "ISBN":{
-                "isbnTen":"",
-                "isbnThirteen":""
-                },
-            "pageNumber": 0,
-            "url": "",
-            "coverbookPictures": ""
-         }
+            {
+                "id": 1, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji",
+                    "ISBN": "0981001319"
+                }
+             }
         ],
         "names":[
-        {
-            "id": 1, 
-            "Translation":{
-                "ENG":"this is the test in eng",
-                "SPA":"esta es la prueba en espanol",
-                "POR":"esta es la prueba en portugues",
-                "Yoruba":"this is the prueba in yoruba"
-            },
-            "ISBN":{
-                "isbnTen":"",
-                "isbnThirteen":""
-                },
-            "pageNumber": 0,
-            "url": "",
-            "coverbookPictures": ""
-         }
+            {
+                "id": 1, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 2, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 3, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 4, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji",
+                    "ISBN": "0981001319"
+                }
+             } 
         ],
         "generalDescription":[
-        {
-            "id": 1, 
-            "Translation":{
-                "ENG":"this is the test in eng",
-                "SPA":"esta es la prueba en espanol",
-                "POR":"esta es la prueba en portugues",
-                "Yoruba":"this is the prueba in yoruba"
-            },
-            "ISBN":{
-                "isbnTen":"",
-                "isbnThirteen":""
-                },
-            "pageNumber": 0,
-            "url": "",
-            "coverbookPictures": ""
-         }
+            {
+                "id": 1, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji",
+                    "ISBN": "0981001319"
+
+                }
+             },
+             {
+                "id": 2, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 3, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 4, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji",
+                    "ISBN": "0981001319"
+                }
+             }
         ],
         "medicines":[
-        {
-            "id": 1, 
-            "Translation":{
-                "ENG":"this is the test in eng",
-                "SPA":"esta es la prueba en espanol",
-                "POR":"esta es la prueba en portugues",
-                "Yoruba":"this is the prueba in yoruba"
-            },
-            "ISBN":{
-                "isbnTen":"",
-                "isbnThirteen":""
-                },
-            "pageNumber": 0,
-            "url": "",
-            "coverbookPictures": ""
-         }
+            {
+                "id": 1, 
+                "translation":{
+                    "ENG":"this is the test of medicine in eng  at ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 2, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 3, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 4, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji",
+                    "ISBN": "0981001319"
+                }
+             }
         ],
         "orisas":[
-        {
-            "id": 1, 
-            "Translation":{
-                "ENG":"this is the test in eng",
-                "SPA":"esta es la prueba en espanol",
-                "POR":"esta es la prueba en portugues",
-                "Yoruba":"this is the prueba in yoruba"
+            
+            {
+                "id": 1,
+                "orisaName": "yemoja",
+                "orisaNonSpecialCharactername": "yemoja",
+                "otherNames": ["yemaya", "lemanja", "iemanja"],
+                "orisaURL": "#",
+                "reasonsENG":
+                    {
+                        "1": "this is the yemoja test in eng for ogundaMeji",
+                        "2": "this is the yemoja test in eng for ogundaMeji"
+                    },
+                "reasonsSPA":
+                    {
+                        "1": "this is the yemoja test in eng for ogundaMeji",
+                        "2": "this is the yemoja test in eng for ogundaMeji"
+                    },
+                "reasonsPOR":
+                    {
+                        "1": "this is the yemoja test in eng for ogundaMeji",
+                        "2": "this is the yemoja test in eng for ogundaMeji"
+                    },
+                "reasonsISBN":
+                    {
+                        "1": 9780981001319,
+                        "2": 9780981001319
+                    }
             },
-            "ISBN":{
-                "isbnTen":"",
-                "isbnThirteen":""
+            {   
+                "id": 2,
+                "orisaName": "sango",
+                "orisaNonSpecialCharactername": "sango",
+                "otherNames": ["xango", "chango"],
+                "orisaURL": "#",
+                "reasonsENG":
+                {
+                    "1": "this is the sango test in eng for ogundaMeji",
+                    "2": "this is the sango test in eng for ogundaMeji"
                 },
-            "pageNumber": 0,
-            "url": "",
-            "coverbookPictures": ""
-         }
+                "reasonsSPA":               {
+                    "1": "this is the sango test in eng for ogundaMeji",
+                    "2": "this is the sango test in eng for ogundaMeji"
+                },
+                "reasonsPOR":               {
+                    "1": "this is the sango test in eng for ogundaMeji",
+                    "2": "this is the sango test in eng for ogundaMeji"
+                },
+                "reasonsISBN":{
+                    "1": 9780981001319,
+                    "2": 9780981001319
+                }
+            } 
+            
         ],
         "orisasConsagration":[
-        {
-            "id": 1, 
-            "Translation":{
-                "ENG":"this is the test in eng",
-                "SPA":"esta es la prueba en espanol",
-                "POR":"esta es la prueba en portugues",
-                "Yoruba":"this is the prueba in yoruba"
-            },
-            "ISBN":{
-                "isbnTen":"",
-                "isbnThirteen":""
-                },
-            "pageNumber": 0,
-            "url": "",
-            "coverbookPictures": ""
-         }
+            {
+                "id": 1, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji consagration",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji",
+                    "ISBN": "0981001319"                    
+                }
+             },
+             {
+                "id": 2, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 3, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 4, 
+                "translation":{
+                    "ENG":"this is the test in eng ogundaMeji",
+                    "SPA":"esta es la prueba en espanol ogundaMeji",
+                    "POR":"esta es la prueba en portugues",
+                    "Yoruba":"this is the prueba in yoruba ogundaMeji",
+                    "ISBN": "0981001319"
+                }
+             }
         ]
     }
 }

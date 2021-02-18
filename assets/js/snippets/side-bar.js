@@ -17,38 +17,27 @@ document.write(`					<div id="sidebar">
                 <li><a href="generic.html">Generic</a></li>
                 <li><a href="elements.html">Elements</a></li>
                 <li>
-                    <span class="opener">Orisas</span>
-                    <ul>
-                        <li><a href="#">Lorem Dolor</a></li>
-                        <li><a href="#">Ipsum Adipiscing</a></li>
-                        <li><a href="#">Tempus Magna</a></li>
-                        <li><a href="#">Feugiat Veroeros</a></li>
-                    </ul>
-                    
-                </li>
-                <li><a href="#">Etiam Dolore</a></li>
-                <li><a href="#">Adipiscing</a></li>
-                <li>
                     <span class="opener">Odus</span>
                     <ul>
-                        <li><a href="#">Lorem Dolor</a></li>
-                        <li><a href="#">Ipsum Adipiscing</a></li>
-                        <li><a href="#">Tempus Magna</a></li>
-                        <li><a href="#">Feugiat Veroeros</a></li>
+                        <li><a href="Odu-Hierarchy.html">Odu Hierarchies</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Maximus Erat</a></li>
-                <li><a href="#">Sapien Mauris</a></li>
-                <li><a href="#">Amet Lacinia</a></li>
+                <li>
+                    <span class="opener">Orisas</span>
+                    <ul>
+                        <li><a href="#">Yemoja</a></li>
+                        <li><a href="#">Sango</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
 
 
         <section>
             <header class="major">
-                <h2>Get in touch</h2>
+                <h2>Info About this Project</h2>
             </header>
-            <p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+            <p>I decide to create this web to have all my ifa and orisa information in one place and make an easy and free study for babalawos around the world.</p>
             <ul class="contact">
                 <li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
             </ul>

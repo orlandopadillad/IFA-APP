@@ -6,15 +6,15 @@ var first_left = true;
 var second_left = true;
 var third_left = true;
 var fourth_left = true;
-var odus = ["Eji-Ogbe", "Oyeku-Meji", "iwori-Meji" ,"Idi-Meji" ,"Obara-Meji", "Okonron-Meji", "Irosun-Meji", "Owanrin-Meji", "Ogunda-Meji", "Osa-Meji", "Etura-Meji", "Irete-Meji", "Eka-Meji", "Eturukpon-Meji", "Ose-Meji", "Ofun-Meji", "Ogbe-Oyekun", "Ogbe-Iwori","Ogbe-Idi","Ogbe-Obara","Ogbe-Okonron","Ogbe-Irosun","Ogbe-Owanrin","Ogbe-Ogunda","Ogbe-Osa","Ogbe-Etura","Ogbe-Irete","Ogbe-Eka","Ogbe-Eturukpon","Ogbe-Ose","Ogbe-Ofun","Oyeku-Lo-Ogbe","Oyeku-Bi-Iwori","Oyeku-Di","Oyeku-Obara","Oyeku-Okonron","Oyeku-Irosun","Oyeku-Owanrin","Oyeku-Ogunda","Oyeku-Osa","Oyeku-Etura","Oyeku-Irete","Oyeku-Eturukpon","Oyeku-Be-Eka","Oyeku-Ose","Oyeku-Ofun","Iwori-Bo-Ogbe","Iwori-Oyeku","Iwori-Idi","Iwori-Obara","Iwori-Okonron","Iwori-Irosun","Iwori-Owanrin","Iwori-Ogunda","Iwori-Osa","Iwori-Etura","Iwori-Irete","Iwori-Eka","Iwori-Eturukpon","Iwori-Ose","Iwori-Ofun","Idi-Ogbe","Idi-Oyeku","Idi-Iwori","Idi-Obara","Idi-Okonron","Idi-Irosun","Idi-Owanrin","Idi-Ogunda","Idi-Osa","Idi-Etura","Idi-Irete","Idi-Eturukpon","Idi-Eka","Idi-Ose","Idi-Ofun","Obara-Ogbe","Obara-Oyeku","Obara-Iwori","Obara-Idi","Obara-Okonron","Obara-Irosun","Obara-Owanrin","Obara-Ogunda","Obara-Osa","Obara-Etura","Obara-Irete","Obara-Eka","Obara-Eturukpon","Obara-Ose","Obara-Ofun","Okonron-Ogbe","Okonron-Oyeku","Okonron-Iwori","Okonron-Idi","Okonron-Obara","Okonron-Irosun","Okonron-Owanrin","Okonron-Ogunda","Okonron-Osa","Okonron-Etura","Okonron-Irete","Okonron-Eka","Okonron-Eturukpon","Okonron-Ose","Okonron-Ofun","Irosun-Ogbe","Irosun-Oyeku","Irosun-Iwori","Irosun-Idi","Irosun-Obara","Irosun-Okonron","Irosun-Owanrin","Irosun-Ogunda","Irosun-Osa","Irosun-Etura","Irosun-Irete","Irosun-Eka","Irosun-Eturukpon","Irosun-Ose","Irosun-Ofun","Owanrin-So-Ogbe","Owanrin-Oyeku","Owanrin-Iwori","Owanrin-Idi","Owanrin-Obara","Owanrin-Okonron","Owanrin-Irosun","Owanrin-Ogunda","Owanrin-Osa","Owanrin-Etura","Owanrin-Irete","Owanrin-Eka","Owanrin-Eturukpon","Owanrin-Ose","Owanrin-Ofun","Ogunda-Ogbe","Ogunda-Oyeku","Ogunda-Iwori","Ogunda-Idi","Ogunda-Obara","Ogunda-Okonron","Ogunda-Irosun","Ogunda-Owanrin","Ogunda-Osa","Ogunda-Etura","Ogunda-Irete","Ogunda-Eka","Ogunda-Eturukpon","Ogunda-Ose","Ogunda-Ofun","Osa-Ogbe","Osa-Oyeku","Osa-Iwori","Osa-Idi","Osa-Obara","Osa-Okonron","Osa-Irosun","Osa-Ogunda","Osa-Owanrin","Osa-Etura","Osa-Irete","Osa-Eka","Osa-Eturukpon","Osa-Ose","Osa-Ofun","Etura-Ogbe","Etura-Oyeku","Etura-Iwori","Etura-Idi","Etura-Obara","Etura-Okonron","Etura-Irosun","Etura-Ogunda","Etura-Owanrin","Etura-Osa","Etura-Irete","Etura-Eka","Etura-Eturukpon","Etura-Ose","Etura-Ofun","Irete-Ogbe","Irete-Oyeku","Irete-Iwori","Irete-Idi","Irete-Obara","Irete-Okonron","Irete-Irosun","Irete-Ogunda","Irete-Owanrin","Irete-Osa","Irete-Etura","Irete-Eka","Irete-Eturukpon","Irete-Ose","Irete-Ofun","Eka-Ogbe","Eka-Oyeku","Eka-Iwori","Eka-Idi","Eka-Obara","Eka-Okonron","Eka-Irosun","Eka-Ogunda","Eka-Owanrin","Eka-Osa","Eka-Etura","Eka-Irete","Eka-Eturukpon","Eka-Ose","Eka-Ofun","Eturukpon-Ogbe","Eturukpon-Oyeku","Eturukpon-Iwori","Eturukpon-Idi","Eturukpon-Obara","Eturukpon-Okonron","Eturukpon-Irosun","Eturukpon-Ogunda","Eturukpon-Owanrin","Eturukpon-Osa","Eturukpon-Etura","Eturukpon-Irete","Eturukpon-Eka","Eturukpon-Ose","Eturukpon-Ofun","Ose-Ogbe","Ose-Oyeku","Ose-Iwori","Ose-Idi","Ose-Obara","Ose-Okonron","Ose-Irosun","Ose-Ogunda","Ose-Owanrin","Ose-Osa","Ose-Etura","Ose-Irete","Ose-Eka","Ose-Eturukpon","Ose-Ofun","Ofun-Ogbe","Ofun-Oyeku","Ofun-Iwori","Ofun-Idi","Ofun-Obara","Ofun-Okonron","Ofun-Irosun","Ofun-Ogunda","Ofun-Owanrin","Ofun-Osa","Ofun-Etura","Ofun-Irete","Ofun-Eka","Ofun-Eturukpon","Ofun-Ose"];
+var odus = ["Èjì Ogbè","Òyèkú Méjì","Ìwòrì Méjì","Òdí Méjì","Ìrosùn Méjì","Ọ̀wọ́nrín Méjì","Ọ̀bàrà Méjì","Ọ̀kànràn Méjì","Ògúndá Méjì","Ọ̀sá Méjì","Ìká Méjì","Òtúrúpòn Méjì","Òtúá Méjì","Ìrẹtẹ̀ Méjì","Ọ̀sẹ́ Méjì","Òfún Méjì","Ogbè Òyèkú","Ogbè Ìwòrì","Ogbè Òdí","Ogbè Ìrosùn","Ogbè Ọ̀wọ́nrín","Ogbè Ọ̀bàrà","Ogbè Ọ̀kànràn","Ogbè Ògúndá","Ogbè Ọ̀sá","Ogbè Ìká","Ogbè Òtúrúpòn","Ogbè Òtúá","Ogbè Ìrẹtẹ̀","Ogbè Ọ̀sẹ́","Ogbè Òfún","Òyèkú Ogbè","Òyèkú Ìwòrì","Òyèkú Òdí","Òyèkú Ìrosùn","Òyèkú Ọ̀wọ́nrín","Òyèkú Ọ̀bàrà","Òyèkú Ọ̀kànràn","Òyèkú Ògúndá","Òyèkú Ọ̀sá","Òyèkú Ìká","Òyèkú Òtúrúpòn","Òyèkú Òtúá","Òyèkú Ìrẹtẹ̀","Òyèkú Ọ̀sẹ́","Òyèkú Òfún","Ìwòrì Ogbè","Ìwòrì Òyèkú","Ìwòrì Òdí","Ìwòrì Ìrosùn","Ìwòrì Ọ̀wọ́nrín","Ìwòrì Ọ̀bàrà","Ìwòrì Ọ̀kànràn","Ìwòrì Ògúndá","Ìwòrì Ọ̀sá","Ìwòrì Ìká","Ìwòrì Òtúrúpòn","Ìwòrì Òtúá","Ìwòrì Ìrẹtẹ̀","Ìwòrì Ọ̀sẹ́","Ìwòrì Òfún","Òdí Ogbè","Òdí Òyèkú","Òdí Ìwòrì","Òdí Ìrosùn","Òdí Ọ̀wọ́nrín","Òdí Ọ̀bàrà","Òdí Ọ̀kànràn","Òdí Ògúndá","Òdí Ọ̀sá","Òdí Ìká","Òdí Òtúrúpòn","Òdí Òtúá","Òdí Ìrẹtẹ̀","Òdí Ọ̀sẹ́","Òdí Òfún","Ìrosùn Ogbè","Ìrosùn Òyèkú","Ìrosùn Ìwòrì","Ìrosùn Òdí","Ìrosùn Ọ̀wọ́nrín","Ìrosùn Ọ̀bàrà","Ìrosùn Ọ̀kànràn","Ìrosùn Ògúndá","Ìrosùn Ọ̀sá","Ìrosùn Ìká","Ìrosùn Òtúrúpòn","Ìrosùn Òtúá","Ìrosùn Ìrẹtẹ̀","Ìrosùn Ọ̀sẹ́","Ìrosùn Òfún","Ọ̀wọ́nrín Ogbè","Ọ̀wọ́nrín Òyèkú","Ọ̀wọ́nrín Ìwòrì","Ọ̀wọ́nrín Òdí","Ọ̀wọ́nrín Ìrosùn","Ọ̀wọ́nrín Ọ̀bàrà","Ọ̀wọ́nrín Ọ̀kànràn","Ọ̀wọ́nrín Ògúndá","Ọ̀wọ́nrín Ọ̀sá","Ọ̀wọ́nrín Ìká","Ọ̀wọ́nrín Òtúrúpòn","Ọ̀wọ́nrín Òtúá","Ọ̀wọ́nrín Ìrẹtẹ̀","Ọ̀wọ́nrín Ọ̀sẹ́","Ọ̀wọ́nrín Òfún","Ọ̀bàrà Ogbè","Ọ̀bàrà Òyèkú","Ọ̀bàrà Ìwòrì","Ọ̀bàrà Òdí","Ọ̀bàrà Ìrosùn","Ọ̀bàrà Ọ̀wọ́nrín","Ọ̀bàrà Ọ̀kànràn","Ọ̀bàrà Ògúndá","Ọ̀bàrà Ọ̀sá","Ọ̀bàrà Ìká","Ọ̀bàrà Òtúrúpòn","Ọ̀bàrà Òtúá","Ọ̀bàrà Ìrẹtẹ̀","Ọ̀bàrà Ọ̀sẹ́","Ọ̀bàrà Òfún","Ọ̀kànràn Ogbè","Ọ̀kànràn Òyèkú","Ọ̀kànràn Ìwòrì","Ọ̀kànràn Òdí","Ọ̀kànràn Ìrosùn","Ọ̀kànràn Ọ̀wọ́nrín","Ọ̀kànràn Ọ̀bàrà","Ọ̀kànràn Ògúndá","Ọ̀kànràn Ọ̀sá","Ọ̀kànràn Ìká","Ọ̀kànràn Òtúrúpòn","Ọ̀kànràn Òtúá","Ọ̀kànràn Ìrẹtẹ̀","Ọ̀kànràn Ọ̀sẹ́","Ọ̀kànràn Òfún","Ògúndá Ogbè","Ògúndá Òyèkú","Ògúndá Ìwòrì","Ògúndá Òdí","Ògúndá Ìrosùn","Ògúndá Ọ̀wọ́nrín","Ògúndá Ọ̀bàrà","Ògúndá Ọ̀kànràn","Ògúndá Ọ̀sá","Ògúndá Ìká","Ògúndá Òtúrúpòn","Ògúndá Òtúá","Ògúndá Ìrẹtẹ̀","Ògúndá Ọ̀sẹ́","Ògúndá Òfún","Ọ̀sá Ogbè","Ọ̀sá Òyèkú","Ọ̀sá Ìwòrì","Ọ̀sá Òdí","Ọ̀sá Ìrosùn","Ọ̀sá Ọ̀wọ́nrín","Ọ̀sá Ọ̀bàrà","Ọ̀sá kànràn","Ọ̀sá Ògúndá","Ọ̀sá Ìká","Ọ̀sá Òtúrúpòn","Ọ̀sá Òtúá","Ọ̀sá Ìrẹtẹ̀","Ọ̀sá Ọ̀sẹ́","Ọ̀sá Òfún","Ìká Ogbè","Ìká Òyèkú","Ìká Ìwòrì","Ìká Òdí","Ìká Ìrosùn","Ìká Ọ̀wọ́nrín","Ìká Ọ̀bàrà","Ìká Ọ̀kànràn","Ìká Ògúndá","Ìká Ọ̀sá","Ìká Òtúrúpòn","Ìká Òtúá","Ìká Ìrẹtẹ̀","Ìká Ọ̀sẹ́","Ìká Òfún","Òtúrúpòn Ogbè","Òtúrúpòn Òyèkú","Òtúrúpòn Ìwòrì","Òtúrúpòn Òdí","Òtúrúpòn Ìrosùn","Òtúrúpòn Ọ̀wọ́nrín","Òtúrúpòn Ọ̀bàrà","Òtúrúpòn Ọ̀kànràn","Òtúrúpòn Ògúndá","Òtúrúpòn Ọ̀sá","Òtúrúpòn Ìká","Òtúrúpòn Òtúá","Òtúrúpòn Ìrẹtẹ̀","Òtúrúpòn Ọ̀sẹ́","Òtúrúpòn Òfún","Òtúá Ogbè","Òtúá Òyèkú","Òtúá Ìwòrì","Òtúá Òdí","Òtúá Ìrosùn","Òtúá Ọ̀wọ́nrín","Òtúá Ọ̀bàrà","Òtúá Ọ̀kànràn","Òtúá Ògúndá","Òtúá Ọ̀sá","Òtúá Ìká","Òtúá Òtúrúpòn","Òtúá Ìrẹtẹ̀","Òtúá Ọ̀sẹ́","Òtúá Òfún","Ìrẹtẹ̀ Ogbè","Ìrẹtẹ̀ Òyèkú","Ìrẹtẹ̀ Ìwòrì","Ìrẹtẹ̀ Òdí","Ìrẹtẹ̀ Ìrosùn","Ìrẹtẹ̀ Ọ̀wọ́nrín","Ìrẹtẹ̀ Ọ̀bàrà","Ìrẹtẹ̀ Ọ̀kànràn","Ìrẹtẹ̀ Ògúndá","Ìrẹtẹ̀ Ọ̀sá","Ìrẹtẹ̀ Ìká","Ìrẹtẹ̀ Òtúrúpòn","Ìrẹtẹ̀ Òtúá","Ìrẹtẹ̀ Ọ̀sẹ́","Ìrẹtẹ̀ Òfún","Ọ̀sẹ́ Ogbè","Ọ̀sẹ́ Òyèkú","Ọ̀sẹ́ Ìwòrì","Ọ̀sẹ́ Òdí","Ọ̀sẹ́ Ìrosùn","Ọ̀sẹ́ Ọ̀wọ́nrín","Ọ̀sẹ́ Ọ̀bàrà","Ọ̀sẹ́ Ọ̀kànràn","Ọ̀sẹ́ Ògúndá","Ọ̀sẹ́ Ọ̀sá","Ọ̀sẹ́ Ìká","Ọ̀sẹ́ Òtúrúpòn","Ọ̀sẹ́ Òtúá","Ọ̀sẹ́ Ìrẹtẹ̀","Ọ̀sẹ́ Òfún","Òfún Ogbè","Òfún Òyèkú","Òfún Ìwòrì","Òfún Òdí","Òfún Ìrosùn","Òfún Ọ̀wọ́nrín","Òfún Ọ̀bàrà","Òfún Ọ̀kànràn","Òfún Ògúndá","Òfún Ọ̀sá","Òfún Ìká","Òfún Òtúrúpòn","Òfún Òtúá","Òfún Ìrẹtẹ̀","Òfún Ọ̀sẹ́"];
+//var melo = ["Eji-Ogbe", "Oyeku-Meji", "iwori-Meji" ,"Idi-Meji" ,"Obara-Meji", "Okonron-Meji", "Irosun-Meji", "Owanrin-Meji", "Ogunda-Meji", "Osa-Meji", "Etura-Meji", "Irete-Meji", "Eka-Meji", "Eturukpon-Meji", "Ose-Meji", "Ofun-Meji", "Ogbe-Oyekun", "Ogbe-Iwori","Ogbe-Idi","Ogbe-Obara","Ogbe-Okonron","Ogbe-Irosun","Ogbe-Owanrin","Ogbe-Ogunda","Ogbe-Osa","Ogbe-Etura","Ogbe-Irete","Ogbe-Eka","Ogbe-Eturukpon","Ogbe-Ose","Ogbe-Ofun","Oyeku-Lo-Ogbe","Oyeku-Bi-Iwori","Oyeku-Di","Oyeku-Obara","Oyeku-Okonron","Oyeku-Irosun","Oyeku-Owanrin","Oyeku-Ogunda","Oyeku-Osa","Oyeku-Etura","Oyeku-Irete","Oyeku-Eturukpon","Oyeku-Be-Eka","Oyeku-Ose","Oyeku-Ofun","Iwori-Bo-Ogbe","Iwori-Oyeku","Iwori-Idi","Iwori-Obara","Iwori-Okonron","Iwori-Irosun","Iwori-Owanrin","Iwori-Ogunda","Iwori-Osa","Iwori-Etura","Iwori-Irete","Iwori-Eka","Iwori-Eturukpon","Iwori-Ose","Iwori-Ofun","Idi-Ogbe","Idi-Oyeku","Idi-Iwori","Idi-Obara","Idi-Okonron","Idi-Irosun","Idi-Owanrin","Idi-Ogunda","Idi-Osa","Idi-Etura","Idi-Irete","Idi-Eturukpon","Idi-Eka","Idi-Ose","Idi-Ofun","Obara-Ogbe","Obara-Oyeku","Obara-Iwori","Obara-Idi","Obara-Okonron","Obara-Irosun","Obara-Owanrin","Obara-Ogunda","Obara-Osa","Obara-Etura","Obara-Irete","Obara-Eka","Obara-Eturukpon","Obara-Ose","Obara-Ofun","Okonron-Ogbe","Okonron-Oyeku","Okonron-Iwori","Okonron-Idi","Okonron-Obara","Okonron-Irosun","Okonron-Owanrin","Okonron-Ogunda","Okonron-Osa","Okonron-Etura","Okonron-Irete","Okonron-Eka","Okonron-Eturukpon","Okonron-Ose","Okonron-Ofun","Irosun-Ogbe","Irosun-Oyeku","Irosun-Iwori","Irosun-Idi","Irosun-Obara","Irosun-Okonron","Irosun-Owanrin","Irosun-Ogunda","Irosun-Osa","Irosun-Etura","Irosun-Irete","Irosun-Eka","Irosun-Eturukpon","Irosun-Ose","Irosun-Ofun","Owanrin-So-Ogbe","Owanrin-Oyeku","Owanrin-Iwori","Owanrin-Idi","Owanrin-Obara","Owanrin-Okonron","Owanrin-Irosun","Owanrin-Ogunda","Owanrin-Osa","Owanrin-Etura","Owanrin-Irete","Owanrin-Eka","Owanrin-Eturukpon","Owanrin-Ose","Owanrin-Ofun","Ogunda-Ogbe","Ogunda-Oyeku","Ogunda-Iwori","Ogunda-Idi","Ogunda-Obara","Ogunda-Okonron","Ogunda-Irosun","Ogunda-Owanrin","Ogunda-Osa","Ogunda-Etura","Ogunda-Irete","Ogunda-Eka","Ogunda-Eturukpon","Ogunda-Ose","Ogunda-Ofun","Osa-Ogbe","Osa-Oyeku","Osa-Iwori","Osa-Idi","Osa-Obara","Osa-Okonron","Osa-Irosun","Osa-Ogunda","Osa-Owanrin","Osa-Etura","Osa-Irete","Osa-Eka","Osa-Eturukpon","Osa-Ose","Osa-Ofun","Etura-Ogbe","Etura-Oyeku","Etura-Iwori","Etura-Idi","Etura-Obara","Etura-Okonron","Etura-Irosun","Etura-Ogunda","Etura-Owanrin","Etura-Osa","Etura-Irete","Etura-Eka","Etura-Eturukpon","Etura-Ose","Etura-Ofun","Irete-Ogbe","Irete-Oyeku","Irete-Iwori","Irete-Idi","Irete-Obara","Irete-Okonron","Irete-Irosun","Irete-Ogunda","Irete-Owanrin","Irete-Osa","Irete-Etura","Irete-Eka","Irete-Eturukpon","Irete-Ose","Irete-Ofun","Eka-Ogbe","Eka-Oyeku","Eka-Iwori","Eka-Idi","Eka-Obara","Eka-Okonron","Eka-Irosun","Eka-Ogunda","Eka-Owanrin","Eka-Osa","Eka-Etura","Eka-Irete","Eka-Eturukpon","Eka-Ose","Eka-Ofun","Eturukpon-Ogbe","Eturukpon-Oyeku","Eturukpon-Iwori","Eturukpon-Idi","Eturukpon-Obara","Eturukpon-Okonron","Eturukpon-Irosun","Eturukpon-Ogunda","Eturukpon-Owanrin","Eturukpon-Osa","Eturukpon-Etura","Eturukpon-Irete","Eturukpon-Eka","Eturukpon-Ose","Eturukpon-Ofun","Ose-Ogbe","Ose-Oyeku","Ose-Iwori","Ose-Idi","Ose-Obara","Ose-Okonron","Ose-Irosun","Ose-Ogunda","Ose-Owanrin","Ose-Osa","Ose-Etura","Ose-Irete","Ose-Eka","Ose-Eturukpon","Ose-Ofun","Ofun-Ogbe","Ofun-Oyeku","Ofun-Iwori","Ofun-Idi","Ofun-Obara","Ofun-Okonron","Ofun-Irosun","Ofun-Ogunda","Ofun-Owanrin","Ofun-Osa","Ofun-Etura","Ofun-Irete","Ofun-Eka","Ofun-Eturukpon","Ofun-Ose"];
 var right_odu ;
 var left_odu ;
 var odu = odus[0];
 var oduIndexation = 0;
 var oduForTheJSON = "ejiogbe";// set the default value of the odu to grab the json on the "assets\js\jsonfetch\fetchOduInformation.js" also this variable will update automatic
 var oduJSONAddress = 'data\\oduData\\mejis\\ejiogbe.json'//information for the script in "assets\js\jsonfetch\fetchOduInformation.js"
-var ListofOdusNamesForTheJSON = ["ejiogbe", "oyekuMeji", "iworiMeji" ,"idiMeji" ,"obaraMeji", "okonronMeji", "irosunMeji", "owanrinMeji", "ogundaMeji", "osaMeji", "eturaMeji", "ireteMeji", "ekaMeji", "eturukponMeji", "oseMeji", "ofunMeji", "ogbeOyekun", "ogbeIwori","ogbeIdi","ogbeObara","ogbeOkonron","ogbeIrosun","ogbeOwanrin","ogbeOgunda","ogbeOsa","ogbeEtura","ogbeIrete","ogbeEka","ogbeEturukpon","ogbeOse","ogbeOfun","oyekuLoOgbe","oyekubiIwori","oyekuDi","oyekuObara","oyekuOkonron","oyekuIrosun","oyekuOwanrin","oyekuOgunda","oyekuOsa","oyekuEtura","oyekuIrete","oyekuEturukpon","oyekubeEka","oyekuOse","oyekuOfun","iworiboOgbe","iworiOyeku","iworiIdi","iworiObara","iworiOkonron","iworiIrosun","iworiOwanrin","iworiOgunda","iworiOsa","iworiEtura","iworiIrete","iworiEka","iworiEturukpon","iworiOse","iworiOfun","idiOgbe","idiOyeku","idiIwori","idiObara","idiOkonron","idiIrosun","idiOwanrin","idiOgunda","idiOsa","idiEtura","idiIrete","idiEturukpon","idiEka","idiOse","idiOfun","obaraOgbe","obaraOyeku","obaraIwori","obaraIdi","obaraOkonron","obaraIrosun","obaraOwanrin","obaraOgunda","obaraOsa","obaraEtura","obaraIrete","obaraEka","obaraEturukpon","obaraOse","obaraOfun","okonronOgbe","okonronOyeku","okonronIwori","okonronIdi","okonronObara","okonronIrosun","okonronOwanrin","okonronOgunda","okonronOsa","okonronEtura","okonronIrete","okonronEka","okonronEturukpon","okonronOse","okonronOfun","irosunOgbe","irosunOyeku","irosunIwori","irosunIdi","irosunObara","irosunOkonron","irosunOwanrin","irosunOgunda","irosunOsa","irosunEtura","irosunIrete","irosunEka","irosunEturukpon","irosunOse","irosunOfun","owanrinsoOgbe","owanrinOyeku","owanrinIwori","owanrinIdi","owanrinObara","owanrinOkonron","owanrinIrosun","owanrinOgunda","owanrinOsa","owanrinEtura","owanrinIrete","owanrinEka","owanrinEturukpon","owanrinOse","owanrinOfun","ogundaOgbe","ogundaOyeku","ogundaIwori","ogundaIdi","ogundaObara","ogundaOkonron","ogundaIrosun","ogundaOwanrin","ogundaOsa","ogundaEtura","ogundaIrete","ogundaEka","ogundaEturukpon","ogundaOse","ogundaOfun","osaOgbe","osaOyeku","osaIwori","osaIdi","osaObara","osaOkonron","osaIrosun","osaOgunda","osaOwanrin","osaEtura","osaIrete","osaEka","osaEturukpon","osaOse","osaOfun","eturaOgbe","eturaOyeku","eturaIwori","eturaIdi","eturaObara","eturaOkonron","eturaIrosun","eturaOgunda","eturaOwanrin","eturaOsa","eturaIrete","eturaEka","eturaEturukpon","eturaOse","eturaOfun","ireteOgbe","ireteOyeku","ireteIwori","ireteIdi","ireteObara","ireteOkonron","ireteIrosun","ireteOgunda","ireteOwanrin","ireteOsa","ireteEtura","ireteEka","ireteEturukpon","ireteOse","ireteOfun","ekaOgbe","ekaOyeku","ekaIwori","ekaIdi","ekaObara","ekaOkonron","ekaIrosun","ekaOgunda","ekaOwanrin","ekaOsa","ekaEtura","ekaIrete","ekaEturukpon","ekaOse","ekaOfun","eturukponOgbe","eturukponOyeku","eturukponIwori","eturukponIdi","eturukponObara","eturukponOkonron","eturukponIrosun","eturukponOgunda","eturukponOwanrin","eturukponOsa","eturukponEtura","eturukponIrete","eturukponEka","eturukponOse","eturukponOfun","oseOgbe","oseOyeku","oseIwori","oseIdi","oseObara","oseOkonron","oseIrosun","oseOgunda","oseOwanrin","oseOsa","oseEtura","oseIrete","oseEka","oseEturukpon","oseOfun","ofunOgbe","ofunOyeku","ofunIwori","ofunIdi","ofunObara","ofunOkonron","ofunIrosun","ofunOgunda","ofunOwanrin","ofunOsa","ofunEtura","ofunIrete","ofunEka","ofunEturukpon","ofunOse"];
-
+var ListofOdusNamesForTheJSON = ["ejiogbe","oyekuMeji","iworiMeji","idiMeji ","irosunMeji","owanrinMeji","obaraMeji","okonronMeji","ogundaMeji","osaMeji","ekaMeji","eturukponMeji","eturaMeji","ireteMeji","oseMeji","ofunMeji","ogbeOyekun","ogbeIwori","ogbeIdi","ogbeIrosun","ogbeOwanrin","ogbeObara","ogbeOkonron","ogbeOgunda","ogbeOsa","ogbeEka","ogbeEturukpon","ogbeEtura","ogbeIrete","ogbeOse","ogbeOfun","oyekuLoOgbe","oyekubiIwori","oyekuDi","oyekuIrosun","oyekuOwanrin","oyekuObara","oyekuOkonron","oyekuOgunda","oyekuOsa","oyekubeEka","oyekuEturukpon","oyekuEtura","oyekuIrete","oyekuOse","oyekuOfun","iworiboOgbe","iworiOyeku","iworiIdi","iworiIrosun","iworiOwanrin","iworiObara","iworiOkonron","iworiOgunda","iworiOsa","iworiEka","iworiEturukpon","iworiEtura","iworiIrete","iworiOse","iworiOfun","idiOgbe","idiOyeku","idiIwori","idiIrosun","idiOwanrin","idiObara","idiOkonron","idiOgunda","idiOsa","idiEka","idiEturukpon","idiEtura","idiIrete","idiOse","idiOfun","irosunOgbe","irosunOyeku","irosunIwori","irosunIdi","irosunOwanrin","irosunObara","irosunOkonron","irosunOgunda","irosunOsa","irosunEka","irosunEturukpon","irosunEtura","irosunIrete","irosunOse","irosunOfun","owanrinsoOgbe","owanrinOyeku","owanrinIwori","owanrinIdi","owanrinIrosun","owanrinObara","owanrinOkonron","owanrinOgunda","owanrinOsa","owanrinEka","owanrinEturukpon","owanrinEtura","owanrinIrete","owanrinOse","owanrinOfun","obaraOgbe","obaraOyeku","obaraIwori","obaraIdi","obaraIrosun","obaraOwanrin","obaraOkonron","obaraOgunda","obaraOsa","obaraEka","obaraEturukpon","obaraEtura","obaraIrete","obaraOse","obaraOfun","okonronOgbe","okonronOyeku","okonronIwori","okonronIdi","okonronIrosun","okonronOwanrin","okonronObara","okonronOgunda","okonronOsa","okonronEka","okonronEturukpon","okonronEtura","okonronIrete","okonronOse","okonronOfun","ogundaOgbe","ogundaOyeku","ogundaIwori","ogundaIdi","ogundaIrosun","ogundaOwanrin","ogundaObara","ogundaOkonron","ogundaOsa","ogundaEka","ogundaEturukpon","ogundaEtura","ogundaIrete","ogundaOse","ogundaOfun","osaOgbe","osaOyeku","osaIwori","osaIdi","osaIrosun","osaOwanrin","osaObara","osaOkonron","osaOgunda","osaEka","osaEturukpon","osaEtura","osaIrete","osaOse","osaOfun","ekaOgbe","ekaOyeku","ekaIwori","ekaIdi","ekaIrosun","ekaOwanrin","ekaObara","ekaOkonron","ekaOgunda","ekaOsa","ekaEturukpon","ekaEtura","ekaIrete","ekaOse","ekaOfun","eturukponOgbe","eturukponOyeku","eturukponIwori","eturukponIdi","eturukponIrosun","eturukponOwanrin","eturukponObara","eturukponOkonron","eturukponOgunda","eturukponOsa","eturukponEka","eturukponEtura","eturukponIrete","eturukponOse","eturukponOfun","eturaOgbe","eturaOyeku","eturaIwori","eturaIdi","eturaIrosun","eturaOwanrin","eturaObara","eturaOkonron","eturaOgunda","eturaOsa","eturaEka","eturaEturukpon","eturaIrete","eturaOse","eturaOfun","ireteOgbe","ireteOyeku","ireteIwori","ireteIdi","ireteIrosun","ireteOwanrin","ireteObara","ireteOkonron","ireteOgunda","ireteOsa","ireteEka","ireteEturukpon","ireteEtura","ireteOse","ireteOfun","oseOgbe","oseOyeku","oseIwori","oseIdi","oseIrosun","oseOwanrin","oseObara","oseOkonron","oseOgunda","oseOsa","oseEka","oseEturukpon","oseEtura","oseIrete","oseOfun","ofunOgbe","ofunOyeku","ofunIwori","ofunIdi","ofunIrosun","ofunOwanrin","ofunObara","ofunOkonron","ofunOgunda","ofunOsa","ofunEka","ofunEturukpon","ofunEtura","ofunIrete","ofunOse"];
 
 //Start toggle the value for opon on the  left side
 function toggle_first_left() { 
@@ -86,7 +86,7 @@ function opon_touch_func(){
     let opon_Ifa_Right_Side_Owanrin_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - owanrin - right half.jpg';
     let opon_Ifa_Right_Side_Ogunda_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - ogunda - right half.jpg';
     let opon_Ifa_Right_Side_Osa_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - osa - right half.jpg';
-    let opon_Ifa_Right_Side_Etura_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - ETURA - right half.jpg';
+    let opon_Ifa_Right_Side_Etura_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - etura - right half.jpg';
     let opon_Ifa_Right_Side_Irete_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - irete - right half.jpg';
     let opon_Ifa_Right_Side_Eka_Meji =  'images\\Pictures\\Odus\\Right Half\\opon ifa - eka - right half.jpg';
     let opon_Ifa_Right_Side_Eturukpon_Meji = 'images\\Pictures\\Odus\\Right Half\\opon ifa - eturukpon - right half.jpg';
@@ -203,1028 +203,1028 @@ if (first_right === true && second_right === true && third_right === true && fou
 //Start of if cycle for assign value for var odu
 if (right_odu === "Ogbe" && left_odu === "Ogbe") {
     odu = odus[0];
-    oduJSONAddress = 'data\\oduData\\mejis\\ejiogbe.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[0];
+    oduForTheJSON = ListofOdusNamesForTheJSON[0];
+    oduJSONAddress = `data\\oduData\\mejis\\${oduForTheJSON}.json`;
 } else if (right_odu === "Oyeku" && left_odu === "Oyeku") {
     odu = odus[1];
-    oduJSONAddress = 'data\\oduData\\mejis\\oyekuMeji.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[1];
+    oduForTheJSON = ListofOdusNamesForTheJSON[1];
+    oduJSONAddress = `data\\oduData\\mejis\\${oduForTheJSON}.json`;
 }else if (right_odu === "Iwori" && left_odu === "Iwori") {
     odu = odus[2];
-    oduJSONAddress = 'data\\oduData\\mejis\\iworiMeji.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[2];
+    oduForTheJSON = ListofOdusNamesForTheJSON[2];
+    oduJSONAddress = `data\\oduData\\mejis\\${oduForTheJSON}.json`;
 }else if (right_odu === "Idi" && left_odu === "Idi") {
     odu = odus[3];
-    oduJSONAddress = 'data\\oduData\\mejis\\idiMeji.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[3];
-}else if (right_odu === "Obara" && left_odu === "Obara") {
-    odu = odus[4];
-    oduJSONAddress = 'data\\oduData\\mejis\\obaraMeji.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[4];
-}else if (right_odu === "Okonron" && left_odu === "Okonron") {
-    odu = odus[5];
-    oduJSONAddress = 'data\\oduData\\mejis\\okonronMeji.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[5];
+    oduForTheJSON = ListofOdusNamesForTheJSON[3];
+    oduJSONAddress = `data\\oduData\\mejis\\${oduForTheJSON}.json`;
 }else if (right_odu === "Irosun" && left_odu === "Irosun") {
-    odu = odus[6];
-    oduJSONAddress = 'data\\oduData\\mejis\\irosunMeji.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[6];
+    odu = odus[4];
+    oduForTheJSON = ListofOdusNamesForTheJSON[4];
+    oduJSONAddress = `data\\oduData\\mejis\\${oduForTheJSON}.json`;
 }else if (right_odu === "Owanrin" && left_odu === "Owanrin") {
+    odu = odus[5];
+    oduForTheJSON = ListofOdusNamesForTheJSON[5];
+    oduJSONAddress = `data\\oduData\\mejis\\${oduForTheJSON}.json`;
+}else if (right_odu === "Obara" && left_odu === "Obara") {
+    odu = odus[6];
+    oduForTheJSON = ListofOdusNamesForTheJSON[6];
+    oduJSONAddress = `data\\oduData\\mejis\\${oduForTheJSON}.json`;
+}else if (right_odu === "Okonron" && left_odu === "Okonron") {
     odu = odus[7];
-    oduJSONAddress = 'data\\oduData\\mejis\\owanrinMeji.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[7];
+    oduForTheJSON = ListofOdusNamesForTheJSON[7];
+    oduJSONAddress = `data\\oduData\\mejis\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogunda" && left_odu === "Ogunda") {
     odu = odus[8];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogundaMeji.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[8];
+    oduForTheJSON = ListofOdusNamesForTheJSON[8];
+    oduJSONAddress = `data\\oduData\\mejis\\${oduForTheJSON}.json`;
 }else if (right_odu === "Osa" && left_odu === "Osa") {
     odu = odus[9];
-    oduJSONAddress = 'data\\oduData\\mejis\\osaMeji.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[9];
-}else if (right_odu === "Etura" && left_odu === "eturaMeji") {
-    odu = odus[10];
-    oduJSONAddress = 'data\\oduData\\mejis\\eturaMeji.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[10];
-}else if (right_odu === "Irete" && left_odu === "Irete") {
-    odu = odus[11];
-    oduJSONAddress = 'data\\oduData\\mejis\\ireteMeji.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[11];
+    oduForTheJSON = ListofOdusNamesForTheJSON[9];
+    oduJSONAddress = `data\\oduData\\mejis\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eka" && left_odu === "Eka") {
-    odu = odus[12];
-    oduJSONAddress = 'data\\oduData\\mejis\\ekaMeji.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[12];
+    odu = odus[10];
+    oduForTheJSON = ListofOdusNamesForTheJSON[10];
+    oduJSONAddress = `data\\oduData\\mejis\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eturukpon" && left_odu === "Eturukpon") {
+    odu = odus[11];
+    oduForTheJSON = ListofOdusNamesForTheJSON[11];
+    oduJSONAddress = `data\\oduData\\mejis\\${oduForTheJSON}.json`;
+}else if (right_odu === "Etura" && left_odu === "Etura") {
+    odu = odus[12];
+    oduForTheJSON = ListofOdusNamesForTheJSON[12];
+    oduJSONAddress = `data\\oduData\\mejis\\${oduForTheJSON}.json`;
+}else if (right_odu === "Irete" && left_odu === "Irete") {
     odu = odus[13];
-    oduJSONAddress = 'data\\oduData\\mejis\\eturukponMeji.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[13];
+    oduForTheJSON = ListofOdusNamesForTheJSON[13];
+    oduJSONAddress = `data\\oduData\\mejis\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ose" && left_odu === "Ose") {
     odu = odus[14];
-    oduJSONAddress = 'data\\oduData\\mejis\\oseMeji.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[14];
+    oduForTheJSON = ListofOdusNamesForTheJSON[14];
+    oduJSONAddress = `data\\oduData\\mejis\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ofun" && left_odu === "Ofun") {
     odu = odus[15];
-    oduJSONAddress = 'data\\oduData\\mejis\\ofunMeji.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[15];
+    oduForTheJSON = ListofOdusNamesForTheJSON[15];
+    oduJSONAddress = `data\\oduData\\mejis\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogbe" && left_odu === "Oyeku") {
     odu = odus[16];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[16];
+    oduForTheJSON = ListofOdusNamesForTheJSON[16];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogbe\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogbe" && left_odu === "Iwori") {
     odu = odus[17];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeIwori.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[17];
+    oduForTheJSON = ListofOdusNamesForTheJSON[17];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogbe\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogbe" && left_odu === "Idi") {
     odu = odus[18];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeIdi.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[18];
-}else if (right_odu === "Ogbe" && left_odu === "Obara") {
-    odu = odus[19];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeObara.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[19];
-}else if (right_odu === "Ogbe" && left_odu === "Okonron") {
-    odu = odus[20];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOkonron.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[20];
+    oduForTheJSON = ListofOdusNamesForTheJSON[18];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogbe\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogbe" && left_odu === "Irosun") {
-    odu = odus[21];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeIrosun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[21];
+    odu = odus[19];
+    oduForTheJSON = ListofOdusNamesForTheJSON[19];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogbe\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogbe" && left_odu === "Owanrin") {
+    odu = odus[20];
+    oduForTheJSON = ListofOdusNamesForTheJSON[20];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogbe\\${oduForTheJSON}.json`;
+}else if (right_odu === "Ogbe" && left_odu === "Obara") {
+    odu = odus[21];
+    oduForTheJSON = ListofOdusNamesForTheJSON[21];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogbe\\${oduForTheJSON}.json`;
+}else if (right_odu === "Ogbe" && left_odu === "Okonron") {
     odu = odus[22];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOwanrin.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[22];
+    oduForTheJSON = ListofOdusNamesForTheJSON[22];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogbe\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogbe" && left_odu === "Ogunda") {
     odu = odus[23];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOgunda.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[23];
+    oduForTheJSON = ListofOdusNamesForTheJSON[23];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogbe\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogbe" && left_odu === "Osa") {
     odu = odus[24];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOsa.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[24];
-}else if (right_odu === "Ogbe" && left_odu === "Etura") {
-    odu = odus[25];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeEtura.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[25];
-}else if (right_odu === "Ogbe" && left_odu === "Irete") {
-    odu = odus[26];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeIrete.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[26];
+    oduForTheJSON = ListofOdusNamesForTheJSON[24];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogbe\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogbe" && left_odu === "Eka") {
-    odu = odus[27];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeEka.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[27];
+    odu = odus[25];
+    oduForTheJSON = ListofOdusNamesForTheJSON[25];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogbe\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogbe" && left_odu === "Eturukpon") {
+    odu = odus[26];
+    oduForTheJSON = ListofOdusNamesForTheJSON[26];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogbe\\${oduForTheJSON}.json`;
+}else if (right_odu === "Ogbe" && left_odu === "Etura") {
+    odu = odus[27];
+    oduForTheJSON = ListofOdusNamesForTheJSON[27];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogbe\\${oduForTheJSON}.json`;
+}else if (right_odu === "Ogbe" && left_odu === "Irete") {
     odu = odus[28];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeEturukpon.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[28];
+    oduForTheJSON = ListofOdusNamesForTheJSON[28];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogbe\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogbe" && left_odu === "Ose") {
     odu = odus[29];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOse.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[29];
+    oduForTheJSON = ListofOdusNamesForTheJSON[29];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogbe\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogbe" && left_odu === "Ofun") {
     odu = odus[30];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOfun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[30];
+    oduForTheJSON = ListofOdusNamesForTheJSON[30];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogbe\\${oduForTheJSON}.json`;
 }else if (right_odu === "Oyeku" && left_odu === "Ogbe") {
     odu = odus[31];
-    oduJSONAddress = 'data\\oduData\\mejis\\oyekuLoOgbe.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[31];
+    oduForTheJSON = ListofOdusNamesForTheJSON[31];
+    oduJSONAddress = `data\\oduData\\noMejis\\oyeku\\${oduForTheJSON}.json`;
 }else if (right_odu === "Oyeku" && left_odu === "Iwori") {
     odu = odus[32];
-    oduJSONAddress = 'data\\oduData\\mejis\\oyekubiIwori.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[32];
+    oduForTheJSON = ListofOdusNamesForTheJSON[32];
+    oduJSONAddress = `data\\oduData\\noMejis\\oyeku\\${oduForTheJSON}.json`;
 }else if (right_odu === "Oyeku" && left_odu === "Idi") {
     odu = odus[33];
-    oduJSONAddress = 'data\\oduData\\mejis\\oyekuDi.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[33];
-}else if (right_odu === "Oyeku" && left_odu === "Obara") {
-    odu = odus[34];
-    oduJSONAddress = 'data\\oduData\\mejis\\oyekuObara.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[34];
-}else if (right_odu === "Oyeku" && left_odu === "Okonron") {
-    odu = odus[35];
-    oduJSONAddress = 'data\\oduData\\mejis\\oyekuOkonron.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[35];
+    oduForTheJSON = ListofOdusNamesForTheJSON[33];
+    oduJSONAddress = `data\\oduData\\noMejis\\oyeku\\${oduForTheJSON}.json`;
 }else if (right_odu === "Oyeku" && left_odu === "Irosun") {
-    odu = odus[36];
-    oduJSONAddress = 'data\\oduData\\mejis\\oyekuIrosun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[36];
+    odu = odus[34];
+    oduForTheJSON = ListofOdusNamesForTheJSON[34];
+    oduJSONAddress = `data\\oduData\\noMejis\\oyeku\\${oduForTheJSON}.json`;
 }else if (right_odu === "Oyeku" && left_odu === "Owanrin") {
+    odu = odus[35];
+    oduForTheJSON = ListofOdusNamesForTheJSON[35];
+    oduJSONAddress = `data\\oduData\\noMejis\\oyeku\\${oduForTheJSON}.json`;
+}else if (right_odu === "Oyeku" && left_odu === "Obara") {
+    odu = odus[36];
+    oduForTheJSON = ListofOdusNamesForTheJSON[36];
+    oduJSONAddress = `data\\oduData\\noMejis\\oyeku\\${oduForTheJSON}.json`;
+}else if (right_odu === "Oyeku" && left_odu === "Okonron") {
     odu = odus[37];
-    oduJSONAddress = 'data\\oduData\\mejis\\oyekuOwanrin.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[37];
+    oduForTheJSON = ListofOdusNamesForTheJSON[37];
+    oduJSONAddress = `data\\oduData\\noMejis\\oyeku\\${oduForTheJSON}.json`;
 }else if (right_odu === "Oyeku" && left_odu === "Ogunda") {
     odu = odus[38]; 
-    oduJSONAddress = 'data\\oduData\\mejis\\oyekuOgunda.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[38];
+    oduForTheJSON = ListofOdusNamesForTheJSON[38];
+    oduJSONAddress = `data\\oduData\\noMejis\\oyeku\\${oduForTheJSON}.json`;
 }else if (right_odu === "Oyeku" && left_odu === "Osa") {
     odu = odus[39];
-    oduJSONAddress = 'data\\oduData\\mejis\\oyekuOsa.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[39];
-}else if (right_odu === "Oyeku" && left_odu === "Etura") {
-    odu = odus[40];
-    oduJSONAddress = 'data\\oduData\\mejis\\oyekuEtura.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[40];
-}else if (right_odu === "Oyeku" && left_odu === "Irete") {
-    odu = odus[41];
-    oduJSONAddress = 'data\\oduData\\mejis\\oyekuIrete.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[41];
+    oduForTheJSON = ListofOdusNamesForTheJSON[39];
+    oduJSONAddress = `data\\oduData\\noMejis\\oyeku\\${oduForTheJSON}.json`;
 }else if (right_odu === "Oyeku" && left_odu === "Eka") {
-    odu = odus[42];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[42];
+    odu = odus[40];
+    oduForTheJSON = ListofOdusNamesForTheJSON[40];
+    oduJSONAddress = `data\\oduData\\noMejis\\oyeku\\${oduForTheJSON}.json`;
 }else if (right_odu === "Oyeku" && left_odu === "Eturukpon") {
+    odu = odus[41];
+    oduForTheJSON = ListofOdusNamesForTheJSON[41];
+    oduJSONAddress = `data\\oduData\\noMejis\\oyeku\\${oduForTheJSON}.json`;
+}else if (right_odu === "Oyeku" && left_odu === "Etura") {
+    odu = odus[42];
+    oduForTheJSON = ListofOdusNamesForTheJSON[42];
+    oduJSONAddress = `data\\oduData\\noMejis\\oyeku\\${oduForTheJSON}.json`;
+}else if (right_odu === "Oyeku" && left_odu === "Irete") {
     odu = odus[43];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[43];
+    oduForTheJSON = ListofOdusNamesForTheJSON[43];
+    oduJSONAddress = `data\\oduData\\noMejis\\oyeku\\${oduForTheJSON}.json`;
 }else if (right_odu === "Oyeku" && left_odu === "Ose") {
     odu = odus[44];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[44];
+    oduForTheJSON = ListofOdusNamesForTheJSON[44];
+    oduJSONAddress = `data\\oduData\\noMejis\\oyeku\\${oduForTheJSON}.json`;
 }else if (right_odu === "Oyeku" && left_odu === "Ofun") {
     odu = odus[45];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[45];
+    oduForTheJSON = ListofOdusNamesForTheJSON[45];
+    oduJSONAddress = `data\\oduData\\noMejis\\oyeku\\${oduForTheJSON}.json`;
 }else if (right_odu === "Iwori" && left_odu === "Ogbe") {
     odu = odus[46];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[46];
+    oduForTheJSON = ListofOdusNamesForTheJSON[46];
+    oduJSONAddress = `data\\oduData\\noMejis\\iwori\\${oduForTheJSON}.json`;
 }else if (right_odu === "Iwori" && left_odu === "Oyeku") {
     odu = odus[47];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[47];
+    oduForTheJSON = ListofOdusNamesForTheJSON[47];
+    oduJSONAddress = `data\\oduData\\noMejis\\iwori\\${oduForTheJSON}.json`;
 }else if (right_odu === "Iwori" && left_odu === "Idi") {
     odu = odus[48];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[48];
-}else if (right_odu === "Iwori" && left_odu === "Obara") {
-    odu = odus[49];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[49];
-}else if (right_odu === "Iwori" && left_odu === "Okonron") {
-    odu = odus[50];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[50];
+    oduForTheJSON = ListofOdusNamesForTheJSON[48];
+    oduJSONAddress = `data\\oduData\\noMejis\\iwori\\${oduForTheJSON}.json`;
 }else if (right_odu === "Iwori" && left_odu === "Irosun") {
-    odu = odus[51];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[51];
+    odu = odus[49];
+    oduForTheJSON = ListofOdusNamesForTheJSON[49];
+    oduJSONAddress = `data\\oduData\\noMejis\\iwori\\${oduForTheJSON}.json`;
 }else if (right_odu === "Iwori" && left_odu === "Owanrin") {
+    odu = odus[50];
+    oduForTheJSON = ListofOdusNamesForTheJSON[50];
+    oduJSONAddress = `data\\oduData\\noMejis\\iwori\\${oduForTheJSON}.json`;
+}else if (right_odu === "Iwori" && left_odu === "Obara") {
+    odu = odus[51];
+    oduForTheJSON = ListofOdusNamesForTheJSON[51];
+    oduJSONAddress = `data\\oduData\\noMejis\\iwori\\${oduForTheJSON}.json`;
+}else if (right_odu === "Iwori" && left_odu === "Okonron") {
     odu = odus[52];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[52];
+    oduForTheJSON = ListofOdusNamesForTheJSON[52];
+    oduJSONAddress = `data\\oduData\\noMejis\\iwori\\${oduForTheJSON}.json`;
 }else if (right_odu === "Iwori" && left_odu === "Ogunda") {
     odu = odus[53];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[53];
+    oduForTheJSON = ListofOdusNamesForTheJSON[53];
+    oduJSONAddress = `data\\oduData\\noMejis\\iwori\\${oduForTheJSON}.json`;
 }else if (right_odu === "Iwori" && left_odu === "Osa") {
     odu = odus[54];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[54];
-}else if (right_odu === "Iwori" && left_odu === "Etura") {
-    odu = odus[55];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[55];
-}else if (right_odu === "Iwori" && left_odu === "Irete") {
-    odu = odus[56];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[56];
+    oduForTheJSON = ListofOdusNamesForTheJSON[54];
+    oduJSONAddress = `data\\oduData\\noMejis\\iwori\\${oduForTheJSON}.json`;
 }else if (right_odu === "Iwori" && left_odu === "Eka") {
-    odu = odus[57];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[57];
+    odu = odus[55];
+    oduForTheJSON = ListofOdusNamesForTheJSON[55];
+    oduJSONAddress = `data\\oduData\\noMejis\\iwori\\${oduForTheJSON}.json`;
 }else if (right_odu === "Iwori" && left_odu === "Eturukpon") {
+    odu = odus[56];
+    oduForTheJSON = ListofOdusNamesForTheJSON[56];
+    oduJSONAddress = `data\\oduData\\noMejis\\iwori\\${oduForTheJSON}.json`;
+}else if (right_odu === "Iwori" && left_odu === "Etura") {
+    odu = odus[57];
+    oduForTheJSON = ListofOdusNamesForTheJSON[57];
+    oduJSONAddress = `data\\oduData\\noMejis\\iwori\\${oduForTheJSON}.json`;
+}else if (right_odu === "Iwori" && left_odu === "Irete") {
     odu = odus[58];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[58];
+    oduForTheJSON = ListofOdusNamesForTheJSON[58];
+    oduJSONAddress = `data\\oduData\\noMejis\\iwori\\${oduForTheJSON}.json`;
 }else if (right_odu === "Iwori" && left_odu === "Ose") {
     odu = odus[59];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[59];
+    oduForTheJSON = ListofOdusNamesForTheJSON[59];
+    oduJSONAddress = `data\\oduData\\noMejis\\iwori\\${oduForTheJSON}.json`;
 }else if (right_odu === "Iwori" && left_odu === "Ofun") {
     odu = odus[60];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[60];
+    oduForTheJSON = ListofOdusNamesForTheJSON[60];
+    oduJSONAddress = `data\\oduData\\noMejis\\iwori\\${oduForTheJSON}.json`;
 }else if (right_odu === "Idi" && left_odu === "Ogbe") {
     odu = odus[61];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[61];
+    oduForTheJSON = ListofOdusNamesForTheJSON[61];
+    oduJSONAddress = `data\\oduData\\noMejis\\idi\\${oduForTheJSON}.json`;
 }else if (right_odu === "Idi" && left_odu === "Oyeku") {
     odu = odus[62];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[62];
+    oduForTheJSON = ListofOdusNamesForTheJSON[62];
+    oduJSONAddress = `data\\oduData\\noMejis\\idi\\${oduForTheJSON}.json`;
 }else if (right_odu === "Idi" && left_odu === "Iwori") {
     odu = odus[63];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[63];
-}else if (right_odu === "Idi" && left_odu === "Obara") {
-    odu = odus[64];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[64];
-}else if (right_odu === "Idi" && left_odu === "Okonron") {
-    odu = odus[65];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[65];
+    oduForTheJSON = ListofOdusNamesForTheJSON[63];
+    oduJSONAddress = `data\\oduData\\noMejis\\idi\\${oduForTheJSON}.json`;
 }else if (right_odu === "Idi" && left_odu === "Irosun") {
-    odu = odus[66];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[66];
+    odu = odus[64];
+    oduForTheJSON = ListofOdusNamesForTheJSON[64];
+    oduJSONAddress = `data\\oduData\\noMejis\\idi\\${oduForTheJSON}.json`;
 }else if (right_odu === "Idi" && left_odu === "Owanrin") {
+    odu = odus[65];
+    oduForTheJSON = ListofOdusNamesForTheJSON[65];
+    oduJSONAddress = `data\\oduData\\noMejis\\idi\\${oduForTheJSON}.json`;
+}else if (right_odu === "Idi" && left_odu === "Obara") {
+    odu = odus[66];
+    oduForTheJSON = ListofOdusNamesForTheJSON[66];
+    oduJSONAddress = `data\\oduData\\noMejis\\idi\\${oduForTheJSON}.json`;
+}else if (right_odu === "Idi" && left_odu === "Okonron") {
     odu = odus[67];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[67];
+    oduForTheJSON = ListofOdusNamesForTheJSON[67];
+    oduJSONAddress = `data\\oduData\\noMejis\\idi\\${oduForTheJSON}.json`;
 }else if (right_odu === "Idi" && left_odu === "Ogunda") {
     odu = odus[68];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[68];
+    oduForTheJSON = ListofOdusNamesForTheJSON[68];
+    oduJSONAddress = `data\\oduData\\noMejis\\idi\\${oduForTheJSON}.json`;
 }else if (right_odu === "Idi" && left_odu === "Osa") {
     odu = odus[69];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[69];
-}else if (right_odu === "Idi" && left_odu === "Etura") {
-    odu = odus[70];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[70];
-}else if (right_odu === "Idi" && left_odu === "Irete") {
-    odu = odus[71];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[71];
+    oduForTheJSON = ListofOdusNamesForTheJSON[69];
+    oduJSONAddress = `data\\oduData\\noMejis\\idi\\${oduForTheJSON}.json`;
 }else if (right_odu === "Idi" && left_odu === "Eka") {
-    odu = odus[72];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[72];
+    odu = odus[70];
+    oduForTheJSON = ListofOdusNamesForTheJSON[70];
+    oduJSONAddress = `data\\oduData\\noMejis\\idi\\${oduForTheJSON}.json`;
 }else if (right_odu === "Idi" && left_odu === "Eturukpon") {
+    odu = odus[71];
+    oduForTheJSON = ListofOdusNamesForTheJSON[71];
+    oduJSONAddress = `data\\oduData\\noMejis\\idi\\${oduForTheJSON}.json`;
+}else if (right_odu === "Idi" && left_odu === "Etura") {
+    odu = odus[72];
+    oduForTheJSON = ListofOdusNamesForTheJSON[72];
+    oduJSONAddress = `data\\oduData\\noMejis\\idi\\${oduForTheJSON}.json`;
+}else if (right_odu === "Idi" && left_odu === "Irete") {
     odu = odus[73];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[73];
+    oduForTheJSON = ListofOdusNamesForTheJSON[73];
+    oduJSONAddress = `data\\oduData\\noMejis\\idi\\${oduForTheJSON}.json`;
 }else if (right_odu === "Idi" && left_odu === "Ose") {
     odu = odus[74];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[74];
+    oduForTheJSON = ListofOdusNamesForTheJSON[74];
+    oduJSONAddress = `data\\oduData\\noMejis\\idi\\${oduForTheJSON}.json`;
 }else if (right_odu === "Idi" && left_odu === "Ofun") {
     odu = odus[75];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[75];
-}else if (right_odu === "Obara" && left_odu === "Ogbe") {
-    odu = odus[76];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[76];
-}else if (right_odu === "Obara" && left_odu === "Oyeku") {
-    odu = odus[77];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[77];
-}else if (right_odu === "Obara" && left_odu === "Iwori") {
-    odu = odus[78];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[78];
-}else if (right_odu === "Obara" && left_odu === "Idi") {
-    odu = odus[79];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[79];
-}else if (right_odu === "Obara" && left_odu === "Okonron") {
-    odu = odus[80];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[80];
-}else if (right_odu === "Obara" && left_odu === "Irosun") {
-    odu = odus[81];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[81];
-}else if (right_odu === "Obara" && left_odu === "Owanrin") {
-    odu = odus[82];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[82];
-}else if (right_odu === "Obara" && left_odu === "Ogunda") {
-    odu = odus[83];    
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[83];
-}else if (right_odu === "Obara" && left_odu === "Osa") {
-    odu = odus[84];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[84];
-}else if (right_odu === "Obara" && left_odu === "Etura") {
-    odu = odus[85];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[85];
-}else if (right_odu === "Obara" && left_odu === "Irete") {
-    odu = odus[86];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[86];
-}else if (right_odu === "Obara" && left_odu === "Eka") {
-    odu = odus[87];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[87];
-}else if (right_odu === "Obara" && left_odu === "Eturukpon") {
-    odu = odus[88];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[88];
-}else if (right_odu === "Obara" && left_odu === "Ose") {
-    odu = odus[89];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[89];
-}else if (right_odu === "Obara" && left_odu === "Ofun") {
-    odu = odus[90];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[90];
-}else if (right_odu === "Okonron" && left_odu === "Ogbe") {
-    odu = odus[91];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[91];
-}else if (right_odu === "Okonron" && left_odu === "Oyeku") {
-    odu = odus[92];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[92];
-}else if (right_odu === "Okonron" && left_odu === "Iwori") {
-    odu = odus[93];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[93];
-}else if (right_odu === "Okonron" && left_odu === "Idi") {
-    odu = odus[94];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[94];
-}else if (right_odu === "Okonron" && left_odu === "Obara") {
-    odu = odus[95];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[95];
-}else if (right_odu === "Okonron" && left_odu === "Irosun") {
-    odu = odus[96];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[96];
-}else if (right_odu === "Okonron" && left_odu === "Owanrin") {
-    odu = odus[97];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[97];
-}else if (right_odu === "Okonron" && left_odu === "Ogunda") {
-    odu = odus[98];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[98];
-}else if (right_odu === "Okonron" && left_odu === "Osa") {
-    odu = odus[99];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[99];
-}else if (right_odu === "Okonron" && left_odu === "Etura") {
-    odu = odus[100];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[100];
-}else if (right_odu === "Okonron" && left_odu === "Irete") {
-    odu = odus[101];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[101];
-}else if (right_odu === "Okonron" && left_odu === "Eka") {
-    odu = odus[102];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[102];
-}else if (right_odu === "Okonron" && left_odu === "Eturukpon") {
-    odu = odus[103];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[103];
-}else if (right_odu === "Okonron" && left_odu === "Ose") {
-    odu = odus[104];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[104];
-}else if (right_odu === "Okonron" && left_odu === "Ofun") {
-    odu = odus[105];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[105];
+    oduForTheJSON = ListofOdusNamesForTheJSON[75];
+    oduJSONAddress = `data\\oduData\\noMejis\\idi\\${oduForTheJSON}.json`;
 }else if (right_odu === "Irosun" && left_odu === "Ogbe") {
-    odu = odus[106];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[106];
+    odu = odus[76];
+    oduForTheJSON = ListofOdusNamesForTheJSON[76];
+    oduJSONAddress = `data\\oduData\\noMejis\\irosun\\${oduForTheJSON}.json`;
 }else if (right_odu === "Irosun" && left_odu === "Oyeku") {
-    odu = odus[107];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[107];
+    odu = odus[77];
+    oduForTheJSON = ListofOdusNamesForTheJSON[77];
+    oduJSONAddress = `data\\oduData\\noMejis\\irosun\\${oduForTheJSON}.json`;
 }else if (right_odu === "Irosun" && left_odu === "Iwori") {
-    odu = odus[108];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[108];
+    odu = odus[78];
+    oduForTheJSON = ListofOdusNamesForTheJSON[78];
+    oduJSONAddress = `data\\oduData\\noMejis\\irosun\\${oduForTheJSON}.json`;
 }else if (right_odu === "Irosun" && left_odu === "Idi") {
-    odu = odus[109];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[109];
+    odu = odus[79];
+    oduForTheJSON = ListofOdusNamesForTheJSON[79];
+    oduJSONAddress = `data\\oduData\\noMejis\\irosun\\${oduForTheJSON}.json`;
+}else if (right_odu === "Irosun" && left_odu === "Okonron") {Owanrin
+    odu = odus[80];
+    oduForTheJSON = ListofOdusNamesForTheJSON[80];
+    oduJSONAddress = `data\\oduData\\noMejis\\irosun\\${oduForTheJSON}.json`;
 }else if (right_odu === "Irosun" && left_odu === "Obara") {
-    odu = odus[110];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[110];
-}else if (right_odu === "Irosun" && left_odu === "Okonron") {
-    odu = odus[111];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[111];
-}else if (right_odu === "Irosun" && left_odu === "Owanrin") {
-    odu = odus[112];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[112];
+    odu = odus[81];
+    oduForTheJSON = ListofOdusNamesForTheJSON[81];
+    oduJSONAddress = `data\\oduData\\noMejis\\irosun\\${oduForTheJSON}.json`;
+}else if (right_odu === "Irosun" && left_odu === "Owanrin") {Okonron
+    odu = odus[82];
+    oduForTheJSON = ListofOdusNamesForTheJSON[82];
+    oduJSONAddress = `data\\oduData\\noMejis\\irosun\\${oduForTheJSON}.json`;
 }else if (right_odu === "Irosun" && left_odu === "Ogunda") {
-    odu = odus[113];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[113];
+    odu = odus[83];    
+    oduForTheJSON = ListofOdusNamesForTheJSON[83];
+    oduJSONAddress = `data\\oduData\\noMejis\\irosun\\${oduForTheJSON}.json`;
 }else if (right_odu === "Irosun" && left_odu === "Osa") {
-    odu = odus[114];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[114];
-}else if (right_odu === "Irosun" && left_odu === "Etura") {
-    odu = odus[115];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[115];
-}else if (right_odu === "Irosun" && left_odu === "Irete") {
-    odu = odus[116];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[116];
-}else if (right_odu === "Irosun" && left_odu === "Eka") {
-    odu = odus[117];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[117];
-}else if (right_odu === "Irosun" && left_odu === "Eturukpon") {
-    odu = odus[118];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[118];
+    odu = odus[84];
+    oduForTheJSON = ListofOdusNamesForTheJSON[84];
+    oduJSONAddress = `data\\oduData\\noMejis\\irosun\\${oduForTheJSON}.json`;
+}else if (right_odu === "Irosun" && left_odu === "Etura") {Eka
+    odu = odus[85];
+    oduForTheJSON = ListofOdusNamesForTheJSON[85];
+    oduJSONAddress = `data\\oduData\\noMejis\\irosun\\${oduForTheJSON}.json`;
+}else if (right_odu === "Irosun" && left_odu === "Irete") {Eturukpon
+    odu = odus[86];
+    oduForTheJSON = ListofOdusNamesForTheJSON[86];
+    oduJSONAddress = `data\\oduData\\noMejis\\irosun\\${oduForTheJSON}.json`;
+}else if (right_odu === "Irosun" && left_odu === "Eka") {Etura
+    odu = odus[87];
+    oduForTheJSON = ListofOdusNamesForTheJSON[87];
+    oduJSONAddress = `data\\oduData\\noMejis\\irosun\\${oduForTheJSON}.json`;
+}else if (right_odu === "Irosun" && left_odu === "Eturukpon") {Irete
+    odu = odus[88];
+    oduForTheJSON = ListofOdusNamesForTheJSON[88];
+    oduJSONAddress = `data\\oduData\\noMejis\\irosun\\${oduForTheJSON}.json`;
 }else if (right_odu === "Irosun" && left_odu === "Ose") {
-    odu = odus[119];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[119];
+    odu = odus[89];
+    oduForTheJSON = ListofOdusNamesForTheJSON[89];
+    oduJSONAddress = `data\\oduData\\noMejis\\irosun\\${oduForTheJSON}.json`;
 }else if (right_odu === "Irosun" && left_odu === "Ofun") {
-    odu = odus[120];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[120];
+    odu = odus[90];
+    oduForTheJSON = ListofOdusNamesForTheJSON[90];
+    oduJSONAddress = `data\\oduData\\noMejis\\irosun\\${oduForTheJSON}.json`;
 }else if (right_odu === "Owanrin" && left_odu === "Ogbe") {
-    odu = odus[121];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[121];
+    odu = odus[91];
+    oduForTheJSON = ListofOdusNamesForTheJSON[91];
+    oduJSONAddress = `data\\oduData\\noMejis\\owarin\\${oduForTheJSON}.json`;
 }else if (right_odu === "Owanrin" && left_odu === "Oyeku") {
-    odu = odus[122];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[122];
+    odu = odus[92];
+    oduForTheJSON = ListofOdusNamesForTheJSON[92];
+    oduJSONAddress = `data\\oduData\\noMejis\\owarin\\${oduForTheJSON}.json`;
 }else if (right_odu === "Owanrin" && left_odu === "Iwori") {
-    odu = odus[123];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[123];
+    odu = odus[93];
+    oduForTheJSON = ListofOdusNamesForTheJSON[93];
+    oduJSONAddress = `data\\oduData\\noMejis\\owarin\\${oduForTheJSON}.json`;
 }else if (right_odu === "Owanrin" && left_odu === "Idi") {
-    odu = odus[124];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[124];
-}else if (right_odu === "Owanrin" && left_odu === "Obara") {
-    odu = odus[125];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[125];
+    odu = odus[94];
+    oduForTheJSON = ListofOdusNamesForTheJSON[94];
+    oduJSONAddress = `data\\oduData\\noMejis\\owarin\\${oduForTheJSON}.json`;
+}else if (right_odu === "Owanrin" && left_odu === "Obara") {Irosun
+    odu = odus[95];
+    oduForTheJSON = ListofOdusNamesForTheJSON[95];
+    oduJSONAddress = `data\\oduData\\noMejis\\owarin\\${oduForTheJSON}.json`;
+}else if (right_odu === "Owanrin" && left_odu === "Irosun") {Obara
+    odu = odus[96];
+    oduForTheJSON = ListofOdusNamesForTheJSON[96];
+    oduJSONAddress = `data\\oduData\\noMejis\\owarin\\${oduForTheJSON}.json`;
 }else if (right_odu === "Owanrin" && left_odu === "Okonron") {
-    odu = odus[126];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[126];
-}else if (right_odu === "Owanrin" && left_odu === "Irosun") {
-    odu = odus[127];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[127];
+    odu = odus[97];
+    oduForTheJSON = ListofOdusNamesForTheJSON[97];
+    oduJSONAddress = `data\\oduData\\noMejis\\owarin\\${oduForTheJSON}.json`;
 }else if (right_odu === "Owanrin" && left_odu === "Ogunda") {
-    odu = odus[128];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[128];
+    odu = odus[98];
+    oduForTheJSON = ListofOdusNamesForTheJSON[98];
+    oduJSONAddress = `data\\oduData\\noMejis\\owarin\\${oduForTheJSON}.json`;
 }else if (right_odu === "Owanrin" && left_odu === "Osa") {
-    odu = odus[129];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[129];
-}else if (right_odu === "Owanrin" && left_odu === "Etura") {
-    odu = odus[130];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[130];
-}else if (right_odu === "Owanrin" && left_odu === "Irete") {
-    odu = odus[131];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[131];
-}else if (right_odu === "Owanrin" && left_odu === "Eka") {
-    odu = odus[132];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[132];
-}else if (right_odu === "Owanrin" && left_odu === "Eturukpon") {
-    odu = odus[133];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[133];
+    odu = odus[99];
+    oduForTheJSON = ListofOdusNamesForTheJSON[99];
+    oduJSONAddress = `data\\oduData\\noMejis\\owarin\\${oduForTheJSON}.json`;
+}else if (right_odu === "Owanrin" && left_odu === "Etura") {Eka
+    odu = odus[100];
+    oduForTheJSON = ListofOdusNamesForTheJSON[100];
+    oduJSONAddress = `data\\oduData\\noMejis\\owarin\\${oduForTheJSON}.json`;
+}else if (right_odu === "Owanrin" && left_odu === "Irete") {Eturukpon
+    odu = odus[101];
+    oduForTheJSON = ListofOdusNamesForTheJSON[101];
+    oduJSONAddress = `data\\oduData\\noMejis\\owarin\\${oduForTheJSON}.json`;
+}else if (right_odu === "Owanrin" && left_odu === "Eka") {Etura
+    odu = odus[102];
+    oduForTheJSON = ListofOdusNamesForTheJSON[102];
+    oduJSONAddress = `data\\oduData\\noMejis\\owarin\\${oduForTheJSON}.json`;
+}else if (right_odu === "Owanrin" && left_odu === "Eturukpon") {Irete
+    odu = odus[103];
+    oduForTheJSON = ListofOdusNamesForTheJSON[103];
+    oduJSONAddress = `data\\oduData\\noMejis\\owarin\\${oduForTheJSON}.json`;
 }else if (right_odu === "Owanrin" && left_odu === "Ose") {
-    odu = odus[134];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[134];
+    odu = odus[104];
+    oduForTheJSON = ListofOdusNamesForTheJSON[104];
+    oduJSONAddress = `data\\oduData\\noMejis\\owarin\\${oduForTheJSON}.json`;
 }else if (right_odu === "Owanrin" && left_odu === "Ofun") {
+    odu = odus[105];
+    oduForTheJSON = ListofOdusNamesForTheJSON[105];
+    oduJSONAddress = `data\\oduData\\noMejis\\owarin\\${oduForTheJSON}.json`;
+}else if (right_odu === "Obara" && left_odu === "Ogbe") {
+    odu = odus[106];
+    oduForTheJSON = ListofOdusNamesForTheJSON[106];
+    oduJSONAddress = `data\\oduData\\noMejis\\obara\\${oduForTheJSON}.json`;
+}else if (right_odu === "Obara" && left_odu === "Oyeku") {
+    odu = odus[107];
+    oduForTheJSON = ListofOdusNamesForTheJSON[107];
+    oduJSONAddress = `data\\oduData\\noMejis\\obara\\${oduForTheJSON}.json`;
+}else if (right_odu === "Obara" && left_odu === "Iwori") {
+    odu = odus[108];
+    oduForTheJSON = ListofOdusNamesForTheJSON[108];
+    oduJSONAddress = `data\\oduData\\noMejis\\obara\\${oduForTheJSON}.json`;
+}else if (right_odu === "Obara" && left_odu === "Idi") {
+    odu = odus[109];
+    oduForTheJSON = ListofOdusNamesForTheJSON[109];
+    oduJSONAddress = `data\\oduData\\noMejis\\obara\\${oduForTheJSON}.json`;
+}else if (right_odu === "Obara" && left_odu === "Irosun") {
+    odu = odus[110];
+    oduForTheJSON = ListofOdusNamesForTheJSON[110];
+    oduJSONAddress = `data\\oduData\\noMejis\\obara\\${oduForTheJSON}.json`;
+}else if (right_odu === "Obara" && left_odu === "Owanrin") {
+    odu = odus[111];
+    oduForTheJSON = ListofOdusNamesForTheJSON[111];
+    oduJSONAddress = `data\\oduData\\noMejis\\obara\\${oduForTheJSON}.json`;
+}else if (right_odu === "Obara" && left_odu === "Okonron") {
+    odu = odus[112];
+    oduForTheJSON = ListofOdusNamesForTheJSON[112];
+    oduJSONAddress = `data\\oduData\\noMejis\\obara\\${oduForTheJSON}.json`;
+}else if (right_odu === "Obara" && left_odu === "Ogunda") {
+    odu = odus[113];
+    oduJSONAddress = `data\\oduData\\noMejis\\obara\\${oduForTheJSON}.json`;
+    oduForTheJSON = ListofOdusNamesForTheJSON[113];
+}else if (right_odu === "Obara" && left_odu === "Osa") {
+    odu = odus[114];
+    oduForTheJSON = ListofOdusNamesForTheJSON[114];
+    oduJSONAddress = `data\\oduData\\noMejis\\obara\\${oduForTheJSON}.json`;
+}else if (right_odu === "Obara" && left_odu === "Eka") {
+    odu = odus[115];
+    oduForTheJSON = ListofOdusNamesForTheJSON[115];
+    oduJSONAddress = `data\\oduData\\noMejis\\obara\\${oduForTheJSON}.json`;
+}else if (right_odu === "Obara" && left_odu === "Eturukpon") {
+    odu = odus[116];
+    oduForTheJSON = ListofOdusNamesForTheJSON[116];
+    oduJSONAddress = `data\\oduData\\noMejis\\obara\\${oduForTheJSON}.json`;
+}else if (right_odu === "Obara" && left_odu === "Etura") {
+    odu = odus[117];
+    oduForTheJSON = ListofOdusNamesForTheJSON[117];
+    oduJSONAddress = `data\\oduData\\noMejis\\obara\\${oduForTheJSON}.json`;
+}else if (right_odu === "Obara" && left_odu === "Irete") {
+    odu = odus[118];
+    oduForTheJSON = ListofOdusNamesForTheJSON[118];
+    oduJSONAddress = `data\\oduData\\noMejis\\obara\\${oduForTheJSON}.json`;
+}else if (right_odu === "Obara" && left_odu === "Ose") {
+    odu = odus[119];
+    oduForTheJSON = ListofOdusNamesForTheJSON[119];
+    oduJSONAddress = `data\\oduData\\noMejis\\obara\\${oduForTheJSON}.json`;
+}else if (right_odu === "Obara" && left_odu === "Ofun") {
+    odu = odus[120];
+    oduForTheJSON = ListofOdusNamesForTheJSON[120];
+    oduJSONAddress = `data\\oduData\\noMejis\\obara\\${oduForTheJSON}.json`;
+}else if (right_odu === "Okonron" && left_odu === "Ogbe") {
+    odu = odus[121];
+    oduForTheJSON = ListofOdusNamesForTheJSON[121];
+    oduJSONAddress = `data\\oduData\\noMejis\\okonron\\${oduForTheJSON}.json`;
+}else if (right_odu === "Okonron" && left_odu === "Oyeku") {
+    odu = odus[122];
+    oduForTheJSON = ListofOdusNamesForTheJSON[122];
+    oduJSONAddress = `data\\oduData\\noMejis\\okonron\\${oduForTheJSON}.json`;
+}else if (right_odu === "Okonron" && left_odu === "Iwori") {
+    odu = odus[123];
+    oduForTheJSON = ListofOdusNamesForTheJSON[123];
+    oduJSONAddress = `data\\oduData\\noMejis\\okonron\\${oduForTheJSON}.json`;
+}else if (right_odu === "Okonron" && left_odu === "Idi") {
+    odu = odus[124];
+    oduForTheJSON = ListofOdusNamesForTheJSON[124];
+    oduJSONAddress = `data\\oduData\\noMejis\\okonron\\${oduForTheJSON}.json`;
+}else if (right_odu === "Okonron" && left_odu === "Irosun") {
+    odu = odus[125];
+    oduForTheJSON = ListofOdusNamesForTheJSON[125];
+    oduJSONAddress = `data\\oduData\\noMejis\\okonron\\${oduForTheJSON}.json`;
+}else if (right_odu === "Okonron" && left_odu === "Owanrin") {
+    odu = odus[126];
+    oduForTheJSON = ListofOdusNamesForTheJSON[126];
+    oduJSONAddress = `data\\oduData\\noMejis\\okonron\\${oduForTheJSON}.json`;
+}else if (right_odu === "Okonron" && left_odu === "Obara") {
+    odu = odus[127];
+    oduForTheJSON = ListofOdusNamesForTheJSON[127];
+    oduJSONAddress = `data\\oduData\\noMejis\\okonron\\${oduForTheJSON}.json`;
+}else if (right_odu === "Okonron" && left_odu === "Ogunda") {
+    odu = odus[128];
+    oduForTheJSON = ListofOdusNamesForTheJSON[128];
+    oduJSONAddress = `data\\oduData\\noMejis\\okonron\\${oduForTheJSON}.json`;
+}else if (right_odu === "Okonron" && left_odu === "Osa") {
+    odu = odus[129];
+    oduForTheJSON = ListofOdusNamesForTheJSON[129];
+    oduJSONAddress = `data\\oduData\\noMejis\\okonron\\${oduForTheJSON}.json`;
+}else if (right_odu === "Okonron" && left_odu === "Eka") {
+    odu = odus[130];
+    oduForTheJSON = ListofOdusNamesForTheJSON[130];
+    oduJSONAddress = `data\\oduData\\noMejis\\okonron\\${oduForTheJSON}.json`;
+}else if (right_odu === "Okonron" && left_odu === "Eturukpon") {
+    odu = odus[131];
+    oduForTheJSON = ListofOdusNamesForTheJSON[131];
+    oduJSONAddress = `data\\oduData\\noMejis\\okonron\\${oduForTheJSON}.json`;
+}else if (right_odu === "Okonron" && left_odu === "Etura") {
+    odu = odus[132];
+    oduForTheJSON = ListofOdusNamesForTheJSON[132];
+    oduJSONAddress = `data\\oduData\\noMejis\\okonron\\${oduForTheJSON}.json`;
+}else if (right_odu === "Okonron" && left_odu === "Irete") {
+    odu = odus[133];
+    oduForTheJSON = ListofOdusNamesForTheJSON[133];
+    oduJSONAddress = `data\\oduData\\noMejis\\okonron\\${oduForTheJSON}.json`;
+}else if (right_odu === "Okonron" && left_odu === "Ose") {
+    odu = odus[134];
+    oduForTheJSON = ListofOdusNamesForTheJSON[134];
+    oduJSONAddress = `data\\oduData\\noMejis\\okonron\\${oduForTheJSON}.json`;
+}else if (right_odu === "Okonron" && left_odu === "Ofun") {
     odu = odus[135];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[135];
+    oduForTheJSON = ListofOdusNamesForTheJSON[135];
+    oduJSONAddress = `data\\oduData\\noMejis\\okonron\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogunda" && left_odu === "Ogbe") {
     odu = odus[136];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[136];
+    oduForTheJSON = ListofOdusNamesForTheJSON[136];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogunda\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogunda" && left_odu === "Oyeku") {
     odu = odus[137];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[137];
+    oduForTheJSON = ListofOdusNamesForTheJSON[137];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogunda\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogunda" && left_odu === "Iwori") {
     odu = odus[138];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[138];
+    oduForTheJSON = ListofOdusNamesForTheJSON[138];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogunda\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogunda" && left_odu === "Idi") {
     odu = odus[139];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[139];
-}else if (right_odu === "Ogunda" && left_odu === "Obara") {
-    odu = odus[140];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[140];
-}else if (right_odu === "Ogunda" && left_odu === "Okonron") {
-    odu = odus[141];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[141];
+    oduForTheJSON = ListofOdusNamesForTheJSON[139];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogunda\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogunda" && left_odu === "Irosun") {
-    odu = odus[142];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[142];
+    odu = odus[140];
+    oduForTheJSON = ListofOdusNamesForTheJSON[140];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogunda\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogunda" && left_odu === "Owanrin") {
+    odu = odus[141];
+    oduForTheJSON = ListofOdusNamesForTheJSON[141];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogunda\\${oduForTheJSON}.json`;
+}else if (right_odu === "Ogunda" && left_odu === "Obara") {
+    odu = odus[142];
+    oduForTheJSON = ListofOdusNamesForTheJSON[142];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogunda\\${oduForTheJSON}.json`;
+}else if (right_odu === "Ogunda" && left_odu === "Okonron") {
     odu = odus[143];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[143];
+    oduForTheJSON = ListofOdusNamesForTheJSON[143];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogunda\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogunda" && left_odu === "Osa") {
     odu = odus[144];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[144];
-}else if (right_odu === "Ogunda" && left_odu === "Etura") {
-    odu = odus[145];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[145];
-}else if (right_odu === "Ogunda" && left_odu === "Irete") {
-    odu = odus[146];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[146];
+    oduForTheJSON = ListofOdusNamesForTheJSON[144];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogunda\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogunda" && left_odu === "Eka") {
-    odu = odus[147];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[147];
+    odu = odus[145];
+    oduForTheJSON = ListofOdusNamesForTheJSON[145];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogunda\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogunda" && left_odu === "Eturukpon") {
+    odu = odus[146];
+    oduForTheJSON = ListofOdusNamesForTheJSON[146];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogunda\\${oduForTheJSON}.json`;
+}else if (right_odu === "Ogunda" && left_odu === "Etura") {
+    odu = odus[147];
+    oduForTheJSON = ListofOdusNamesForTheJSON[147];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogunda\\${oduForTheJSON}.json`;
+}else if (right_odu === "Ogunda" && left_odu === "Irete") {
     odu = odus[148];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[148];
+    oduForTheJSON = ListofOdusNamesForTheJSON[148];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogunda\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogunda" && left_odu === "Ose") {
     odu = odus[149];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[149];
+    oduForTheJSON = ListofOdusNamesForTheJSON[149];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogunda\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ogunda" && left_odu === "Ofun") {
     odu = odus[150];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[150];
+    oduForTheJSON = ListofOdusNamesForTheJSON[150];
+    oduJSONAddress = `data\\oduData\\noMejis\\ogunda\\${oduForTheJSON}.json`;
 }else if (right_odu === "Osa" && left_odu === "Ogbe") {
-    odu = odus[151];//ojooooooooooooooooooooooo
-    oduJSONAddress = 'data\\oduData\\noMejis\\osa\\osaOgbe.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[151];
+    odu = odus[151];
+    oduForTheJSON = ListofOdusNamesForTheJSON[151];
+    oduJSONAddress = `data\\oduData\\noMejis\\osa\\${oduForTheJSON}.json`;
 }else if (right_odu === "Osa" && left_odu === "Oyeku") {
     odu = odus[152];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[152];
+    oduForTheJSON = ListofOdusNamesForTheJSON[152];
+    oduJSONAddress = `data\\oduData\\noMejis\\osa\\${oduForTheJSON}.json`;
 }else if (right_odu === "Osa" && left_odu === "Iwori") {
     odu = odus[153];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[153];
+    oduForTheJSON = ListofOdusNamesForTheJSON[153];
+    oduJSONAddress = `data\\oduData\\noMejis\\osa\\${oduForTheJSON}.json`;
 }else if (right_odu === "Osa" && left_odu === "Idi") {
     odu = odus[154];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[154];
-}else if (right_odu === "Osa" && left_odu === "Obara") {
-    odu = odus[155];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[155];
-}else if (right_odu === "Osa" && left_odu === "Okonron") {
-    odu = odus[156];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[156];
+    oduForTheJSON = ListofOdusNamesForTheJSON[154];
+    oduJSONAddress = `data\\oduData\\noMejis\\osa\\${oduForTheJSON}.json`;
 }else if (right_odu === "Osa" && left_odu === "Irosun") {
-    odu = odus[157];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[157];
+    odu = odus[155];
+    oduForTheJSON = ListofOdusNamesForTheJSON[155];
+    oduJSONAddress = `data\\oduData\\noMejis\\osa\\${oduForTheJSON}.json`;
 }else if (right_odu === "Osa" && left_odu === "Owanrin") {
+    odu = odus[156];
+    oduForTheJSON = ListofOdusNamesForTheJSON[156];
+    oduJSONAddress = `data\\oduData\\noMejis\\osa\\${oduForTheJSON}.json`;
+}else if (right_odu === "Osa" && left_odu === "Obara") {
+    odu = odus[157];
+    oduForTheJSON = ListofOdusNamesForTheJSON[157];
+    oduJSONAddress = `data\\oduData\\noMejis\\osa\\${oduForTheJSON}.json`;
+}else if (right_odu === "Osa" && left_odu === "Okonron") {
     odu = odus[158];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[158];
+    oduForTheJSON = ListofOdusNamesForTheJSON[158];
+    oduJSONAddress = `data\\oduData\\noMejis\\osa\\${oduForTheJSON}.json`;
 }else if (right_odu === "Osa" && left_odu === "Ogunda") {
     odu = odus[159];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[159];
-}else if (right_odu === "Osa" && left_odu === "Etura") {
-    odu = odus[160];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[160];
-}else if (right_odu === "Osa" && left_odu === "Irete") {
-    odu = odus[161];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[161];
+    oduForTheJSON = ListofOdusNamesForTheJSON[159];
+    oduJSONAddress = `data\\oduData\\noMejis\\osa\\${oduForTheJSON}.json`;
 }else if (right_odu === "Osa" && left_odu === "Eka") {
-    odu = odus[162];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[162];
+    odu = odus[160];
+    oduForTheJSON = ListofOdusNamesForTheJSON[160];
+    oduJSONAddress = `data\\oduData\\noMejis\\osa\\${oduForTheJSON}.json`;
 }else if (right_odu === "Osa" && left_odu === "Eturukpon") {
+    odu = odus[161];
+    oduForTheJSON = ListofOdusNamesForTheJSON[161];
+    oduJSONAddress = `data\\oduData\\noMejis\\osa\\${oduForTheJSON}.json`;
+}else if (right_odu === "Osa" && left_odu === "Etura") {
+    odu = odus[162];
+    oduForTheJSON = ListofOdusNamesForTheJSON[162];
+    oduJSONAddress = `data\\oduData\\noMejis\\osa\\${oduForTheJSON}.json`;
+}else if (right_odu === "Osa" && left_odu === "Irete") {
     odu = odus[163];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[163];
+    oduForTheJSON = ListofOdusNamesForTheJSON[163];
+    oduJSONAddress = `data\\oduData\\noMejis\\osa\\${oduForTheJSON}.json`;
 }else if (right_odu === "Osa" && left_odu === "Ose") {
     odu = odus[164];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[164];
+    oduForTheJSON = ListofOdusNamesForTheJSON[164];
+    oduJSONAddress = `data\\oduData\\noMejis\\osa\\${oduForTheJSON}.json`;
 }else if (right_odu === "Osa" && left_odu === "Ofun") {
     odu = odus[165];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[165];
-}else if (right_odu === "Etura" && left_odu === "Ogbe") {
-    odu = odus[166];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[166];
-}else if (right_odu === "Etura" && left_odu === "Oyeku") {
-    odu = odus[167];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[167];
-}else if (right_odu === "Etura" && left_odu === "Iwori") {
-    odu = odus[168];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[168];
-}else if (right_odu === "Etura" && left_odu === "Idi") {
-    odu = odus[169];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[169];
-}else if (right_odu === "Etura" && left_odu === "Obara") {
-    odu = odus[170];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[170];
-}else if (right_odu === "Etura" && left_odu === "Okonron") {
-    odu = odus[171];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[171];
-}else if (right_odu === "Etura" && left_odu === "Irosun") {
-    odu = odus[172];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[172];
-}else if (right_odu === "Etura" && left_odu === "Owanrin") {
-    odu = odus[173];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[173];
-}else if (right_odu === "Etura" && left_odu === "Ogunda") {
-    odu = odus[174];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[174];
-}else if (right_odu === "Etura" && left_odu === "Osa") {
-    odu = odus[175];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[175];
-}else if (right_odu === "Etura" && left_odu === "Irete") {
-    odu = odus[176];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[176];
-}else if (right_odu === "Etura" && left_odu === "Eka") {
-    odu = odus[177];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[177];
-}else if (right_odu === "Etura" && left_odu === "Eturukpon") {
-    odu = odus[178];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[178];
-}else if (right_odu === "Etura" && left_odu === "Ose") {
-    odu = odus[179];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[179];
-}else if (right_odu === "Etura" && left_odu === "Ofun") {
-    odu = odus[180];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[180];
-}else if (right_odu === "Irete" && left_odu === "Ogbe") {
-    odu = odus[181];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[181];
-}else if (right_odu === "Irete" && left_odu === "Oyeku") {
-    odu = odus[182];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[182];
-}else if (right_odu === "Irete" && left_odu === "Iwori") {
-    odu = odus[183];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[183];
-}else if (right_odu === "Irete" && left_odu === "Idi") {
-    odu = odus[184];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[184];
-}else if (right_odu === "Irete" && left_odu === "Obara") {
-    odu = odus[185];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[185];
-}else if (right_odu === "Irete" && left_odu === "Okonron") {
-    odu = odus[186];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[186];
-}else if (right_odu === "Irete" && left_odu === "Irosun") {
-    odu = odus[187];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[187];
-}else if (right_odu === "Irete" && left_odu === "Owanrin") {
-    odu = odus[188];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[188];
-}else if (right_odu === "Irete" && left_odu === "Ogunda") {
-    odu = odus[189];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[189];
-}else if (right_odu === "Irete" && left_odu === "Osa") {
-    odu = odus[190];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[190];
-}else if (right_odu === "Irete" && left_odu === "Etura") {
-    odu = odus[191];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[191];
-}else if (right_odu === "Irete" && left_odu === "Eka") {
-    odu = odus[192];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[192];
-}else if (right_odu === "Irete" && left_odu === "Eturukpon") {
-    odu = odus[193];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[193];
-}else if (right_odu === "Irete" && left_odu === "Ose") {
-    odu = odus[194];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[194];
-}else if (right_odu === "Irete" && left_odu === "Ofun") {
-    odu = odus[195];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[195];
+    oduForTheJSON = ListofOdusNamesForTheJSON[165];
+    oduJSONAddress = `data\\oduData\\noMejis\\osa\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eka" && left_odu === "Ogbe") {
-    odu = odus[196];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[196];
+    odu = odus[166];
+    oduForTheJSON = ListofOdusNamesForTheJSON[166];
+    oduJSONAddress = `data\\oduData\\noMejis\\eka\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eka" && left_odu === "Oyeku") {
-    odu = odus[197];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[197];
+    odu = odus[167];
+    oduForTheJSON = ListofOdusNamesForTheJSON[167];
+    oduJSONAddress = `data\\oduData\\noMejis\\eka\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eka" && left_odu === "Iwori") {
-    odu = odus[198];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[198];
+    odu = odus[168];
+    oduForTheJSON = ListofOdusNamesForTheJSON[168];
+    oduJSONAddress = `data\\oduData\\noMejis\\eka\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eka" && left_odu === "Idi") {
-    odu = odus[199];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[199];
-}else if (right_odu === "Eka" && left_odu === "Obara") {
-    odu = odus[200];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[200];
-}else if (right_odu === "Eka" && left_odu === "Okonron") {
-    odu = odus[201];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[201];
+    odu = odus[169];
+    oduForTheJSON = ListofOdusNamesForTheJSON[169];
+    oduJSONAddress = `data\\oduData\\noMejis\\eka\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eka" && left_odu === "Irosun") {
-    odu = odus[202];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[202];
+    odu = odus[170];
+    oduForTheJSON = ListofOdusNamesForTheJSON[170];
+    oduJSONAddress = `data\\oduData\\noMejis\\eka\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eka" && left_odu === "Owanrin") {
-    odu = odus[203];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[203];
+    odu = odus[171];
+    oduForTheJSON = ListofOdusNamesForTheJSON[171];
+    oduJSONAddress = `data\\oduData\\noMejis\\eka\\${oduForTheJSON}.json`;
+}else if (right_odu === "Eka" && left_odu === "Obara") {
+    odu = odus[172];
+    oduForTheJSON = ListofOdusNamesForTheJSON[172];
+    oduJSONAddress = `data\\oduData\\noMejis\\eka\\${oduForTheJSON}.json`;
+}else if (right_odu === "Eka" && left_odu === "Okonron") {
+    odu = odus[173];
+    oduForTheJSON = ListofOdusNamesForTheJSON[173];
+    oduJSONAddress = `data\\oduData\\noMejis\\eka\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eka" && left_odu === "Ogunda") {
-    odu = odus[204];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[204];
+    odu = odus[174];
+    oduForTheJSON = ListofOdusNamesForTheJSON[174];
+    oduJSONAddress = `data\\oduData\\noMejis\\eka\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eka" && left_odu === "Osa") {
-    odu = odus[205];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[205];
-}else if (right_odu === "Eka" && left_odu === "Etura") {
-    odu = odus[206];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[206];
-}else if (right_odu === "Eka" && left_odu === "Irete") {
-    odu = odus[207];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[207];
+    odu = odus[175];
+    oduForTheJSON = ListofOdusNamesForTheJSON[175];
+    oduJSONAddress = `data\\oduData\\noMejis\\eka\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eka" && left_odu === "Eturukpon") {
-    odu = odus[208];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[208];
+    odu = odus[176];
+    oduForTheJSON = ListofOdusNamesForTheJSON[176];
+    oduJSONAddress = `data\\oduData\\noMejis\\eka\\${oduForTheJSON}.json`;
+}else if (right_odu === "Eka" && left_odu === "Etura") {
+    odu = odus[177];
+    oduForTheJSON = ListofOdusNamesForTheJSON[177];
+    oduJSONAddress = `data\\oduData\\noMejis\\eka\\${oduForTheJSON}.json`;
+}else if (right_odu === "Eka" && left_odu === "Irete") {
+    odu = odus[178];
+    oduForTheJSON = ListofOdusNamesForTheJSON[178];
+    oduJSONAddress = `data\\oduData\\noMejis\\eka\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eka" && left_odu === "Ose") {
-    odu = odus[209];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[209];
+    odu = odus[179];
+    oduForTheJSON = ListofOdusNamesForTheJSON[179];
+    oduJSONAddress = `data\\oduData\\noMejis\\eka\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eka" && left_odu === "Ofun") {
-    odu = odus[210];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[210];
+    odu = odus[180];
+    oduForTheJSON = ListofOdusNamesForTheJSON[180];
+    oduJSONAddress = `data\\oduData\\noMejis\\eka\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eturukpon" && left_odu === "Ogbe") {
-    odu = odus[211];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[211];
+    odu = odus[181];
+    oduForTheJSON = ListofOdusNamesForTheJSON[181];
+    oduJSONAddress = `data\\oduData\\noMejis\\eturukpon\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eturukpon" && left_odu === "Oyeku") {
-    odu = odus[212];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[212];
+    odu = odus[182];
+    oduForTheJSON = ListofOdusNamesForTheJSON[182];
+    oduJSONAddress = `data\\oduData\\noMejis\\eturukpon\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eturukpon" && left_odu === "Iwori") {
-    odu = odus[213];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[213];
+    odu = odus[183];
+    oduForTheJSON = ListofOdusNamesForTheJSON[183];
+    oduJSONAddress = `data\\oduData\\noMejis\\eturukpon\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eturukpon" && left_odu === "Idi") {
-    odu = odus[214];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[214];
-}else if (right_odu === "Eturukpon" && left_odu === "Obara") {
-    odu = odus[215];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[215];
-}else if (right_odu === "Eturukpon" && left_odu === "Okonron") {
-    odu = odus[216];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[216];
+    odu = odus[184];
+    oduForTheJSON = ListofOdusNamesForTheJSON[184];
+    oduJSONAddress = `data\\oduData\\noMejis\\eturukpon\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eturukpon" && left_odu === "Irosun") {
-    odu = odus[217];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[217];
+    odu = odus[185];
+    oduForTheJSON = ListofOdusNamesForTheJSON[185];
+    oduJSONAddress = `data\\oduData\\noMejis\\eturukpon\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eturukpon" && left_odu === "Owanrin") {
-    odu = odus[218];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[218];
+    odu = odus[186];
+    oduForTheJSON = ListofOdusNamesForTheJSON[186];
+    oduJSONAddress = `data\\oduData\\noMejis\\eturukpon\\${oduForTheJSON}.json`;
+}else if (right_odu === "Eturukpon" && left_odu === "Obara") {
+    odu = odus[187];
+    oduForTheJSON = ListofOdusNamesForTheJSON[187];
+    oduJSONAddress = `data\\oduData\\noMejis\\eturukpon\\${oduForTheJSON}.json`;
+}else if (right_odu === "Eturukpon" && left_odu === "Okonron") {
+    odu = odus[188];
+    oduForTheJSON = ListofOdusNamesForTheJSON[188];
+    oduJSONAddress = `data\\oduData\\noMejis\\eturukpon\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eturukpon" && left_odu === "Ogunda") {
-    odu = odus[219];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[219];
+    odu = odus[189];
+    oduForTheJSON = ListofOdusNamesForTheJSON[189];
+    oduJSONAddress = `data\\oduData\\noMejis\\eturukpon\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eturukpon" && left_odu === "Osa") {
-    odu = odus[220];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[220];
-}else if (right_odu === "Eturukpon" && left_odu === "Etura") {
-    odu = odus[221];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[221];
-}else if (right_odu === "Eturukpon" && left_odu === "Irete") {
-    odu = odus[222];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[222];
+    odu = odus[190];
+    oduForTheJSON = ListofOdusNamesForTheJSON[190];
+    oduJSONAddress = `data\\oduData\\noMejis\\eturukpon\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eturukpon" && left_odu === "Eka") {
-    odu = odus[223];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[223];
+    odu = odus[191];
+    oduForTheJSON = ListofOdusNamesForTheJSON[191];
+    oduJSONAddress = `data\\oduData\\noMejis\\eturukpon\\${oduForTheJSON}.json`;
+}else if (right_odu === "Eturukpon" && left_odu === "Etura") {
+    odu = odus[192];
+    oduForTheJSON = ListofOdusNamesForTheJSON[192];
+    oduJSONAddress = `data\\oduData\\noMejis\\eturukpon\\${oduForTheJSON}.json`;
+}else if (right_odu === "Eturukpon" && left_odu === "Irete") {
+    odu = odus[193];
+    oduForTheJSON = ListofOdusNamesForTheJSON[193];
+    oduJSONAddress = `data\\oduData\\noMejis\\eturukpon\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eturukpon" && left_odu === "Ose") {
-    odu = odus[224];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[224];
+    odu = odus[194];
+    oduForTheJSON = ListofOdusNamesForTheJSON[194];
+    oduJSONAddress = `data\\oduData\\noMejis\\eturukpon\\${oduForTheJSON}.json`;
 }else if (right_odu === "Eturukpon" && left_odu === "Ofun") {
+    odu = odus[195];
+    oduForTheJSON = ListofOdusNamesForTheJSON[195];
+    oduJSONAddress = `data\\oduData\\noMejis\\eturukpon\\${oduForTheJSON}.json`;
+}else if (right_odu === "Etura" && left_odu === "Ogbe") {
+    odu = odus[196];
+    oduForTheJSON = ListofOdusNamesForTheJSON[196];
+    oduJSONAddress = `data\\oduData\\noMejis\\etura\\${oduForTheJSON}.json`;
+}else if (right_odu === "Etura" && left_odu === "Oyeku") {
+    odu = odus[197];
+    oduForTheJSON = ListofOdusNamesForTheJSON[197];
+    oduJSONAddress = `data\\oduData\\noMejis\\etura\\${oduForTheJSON}.json`;
+}else if (right_odu === "Etura" && left_odu === "Iwori") {
+    odu = odus[198];
+    oduForTheJSON = ListofOdusNamesForTheJSON[198];
+    oduJSONAddress = `data\\oduData\\noMejis\\etura\\${oduForTheJSON}.json`;
+}else if (right_odu === "Etura" && left_odu === "Idi") {
+    odu = odus[199];
+    oduForTheJSON = ListofOdusNamesForTheJSON[199];
+    oduJSONAddress = `data\\oduData\\noMejis\\etura\\${oduForTheJSON}.json`;
+}else if (right_odu === "Etura" && left_odu === "Irosun") {
+    odu = odus[200];
+    oduForTheJSON = ListofOdusNamesForTheJSON[200];
+    oduJSONAddress = `data\\oduData\\noMejis\\etura\\${oduForTheJSON}.json`;
+}else if (right_odu === "Etura" && left_odu === "Owanrin") {
+    odu = odus[201];
+    oduForTheJSON = ListofOdusNamesForTheJSON[201];
+    oduJSONAddress = `data\\oduData\\noMejis\\etura\\${oduForTheJSON}.json`;
+}else if (right_odu === "Etura" && left_odu === "Obara") {
+    odu = odus[202];
+    oduForTheJSON = ListofOdusNamesForTheJSON[202];
+    oduJSONAddress = `data\\oduData\\noMejis\\etura\\${oduForTheJSON}.json`;
+}else if (right_odu === "Etura" && left_odu === "Okonron") {
+    odu = odus[203];
+    oduForTheJSON = ListofOdusNamesForTheJSON[203];
+    oduJSONAddress = `data\\oduData\\noMejis\\etura\\${oduForTheJSON}.json`;
+}else if (right_odu === "Etura" && left_odu === "Ogunda") {
+    odu = odus[204];
+    oduForTheJSON = ListofOdusNamesForTheJSON[204];
+    oduJSONAddress = `data\\oduData\\noMejis\\etura\\${oduForTheJSON}.json`;
+}else if (right_odu === "Etura" && left_odu === "Osa") {
+    odu = odus[205];
+    oduForTheJSON = ListofOdusNamesForTheJSON[205];
+    oduJSONAddress = `data\\oduData\\noMejis\\etura\\${oduForTheJSON}.json`;
+}else if (right_odu === "Etura" && left_odu === "Etura") {
+    odu = odus[206];
+    oduForTheJSON = ListofOdusNamesForTheJSON[206];
+    oduJSONAddress = `data\\oduData\\noMejis\\etura\\${oduForTheJSON}.json`;
+}else if (right_odu === "Etura" && left_odu === "Eturukpon") {
+    odu = odus[207];
+    oduForTheJSON = ListofOdusNamesForTheJSON[207];
+    oduJSONAddress = `data\\oduData\\noMejis\\etura\\${oduForTheJSON}.json`;
+}else if (right_odu === "Etura" && left_odu === "Irete") {
+    odu = odus[208];
+    oduForTheJSON = ListofOdusNamesForTheJSON[208];
+    oduJSONAddress = `data\\oduData\\noMejis\\etura\\${oduForTheJSON}.json`;
+}else if (right_odu === "Etura" && left_odu === "Ose") {
+    odu = odus[209];
+    oduForTheJSON = ListofOdusNamesForTheJSON[209];
+    oduJSONAddress = `data\\oduData\\noMejis\\etura\\${oduForTheJSON}.json`;
+}else if (right_odu === "Etura" && left_odu === "Ofun") {
+    odu = odus[210];
+    oduForTheJSON = ListofOdusNamesForTheJSON[210];
+    oduJSONAddress = `data\\oduData\\noMejis\\etura\\${oduForTheJSON}.json`;
+}else if (right_odu === "Irete" && left_odu === "Ogbe") {
+    odu = odus[211];
+    oduForTheJSON = ListofOdusNamesForTheJSON[211];
+    oduJSONAddress = `data\\oduData\\noMejis\\irete\\${oduForTheJSON}.json`;
+}else if (right_odu === "Irete" && left_odu === "Oyeku") {
+    odu = odus[212];
+    oduForTheJSON = ListofOdusNamesForTheJSON[212];
+    oduJSONAddress = `data\\oduData\\noMejis\\irete\\${oduForTheJSON}.json`;
+}else if (right_odu === "Irete" && left_odu === "Iwori") {
+    odu = odus[213];
+    oduForTheJSON = ListofOdusNamesForTheJSON[213];
+    oduJSONAddress = `data\\oduData\\noMejis\\irete\\${oduForTheJSON}.json`;
+}else if (right_odu === "Irete" && left_odu === "Idi") {
+    odu = odus[214];
+    oduForTheJSON = ListofOdusNamesForTheJSON[214];
+    oduJSONAddress = `data\\oduData\\noMejis\\irete\\${oduForTheJSON}.json`;
+}else if (right_odu === "Irete" && left_odu === "Irosun") {
+    odu = odus[215];
+    oduForTheJSON = ListofOdusNamesForTheJSON[215];
+    oduJSONAddress = `data\\oduData\\noMejis\\irete\\${oduForTheJSON}.json`;
+}else if (right_odu === "Irete" && left_odu === "Owanrin") {
+    odu = odus[216];
+    oduForTheJSON = ListofOdusNamesForTheJSON[216];
+    oduJSONAddress = `data\\oduData\\noMejis\\irete\\${oduForTheJSON}.json`;
+}else if (right_odu === "Irete" && left_odu === "Obara") {
+    odu = odus[217];
+    oduForTheJSON = ListofOdusNamesForTheJSON[217];
+    oduJSONAddress = `data\\oduData\\noMejis\\irete\\${oduForTheJSON}.json`;
+}else if (right_odu === "Irete" && left_odu === "Okonron") {
+    odu = odus[218];
+    oduForTheJSON = ListofOdusNamesForTheJSON[218];
+    oduJSONAddress = `data\\oduData\\noMejis\\irete\\${oduForTheJSON}.json`;
+}else if (right_odu === "Irete" && left_odu === "Ogunda") {
+    odu = odus[219];
+    oduForTheJSON = ListofOdusNamesForTheJSON[219];
+    oduJSONAddress = `data\\oduData\\noMejis\\irete\\${oduForTheJSON}.json`;
+}else if (right_odu === "Irete" && left_odu === "Osa") {
+    odu = odus[220];
+    oduForTheJSON = ListofOdusNamesForTheJSON[220];
+    oduJSONAddress = `data\\oduData\\noMejis\\irete\\${oduForTheJSON}.json`;
+}else if (right_odu === "Irete" && left_odu === "Eka") {
+    odu = odus[221];
+    oduForTheJSON = ListofOdusNamesForTheJSON[221];
+    oduJSONAddress = `data\\oduData\\noMejis\\irete\\${oduForTheJSON}.json`;
+}else if (right_odu === "Irete" && left_odu === "Eturukpon") {
+    odu = odus[222];
+    oduForTheJSON = ListofOdusNamesForTheJSON[222];
+    oduJSONAddress = `data\\oduData\\noMejis\\irete\\${oduForTheJSON}.json`;
+}else if (right_odu === "Irete" && left_odu === "Etura") {
+    odu = odus[223];
+    oduForTheJSON = ListofOdusNamesForTheJSON[223];
+    oduJSONAddress = `data\\oduData\\noMejis\\irete\\${oduForTheJSON}.json`;
+}else if (right_odu === "Irete" && left_odu === "Ose") {
+    odu = odus[224];
+    oduForTheJSON = ListofOdusNamesForTheJSON[224];
+    oduJSONAddress = `data\\oduData\\noMejis\\irete\\${oduForTheJSON}.json`;
+}else if (right_odu === "Irete" && left_odu === "Ofun") {
     odu = odus[225];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[225];
+    oduForTheJSON = ListofOdusNamesForTheJSON[225];
+    oduJSONAddress = `data\\oduData\\noMejis\\irete\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ose" && left_odu === "Ogbe") {
     odu = odus[226];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[226];
+    oduForTheJSON = ListofOdusNamesForTheJSON[226];
+    oduJSONAddress = `data\\oduData\\noMejis\\ose\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ose" && left_odu === "Oyeku") {
     odu = odus[227];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[227];
+    oduForTheJSON = ListofOdusNamesForTheJSON[227];
+    oduJSONAddress = `data\\oduData\\noMejis\\ose\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ose" && left_odu === "Iwori") {
     odu = odus[228];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[228];
+    oduForTheJSON = ListofOdusNamesForTheJSON[228];
+    oduJSONAddress = `data\\oduData\\noMejis\\ose\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ose" && left_odu === "Idi") {
     odu = odus[229];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[229];
-}else if (right_odu === "Ose" && left_odu === "Obara") {
-    odu = odus[230];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[230];
-}else if (right_odu === "Ose" && left_odu === "Okonron") {
-    odu = odus[231];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[231];
+    oduForTheJSON = ListofOdusNamesForTheJSON[229];
+    oduJSONAddress = `data\\oduData\\noMejis\\ose\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ose" && left_odu === "Irosun") {
-    odu = odus[232];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[232];
+    odu = odus[230];
+    oduForTheJSON = ListofOdusNamesForTheJSON[230];
+    oduJSONAddress = `data\\oduData\\noMejis\\ose\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ose" && left_odu === "Owanrin") {
+    odu = odus[231];
+    oduForTheJSON = ListofOdusNamesForTheJSON[231];
+    oduJSONAddress = `data\\oduData\\noMejis\\ose\\${oduForTheJSON}.json`;
+}else if (right_odu === "Ose" && left_odu === "Obara") {
+    odu = odus[232];
+    oduForTheJSON = ListofOdusNamesForTheJSON[232];
+    oduJSONAddress = `data\\oduData\\noMejis\\ose\\${oduForTheJSON}.json`;
+}else if (right_odu === "Ose" && left_odu === "Okonron") {
     odu = odus[233];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[233];
+    oduForTheJSON = ListofOdusNamesForTheJSON[233];
+    oduJSONAddress = `data\\oduData\\noMejis\\ose\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ose" && left_odu === "Ogunda") {
     odu = odus[234];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[234];
+    oduForTheJSON = ListofOdusNamesForTheJSON[234];
+    oduJSONAddress = `data\\oduData\\noMejis\\ose\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ose" && left_odu === "Osa") {
     odu = odus[235];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[235];
-}else if (right_odu === "Ose" && left_odu === "Etura") {
-    odu = odus[236];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[236];
-}else if (right_odu === "Ose" && left_odu === "Irete") {
-    odu = odus[237];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[237];
+    oduForTheJSON = ListofOdusNamesForTheJSON[235];
+    oduJSONAddress = `data\\oduData\\noMejis\\ose\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ose" && left_odu === "Eka") {
-    odu = odus[238];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[238];
+    odu = odus[236];
+    oduForTheJSON = ListofOdusNamesForTheJSON[236];
+    oduJSONAddress = `data\\oduData\\noMejis\\ose\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ose" && left_odu === "Eturukpon") {
+    odu = odus[237];
+    oduForTheJSON = ListofOdusNamesForTheJSON[237];
+    oduJSONAddress = `data\\oduData\\noMejis\\ose\\${oduForTheJSON}.json`;
+}else if (right_odu === "Ose" && left_odu === "Etura") {
+    odu = odus[238];
+    oduForTheJSON = ListofOdusNamesForTheJSON[238];
+    oduJSONAddress = `data\\oduData\\noMejis\\ose\\${oduForTheJSON}.json`;
+}else if (right_odu === "Ose" && left_odu === "Irete") {
     odu = odus[239];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[239];
+    oduForTheJSON = ListofOdusNamesForTheJSON[239];
+    oduJSONAddress = `data\\oduData\\noMejis\\ose\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ose" && left_odu === "Ofun") {
     odu = odus[240];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[240];
+    oduForTheJSON = ListofOdusNamesForTheJSON[240];
+    oduJSONAddress = `data\\oduData\\noMejis\\ose\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ofun" && left_odu === "Ogbe") {
     odu = odus[241];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[241];
+    oduForTheJSON = ListofOdusNamesForTheJSON[241];
+    oduJSONAddress = `data\\oduData\\noMejis\\ofun\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ofun" && left_odu === "Oyeku") {
     odu = odus[242];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[242];
+    oduForTheJSON = ListofOdusNamesForTheJSON[242];
+    oduJSONAddress = `data\\oduData\\noMejis\\ofun\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ofun" && left_odu === "Iwori") {
     odu = odus[243];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[243];
+    oduForTheJSON = ListofOdusNamesForTheJSON[243];
+    oduJSONAddress = `data\\oduData\\noMejis\\ofun\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ofun" && left_odu === "Idi") {
     odu = odus[244];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[244];
-}else if (right_odu === "Ofun" && left_odu === "Obara") {
-    odu = odus[245];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[245];
-}else if (right_odu === "Ofun" && left_odu === "Okonron") {
-    odu = odus[246];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[246];
+    oduForTheJSON = ListofOdusNamesForTheJSON[244];
+    oduJSONAddress = `data\\oduData\\noMejis\\ofun\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ofun" && left_odu === "Irosun") {
-    odu = odus[247];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[247];
+    odu = odus[245];
+    oduForTheJSON = ListofOdusNamesForTheJSON[245];
+    oduJSONAddress = `data\\oduData\\noMejis\\ofun\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ofun" && left_odu === "Owanrin") {
+    odu = odus[246];
+    oduForTheJSON = ListofOdusNamesForTheJSON[246];
+    oduJSONAddress = `data\\oduData\\noMejis\\ofun\\${oduForTheJSON}.json`;
+}else if (right_odu === "Ofun" && left_odu === "Obara") {
+    odu = odus[247];
+    oduForTheJSON = ListofOdusNamesForTheJSON[247];
+    oduJSONAddress = `data\\oduData\\noMejis\\ofun\\${oduForTheJSON}.json`;
+}else if (right_odu === "Ofun" && left_odu === "Okonron") {
     odu = odus[248];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[248];
+    oduForTheJSON = ListofOdusNamesForTheJSON[248];
+    oduJSONAddress = `data\\oduData\\noMejis\\ofun\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ofun" && left_odu === "Ogunda") {
     odu = odus[249];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[249];
+    oduForTheJSON = ListofOdusNamesForTheJSON[249];
+    oduJSONAddress = `data\\oduData\\noMejis\\ofun\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ofun" && left_odu === "Osa") {
     odu = odus[250];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[250];
-}else if (right_odu === "Ofun" && left_odu === "Etura") {
-    odu = odus[251];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[251];
-}else if (right_odu === "Ofun" && left_odu === "Irete") {
-    odu = odus[252];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[252];
+    oduForTheJSON = ListofOdusNamesForTheJSON[250];
+    oduJSONAddress = `data\\oduData\\noMejis\\ofun\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ofun" && left_odu === "Eka") {
-    odu = odus[253];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[253];
+    odu = odus[251];
+    oduForTheJSON = ListofOdusNamesForTheJSON[251];
+    oduJSONAddress = `data\\oduData\\noMejis\\ofun\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ofun" && left_odu === "Eturukpon") {
+    odu = odus[252];
+    oduForTheJSON = ListofOdusNamesForTheJSON[252];
+    oduJSONAddress = `data\\oduData\\noMejis\\ofun\\${oduForTheJSON}.json`;
+}else if (right_odu === "Ofun" && left_odu === "Etura") {
+    odu = odus[253];
+    oduForTheJSON = ListofOdusNamesForTheJSON[253];
+    oduJSONAddress = `data\\oduData\\noMejis\\ofun\\${oduForTheJSON}.json`;
+}else if (right_odu === "Ofun" && left_odu === "Irete") {
     odu = odus[254];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[254];
+    oduForTheJSON = ListofOdusNamesForTheJSON[254];
+    oduJSONAddress = `data\\oduData\\noMejis\\ofun\\${oduForTheJSON}.json`;
 }else if (right_odu === "Ofun" && left_odu === "Ose") {
     odu = odus[255];
-    oduJSONAddress = 'data\\oduData\\mejis\\ogbeOyekun.json';
-    oduForTheJSON= ListofOdusNamesForTheJSON[255];
+    oduForTheJSON = ListofOdusNamesForTheJSON[255];
+    oduJSONAddress = `data\\oduData\\noMejis\\ofun\\${oduForTheJSON}.json`;
 }
 //End of if cycle for assign value for var odu
 document.getElementById("oduToShow").innerHTML = odu;
