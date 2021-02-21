@@ -1,13 +1,9 @@
 
 //default functions declaration
-fetchGeneralDescriptionDataENG ();
+//fetchGeneralDescriptionDataENG (); //y commented this because it will run the function as default nad is not neede it due the values received on the url
 
 
-function globalOduFetchFunction(){
-    fetchGeneralDescriptionDataENG ();
 
-
-}
 
 
 
@@ -68,10 +64,8 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
         verseshtmlOutPut = dataFromJSON[oduForTheJSON]['verses'].map(infoDisplayForVerses => { //route to retreieve the information --- can be change but need to be update on all the places.
             //below code "return" the HTML code
             return `
-                    <b>Verse  ${infoDisplayForVerses.id}</b><br><blockquote>\"${infoDisplayForVerses.translation.Yoruba}\"</blockquote>${infoDisplayForVerses.translation.ENG}<br>
-                    <p>                 
-                    <a 
-             
+                    <b>Verse  ${infoDisplayForVerses.id}</b><br><blockquote>\"${infoDisplayForVerses.translation.Yoruba}\"</blockquote>${infoDisplayForVerses.translation.ENG}                 
+                    <a
                     data-bs-toggle="collapse" 
                     href="#versesBibliographyFetched${infoDisplayForVerses.id}"  
                     role="button" 
@@ -99,7 +93,7 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
             //below code "return" the HTML code
             return `
                     <b>Ẹbọ   ${infoDisplayForEbo.id}</b><br>${infoDisplayForEbo.translation.ENG}
-                    <p>                 
+                                    
                     <a 
              
                     data-bs-toggle="collapse" 

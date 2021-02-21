@@ -31,7 +31,6 @@ function fetchBibliography (isbnvalue,  divToOutputOrisasFetchedInformation, pag
                            <li class="list-group-item"><b>Publisher:</b> ${element.publisher}</li>
                            <li class="list-group-item"><b>ISBN-10:</b> ${element.isbnTen}</li>
                            <li class="list-group-item"><b>ISBN-13:</b> ${element.isbnThirteen}</li>
-                           <li class="list-group-item"><b>On The Page Number:</b> ${pageNumber}</li>
                        </ul>
                        <div class="card-body" style="text-align: center;">
                            <a href="${element.url}" target="_blank" class="card-link" style="font-weight: bolder;">Buy This Book.</a>

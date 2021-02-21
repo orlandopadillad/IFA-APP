@@ -1,42 +1,144 @@
 {
     "ejiogbe":{
+        "oduNames":[
+            "Èjì Onile",
+            "Ogbè Méji"
+
+        ],
         "ebo":[
             {
                 "id": 1, 
                 "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe",
+                    "ENG":"Serve your Orí with a large live catfish.",
+                    "SPA":"servir a su Orí con un pez gato vivo grande. ",
+                    "POR":"Sirva o seu Orí com um grande bagre vivo.",
                     "ISBN": "0981001319"
                 }
              },
              {
                 "id": 2, 
                 "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe",
+                    "ENG":"two Irukere, cow tails, two white pigeons, two guinea fowls, and money. It is also necessary to feed Ifá with a smoked catfish (catfish).",
+                    "SPA":"dos Irukere, colas de vaca, dos palomas blancas, dos gallinas de guinea y dinero. También es necesario para alimentar a Ifá con un pez gato ahumado (bagre). ",
+                    "POR":"dois Irukere, rabos de vaca, dois pombos brancos, duas galinhas d'angola e dinheiro. Também é necessário alimentar Ifá com um bagre defumado (bagre).",
                     "ISBN": "0981001319"
                 }
              },
              {
                 "id": 3, 
                 "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe"
+                    "ENG":"Ifá says that there is a need for you to offer Ebo known as ARUKORE or ARUKAPONJA. Materials include the sacrifice, 2 pigeons, 2 roosters, 2 rats, 2 fish, 4 Obi Kola, 4 bitter kola, 4 guinea peppers, and money.",
+                    "SPA":"Ifá dice que existe la necesidad para que usted pueda ofrecer Ebo conocido como ARUKORE o ARUKAPONJA. Materiales incluyen el sacrificio, 2 palomas, 2 gallos, 2 ratas, 2 peces, 4 Obi Kola, 4 kola amarga, 4 pimientas de guinea y dinero. ",
+                    "POR":"Ifá diz que é necessário você oferecer o Ebo conhecido como ARUKORE ou ARUKAPONJA. Os materiais incluem o sacrifício, 2 pombos, 2 galos, 2 ratos, 2 peixes, 4 Obi Kola, 4 cola amarga, 4 pimentões da índia e dinheiro.",
+                    "ISBN": "0981001319"
                 }
              },
              {
                 "id": 4, 
                 "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe"
+                    "ENG":"Ifá advises you to offer ebbo with a basket full of Obi and money. It is also necessary to feed Ifá with 16 Obi.",
+                    "SPA":"Ifá le aconseja ofrecer ebo con una cesta llena de Obi y el dinero. También es necesario para alimentar a Ifá con 16 Obi.",
+                    "POR":"Ifá aconselha a oferecer ebbo com uma cesta cheia de Obi e dinheiro. Também é necessário alimentar Ifá com 16 Obi.",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 5, 
+                "translation":{
+                    "ENG":"ebo of 1 hen, 1 pigeon, 4 fish, 4 rats and money. Also to feed Ifá with 4 rats, 4 fish, palm oil and money.",
+                    "SPA":"ebo de 1 gallina, 1 paloma, 4 peces,  4 ratas y dinero. También para alimentar a Ifá con 4 ratas, 4 peces, aceite de palma y dinero.",
+                    "POR":"ebo de 1 galinha, 1 pombo, 4 peixes, 4 ratos e dinheiro. Também para alimentar Ifá com 4 ratos, 4 peixes, óleo de palma e dinheiro.",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 6, 
+                "translation":{
+                    "ENG":"Ifá advises you to offer ebo with 2 hens, 2 pigeon pigeons, 2 guinea fowls, 2 roosters and money.",
+                    "SPA":"Ifá le aconseja ofrecer ebo con 2 gallinas, 2 pichones de paloma, 2 gallinas de guinea, 2 gallos y dinero.",
+                    "POR":"Ifá aconselha a oferecer ebo com 2 galinhas, 2 pintinhos de pombo, 2 pintadas, 2 galos e dinheiro.",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 7, 
+                "translation":{
+                    "ENG":"Ifá advises offering ebo with a mature male goat, 2 Guinea-fowls and money. After this, you have to look for Isu Elu, indigo, 16 land snails and Pèrègún leaves. feed Ifá with the 16 snails, and get rid of the Elu Isu and Pèrègún together and mix with soap and water. You will use the juice of the land snail to mix the soap very well.",
+                    "SPA":"Ifá aconseja ofrecer ebo con un macho cabrío maduro, 2 Guinea-aves y dinero. Después de esto, hay que buscar Isu Elu, el añil, 16 caracoles de tierra y hojas Pèrègún.  alimentar a Ifá con los 16 caracoles, y se libra de la Elu Isu y Pèrègún juntos y se mezclan con agua y jabón. Que va a utilizar el jugo del caracol de tierra para mezclar el jabón muy bien.",
+                    "POR":"Ifá aconselha oferecer ebo com cabrito adulto, 2 galinhas d'angola e dinheiro. Depois disso, você deve procurar Isu Elu, índigo, 16 caramujos terrestres e folhas de Pèrègún. alimente Ifá com os 16 caracóis, e livre-se do Elu Isu e do Pèrègún juntos e misture com água e sabão. Você vai usar o suco do caracol terrestre para misturar muito bem o sabonete.",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 8, 
+                "translation":{
+                    "ENG":"Ifa advises you to offer ebo with two doves, two roosters, two chickens, two guinea fowls, two rats, two fish, and money. After this, it is necessary to feed the Orí of his mother, her father, his Orí and her Ifa. If your parents are dead, feed them like Egúngùn, but if they are alive, let them feed their Orí.",
+                    "SPA":"Ifa le aconseja ofrecer ebo con dos palomas, dos gallos, dos gallinas, dos aves de Guinea, dos ratas, dos peces y dinero. Después de esto, es necesario para alimentar el Orí de su madre, su padre, su Orí y su Ifa. Si tus padres están muertos, darles de comer como Egúngùn, pero si están vivos, que alimenten a sus Orí.",
+                    "POR":"Ifa o aconselha a oferecer ebo com duas pombas, dois galos, duas galinhas, duas galinhas d'angola, dois ratos, dois peixes e dinheiro. Depois disso, é necessário alimentar o Orí de sua mãe, seu pai, seu Orí e seu Ifa. Se seus pais estão mortos, alimente-os como Egúngùn, mas se eles estiverem vivos, deixe-os alimentar seus Orí.",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 9, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 10, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 11, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 4, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 4, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 4, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 4, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
                 }
              }
         ],
@@ -44,33 +146,193 @@
             {
                 "id": 1, 
                 "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe",
+                    "ENG": "When it dawned I saw I will go in abundance Very early, four days ago my good manifest destiny This was the revelation of Ifá for Akapo Who advised him to serve his Orí with a live catfish And he set his eyes on all the I will of life He got up I will go to wealth And I will go to a good husband And I will go to a good boy And he will go from a good house And he will go for a long life, the king of all will go Now Aro, we are very comfortable - Aro The day dawned today I saw the will go in abundance Aro we are very comfortable; Aro the catfish Very early, four days ago, Aro manifest good destination, they are quite comfortable, the Aro catfish",
+                    "SPA": "Cuando amaneció vi Iré en abundancia Muy temprano, hace cuatro días mi buen destino manifiesto Este fue la revelación de Ifá para Akapo ¿Quién le aconsejó a servir a su Orí con un bagre vivo Y puso sus ojos en todos los iré de la vida Se levantó el iré de la riqueza Y el iré de un buen esposo Y el iré de un niño bueno Y el iré de una buena casa Y el iré de larga vida, el rey de todos los iré Ahora Aro, estamos muy a gusto - Aro El día amaneció hoy vi el iré en abundancia Aro estamos muy cómodos; Aro el bagre Muy temprano, hace cuatro días, buen destino manifiesto Aro, que son bastante cómodas, el bagre Aro",
+                    "POR":"Quando amanheceu vi que irei em abundância Muito cedo, há quatro dias meu bom destino manifesto Essa foi a revelação de Ifá para Akapo Que o aconselhou a servir seu Orí com um bagre vivo E colocar seus olhos em toda a vontade da vida Ele se levantou Eu irei para a riqueza E eu irei para um bom marido E eu irei para um bom menino E ele vai sair de uma boa casa E ele vai ter uma vida longa, o rei de todos vai Agora Aro, estamos muito confortáveis ​​- Aro O dia amanheceu hoje vi que vai ir em abundância Aro estamos muito confortáveis; Aro os bagres Muito cedo, há quatro dias, os Aro manifestam um bom destino, são bastante confortáveis, os bagres Aro",
+                    "Yoruba":"Ojúmó mo, mo rire Kutukutu ijeni mo riwa-riwa Diá fun Akapo Won ni ko feja Aro bori Ko too foju kan ire Akapo feja Aro bori Akapo foju kan’re O rire aje O rire aya O rire omo O rire gbogbo O rire aiku, baale oro Nje aro, ara wa ro wa na o, aro o Ojumo mo, mo rire rire Aro, ara wa ro wa na o,aro o Kutukutu ijeni mo riwa riwa Aro, ara wa ro wa na o, aro o.",
                     "ISBN": "0981001319"
                 }
-             },
-             {
+            },
+            {
                 "id": 2, 
                 "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe",
+                    "ENG": "Drink one (cup) Serve two for the elderly Serve two for the elderly and one will be served for you To make it fair and necessary If I like it I will use my Ifa to speak in the Gamberi language And if I like it I will use my Ifa to speak in Gambari language I use it to speak in Hukuhuku And speak-Wenu wenu A Gemberi man does not bear the burden for a Hausa man And an Agbigbo, do not shout aloud to heaven Ifá Akalamagbo messages When Ifa is to be performed for Olókun Seniade He was advised to offer ebo He fulfilled The Oba and I are the same The Oba wears a crown I adorn the neck with Ifá beads The Oba and I are the same.",
+                    "SPA": "Beba una (taza) Sirva dos para  los mayores Sirva  dos para el anciano y se sirve una para ti Para que sea justo y necesario Si me gusta Voy a utilizar mi Ifá para hablar en lenguaje Gamberi Y si me gusta Voy a utilizar mi Ifá para hablar en lenguaje Gambari Yo lo uso para hablar en Hukuhuku Y hablar-Wenu wenu Un hombre Gemberi no soporta la carga para un hombre hausa Y un Agbigbo,  no gritar en voz alta al cielo Ifá Mensajes de Akalamagbo Cuando se va a realizar Ifá para Olókun Seniade Se le aconsejó ofrecer ebo El Cumplió El  Oba y yo somos iguales El Oba lleva una corona Yo adorno el cuello con cuentas de Ifá El Oba y yo somos iguales.",
+                    "POR": "Beba um (copo) Sirva dois para os idosos Sirva dois para os idosos e um será servido para você Para torná-lo justo e necessário Se eu gostar usarei meu Ifa para falar na língua Gamberi E se eu gostar eu farei uso meu Ifa para falar na língua Gambari Eu uso-o para falar em Hukuhuku E falar-Wenu wenu Um homem Gemberi não carrega o fardo por um homem Hausa E um Agbigbo, não grite alto para o céu Mensagens Ifá Akalamagbo Quando Ifa será realizado para Olókun Seniade Ele foi aconselhado a oferecer ebo Ele cumpriu O Oba e eu somos iguais O Oba usa uma coroa Eu adorno o pescoço com contas de Ifá O Oba e eu somos iguais.",
+                    "Yoruba": "Bu’kan mu B’eji K’agba ki o mu’kan ko ‘ra a re o Ko le baa se jomu-regi Bo ba wu mi Na fi Ifa a mi fo Gemberi Bo ba wu mi Ma fi Ifa a mi fo Gambari Ma fi fo Huku-huku Ma fi fo Wenu-wenu Gemberi ni o r’eru Hausa Agbigbo ni o fon faa-faa r’ode orun Dia fun Akalamagbo Ti yoo te Olokun-Seniade n’Ifa Ebo ni won n I ko se O gb’ebo, o ru’bo Nje t’emi oba logboogba Oba ma n d’ade Mo gbe’de bo’run T’emi Oba logboogba",
                     "ISBN": "0981001319"
                 }
-             },
-             {
+            },
+            {
                 "id": 3, 
                 "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe",
+                    "ENG": "Otootootoo Oroorooroo Separately we can build our houses Separately is what we live in the houses The wisdom with which we have built our houses It is not as much as that with which we live in the homes These were the statements of a case of Orunmila When four Ajogun invaded the town of ile-Ife And they were tried to kick them out without success They simply refused to leave He was advised to offer ebo Met In a short time, not far away Join us amid abundant successes.",
+                    "SPA": "Otootootoo Oroorooroo Por separado podemos construir nuestras casas Por  separado es qué vivimos en las casas La sabiduría con que hemos levantado  nuestras casas No es tanto como que con la que vivimos en los hogares Estas fueron las declaraciones de un caso de Orunmila Cuando cuatro Ajogun invadieron la ciudad de ile-Ife Y se les trato de echarlos sin éxito Ellos simplemente se negaron a irse Se le aconsejó ofrecer ebo Cumplió En poco tiempo, no muy lejos Únase a nosotros en medio de abundantes éxitos.",
+                    "POR": "Otootootoo Oroorooroo Separadamente podemos construir nossas casas Separadamente é o que vivemos nas casas A sabedoria com a qual construímos nossas casas Não é tanto quanto aquela com que vivemos nas casas Estas foram as declarações de um caso de Orunmila aos quatro Ajogun invadiu a cidade de ile-Ife E eles foram tentados a expulsá-los sem sucesso Eles simplesmente se recusaram a sair Ele foi aconselhado a oferecer ebo Met Em pouco tempo, não muito longe Junte-se a nós em meio a sucessos abundantes.",
+                    "Yoruba": "Otootootoo Oroorooroo Otooto laa kole Otooto laa gbè ‘nu u re Ogbon ta a fií ko’le Ko to eyi taaa fi igbe ’nu u re Diá fun Orunmila  Níjo ti Ajogun merin ka won mole l’Otu Ife  Ti Baba le won, le won Ti won o lo Ebo ni won ni ko waa se O gbè‘bo, o ru’bo E wa ba ni ni wòwó iré gbogbo",
                     "ISBN": "0981001319"
                 }
-             }
+            },
+            {
+                "id": 4, 
+                "translation":{
+                    "ENG": "Apala seed looks like a woman's breast Popondo seed looks like adaasa A bronze gong fell and a metallic sound was made Ifá message for the Obi, cola nut When he goes on an Ifá mission to the Ekiti-Efon people He will be advised to offer ebo He fulfilled EWI-Ado, abundant seeds is Obi He who teaches his devotees wisdom, abundant are the products of the anvil Our generations never know that it is sterile.",
+                    "SPA": "Semilla Apala se parece el pecho de una mujer Semilla Popondo se parece adaasa Un gong de bronce cayó y se hizo un sonido metálico Mensaje de Ifá para el Obi, nuez de cola Cuando se va en misión de Ifá para el pueblo Ekiti-Efon  Se le aconsejó ofrecer ebo El cumplió EWI-Ado, abundantes semillas es Obi El que enseña su sabiduría devotos, abundantes son los productos del yunque Nuestras generaciones nunca se sabe que es estéril.",
+                    "POR": "Semente de apala parece peito de mulher Semente de popondo parece adaasa Um gongo de bronze caiu e um som metálico foi feito Mensagem Ifá para o Obi, noz de cola Quando ele vai em missão Ifá ao povo Ekiti-Efon Ele vai Ele aconselhou a oferecer ebo Ele conheceu EWI-Ado, sementes abundantes é Obi Ele que ensina sabedoria aos seus devotos, abundantes são os produtos da bigorna Nossas gerações nunca sabem que é estéril.",
+                    "Yoruba": "Apala nii so bi omu bi omu Popondo níí so bi adaasa bi adaasa Agogo ide níí bale Níí ro jijiwowo-jijiwowo Dia fun Obi Ti nsawo rode Ekiti-Efon Ebo ni won ni ko se O gb’ebo, o ru’bo Ewi-Ado jingbinmi l’omo Obi Awimo-logbon jingbinni l’omo Owu Iran awa o rin l’agan ri o",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 5, 
+                "translation":{
+                    "ENG": "The cleanliness of the sky is not as a result of constant sweeping The beauty of the moon is not as a result of a regular bath The plumpiness of the Ose tree is not a consequence of frequent ingestion These were the statements to Orúnmìlà When will you have the hand of Orilewa in marriage He was advised to offer ebo The Met Come and see the beautiful children of Orilewa Òrúnmìlà is the same one that Orilewa had taken as his wife Here are the beautiful children of Orilewa.",
+                    "SPA": "La limpieza del cielo no es como resultado de barrido constante La belleza de la luna no es como resultado de un baño regular El plumpiness del árbol Ose no es como consecuencia de la ingestión frecuente Estas fueron las declaraciones a  Òrúnmìlà Cuando va a tener la mano de Orilewa en  matrimonio Se le aconsejó ofrecer ebo El Cumplió Ven a ver a los niños hermosos de Orilewa Òrúnmìlà es el mismo que había tomado Orilewa como su esposa He aquí los hermosos niños de Orilewa.",
+                    "POR": "A limpeza do céu não é resultado de varreduras constantes A beleza da lua não é resultado de um banho regular A maciez da árvore de Ose não é consequência de ingestão frequente Estas foram as declarações de Orúnmìlà Quando você terá a mão de Orilewa em casamento Ele foi aconselhado a oferecer ebo O Met Venha e veja os lindos filhos de Orilewa Òrúnmìlà é o mesmo que Orilewa havia tomado por esposa Aqui estão os lindos filhos de Orilewa.",
+                    "Yoruba": "Mimo oju Olorun ko kan gbigba Ewa Osupa ko kan tiwe lsanra Ose ko kan ti onje Ofa fun Orunmila Ifa nlo ree gbe Orilewa niyawo Ebo ni won ni ko waa se O gbe' bo, o rubo Nje e sare wa, e waa wo omo Orilewa werewere Orunmila lo gbe Orilewa niyawo E sare wa, e waa wo omo Orilewa werewere",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 6, 
+                "translation":{
+                    "ENG": "Ominimini Ifa was guessed for Omi-tutu, fresh water When she came from heaven to earth She was advised to offer ebo She did so What did we find Omi-tutu doing? Ominimini We find Omi-tutu fixing the Ominimini world",
+                    "SPA": "Ominimini Se adivino el Ifá para Omi-tutu, agua fresca Cuando venia del cielo a la tierra Se le aconsejó ofrecer ebo Ella así lo hizo ¿Qué encontramos Omi-tutu haciendo? Ominimini Nosotros encontramos a Omi-tutu arreglando el mundo Ominimini",
+                    "POR": "Ominimini Ifa foi adivinhado para Omi-tutu, água doce Quando ela veio do céu para a terra Ela foi aconselhada a oferecer ebo Ela o fez O que encontramos Omi-tutu fazendo? Ominimini Encontramos Omi-tutu consertando o mundo Ominimini",
+                    "Yoruba": "Ominimini Dia fun Omi-tutu Ti nt’ikole orún bò wa’le aye Ebo ni won ni ko se O gb’ebo, o ru’bo Nje kinla b’Omi-tutu ti nse? Ominimini A b’Omi-tutu ti nt’aye se Ominimini",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 7, 
+                "translation":{
+                    "ENG": "Ifá dice que ''ahora es una'' Yo coreo que ''ahora es una'' Eleeni Él era el Awo que lanzó Ifá para 'Láméní El que lleva la calabaza de la riqueza y el éxito del cielo a la tierra Ifá dice que ''ahora es dos'' Yo coreo que ''ahora es dos'' Ejeeji Él era el Awo que lanzó Ifá para Sie-Ejide Que se reclinaba y  estaba llorando lamentando  su incapacidad para tener un hijo Ifá dice que ''ahora es tres'' yo coreo que ''ahora es tres'' Los tres cruce de caminos con una base amplia Él era el Awo que lanzó Ifá para Tamilore El hijo de Ita, de la calle principal Ifá dice que ''ahora es cuatro'' Yo coreo que ''ahora es cuatro'' Es con la gente sonríe recoger el fuego para la destilación de licor Con una sonrisa, la inundación se une al río Ellos eran los Awo que lanzó Ifá para Elerin-magba, el rey de Erin-ile El que deja nudos, arbustos y pastos para superar adversario Ifá dice que ''es de cinco'' Yo coreo que ''es de cinco'' Cada cinco días es lo que cosecha okro Cada cinco días es lo que la cosecha de huevos de jardín Ellos eran los Awo que lanzó Ifá para Òlorun-jinmi Cada cinco días se presentan regalos unos a otros Ifá dice que ''es seis'' Yo coreo que ''es seis'' Todos los animales se asemejan a la cola de Eta Cuando están en el monte Ellos eran los Awo que lanzó Ifá para Olofa-Eta El que deja nudos, arbustos y hierbas para superar adversario Ifá dice que ''es siete'' Yo coreo que ''es siete'' Cuando Olugbon realiza su ritual anual Que se celebrará el séptimo día de la ceremonia Cada vez que Aresa realiza su ritual anual Que se celebrará el séptimo día de la ceremonia Ellos eran los Awo que lanzó Ifá para Olojele, el conspirador Cuando él estaba en medio de los enemigos Y vivía en constante temor de los enemigos Ifá dice que ''es de ocho'' yo coreo que ''es ocho'' Que la fachada de su casa esta en calma y en paz Que la parte de atrás de la casa esta en calma y en paz Ellos fueron los que emitieron Ifá para Abimjo Que nació en la ciudad Igbajo Él y oro Irési El frente está en calma y en paz La parte posterior está en calma y en paz He ofrecido mi propio ebo con 1.600 caracoles Ifá dice que ''es de nueve'' Yo coreo que ''es de nueve” Sus ropas son para ser colgado has quede en pedazos” Nuestros vestidos son para ser usados hasta que se desvanecen Ellos eran los Awo que lanzó Ifá para Alakesan-magba La alabanza del nombre incluye ''Erigí-magba ¿Quién, después de ser instalado en Oba Estaba llorando, lamentándose de su imposibilidad de tener personas que le rinden homenaje Ahora hemos hecho Alakesan la cabeza del mercado Todos nuestros niños Paso aquí y a rendir homenaje Todos nuestros niños Ifá dice que ''es de diez'' Yo coreo que ''es de diez'' Los clientes son los que van a la casa del Bábálawo Bábálawo no es frecuente ir la casa de un cliente Esta fue la declaración de Ifá a Owa Ogirii-gbedu Descendientes de aquellos que saludan con ''Okun-Yeyé'' El que lucha y usa el mango de su espada para marcar el terreno Cuando estaba llorando, lamentándose de su incapacidad para controlar a sus súbditos Ifá dice que ''ahora es once Yo coreo que ''ahora es once Cuando los materiales de embalaje para el ritual Olu, siempre son once Cuando el material de embalaje para el ritual Awo siempre son once Estas fueron las declaraciones de Ifá Okanlawon ¿Quién le aconsejó ofrecer ebo Así que su segundo en el cielo le llenar de regalos Ifá dice que ''es de doce'' yo coreo que ''es de doce'' Orunmila dice que cada vez que se despierta en la madrugada Todas las cosas están de acuerdo con lo Le pide que lo que si se despierta en la madrugada Y se envuelve con un cobertor negro? Ellos responden que la gente diga ''suave Orunmila'' ''El hombre que brilla en su oscuridad ''El propietario de joyerías negro Ifá dice que ''es de doce de nuevo'' yo coreo que ''es de doce de nuevo'' Orunmila dice que cada vez que se despierta en la madrugada Todas las cosas están de acuerdo con lo Le pide que lo que si se despierta en la madrugada Y se envuelve con una manta de color rojo Ellos responden que la gente diga ''suave Orunmila'' ''Dueño del espacio de la tierra'' ''Eso es tan rojo como el barro'' Ifá dice que ''es de doce de nuevo'' yo coreo que ''es de doce de nuevo'' Orunmila dice que cada vez que se despierta en la madrugada Todas las cosas están de acuerdo con lo Ifá dice que lo que si se despierta en la madrugada Y se envuelve con una manta blanca? Ellos responden que la gente diga ''cuidado Orunmila'' ''El propietario de esa palmera'' ''¿Cuál es blanca e inmaculada'' Ifá dice que ''es de doce'' yo coreo que ''es de doce'' Orunmila dice que todo lo que despierta en la madrugada Todas las cosas están de acuerdo con lo Orunmila le pide que todo lo que despierte en la madrugada Todas las cosas están de acuerdo con lo Orunmila le pide que lo que si se despierta en la madrugada Y elige usar ni pantalones ni delantal? Ellos responden que la gente lo saludan y dicen ''cuidado Orunmila'' ''Fácil de Orunmila'' ''Suave, fácil, el hombre que es fresco y hermoso en su completa desnudez'' Suave, el hombre que es real en su desnudez” Es a partir de la base de que el tallador de mortero comienza el tallado de un mortero Es a partir de la base de que el jugador Ayo los planes de la derrota de su rival en Ekiti-Efon Es a partir de la parte inferior que Ajao sube a la cima de cualquier árbol Es a partir de la ''base'' que Agbonijosu, mi padre, hace el amor con su esposa Por la misma temporada del año que viene La consecuencia es el nacimiento de un bebé Estas fueron las declaraciones de Ifá para Egbe Eran y Y Sasara Y Aroni con el penacho grande y gruesa de pelo en la cabeza Y Sonakoki ¿Quién era el más joven de todos ellos Se les aconsejó ofrecer ebo para la longevidad Todos ellos cumplieron Incluso dentro de veinte años por venir Vamos a estar comiendo nuez de kola colocado en la parte superior de nuestro Ikin De aquí a treinta años Vamos a estar comiendo nuez de cola situado en la parte superior de nuestro Ikin Nos hemos convertido en Sonakoki La muerte nunca va a matar a aquellos que comen nuez de cola situado en la parte superior de Ikin Estamos Sonakoki.",
+                    "SPA": "Ifá dice que ''ahora es una'' Yo coreo que ''ahora es una'' Eleeni Él era el Awo que lanzó Ifá para 'Láméní El que lleva la calabaza de la riqueza y el éxito del cielo a la tierra Ifá dice que ''ahora es dos'' Yo coreo que ''ahora es dos'' Ejeeji Él era el Awo que lanzó Ifá para Sie-Ejide Que se reclinaba y  estaba llorando lamentando  su incapacidad para tener un hijo Ifá dice que ''ahora es tres'' yo coreo que ''ahora es tres'' Los tres cruce de caminos con una base amplia Él era el Awo que lanzó Ifá para Tamilore El hijo de Ita, de la calle principal Ifá dice que ''ahora es cuatro'' Yo coreo que ''ahora es cuatro'' Es con la gente sonríe recoger el fuego para la destilación de licor Con una sonrisa, la inundación se une al río Ellos eran los Awo que lanzó Ifá para Elerin-magba, el rey de Erin-ile El que deja nudos, arbustos y pastos para superar adversario Ifá dice que ''es de cinco'' Yo coreo que ''es de cinco'' Cada cinco días es lo que cosecha okro Cada cinco días es lo que la cosecha de huevos de jardín Ellos eran los Awo que lanzó Ifá para Òlorun-jinmi Cada cinco días se presentan regalos unos a otros Ifá dice que ''es seis'' Yo coreo que ''es seis'' Todos los animales se asemejan a la cola de Eta Cuando están en el monte Ellos eran los Awo que lanzó Ifá para Olofa-Eta El que deja nudos, arbustos y hierbas para superar adversario Ifá dice que ''es siete'' Yo coreo que ''es siete'' Cuando Olugbon realiza su ritual anual Que se celebrará el séptimo día de la ceremonia Cada vez que Aresa realiza su ritual anual Que se celebrará el séptimo día de la ceremonia Ellos eran los Awo que lanzó Ifá para Olojele, el conspirador Cuando él estaba en medio de los enemigos Y vivía en constante temor de los enemigos Ifá dice que ''es de ocho'' yo coreo que ''es ocho'' Que la fachada de su casa esta en calma y en paz Que la parte de atrás de la casa esta en calma y en paz Ellos fueron los que emitieron Ifá para Abimjo Que nació en la ciudad Igbajo Él y oro Irési El frente está en calma y en paz La parte posterior está en calma y en paz He ofrecido mi propio ebo con 1.600 caracoles Ifá dice que ''es de nueve'' Yo coreo que ''es de nueve” Sus ropas son para ser colgado has quede en pedazos” Nuestros vestidos son para ser usados hasta que se desvanecen Ellos eran los Awo que lanzó Ifá para Alakesan-magba La alabanza del nombre incluye ''Erigí-magba ¿Quién, después de ser instalado en Oba Estaba llorando, lamentándose de su imposibilidad de tener personas que le rinden homenaje Ahora hemos hecho Alakesan la cabeza del mercado Todos nuestros niños Paso aquí y a rendir homenaje Todos nuestros niños Ifá dice que ''es de diez'' Yo coreo que ''es de diez'' Los clientes son los que van a la casa del Bábálawo Bábálawo no es frecuente ir la casa de un cliente Esta fue la declaración de Ifá a Owa Ogirii-gbedu Descendientes de aquellos que saludan con ''Okun-Yeyé'' El que lucha y usa el mango de su espada para marcar el terreno Cuando estaba llorando, lamentándose de su incapacidad para controlar a sus súbditos Ifá dice que ''ahora es once Yo coreo que ''ahora es once Cuando los materiales de embalaje para el ritual Olu, siempre son once Cuando el material de embalaje para el ritual Awo siempre son once Estas fueron las declaraciones de Ifá Okanlawon ¿Quién le aconsejó ofrecer ebo Así que su segundo en el cielo le llenar de regalos Ifá dice que ''es de doce'' yo coreo que ''es de doce'' Orunmila dice que cada vez que se despierta en la madrugada Todas las cosas están de acuerdo con lo Le pide que lo que si se despierta en la madrugada Y se envuelve con un cobertor negro? Ellos responden que la gente diga ''suave Orunmila'' ''El hombre que brilla en su oscuridad ''El propietario de joyerías negro Ifá dice que ''es de doce de nuevo'' yo coreo que ''es de doce de nuevo'' Orunmila dice que cada vez que se despierta en la madrugada Todas las cosas están de acuerdo con lo Le pide que lo que si se despierta en la madrugada Y se envuelve con una manta de color rojo Ellos responden que la gente diga ''suave Orunmila'' ''Dueño del espacio de la tierra'' ''Eso es tan rojo como el barro'' Ifá dice que ''es de doce de nuevo'' yo coreo que ''es de doce de nuevo'' Orunmila dice que cada vez que se despierta en la madrugada Todas las cosas están de acuerdo con lo Ifá dice que lo que si se despierta en la madrugada Y se envuelve con una manta blanca? Ellos responden que la gente diga ''cuidado Orunmila'' ''El propietario de esa palmera'' ''¿Cuál es blanca e inmaculada'' Ifá dice que ''es de doce'' yo coreo que ''es de doce'' Orunmila dice que todo lo que despierta en la madrugada Todas las cosas están de acuerdo con lo Orunmila le pide que todo lo que despierte en la madrugada Todas las cosas están de acuerdo con lo Orunmila le pide que lo que si se despierta en la madrugada Y elige usar ni pantalones ni delantal? Ellos responden que la gente lo saludan y dicen ''cuidado Orunmila'' ''Fácil de Orunmila'' ''Suave, fácil, el hombre que es fresco y hermoso en su completa desnudez'' Suave, el hombre que es real en su desnudez” Es a partir de la base de que el tallador de mortero comienza el tallado de un mortero Es a partir de la base de que el jugador Ayo los planes de la derrota de su rival en Ekiti-Efon Es a partir de la parte inferior que Ajao sube a la cima de cualquier árbol Es a partir de la ''base'' que Agbonijosu, mi padre, hace el amor con su esposa Por la misma temporada del año que viene La consecuencia es el nacimiento de un bebé Estas fueron las declaraciones de Ifá para Egbe Eran y Y Sasara Y Aroni con el penacho grande y gruesa de pelo en la cabeza Y Sonakoki ¿Quién era el más joven de todos ellos Se les aconsejó ofrecer ebo para la longevidad Todos ellos cumplieron Incluso dentro de veinte años por venir Vamos a estar comiendo nuez de kola colocado en la parte superior de nuestro Ikin De aquí a treinta años Vamos a estar comiendo nuez de cola situado en la parte superior de nuestro Ikin Nos hemos convertido en Sonakoki La muerte nunca va a matar a aquellos que comen nuez de cola situado en la parte superior de Ikin Estamos Sonakoki.",
+                    "POR": "Ifá diz que '' agora é um '' Eu coreo que '' agora é um '' Eleeni Ele foi o Awo que lançou o Ifá para 'Láméní Ele que leva a abóbora da riqueza e do sucesso do céu para a terra Ifá diz que' 'agora são dois' 'eu luto que' 'agora são dois' 'Ejeeji Ele foi o Awo que lançou o Ifá para Sie-Ejide Que estava reclinado e chorava lamentando sua incapacidade de ter um filho Ifá diz que' 'agora é são três '' falo que '' agora são três '' As três encruzilhadas com base larga Foi o Awo que lançou o Ifá para o filho do Tamilore Ita, da rua principal Ifá diz que '' agora são quatro '' Eu Eu digo que `` agora são quatro '' É com o povo que sorriem para recolher o fogo para a destilação do licor Com um sorriso, a enchente se junta ao rio Eles foram o Awo que Ifa lançou para Elerin-magba, o rei de Erin-ile Aquele que deixa nós, arbustos e gramíneas para vencer seu adversário Ifá diz que ''são cinco'' Eu digo que ''são cinco'' .A cada cinco dias é o que o okro colhe. A cada cinco dias é o que eu colho. secha de ovos de jardim Eram os Awo que Ifá lançou para Òlorun-jinmi A cada cinco dias eles presentearam Ifá diz que '' são seis '' Eu digo que '' são seis '' Todos os animais lembram o rabo de Eta Quando eles estão na montanha Eles foram os Awo que Ifa lançou para Olofa-Eta Aquele que deixa nós, arbustos e ervas para vencer o adversário Ifá diz que '' são sete '' eu digo que '' são sete ' 'Quando Olugbon realiza seu ritual anual Isso será realizado no sétimo dia da cerimônia Cada vez que Aresa realiza seu ritual anual Isso será realizado no sétimo dia da cerimônia Eles foram os Awo que Ifa lançou para Olojele, o conspirador Quando ele estava no meio dos inimigos E vivia com medo constante dos inimigos Ifá diz que ''são oito'' Eu digo que ''são oito'' Que a frente de sua casa é calma e pacífica Que os fundos da casa são calmos e em paz Foram eles que emitiram Ifá para Abimjo Quem nasceu na cidade Igbajo Ele e eu rezo Irési A frente é á em calma e em paz As costas estão calmas e em paz Eu ofereci meu próprio ebo com 1.600 caracóis Ifá diz que ''são nove'' Eu digo que ''são nove'' Suas roupas devem ser penduradas até que fique em pedaços '' Nossos vestidos são para serem usados ​​até sumirem Foram os Awo que Ifa lançou para Alakesan-magba O elogio do nome inclui ''Erigí-magba Que, depois de se instalar em Oba Ele chorava, lamentando a impossibilidade de ter gente que o homenageasse a ele Agora fizemos de Alakesan o chefe do mercado Todos os nossos filhos eu passo aqui e presto homenagem Todos os nossos filhos Ifá dizem que '' são dez '' eu digo que '' são dez '' Os clientes são os que vão para a casa do Bábálawo Bábálawo não é frequente ir à casa de um cliente Esta foi a declaração de Ifá a Owa Ogirii-gbedu Descendentes daqueles que cumprimentam com `` Okun-Yeyé '' Aquele que luta e usa a maçaneta de sua espada para marcar o chão. Quando ela estava chorando, lamentando-se dela incapacidade de controlar seus súditos Ifá diz que `` agora são onze eu coro que '' agora são onze Quando os materiais de embalagem para o ritual Olu, há sempre onze Quando o material de embalagem para o ritual Awo é sempre onze Estes eram os declarações de Ifá Okanlawon Quem o aconselhou a oferecer ebo Então seu segundo no céu enche-o de presentes Ifá diz que `` são doze '' Eu digo que `` são doze '' Orunmila diz que toda vez que ele acorda de madrugada Todas as coisas concordam com você Perguntando, e se você acordar ao amanhecer E se envolver em um cobertor preto? Eles respondem que as pessoas dizem '' alise Orunmila '' '' O homem que brilha em sua escuridão '' O dono da joalheria Ifa preta diz que '' é doze de novo '' Eu coro que '' é doze de novo '' Orunmila diz que toda vez que ele acorda de madrugada Todas as coisas concordam com o que Ele pergunta a ele e se ele acorda de madrugada E se envolve com um cobertor vermelho Eles respondem que as pessoas dizem `` Orunmila macio '' '' Dono do espaço do terra '' '' Que é vermelha como barro '' Ifá diz que '' é doze de novo '' Eu digo que '' é doze de novo '' Orunmila diz que toda vez que ele acorda de madrugada Todas as coisas concordam com o que Ifá diz que e se ele acordar de madrugada E se embrulhar numa manta branca? Eles respondem que as pessoas falam '' cuidado Orunmila '' '' O dono daquela palmeira '' '' Qual delas é branca e imaculada '' Ifá diz que '' é doze '' Eu digo que '' são doze '' 'Orunmila diz que tudo que acorda de madrugada Todas as coisas estão de acordo com ele Orunmila pede a ele que tudo que acorda de madrugada Todas as coisas concordam com o que Orunmila pergunta a ele e se ele acordar de madrugada E escolher não usar calça nem avental ? Eles respondem que as pessoas o cumprimentam e dizem '' cuidado com Orunmila '' '' Calma de Orunmila '' '' Calma, calma, o homem que é fresco e belo em sua nudez completa '' Calma, o homem que é real em sua nudez ”É da base que o entalhador começa a esculpir uma argamassa. É da base que o jogador Ayo planeja derrotar seu rival em Ekiti-Efon. É de baixo que Ajao sobe ao topo de qualquer árvore. É da base '' base '' que Agbonijosu, meu pai, faz amor com sua esposa Para a mesma estação do ano que vem A conseqüência é o nascimento de um bebê Estas foram as declarações Ifá para Egbe Eran e And Sasara e Aroni com a grande e espessa nuvem de cabelo na cabeça deles E Sonakoki Quem era o mais jovem de todos Eles foram aconselhados a oferecer ebo para longevidade Todos eles se conheceram Mesmo dentro de vinte anos Estaremos comendo noz de cola colocada em cima de nosso Iki n Daqui a trinta anos, comeremos noz de cola localizada em cima de nosso Ikin Nós nos tornamos Sonakoki A morte nunca matará aqueles que comerem noz de cola localizada em cima de Ikin. Somos Sonakoki",
+                    "Yoruba": "Ifá lo deni Mo lo deni Elénìní Dia fun Lameni Omo atorun la gbegba aje waye  Ifa  lo deji Mo lo deji Ejeeji Dia fun Sie-Ejide To feyinti moju ekun sunrahun omo Ifa lo d’eta Mo lo d’era Ikorita meta abidi yakata-yakata Dia fun Tamilore Tii  somokunrin Ita Ifa lo d’erin Mo lo d’erin Erin ni won nrin fona Ori Erinsese lagbara nrin ko’do lona Dia fun Eleinmagba Omo atako leleele según Ifa lo d’arun Mo lo d’arun Oroorun ni won nkala Oroorun ni won nkakan Dia fun Olorunjinmi Oroorun ni won nfi ohun ire e jinraa won Ifa lo d’efa Mo lo d’efa Iru gbogbo lo nfiru j’eta Bi won ba denu igbo Dia fun Olofa-Eta omo atako leleele segun Ifa lo d’eje Mo lo d’eje B’Olugbon ba soro A kije A’Aresa ba soro A kije dia fun Olojele asote Ti nbe laarin ota Ti nfojoojumo kominu ogun Ifa lo d’ejo Mo lo d’ejo Kiwaju ile o jo sirere sirere Keyinkunle ile o jo sirere sirere Dia fun Abinjo Ti won bi sode igbajo Toun ti Iresi oro Iwa jo  Eyin jo Mo ti sawo Egbejo temi Ifa lo d’esan Mo lo d’esan Asan-gbo laso tawon Awo-gbo laso tawa o Dia fun Alakesan-magba Erigi mabga Eyi to joba tan To nsunkun oun o ri Olusin Awa m’Alakesan je Oloja Gbogbo omo eni E yaw a, e wa sin Gbogbo omo eni Ifa lo d’ewa Mo le d’ewa Wiwa-wiwa n won nwa babalawo o rele Babalawo kii wa enikan soso Dia fun owa-oga Owa ogirii gbedu Omo okun yeye A ja fibi kookoo lale Eyi to nsunkun wipe apa oun o kaye If lo d’okanla Mo do d’okanla Okanla ni won nderu f’Olu Okanla ni won nderu f’Awo Okanla ni won nderu welewele jako Dia fun kanlawon Won ni ko rubo Ki ekeji ree torun o le da oun rere lee lowo Mo lo d’iji Orunmila ni toun ba ji lorooru kutukutu Ohun gbogbo lo maa nba oun laraa de O ni toun ba ji loororu kutukutu Toun ba maso dudu bora nko? O ni won a ni Orunmila pele Omo aladuu-ja Omo oniwonran  Ifa lo tun d’iji Mo lo tun d’iji Orunmila ni toun ba ji lorooru kutukutu Ohun gbogbo lo maa nba oun lara a de Ohun gbogbo lomaa nba oun lara a de O ni toun ba ji lorooru kutukutu Toun ba faso pupa bora nko? O ni won a ni Orunmila pele Omo onile kan, ile kan Ti nba won pon risarisa Ifa lo tun d’iji Mo lo tun d’iji Orunmila ni toun ba ji lorooru kutukutu Ohun gbogbo lo maa nba oun lara a de O ni toun ba ji lorooru kutukutu Toun ba f’aso funfun bora nko? O ni won a ni Orunmila pele Omo igi ope ka nope kan  Ti nba won fun ningin-ningin Fia lo tun d’iji Mo lo tun d’iji Orunmila ni toun ba ji lorooru kutukutu Ohun gbogbo lo ma nba oun lara a de O ni toun ba ji lorooru kutukutu Ohun gbogbo lo maa nba oun lara a de O ni toun ba ji lorooru kutukutu Toun o bob ante nko O ni won a ni Orunmila pele Orunmila nle Pelepele omo arinhoho sosin Pele omo arinhoho sora Idi ni gbedogbedo ti m’odo o tire e gbe o Idi ni ajao ti mu’gi ree gun Ko too re ogengen igi Idi ni Ara a mi Agbonijosu ti b’obinrin re sere To ba digba ajodun Ire omo nii yori i si Dia fun Egbe Dia fun Eran Dia fun Sasara Dia fun Aroni abosu panpa Dia fun Sonakoki Ti somo Ikeyin won lenje-lenje Won ni ki won rubo si laiku araa won Won gbebo, won rubo Nje bo sogun odun lonii A ma ba won se bi lori Ikin je Bo se ogbon odun lonii A maa ba won se’bi lori Ikin je Aadota odun lonii A maa ba won se’bi loro Ikin je Awa ti di Sonakoki Iku kii pa asebi lori Ikin je A ti di Sonakoki.",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 8, 
+                "translation":{
+                    "ENG":"Abede, el Awo de Okira Hizo adivinación de Ifá para Okira Cuando él estaba sufriendo el problema de la fortuna sin consumar Se le aconsejó ofrecer ebo El Cumplió Aquí viene Abede, el Awo de Okira Por favor, no deje que Ifa Okira sufren el problema de las fortunas  sin consumar Abede, el Awo de Okira",
+                    "SPA":"Abede, the Awo of Okira Made Ifá divination for Okira When he was suffering the problem of fortune without consuming He was advised to offer ebo He fulfilled Here comes Abede, the Awo of Okira Please don't let Ifa Okira suffer the problem of the unconsumed fortunes Abede, the Awo of Okira",
+                    "POR":"Abede, o Awo de Okira Feita adivinhação de Ifá para Okira Quando ele estava sofrendo o problema da fortuna sem consumir Ele foi aconselhado a oferecer ebo Ele cumpriu Aí vem Abede, o Awo de Okira Por favor, não deixe Ifa Okira sofrer o problema dos não consumidos fortunas Abede, o Awo de Okira",
+                    "Yoruba": "Abede Awo Okira Dia fun Okira Ti yoo maa sowo aseti Ebo ni won ni ko se O gb’ebo , o ru’bo Abede ma ma de o, Awo Okira Ifa ma jee ki Okira o sowo aseti mo o Abede o, Awo Okira",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 9, 
+                "translation":{
+                    "ENG": "Otootooto Oroorooro Separately eat peanuts Separately eat tamarinds And separately eat queen bees What belongs to Orí is from Orí And what is from Oori is for Oori But what is common to both Orí and Oori is what that we give Obamakin Iranje on earth To bless us with what is both for Orí and Oori Ifá message for 4000 diseases When he comes from heaven to earth Èjì-Ogbè was their leader from heaven They were advised to offer ebo They delivered In a short time, not far away Join us in the midst of eternal victory",
+                    "SPA": "Otootooto Oroorooro Por separado se come cacahuetes Por separado se come tamarindos Y por separado, se come las abejas reinas Lo que pertenece a Orí es de Orí Y lo que es de Oori es para Oori Pero lo que es común a ambos Orí y Oori es lo que damos a Obamakin Iranje en la tierra Para que nos bendiga con lo que es tanto para Orí y Oori Mensaje de Ifá para el 4000 las enfermedades Cuando viene del cielo a la tierra Èjì-Ogbè fue su líder desde el cielo Se les aconsejó ofrecer ebo Ellos cumplieron En poco tiempo, no muy lejos Únase a nosotros en medio de la victoria eterna",
+                    "POR": "Otootooto Oroorooro Comer separadamente amendoim Comer separadamente tamarindo E separadamente comer abelhas rainhas O que pertence a Orí é de Orí E o que é de Oori é de Oori Mas o que é comum a Orí e Oori é o que damos Obamakin Iranje na terra Para nos abençoar com o que é para Orí e Oori Ifá mensagem para 4000 doenças Quando ele vem do céu para a terra Èjì-Ogbè era o líder deles do céu Eles foram aconselhados a oferecer ebo Eles entregaram Em pouco tempo, não muito longe Junte-se a nós no meio do eterno vitória",
+                    "Yoruba": "Otootooto Oroorooro Otooto laa j’epa Otooto laa j’imumu Loto-loto laa so olu  esunsun s’enu Oun t’Ori ni t’Ori Oun t’oori ni t’oori Oun t’Ori-t’oori laa fi fun Obamakin lode Iranje Ko le baa foun t’Ori-t’oori ta’ne l’oore Dia fun Egbaji arun Ti ntikole Orun bo wale Aye Eji-Ogbe ni o ji asiwaju won Ebo ni won ni ko waa se O gb’ebo, o ru’bo Ko pe, ko jinna E ba ni laiku kangiri",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 10, 
+                "translation":{
+                    "ENG": "I will hide But my Orí says that he does not accept me by hiding me I walk through the alleys But my Èdá rejects my foot in the alleys These were the declaration of Ifá in Ilé When he comes from Heaven to Earth He was advised to offer ebo So that nothing could be placed in her Orí She replied that life was acceptable for her, since that day, Eni spread over her Orí I will hide But my Orí says that she does not accept me by hiding me I walk through the alleys But my Orí says he does not accept me by hiding me I walk through the alleys But my Èdá rejects my foot in the alleys These were the declaration of Ifá to Eni When he comes from Heaven to Earth He was advised to offer ebo So that nothing could be placed at her Orí She replied that life was fair and correct, since that day, Ìté spread over her Orí I will hide But my Orí says that she does not accept me by hiding me I walk through the alleys But my Orí says that she does not accept me hiding me walk through the alleys But my Èdá rejects my foot in the alleys These were the declaration of Ifá to Ìté When she comes from Heaven to Earth She was advised to offer ebo So that nothing could be placed at her Orí She replied that life was acceptable for she, as it is That day, Apere spread over her Orí I will hide But my Orí says that she does not accept me by hiding me I walk through the alleys But my Orí says that she does not accept me by hiding me I walk through the alleys But mi Èdá rejects my foot in the alleys These were the declaration of Ifá for Apere When she comes from Heaven to Earth She was advised to offer ebo So that nothing could be placed at her Orí She replied that life was acceptable for her, since it was That day, Oba spread over his Orí I will hide But my Orí says that he does not accept me by hiding me I walk through the alleys But my Orí says that he does not accept me by hiding me I walk through the alleys But my Èdá rejects my foot in the c allejones These were the declaration of Ifá to Oba When she comes from Heaven to Earth She was advised to offer ebo So nothing could be placed on what of him She replied that life was acceptable for her, since that day, Adé was extended about him I will hide But my Orí says that he does not accept me by hiding me I walk through the alleys But my Orí says that he does not accept me by hiding me I walk through the alleys But my Èdá rejects my foot in the alleys These were the statement From Ifá to Adé When she comes from Heaven to Earth She was advised to offer ebo So that nothing could be placed in her Orí She replied that life was acceptable for her, since that day, Iye Okin merìndínlógún was placed in her Orí Yo I will hide But my Orí says that he does not accept me by hiding me I walk through the alleys But my Orí says that he does not accept me by hiding me I walk through the alleys But my Èdá rejects my foot in the alleys These were the declaration of Ifá for Iye Okin When she comes from Heaven to Earth She was advised to offer ebo So that nothing could be placed in her Orí She replied that life was acceptable for her, since that day, Esinsin-Tente was placed in her Orí I will hide But my Orí says that she does not accept me by hiding me I walk through the alleys But my Orí says that she does not accept me by hiding me I walk through the alleys But my Èdá rejects my foot in the alleys These were the declaration of Ifá for Esinsin-Tente When he comes from Heaven to Earth He was advised to offer ebo So nothing could be placed in that of him He fulfilled Washed his bottom Then he opened his mouth And began to sing the song of Awo He says: `` I wash my hands and feet '' And the party with Oba '' I wash my hands and feet '' '' And party with Oba '' '' I wash my hands and feet '' '' I will not die anymore '' '' I wash my hands and feet '' '' And party with Oba ''",
+                    "SPA": "Yo me esconderé Pero mi Orí dice que no me acepta a mi ocultándome Me paseo por los callejones Pero mi Èdá rechaza mi pie en los callejones Estas fueron la declaración de Ifá en Ilé Cuando viene del Cielo a la Tierra Se le aconsejó ofrecer ebo Para que nada pudiera ser colocado a su Orí Ella respondió que la vida era aceptable para ella, ya que se Ese día, Eni se extendió sobre su Orí Yo me esconderé Pero mi Orí dice que no me acepta a mí ocultándome Me paseo por los callejones Pero mi Orí dice que no me acepta a mí ocultándome Me paseo por los callejones Pero mi Èdá rechaza mi pie en los callejones Estas fueron la declaración de Ifá to Eni Cuando viene del Cielo a la Tierra Se le aconsejó ofrecer ebo Para que nada pudiera ser colocado a su Orí Ella respondió que la vida era justo y correcto, ya que se Ese día, Ìté se extendió sobre su Orí Yo me esconderé Pero mi Orí dice que no me acepta a mí ocultándome Me paseo por los callejones Pero mi Orí dice que no me acepta a mí ocultándome Me paseo por los callejones Pero mi Èdá rechaza mi pie en los callejones Estas fueron la declaración de Ifá a Ìté Cuando viene del Cielo a la Tierra Se le aconsejó ofrecer ebo Para que nada pudiera ser colocado a su Orí Ella respondió que la vida era aceptable para ella, ya que se Ese día, Apere se extendió sobre su Orí Yo me esconderé Pero mi Orí dice que no me acepta a mí ocultándome Me paseo por los callejones Pero mi Orí dice que no me acepta a mí ocultándome Me paseo por los callejones Pero mi Èdá rechaza mi pie en los callejones Estas fueron la declaración de Ifá para Apere Cuando viene del Cielo a la Tierra Se le aconsejó ofrecer ebo Para que nada pudiera ser colocado a su Orí Ella respondió que la vida era aceptable para ella, ya que se Ese día, Oba se extendió sobre su Orí Yo me esconderé Pero mi Orí dice que no me acepta a mí ocultándome Me paseo por los callejones Pero mi Orí dice que no me acepta a mí ocultándome Me paseo por los callejones Pero mi Èdá rechaza mi pie en los callejones Estas fueron la declaración de Ifá a Oba Cuando viene del Cielo a la Tierra Se le aconsejó ofrecer ebo Así que nada podría ser colocado en que de él Ella respondió que la vida era aceptable para ella, ya que se Ese día, Adé se extendió sobre él Yo me esconderé Pero mi Orí dice que no me acepta a mí ocultándome Me paseo por los callejones Pero mi Orí dice que no me acepta a mí ocultándome Me paseo por los callejones Pero mi Èdá rechaza mi pie en los callejones Estas fueron la declaración de Ifá a Adé Cuando viene del Cielo a la Tierra Se le aconsejó ofrecer ebo Para que nada pudiera ser colocado a su Orí Ella respondió que la vida era aceptable para ella, ya que se Ese día, Iye Okin merìndínlógún fue colocado en su Orí Yo me esconderé Pero mi Orí dice que no me acepta a mí ocultándome Me paseo por los callejones Pero mi Orí dice que no me acepta a mí ocultándome Me paseo por los callejones Pero mi Èdá rechaza mi pie en los callejones Estas fueron la declaración de Ifá para Iye Okin Cuando viene del Cielo a la Tierra Se le aconsejó ofrecer ebo Para que nada pudiera ser colocado a su Orí Ella respondió que la vida era aceptable para ella, ya que se Ese día, Esinsin-Tente fue colocado en su Orí Yo me esconderé Pero mi Orí dice que no me acepta a mí ocultándome Me paseo por los callejones Pero mi Orí dice que no me acepta a mí ocultándome Me paseo por los callejones Pero mi Èdá rechaza mi pie en los callejones Estas fueron la declaración de Ifá para Esinsin-Tente Cuando viene del Cielo a la Tierra Se le aconsejó ofrecer ebo Así que nada podría ser colocado en que de él Cumplió Lavado su  fondo A continuación, abrió la boca Y comenzó a cantar la canción de Awo Él dice: ''Yo me lavo las manos y los pies'' Y la fiesta con Oba ''Yo me lavo las manos y los pies'' ''Y fiesta con Oba'' ''Yo me lavo las manos y los pies'' ''Yo no moriré  más'' ''Yo me lavo las manos y los pies'' ''Y fiesta con Oba''",
+                    "POR": "Vou me esconder Mas meu Orí diz que não me aceita escondendo-me Eu ando pelos becos Mas meu Èdá rejeita meu pé nos becos Essas foram as declarações de Ifá em Ilé Quando ele vem do Céu para a Terra Foi aconselhado a oferecer ebo Para que nada pudesse ser colocado em seu Orí Ela respondeu que a vida era aceitável para ela, desde aquele dia, Eni espalhou sobre seu Orí Eu irei esconder Mas meu Orí diz que ela não me aceita escondendo-me Eu ando pelos becos Mas o meu Orí diz que não me aceita escondendo-me Ando pelos becos Mas o meu Èdá rejeita o meu pé nos becos Estas foram as declarações de Ifá a Eni Quando vem do Céu à Terra foi aconselhado a oferecer ebo Para que nada pudesse ser colocada em seu Orí Ela respondeu que a vida era justa e correta, desde aquele dia, Ìté espalhou sobre ela Orí eu irei esconder Mas meu Orí diz que não me aceita escondendo-me Eu ando pelos becos Mas meu Orí diz que ela não aceita que eu me esconda andar pelos becos Mas meu Èdá rejeita meu pé nos becos Estas foram as declarações de Ifá a Ìté Quando ela vem do Céu para a Terra Ela foi aconselhada a oferecer ebo Para que nada pudesse ser colocado em seu Orí Ela respondeu que a vida era aceitável para ela, como é Nesse dia, Apere espalhou sobre ela Orí eu irei esconder Mas meu Orí diz que não me aceita escondendo-me Eu caminho pelos becos Mas meu Orí diz que não me aceita escondendo-me Eu caminho nos becos Mas mi Èdá rejeita meu pé nos becos Estas foram as declarações de Ifá por Apere Quando ela vem do Céu para a Terra Ela foi aconselhada a oferecer ebo Para que nada pudesse ser colocado em seu Orí Ela respondeu que a vida era aceitável para ela, já que era Nesse dia, Oba espalhou sobre seu Orí Eu irei esconder Mas meu Orí diz que não me aceita me escondendo Eu ando pelos becos Mas meu Orí diz que não me aceita me escondendo Eu ando pelos becos Mas meu Èdá rejeita meu pé no c allejones Estas foram as declarações de Ifá a Oba Quando ela vem do Céu para a Terra Ela foi aconselhada a oferecer ebo Para que nada pudesse ser colocado sobre o que dele Ela respondeu que a vida era aceitável para ela, desde aquele dia, Adé se estendeu sobre ele I vai se esconder Mas meu Orí diz que não me aceita me escondendo Eu ando pelos becos Mas meu Orí diz que não me aceita me escondendo Eu ando pelos becos Mas meu Èdá rejeita meu pé nos becos Esses foram os declaração De Ifá a Adé Quando ela vem do Céu para a Terra Ela foi aconselhada a oferecer ebo Para que nada pudesse ser colocado em seu Orí Ela respondeu que a vida era aceitável para ela, desde aquele dia, Iye Okin merìndínlógún foi colocado em seu Orí Yo I vai se esconder Mas meu Orí diz que não me aceita me escondendo Eu ando pelos becos Mas meu Orí diz que não me aceita me escondendo Eu ando pelos becos Mas meu Èdá rejeita meu pé nos becos Esses foram os declaração de Ifá para Iye Okin Quando ela vem do Céu para a Terra Ela foi aconselhada a oferecer ebo Para que nada pudesse ser colocado em seu Orí Ela respondeu que a vida era aceitável para ela, desde aquele dia, Esinsin-Tente foi colocado em seu Orí Eu vou esconder Mas meu Orí diz que não me aceita me escondendo Eu ando pelos becos Mas meu Orí diz que não me aceita me escondendo Eu ando pelos becos Mas meu Èdá rejeita meu pé nos becos Essas foram as declarações de Ifá para Esinsin -Fortaleza Quando ele vem do Céu para a Terra foi aconselhado a oferecer ebo Para que nada pudesse ser colocado nele Ele cumpriu Lavou o traseiro Depois abriu a boca E começou a cantar a canção do Awo Diz: `` Eu lavo meu mãos e pés '' E a festa com Oba '' Eu lavo minhas mãos e pés '' '' E festa com Oba '' '' Eu lavo minhas mãos e pés '' '' Eu não vou morrer mais '' '' Eu lavar minhas mãos e pés '' '' E festejar com Oba ''",
+                    "Yoruba": "Mo sa pamo, sa pamo Orí mi loun o sa pamo Mo rin ni koro, ni koro Èdá mi loun o fe koro Dia fun Ilé Nijo ti o torun bo waye Won ni ko rubo Ki nnkankan ma baa gorii re Ile ni aye ti ye awon to bayii Ojo naa ni won te Eni lee lori Mo sa pamo, sa pamo Orí mi loun o sa pamo Mo rin ni koro, ni koro Èdá mi loun o fe koro Dia fun eni Nijo ti o ntorun bo waye Won ni ko rubo Ki nnkankan ma baa gorii re Eni ni aye ti ye awon to bayii Lojo naa ni won te ite lee lori Mo sa pamo, sa pamo Ori mi loun o sa pamo Mo rin ni koro, ni koro Eda mi loun o fe koro Dia fun Ite Nijo ti o ntorun bo waye Won ni ko rubo Ki nnkankan ma baa gorii re Ite ni aye ti ye awon to bayii Lojo naa ni won gbe Apere lee lori` Mo sa pamo, sa pamo Orí mi loun o sa pamo Mo rin ni koro, ni koro Eda mi loun o fe koro Dia fun Apere Nijo ti o ntorun bo waye Won ni ko rubo Ki nnkankan ma baa gorii re Apere ni aye ti ye awon to bayii Ojo naa ni won gbe Apere lee lori Mo sa pamo, sa pamo Orí mi loun o sa pamo Mo rin ni koro, ni koro Èdá mi loun o fe koro Dia fun Oba Nijo ti o ntorun bo waye  Won ni ko rubo Ki nnkankan ma baa gorii re Oba ni aye ti ye awon to bayii Ojo naa ni won gbe Ade lee lori Mo sa pamo, sa pamo Orí mi loun o sa pamo Mo rin ni koro, ni koro Èdá mi loun o fe koro Dia fun Adé Nijo ti o ntorun bo waye Won ni ko rubo Ki nnkankan ma baa gorii re Ade ni aye ti ye oun to bayii Ojo naa ni won fi Iye Okin Mérìndínlogún (16) gun lori Mo sa pamo, sa pamo Orí mi loun o sa pamo Mo rin ni koro, ni koro Èdá mi loun o fe koro Dia fun Iye Oki merìndínlógún Won n ntorun bo wale aye Won ni, ki won rubo Ki nnkankan ma baa gorii won Ojo naa ni Wsinsin-Tente ba le won lori Mo sa pamo, sa pamo Ori mi loun o sa pamo Mo rin ni koro, ni koro Eda mi loun o fe koro Dia fun Esinsin-Tente O n torun bo wale aye Won ni ko rubo Ki nnkankan ma ba gorii re O gbe bo, o rubo O wewo iteni-iteni O wese iteni-iteni O wa lanu koto Orin Awo lo nko O ni mo wewo, wese Mo jeun Oba Emi wewo, wese Mi o ku mo Mo wewo, we’se Mo jeun Oba.",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 11, 
+                "translation":{
+                    "ENG": "The day cannot last long And the night cannot last long The night cannot stick additional hooves on the leg of a horse Ifá message for the mother When she comes from heaven to earth She will come and give you support in This time the mother cannot stop giving support Ifá message for one's father When he comes from heaven to earth He will come and give them support this time A father cannot stop giving support Ifá message for him One's Orí If it comes to lift up the earth It will come and give a support of this time One's Orí cannot stop giving support to one Ifá message for one's own Ikin (Ifa) When it came from heaven to earth It will come and give a support of this time The Ikin of one can not help but give a support",
+                    "SPA": "El día no puede durar mucho tiempo Y la noche no puede durar por mucho tiempo La noche no puede pegar cascos adicionales en la pata de un caballo Mensaje de Ifá para la madre Cuando viene del cielo a la tierra Ella vendrá y les dará un apoyo en esta ocasión La madre no puede dejar de dar un apoyo Mensaje de Ifá para el padre de uno Cuando viene del cielo a la tierra Él vendrá y les dará un apoyo de este tiempo Un padre no puede dejar de dar un apoyo Mensaje de Ifá para el Orí de uno Si viene por levantar a la tierra Vendrá y dará un apoyo de este tiempo El Orí de uno no puede dejar de dar apoyo a uno Mensaje de Ifá para la propia Ikin (Ifa) Cuando venia del cielo a la tierra Vendrá y dará un apoyo de este tiempo El Ikin de uno no puede dejar de dar un apoyo ",
+                    "POR": "O dia não pode durar muito E a noite não pode durar muito A noite não pode enfiar cascos adicionais na perna de um cavalo Mensagem de Ifá para a mãe Quando ela vier do céu para a terra Ela virá e lhe dará apoio Desta vez a mãe não pode parar de dar apóie a mensagem de Ifá para seu pai Quando ele vier do céu para a terra Ele virá e os apoiará desta vez Um pai não pode parar de dar apoio Mensagem de Ifá para ele O Orí de um Se vier para erguer a terra Virá e dará um apoio de desta vez, o Orí da pessoa não consegue parar de dar suporte a uma mensagem Ifá para seu próprio Ikin (Ifa) Quando ele veio do céu para a terra, Ele virá e dará um suporte deste tempo O Ikin de um não pode deixar de dar um suporte",
+                    "Yoruba": "Osan ni o san pe Oru ni o ru pe Oru ni o kan baba m’esin lese pin-pin-pin Dai fun Yeye eni Yeye eni ntorun bo wale aye Yoo waa gbe’ni nigbayi o Baba eni kii gbe’ni I ti Dia fun Ori eni  Ori eni ntorun bo waye Yoo waa gbe’ni nigbayi o Ori eni kii gbe’ni i ti Dia fun Ikin eni Ikin eni ntorin bo waye Yoo waa gbe’ni nigbayii o Ikin eni kii gbe’nii ti",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 12, 
+                "translation":{
+                    "ENG": "",
+                    "SPA": "",
+                    "POR": "",
+                    "Yoruba": "",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 13, 
+                "translation":{
+                    "ENG": "",
+                    "SPA": "",
+                    "POR": "",
+                    "Yoruba": "",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 14, 
+                "translation":{
+                    "ENG": "",
+                    "SPA": "",
+                    "POR": "",
+                    "Yoruba": "",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 15, 
+                "translation":{
+                    "ENG": "",
+                    "SPA": "",
+                    "POR": "",
+                    "Yoruba": "",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 16, 
+                "translation":{
+                    "ENG": "",
+                    "SPA": "",
+                    "POR": "",
+                    "Yoruba": "",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 17, 
+                "translation":{
+                    "ENG": "",
+                    "SPA": "",
+                    "POR": "",
+                    "Yoruba": "",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 18, 
+                "translation":{
+                    "ENG": "",
+                    "SPA": "",
+                    "POR": "",
+                    "Yoruba": "",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 19, 
+                "translation":{
+                    "ENG": "",
+                    "SPA": "",
+                    "POR": "",
+                    "Yoruba": "",
+                    "ISBN": "0981001319"
+                }
+            }
         ],
         "taboos":[
             {
@@ -130,44 +392,131 @@
             {
                 "id": 1, 
                 "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe",
+                    "ENG":"Ifá says that, to be successful in life, there is a need for, among other things, to serve your Orí with a large live catfish. Ifá says that if you do this, you will not miss any of the good things of life. You will succeed where others have failed.",
+                    "SPA":"Ifá dice que, para tener éxito en la vida, existe la necesidad de que, entre otras cosas, para servir a su Orí con un pez gato vivo grande. Ifá dice que si se hace esto, no faltará ninguna de las cosas buenas de la vida. Usted tendrá éxito donde otros habían fracasado.",
+                    "POR":"Ifá diz que, para ter sucesso na vida, é preciso, entre outras coisas, servir o seu Orí com um grande bagre vivo. Ifá diz que se você fizer isso, não perderá nenhuma das boas coisas da vida . Você terá sucesso onde outros falharam.",
                     "ISBN": "0981001319"
 
                 }
-             },
-             {
+            },
+            {
                 "id": 2, 
                 "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe",
+                    "ENG": "Ifá says that when you come from heaven, you chose to be a great leader. You chose to be counted among the kings of the world. As a consequence of this, he was approved to be equal to kings, emperors, rulers and national administrators. Ifá advises that the IDE, Ifá accounts should be used at all times. You need to use the beaded necklace as it sets you apart from all the others. Ifá also advises you to offer ebo with two Irukere, cow tails, two white doves, two guinea fowls and money. It is also necessary to feed Ifá with a smoked catfish (catfish).",
+                    "SPA": "Ifá dice que cuando se viene del cielo, que optó por ser un gran líder. Usted eligió ser contado entre los reyes del mundo. Como consecuencia de esto, fue aprobado para que sea igual a reyes, emperadores, gobernantes y administradores nacionales. Ifá aconseja que se deba usar el IDE, cuentas de Ifá en todo momento. Es necesario utilizar el collar de cuentas, ya que le distingue de todos los demás. Ifá también le aconseja ofrecer ebo con dos Irukere, colas de vaca, dos palomas blancas, dos gallinas de guinea y dinero. También es necesario para alimentar a Ifá con un pez gato ahumado (bagre).",
+                    "POR": "Ifá diz que quando você veio do céu, você escolheu ser um grande líder. Você escolheu ser contado entre os reis do mundo. Como conseqüência disso, ele foi aprovado para ser igual a reis, imperadores, governantes e administradores nacionais. Ifá informa que o IDE, contas Ifá devem ser usadas em todos os momentos. Você precisa usar o colar de contas, pois ele o diferencia de todos os outros. Ifá também aconselha a oferecer ebo com dois Irukere, rabo de vaca, duas pombas brancas, duas galinhas d'angola e dinheiro. Também é necessário alimentar Ifá com um bagre defumado (bagre).",
                     "ISBN": "0981001319"
                 }
-             },
-             {
+            },
+            {
                 "id": 3, 
                 "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe",
+                    "ENG": "Ifá says that it foresees all the IRE everything for you. Ifá says that death will be replaced with wealth, sadness with joy, sorrow with celebration, loss of longevity and desire in achievement. Ifá says that you must live and die as a happy man. In this Odù, Ifá says that death becomes economic well-being, wife affliction, disputes over opportunities to have children, and loss of longevity. Ifá says that there is a need for you to offer Ebo known as ARUKORE or ARUKAPONJA. Materials include the sacrifice, 2 pigeons, 2 roosters, 2 rats, 2 fish, 4 Obi Kola, 4 bitter kola, 4 guinea peppers, and money.",
+                    "SPA": "Ifá dice que prevé todos los IRE todo para usted. Ifá dice que se sustituirá la muerte con la riqueza, la tristeza con alegría, pena con la celebración, la pérdida de longevidad y deseo en logro. Ifá dice que usted debe vivir y morir como un hombre feliz. En este Odù, Ifá dice que la muerte se convierte en el bienestar económico, la aflicción  esposa, los litigios a oportunidades de tener hijos, y la pérdida de la longevidad. Ifá dice que existe la necesidad para que usted pueda ofrecer Ebo conocido como ARUKORE o ARUKAPONJA. Materiales incluyen el sacrificio, 2 palomas, 2 gallos, 2 ratas, 2 peces, 4 Obi Kola, 4 kola amarga, 4 pimientas de guinea y dinero. ",
+                    "POR": "Ifá diz que prevê toda a IRE tudo para você. Ifá diz que a morte será substituída por riqueza, tristeza por alegria, tristeza por comemoração, perda de longevidade e desejo de realização. Ifá diz que você deve viver e morrer como um homem feliz. Neste Odù, Ifá diz que a morte se transforma em bem-estar econômico, aflição da esposa, disputas sobre oportunidades de ter filhos e perda de longevidade. Ifá diz que é necessário você oferecer o Ebo conhecido como ARUKORE ou ARUKAPONJA. Os materiais incluem o sacrifício, 2 pombos, 2 galos, 2 ratos, 2 peixes, 4 Obi Kola, 4 cola amarga, 4 pimentões da índia e dinheiro.",
                     "ISBN": "0981001319"
                 }
-             },
-             {
+            },
+            {
                 "id": 4, 
                 "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe",
+                    "ENG":"Ifá foresees that of good children for you. Ifá also predicts that you will be blessed with all the good things in life. You will lack nothing in life. Ifá advises you to be content with what Òlódùmarè has blessed you. Need for you to offer ebo and feed Ifá.Ifá advises you to offer ebo with a basket full of Obi and money. You also need to feed Ifá with 16 Obi.",
+                    "SPA":"Ifá prevé el de los niños buenos para usted. Ifá también predice que será bendecido con todas las cosas buenas de la vida. no te faltará nada en la  vida. Ifá le aconseja que este contenta con lo que Òlódùmarè lo ha bendecido. Existe la necesidad de que para ofrecer ebo y alimentar a Ifá.Ifá le aconseja ofrecer ebo con una cesta llena de Obi y el dinero. También es necesario para alimentar a Ifá con 16 Obi.",
+                    "POR":"Ifá prevê o de bons filhos para você. Ifá também prevê que você será abençoado com todas as coisas boas da vida. você não vai perder nada na vida. Ifá o aconselha a ficar feliz com o que Òlódùmarè o abençoou. É necessário oferecer o ebo e alimentar o Ifa. Fa o aconselha a oferecer o ebo com uma cesta cheia de Obi e dinheiro. Também é necessário alimentar Ifá com 16 Obi.",
                     "ISBN": "0981001319"
                 }
-             }
+            },
+            {
+                "id": 5, 
+                "translation":{
+                    "ENG":"Ifá says that he foresees I will go to a good wife for you. Ifá says that the relationship will be blessed with the progress of happiness, children and security. For this to happen, there is a need for you to offer ebo of 1 hen, 1 pigeon, 4 fish, 4 rats and money. Also to feed Ifá with 4 rats, 4 fish, palm oil and money.",
+                    "SPA":"Ifá dice que prevé iré de una buena esposa para ti. Ifá dice que la relación será bendecido con el progreso de la felicidad, los niños y la seguridad. Para que esto suceda, existe la necesidad para que usted pueda ofrecer ebo de 1 gallina, 1 paloma, 4 peces,  4 ratas y dinero. También para alimentar a Ifá con 4 ratas, 4 peces, aceite de palma y dinero. ",
+                    "POR":"Ifá diz que prevê que irei ter uma boa esposa para você. Ifá diz que o relacionamento será abençoado com o progresso da felicidade, filhos e segurança. Para que isso aconteça, é necessário que você ofereça ebo de 1 galinha, 1 pombo, 4 peixes, 4 ratos e dinheiro. Também para alimentar Ifá com 4 ratos, 4 peixes, óleo de palma e dinheiro.",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 6, 
+                "translation":{
+                    "ENG":"Ifá promises that all the things that are giving you pain and sorrow. Joy and satisfaction will be your luck. You will have reason to be happy.",
+                    "SPA":"Ifá promete que todas las cosas que le están dando dolor y  pena a usted. La alegría y la satisfacción serán su suerte. Usted  tendrá motivos para alegrarse.",
+                    "POR":"Ifá promete que todas as coisas que estão lhe dando dor e tristeza. Alegria e satisfação serão sua sorte. Você terá motivos para ser feliz.",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 7, 
+                "translation":{
+                    "ENG":"Ifá says that the wealth and prosperity and the person are foreseen for you. Ifá says that they have brought his wealth from heaven. Ifá says that you are going to give birth to a pair of twins or that they were born with a double who has twins in his lineage or that you are a twin. In a word, they are closely associated with the deity Twins. In the same stanza, Ifá says that you will have good luck throughout your life and you will overcome your problems and enemies, no matter how many they are. Ifá says that you will also have tranquility and happiness in your life and that you will be in full control of your life and the lives of those around you. In the same stanza, Ifá says that you are an ELEGBE and that your heavenly double will shower you with all the good things in life that will bring you success and achievements. Ifá also says that you will find comfort in any condition, no matter how hard the situation may be. You will also win the admiration of others with the way you carry yourself in tough and difficult situations. Ifá also says that five children and five young people, whether biological or adopted, children will have a great influence on their life. Ifá advises, however, that it is necessary to offer sacrifices for children in order to avoid dying young.",
+                    "SPA":"Ifá dice que se prevé el de la riqueza y la prosperidad y la persona para ti. Ifá dice que le han traído su riqueza desde el cielo. Ifá dice que va a dar a luz a un par de gemelos o que nacieron con un doble que tiene gemelos en su linaje o que usted es un gemelo. En una palabra, que están estrechamente asociados a la deidad Gemelas. En la misma estrofa, Ifá dice que va a tener buena suerte a lo largo de su vida y usted va a superar sus problemas y enemigos, sin importar cuántos sean. Ifá dice que usted también tendrá la tranquilidad y la felicidad en su vida y que va a estar en pleno control de su vida y las vidas de quienes le rodean. En la misma estrofa, Ifá dice que usted es un ELEGBE y que su doble celestial será la ducha que con todas las cosas buenas de la vida que le traerá el éxito y los logros. Ifá dice también que usted encontrará confort en cualquier condición, no importa lo duro que la situación puede ser. También va a ganar la admiración de los demás con la forma en que usted se lleva en situaciones duras y difíciles. Ifá también dice que cinco niños y cinco jóvenes, ya sea biológico o adoptado, los niños tendrán una gran influencia en su vida. Ifá aconseja sin embargo que es necesario ofrecer sacrificios por los hijos con el fin de evitar morir joven.",
+                    "POR":"Ifá diz que a riqueza e a prosperidade e a pessoa estão previstas para você. Ifá diz que eles trouxeram suas riquezas do céu. Ifá diz que você vai dar à luz um casal de gêmeos ou que nasceram com um casal que tem gêmeos em sua linhagem ou que você é gêmea. Em uma palavra, eles estão intimamente associados aos gêmeos divinos. Na mesma estrofe, Ifá diz que você terá boa sorte ao longo de sua vida e vencerá seus problemas e inimigos, não importa quantos sejam. Ifá diz que você também terá tranquilidade e felicidade em sua vida e que terá controle total sobre sua vida e a vida das pessoas ao seu redor. Na mesma estrofe, Ifá diz que você é um ELEGBE e que seu duplo celestial irá regá-lo com todas as coisas boas da vida que lhe trarão sucesso e realizações. Ifá também diz que você encontrará conforto em qualquer condição, por mais difícil que seja a situação. Você também conquistará a admiração de outras pessoas pela maneira como se comporta em situações difíceis e difíceis. Ifá afirma ainda que cinco filhos e cinco jovens, sejam biológicos ou adotivos, as crianças vão ter uma grande influência na vida delas. Ifá alerta, no entanto, que é preciso oferecer sacrifícios pelas crianças para evitar morrer cedo.",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 8, 
+                "translation":{
+                    "ENG": "Ifá dice que todas las áreas de la fortuna sin consumar se apartará de tu vida. Usted será capaz de realizar todos sus planes, objetivos y aspiraciones en la vida. Usted siempre tendrá éxito en todas sus empresas importantes. Ifa le aconseja adquirir una rata gris, Èdá, y lo envuelve en una hoja de palma fresca. Va a colocar la rata en la carretera principal y el uso de un cuchillo afilado para cortar en dos con un solo golpe. Debe asegurarse de que la rata se cortada a la vez. Si esto se hace, entonces los problemas de la fortuna sin consumar se apartará de tu vida. ",
+                    "SPA": "Ifá says that all areas of fortune without consummation will be removed from your life. You will be able to realize all your plans, goals, and aspirations in life. You will always be successful in all your important endeavors. Ifa advises him to acquire a gray rat, Èdá, and wrap it in a fresh palm leaf. She will place the rat on the main road and use a sharp knife to cut it in two with a single blow. He must make sure that the rat is cut at once. If this is done, then the problems of unconsumed fortune will be removed from your life.",
+                    "POR": "Ifá diz que todas as áreas da fortuna sem consumação serão removidas de sua vida. Você será capaz de realizar todos os seus planos, objetivos e aspirações na vida. Você sempre terá sucesso em todos os seus empreendimentos importantes. Ifa o aconselha a adquirir um rato cinza, Èdá, e envolvê-lo em uma folha de palmeira fresca. Você colocará o rato na estrada principal e usará uma faca afiada para cortá-lo em dois com um único golpe. Você deve garantir que o rato seja cortado imediatamente. Se isso for feito, os problemas da fortuna não consumida serão removidos de sua vida.",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 9, 
+                "translation":{
+                    "ENG":"There is a need to ensure a special preparation for you in order to avoid experiencing incessant ailments. Ifá says that his Odù, Èjì-Ogbè is the leader of all evils from heaven to earth. That is the reason why you may experience incessant upheaval. There is a need to prepare a special Ifa medicine in order to put an end to these ills. Ifá advises offering ebo with a mature male goat, 2 Guinea-fowls and money. After this, you have to look for Isu Elu, indigo, 16 land snails and Pèrègún leaves. feed Ifá with the 16 snails, and get rid of the Elu Isu and Pèrègún together and mix with soap and water. You will use the juice of the land snail to mix the soap very well.",
+                    "SPA":"Existe la necesidad para asegurar una preparación especial para usted con el fin de evitar que se experimentan dolencias incesantes. Ifá dice que su Odù, Èjì-Ogbè es el líder de todos los males del cielo a la tierra. Esa es la razón por la cual usted puede experimentar trastornos incesantes. Existe la necesidad de preparar una medicina Ifa especial con el fin de poner fin a estos males. Ifá aconseja ofrecer ebo con un macho cabrío maduro, 2 Guinea-aves y dinero. Después de esto, hay que buscar Isu Elu, el añil, 16 caracoles de tierra y hojas Pèrègún.  alimentar a Ifá con los 16 caracoles, y se libra de la Elu Isu y Pèrègún juntos y se mezclan con agua y jabón. Que va a utilizar el jugo del caracol de tierra para mezclar el jabón muy bien. ",
+                    "POR":"É necessário garantir uma preparação especial para você, a fim de evitar doenças incessantes. Ifá diz que seu Odù, Èjì-Ogbè é o líder de todos os males, do céu à terra. Essa é a razão pela qual você pode experimentar uma agitação incessante. É necessário preparar um medicamento Ifa especial para acabar com estes males. Ifá aconselha oferecer ebo com cabrito adulto, 2 galinhas d'angola e dinheiro. Depois disso, você deve procurar Isu Elu, índigo, 16 caramujos terrestres e folhas de Pèrègún. alimente Ifá com os 16 caracóis, e livre-se do Elu Isu e do Pèrègún juntos e misture com água e sabão. Você vai usar o suco do caracol terrestre para misturar muito bem o sabonete.",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 10, 
+                "translation":{
+                    "ENG":"Ifá says that he likes to have attention and recognition at all times. You always get the attention. Ifá advises that we should no longer be complacent with what the achievements that he had achieved until he reached the zenith of his career in life. However, you must be cautious in your search for recognition at all times. Ifá says that even though you have to try to reach the top, you must nevertheless be cautious in your search. Ifá also says that you must learn the attitudes of the elders and dignitaries in the community. In this way, you will move in the midst of the elderly and very important personalities.",
+                    "SPA":"Ifá dice que le gusta tener la atención y el reconocimiento en todo momento. Usted siempre recibe la atención. Ifá aconseja que ya no debemos ser complacientes con lo que los logros que había alcanzado hasta que se alcanzó el cenit de su carrera en la vida. Sin embargo, debe ser cauteloso en su búsqueda de reconocimiento en todo momento. Ifá dice que a pesar de que hay que tratar de llegar a la cima, sin embargo debe ser cauteloso en su búsqueda. Ifá también dice que usted debe aprender las actitudes de los ancianos y dignatarios en la comunidad. De este modo, usted se moverá en medio de los ancianos y personalidades muy importantes.",
+                    "POR":"Ifá diz que gosta de ter atenção e reconhecimento em todos os momentos. Você sempre consegue a atenção. Ifá avisa que não devemos mais ser complacentes com as conquistas que conquistou até que o zênite de sua carreira seja atingido. No entanto, você deve ser cauteloso em sua busca por reconhecimento em todos os momentos. Ifá diz que embora você deva tentar chegar ao topo, você deve, no entanto, ser cauteloso em sua busca. Ifá também diz que você deve aprender as atitudes dos mais velhos e dignitários da comunidade. Desta forma, você se moverá no meio de pessoas idosas e muito importantes.",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 11, 
+                "translation":{
+                    "ENG":"Ifa assures you that everything you undertake in life you will achieve. It will not be a failure in his life. You have come to this world to succeed and achieve. You are destined to be one of those who pull the strings of this world.",
+                    "SPA":"Ifa le asegura que todo lo que emprenda en la vida lo conseguirá. No será un fracaso en su vida. Usted ha venido a este mundo para tener éxito y logros. Usted está destinado a ser uno de los que mueven los hilos de este mundo.",
+                    "POR":"Ifa garante que tudo o que você empreender na vida, você alcançará. Não será um fracasso em sua vida. Você veio a este mundo para ter sucesso e realizar. Você está destinado a ser um daqueles que puxam as cordas deste mundo.",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 12, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 13, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 14, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+                }
+            }
+
         ],
         "medicines":[
             {

@@ -2,11 +2,11 @@ document.write(`					<div id="sidebar">
 <div class="inner">
 
     <!-- Search -->
-        <section id="search" class="alt" >
+    <!--<section id="search" class="alt" >
             <form method="post" action="#">
                 <input type="text" name="query" id="query" placeholder="Search" />
             </form>
-        </section>
+        </section>-->
     <!-- Menu -->
         <nav id="menu">
             <header class="major">
@@ -20,6 +20,7 @@ document.write(`					<div id="sidebar">
                     <span class="opener">Odus</span>
                     <ul>
                         <li><a href="Odu-Hierarchy.html">Odu Hierarchies</a></li>
+                        <li><a href="Odu-Template.html?firstodu=Oyeku&secondodu=Oyeku">Oyekun</a></li>
                     </ul>
                 </li>
                 <li>
