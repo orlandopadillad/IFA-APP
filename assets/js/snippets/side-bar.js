@@ -13,9 +13,9 @@ document.write(`					<div id="sidebar">
                 <h2>Menu</h2>
             </header>
             <ul>
-                <li><a href="index.html">Homepage</a></li>
+            <!--<li><a href="index.html">Homepage</a></li>
                 <li><a href="generic.html">Generic</a></li>
-                <li><a href="elements.html">Elements</a></li>
+                <li><a href="elements.html">Elements</a></li>-->
                 <li>
                     <span class="opener">Odus</span>
                     <ul>
