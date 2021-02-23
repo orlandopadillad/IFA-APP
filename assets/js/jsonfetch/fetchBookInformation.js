@@ -1,6 +1,6 @@
 var bookJSONaddress = 'data\\books\\booksData.json';
 
-function fetchBibliography (isbnvalue,  divToOutputOrisasFetchedInformation, pageNumber){
+function fetchBibliography (isbnvalue,  divToOutputOrisasFetchedInformation){
 
     //Start of the fetch
     fetch (bookJSONaddress).then(response =>{ //url of the json

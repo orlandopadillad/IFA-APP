@@ -81,32 +81,41 @@
              {
                 "id": 9, 
                 "translation":{
-                    "ENG":"",
-                    "SPA":"",
-                    "POR":"",
+                    "ENG":"There is a need to offer Ebo from Arùkòré. It is advisable to offer two pigeons, two chickens, two roosters and money. You also need to feed Ifa with four rats, four fish, palm oil and liquor.",
+                    "SPA":"Hay necesidad d para ofrecer Ebo de Arùkòré. Se aconseja ofrecer dos palomas, dos gallinas, dos gallos  y dinero. También es necesario para alimentar a Ifá con cuatro ratas, cuatro peces, aceite de palma y el licor.",
+                    "POR":"É necessário oferecer o Ebo de Arùkòré. É aconselhável oferecer dois pombos, duas galinhas, dois galos e dinheiro. Você também precisa alimentar Ifa com quatro ratos, quatro peixes, óleo de palma e licor.",
                     "ISBN": "0981001319"
                 }
              },
              {
                 "id": 10, 
                 "translation":{
-                    "ENG":"",
-                    "SPA":"",
-                    "POR":"",
+                    "ENG":"Ifa advises you to offer ebo with two pigeons, two chickens, two Guinea-fowls, two roosters, and money. It is also necessary to feed Ifa with a pig. (But don't let the blood touch Ifa for any reason).",
+                    "SPA":"Ifa le aconseja ofrecer ebo con dos palomas, dos gallinas, dos de Guinea-aves, dos gallos y dinero. También es necesario para alimentar a Ifa con un cerdo. (Pero no deje que la sangre toque Ifa por cualquier motivo). ",
+                    "POR":"Ifa o aconselha a oferecer ebo com dois pombos, duas galinhas, duas galinhas d'angola, dois galos e dinheiro. Também é necessário alimentar Ifa com um porco. (Mas não deixe o sangue tocar Ifa por nenhum motivo).",
                     "ISBN": "0981001319"
                 }
              },
              {
                 "id": 11, 
                 "translation":{
-                    "ENG":"",
-                    "SPA":"",
-                    "POR":"",
+                    "ENG":"The woman has to offer Ebo with 200 brown rats, 24 grains that are first tied at the waist and then used as part of the ebo materials. If she already has a round bead tied at the waist, this is the one to use. Her partner must also offer a brown rat like ebo. These ebo materials will be brought to the outskirts of the city and placed alongside the road SEPARATELY. The couple should not go together. The husband must go first, while the wife goes home later, putting hers ebo a few meters from her husband's. Ifá says that if all these are carried out according to the specifications of Ifá, the following year he will meet the woman who will carry her own baby, either in her womb, ready to deliver, or on her back.",
+                    "SPA":"La mujer tiene que ofrecer Ebo con 200 ratas marrones, 24  granos que  primero se ata  a la cintura y luego se usa como parte de los materiales ebo. Si ya tiene un grano redondo atado a la cintura,  es el que se debe utilizar. Su pareja también debe ofrecer una rata parda como ebo. Estos materiales ebo se llevarán a las afueras de la ciudad y se coloca junto a la carretera POR SEPARADO. La pareja no deben ir juntas. El marido debe ir primero, mientras que la mujer va más tarde a casa, poner ebo el a pocos metros del de su marido. Ifá dice que si todos estos se realizan de acuerdo a las especificaciones de Ifá, al año siguiente conocerá a la mujer que  llevara  a su propio bebé, ya sea en su seno, listos para entregar, o en la espalda.",
+                    "POR":"A mulher tem para oferecer o Ebo com 200 ratos marrons, 24 grãos que são primeiro amarrados na cintura e depois usados ​​como parte dos materiais do ebo. Se você já tem uma conta redonda presa à cintura, esta é a única a usar. Seu parceiro também deve oferecer um rato marrom como o ebo. Esses materiais ebo serão levados para a periferia da cidade e colocados ao longo da estrada SEPARADAMENTE. O casal não deve ir junto. O marido deve ir primeiro, enquanto a mulher vai para casa depois, colocar o ebo a poucos metros do marido. Ifá diz que se tudo isso for feito de acordo com as especificações de Ifá, no ano seguinte ele vai encontrar a mulher que vai carregar seu próprio filho, seja no útero, pronto para o parto, ou nas costas.",
                     "ISBN": "0981001319"
                 }
              },
              {
-                "id": 4, 
+                "id": 12, 
+                "translation":{
+                    "ENG":"Ifa advises you to offer ebo with two pigeons, two guinea fowls, and money. If this can be done, you will find that all your wishes will be fulfilled to you, without further delay. After the ebo had been offered to you, Ifá says that you need to obtain Alupaida leaves, grind them into a fine paste and mix with soap and water for bathing. You also have to tell the truth all the time.",
+                    "SPA":"Ifa le aconseja ofrecer ebo con dos palomas, dos aves de guinea y dinero. Si esto se puede hacer, te darás cuenta de que todos sus deseos se le cumplirán a usted, sin más demora. Después de que el ebo se le había ofrecido, Ifá dice que usted necesita para obtener hojas Alupaida, se muelen hasta obtener una pasta fina y mezclar con agua y jabón para el baño. También hay que decir la verdad todo el tiempo.",
+                    "POR":"Ifa o aconselha a oferecer ebo com dois pombos, duas galinhas d'angola e dinheiro. Se isso puder ser feito, você descobrirá que todos os seus desejos serão satisfeitos, sem mais demora. Depois que o ebo foi oferecido a você, Ifá diz que é preciso obter as folhas de Alupaida, triturá-las até formar uma pasta fina e misturar com água e sabão para o banho. Você também precisa dizer a verdade o tempo todo.",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 13, 
                 "translation":{
                     "ENG":"",
                     "SPA":"",
@@ -115,16 +124,7 @@
                 }
              },
              {
-                "id": 4, 
-                "translation":{
-                    "ENG":"",
-                    "SPA":"",
-                    "POR":"",
-                    "ISBN": "0981001319"
-                }
-             },
-             {
-                "id": 4, 
+                "id": 14, 
                 "translation":{
                     "ENG":"",
                     "SPA":"",
@@ -256,50 +256,50 @@
             {
                 "id": 12, 
                 "translation":{
-                    "ENG": "",
-                    "SPA": "",
-                    "POR": "",
-                    "Yoruba": "",
+                    "ENG": "Wisdom is from Ako Insanity is from Ako As wise as Ako is, he can't go home As dumb as Ako is, he can't be sold as a slave The old man who left his own house And moved over other people's houses It is the person named Ako Let the occupant of the house be careful Let the occupant of the house of meekness If the occupant of the house is not wise If the occupant of the house does not show meekness Ako will surely move away for another house With arms akimbo, which will match majestically He walks majestically, with arms akimbo These were declarations of Ifá for Oninààja-Agùnyin Descendants of the Orí, who is looking for a cover according to Y for the waist and buttocks of accounts in search of a mule to ride like a horse He got involved in various places is merchandise But he did not have the profit as for his efforts He was advised to partner with Orunmila He complied and offered the sacrifice or appropriate One cannot enter into association with Orunmila For not having the benefit of wealth Wealth is what attracts one's spouse One cannot enter into association with Orunmila For which one does not have the benefit of children Spouse is what attracts to the children One cannot enter into association with Orunmila So that one does not have the benefit of children The children are the ones who attract decent accommodation One cannot enter into association with Orunmila Not to have a decent home The home is what attract horses One cannot enter into association with Orunmila Not to have horses",
+                    "SPA": "La sabiduría es de Ako La locura es de Ako Tan sabio como Ako es, no puede volver a casa Tan tonto como Ako es, no puede ser vendido como esclavo El anciano que salió de su casa propia Y se movía sobre las casas de otras personas Es la persona llamada Ako Deje que el ocupante de la casa tenga cuidado Deje que el ocupante de la casa de la mansedumbre  Si el ocupante de la vivienda no es prudente Si el ocupante de la casa no muestra la mansedumbre Ako seguramente se alejará para otra casa Con los brazos en jarras, que coincidirá con majestuosamente Él camina majestuosamente, con los brazos en jarras Estos fueron declaraciones de  Ifá para Oninààja-Agùnyin Descendientes de los Orí, que está en busca de una tapa acorde con Y de la cintura y las nalgas de cuentas en la búsqueda de una mula para montar como un caballo Se involucró en varios lugares es mercancía Pero no tenía los fines de lucro como por sus esfuerzos Se le aconsejó que se asocien con Orunmila Él cumplió y ofreció el sacrificio apropiado Uno no puede entrar en asociación con Orunmila Para  no tener el beneficio de la riqueza La riqueza es lo que atrae a su cónyuge Uno no puede entrar en asociación con Orunmila Para que uno no tiene el beneficio de los niños Cónyuge es la que atrae a los niños Uno no puede entrar en asociación con Orunmila Para que uno no tiene el beneficio de los niños Los niños son los que atraen a un alojamiento digno Uno no puede entrar en asociación con Orunmila Para no tener un hogar digno El hogar es lo que atraen a los caballos Uno no puede entrar en asociación con Orunmila Para no tener caballos",
+                    "POR": "Sabedoria é de Ako Insanidade é de Ako Por mais sábio que Ako seja, ele não pode ir para casa Tão burro quanto Ako é, ele não pode ser vendido como um escravo O velho que deixou sua própria casa E mudou-se para as casas de outras pessoas Isso é a pessoa chamada Ako Deixe o ocupante da casa ser cuidadoso Deixe o ocupante da casa de mansidão Se o ocupante da casa não for sábio Se o ocupante da casa não mostrar mansidão Ako certamente se mudará para outra casa Com armas akimbo, que vai combinar majestosamente Ele anda majestosamente, com as armas akimbo. Estas foram as declarações de Ifá para Oninààja-Agùnyin Descendentes do Orí, que está em busca de uma cobertura segundo Y da cintura e nádegas de contas em busca de uma mula para cavalgar como um cavalo Envolveu-se em vários lugares é mercadoria Mas não teve lucro quanto aos seus esforços Foi aconselhado a ser parceiro de Orunmila Cumpriu e ofereceu o sacrifício ou apropriado Não se pode associar-se a Orunmila Por não ter o benefício da riqueza A riqueza é o que atrai o cônjuge Não se pode associar-se a Orunmila Porque não se tem o benefício dos filhos O ​​cônjuge é o que atrai os filhos associação com Orunmila Para não ter o benefício das crianças As crianças são as que atraem acomodação decente Não se pode associar com Orunmila Não ter uma casa decente A casa é o que atrai cavalos Não se pode associar com Orunmila Não se tem cavalos",
+                    "Yoruba": "A gbon bi Ako A go bi Ako Ako gbongbon-ongbon, Ako ko wale Ako googoogo, enikan ko lee gb’Ako ta Agba to fi ilee re sile To n kiri ile onile kiri Oun laa pe Ako K’onile o huwa gbodo K’onile o se pelepele Ako o re’le miiran dandan A sipa tan, a yanngede A yanngede, a sipa Dia fun Oninààja-Agùnyin Omo eri kan beri owo je Omo ori ti nsunkun ate Omo bebe-idi ti nsunkun oun o gun ibaaka lesin O naja ilekile titi Bee ni ko rere je o Won ni ko lo maa ba Orunmila sowo po O gbe’bo, o rubo A kii ba Orunmila sowo Keni o ma r’ere aje Aje ni nba ni peena aya A kii ba Orunmila sowo Keni o ma r’ere aya Aya ni nba ni peena omo A kii ba orunmila sowo Keni o ma rere omo  Omo ni nba ni peena ile A kii ba orunmila sowo  Keni oma rere ile Ile ni nba ni peena esin A kii ba orunmila sowo Keni oma ri ere esin Esin la o maa gun sawo  Ayanmo bi Eji-Ogbe ko loba nile Ifa Esin la o maa gun sawo",
                     "ISBN": "0981001319"
                 }
             },
             {
                 "id": 13, 
                 "translation":{
-                    "ENG": "",
-                    "SPA": "",
-                    "POR": "",
-                    "Yoruba": "",
+                    "ENG": "To move slowly The farm Awo, made divination from Ifa to Ilé To slowly drag The Awo from Ona, did Ifá divination for Ona Okúrúkúrú-Afedo-wolè The Awo from Oja, market, did Ifá divination for Oja At the three of they were advised to offer ebo so that they would have companions Only Ile, House complied and offered ebo In a short time, not far away Only Ile was able to have companions Only I offered the ebo and got the companions",
+                    "SPA": "A moverse lentamente El Awo de granja, hizo adivinacion de Ifa a Ilé Para arrastrar lentamente El Awo de Ona, hizo adivinacion de Ifá para Ona Okúrúkúrú-Afedo-wolè El Awo del Oja, mercado, hizo adivinación  de Ifá para Oja A los tres de ellos se les aconsejó ofrecer ebo para que tuvieran compañeras Sólo Ile, Casa cumplido y ofreció ebo En poco tiempo, no muy lejos Sólo Ile fue capaz de tener compañeros Sólo Ile ofreció el ebo y logró los compañeros",
+                    "POR": "Para se mover lentamente A fazenda Awo, fez adivinhação de Ifa para Ilé Para arrastar lentamente O Awo de Ona, fez adivinhação Ifá para Ona Okúrúkúrú-Afedo-wolè O Awo de Oja, mercado, fez adivinhação Ifá para Oja Aos três eles foram aconselhados oferecer ebo para que tivessem acompanhantes Só Ile, House acatou e ofereceu ebo Em pouco tempo, não muito longe Só Ile conseguiu ter companheiros Só eu ofereci o ebo e consegui os companheiros",
+                    "Yoruba": "Sunkere sunkere Awo Ile lo dia fun Ile Gbakere gbakere Awo Ona dia f’Ona Okurukuru-afedo-wole Awo Oja lo dia f’Oja Won ni ki awon meteeta rubo Ki won baa le di eleni Ile nikan ni nbe leyin to nsebo Ko pe, ko jinna Ile nikan naa lo waa d’eleni Ile nikan lo rubo apesin ",
                     "ISBN": "0981001319"
                 }
             },
             {
                 "id": 14, 
                 "translation":{
-                    "ENG": "",
-                    "SPA": "",
-                    "POR": "",
-                    "Yoruba": "",
+                    "ENG": "We have searched and searched for Olurokun Yet we did not find Olurokun I asked him where he had gone to Olurokun They said that Olurokun still in this world We have searched and searched for Aberokun Yet we did not find Aberokun I asked him where he had gone to Aberokun They said that Aberokun is in the heavens When each of them wanted to propose and marry Aye The offspring of Òlódùmarè Each of them was advised to offer ebo",
+                    "SPA": "Hemos buscado y buscado Olurokun Sin embargo, no encontramos Olurokun Le pregunté dónde había ido a Olurokun Dijeron que Olurokun todavía en este mundo Hemos buscado y buscado Aberokun Sin embargo, no encontramos Aberokun Le pregunté dónde había ido a Aberokun Dijeron que Aberokun está en los cielos Cuando cada uno de ellos quiso propuesta y casarse con Aye La descendencia de Òlódùmarè Cada una de ellas se le aconsejó ofrecer ebo",
+                    "POR": "Nós procuramos e procuramos por Olurokun Ainda não encontramos Olurokun Eu perguntei a ele onde ele tinha ido para Olurokun Eles disseram que Olurokun ainda está neste mundo Nós procuramos e procuramos por Aberokun Ainda não encontramos Aberokun Eu perguntei a ele onde ele tinha ido para Aberokun Disseram que Aberokun está nos céus Quando cada um deles quis propor e se casar com Aye A descendência de Òlódùmarè Cada um deles foi aconselhado a oferecer ebo",
+                    "Yoruba": "A w’Olurojun w’Olurokun Bee la o r’Olurokun mo  Mo ni nibo l’Olurokun gbe lo Won ni Olurokun nbe nile aye a w’Aberokun w’Aberokun  Bee la o r’Aberokun mo Mo ni nibo l’Abrokun gbe lo  Won ni Aberokun nbe lalade Orun Dia fun Okankanlenirun Irunmole Won nlo ree fe Aye Tii somo Olodumare Agotun Oba ateni ola legelege fori sagbeji Ebo ni won ni ko waa se",
                     "ISBN": "0981001319"
                 }
             },
             {
                 "id": 15, 
                 "translation":{
-                    "ENG": "",
-                    "SPA": "",
-                    "POR": "",
-                    "Yoruba": "",
+                    "ENG": "The truthful in the world are not more than 20 The wicked are not less than, 200 Because the matter had taken a long time, the pain of the question is lessened. They made Ifá divination for Orunmila When a matter hurts his Akapo But It does not hurt Ifá He was advised to offer ebo He fulfilled Now, Alasuwada, please transform yourself Onife day Alasuwada realized, please transform yourself Orunmila, please transform yourself And bless me with abundance, spouse, children and the I will go in life Alasuwada, please transform yourself Alupaida is left that authorizes you to transform And bless me with all the things that I am looking for Alasuwada, please transform yourself",
+                    "SPA": "Los veraces en el mundo no son más de 20 Los malvados no son menos que, 200 Debido a que el asunto había tomado mucho tiempo, se disminuye el dolor de la cuestión Hicieron adivinación de Ifá para Orunmila Cuando un asunto le duele a su Akapo Pero no le duele a Ifá Se le aconsejó ofrecer ebo El Cumplió Ahora, Alasuwada, por favor, transfórmate El día de Onife se dio cuenta Alasuwada, por favor, transfórmate Orunmila, por favor, transfórmate Y me bendiga con abundancia, cónyuge, hijos y el iré en la vida Alasuwada, por favor, transfórmate Se deja Alupaida que autoriza a que usted se transforme Y me bendiga con todas las cosas que estoy buscando Alasuwada, por favor, transfórmate",
+                    "POR": "Os verdadeiros no mundo não são mais do que 20 Os ímpios não são menos do que, 200 Porque o assunto demorou muito, a dor da questão diminuiu Eles fizeram adivinhação Ifá para Orunmila Quando um assunto fere seus Akapo, mas prejudica não machucou Ifá Ele foi aconselhado a oferecer ebo Ele cumpriu Agora, Alasuwada, por favor transforme-se Onife dia Alasuwada percebeu, por favor transforme-se Orunmila, por favor transforme-se E me abençoe com abundância, esposo, filhos e eu irei na vida Alasuwada, por favor transforme-se Alupaida resta que te autoriza a se transformar E me abençoe com todas as coisas que procuro Alasuwada, por favor transforme-se",
+                    "Yoruba": "Oloooto ti nbe l’aye o p’ogun Sikasika ibe o mo ni’won egbefa Ojo lo titi, ko j’oro o dun’ni Dia fun Orunmila Oro n dun Akapo Bee ni ko dun’fa Ebo ni won ni ko se O gb’ebo, o ru’bo Nje Alasuwada parada Ojumo Onife e mo o Alasuwada parada Orunmila parada Ko o fun mi l’aje, l’aya, l’omo ni’re gbogbo Alasuwada parada Ewe apada lo ni ki o parada Koo fun mi ni gbogbo ire ti mo nfe Alasuwada parada",
                     "ISBN": "0981001319"
                 }
             },
             {
                 "id": 16, 
                 "translation":{
-                    "ENG": "",
-                    "SPA": "",
-                    "POR": "",
-                    "Yoruba": "",
+                    "ENG": "Whatever the mouth sees That is what the mouth eats Ifá message for Igbin, land snail Who will eat the dust And will not die She was advised to offer ebo She did so The land snail se ate the dust, but escaped death The land snail ate the dust",
+                    "SPA": "Cualquiera que sea lo que la boca ve  Eso es lo que come la boca Mensaje de Ifá para Igbin, caracol de tierra ¿Quién va a comer el polvo Y no va a morir Se le aconsejó ofrecer ebo Ella así lo hizo El caracol de tierra se comió el polvo, pero escapó de la muerte El caracol de tierra se comió el polvo ",
+                    "POR": "O que quer que a boca veja Isso é o que a boca come Mensagem de Ifá para Igbin, caracol terrestre Que vai comer o pó E não vai morrer Foi aconselhada a oferecer ebo Ela fez assim O caracol terrestre comeu o pó, mas escapou da morte O caracol terrestre comeu a poeira",
+                    "Yoruba": "Ohun t’enu ba ri Oun l’enu n je Dia fun Igbin Ti yoo j’ile Ti ko nii ku Ebo ni won ni ko se O gb’ebo, o ru’bo Igbin j’ile e ti ku mo Igbin j’ile gbogbo omo eni o",
                     "ISBN": "0981001319"
                 }
             },
@@ -492,6 +492,51 @@
             {
                 "id": 12, 
                 "translation":{
+                    "ENG":"Ifá says that it has no other source of support, except Òlódùmarè, the Orí and Ifa. It is through Ifá that you will give your wealth, success, health and popularity is assured. Ifá says that generally, as part of his longings for attention and recognition, he will try to show others how intelligent you are. Ifá says that all his ''intelligence'' usually exposes his madness. On the contrary, if someone tries to underestimate intelligence, that person will be shocked when he realized from the person that how intelligent you really are. Ifá says in conclusion, that it will bring the iré of wealth, spouse, children, house, horse, longevity and good health for you. You have to trust Ifá at all times. There is a need to offer Ebo from Arùkòré. It is advisable to offer two pigeons, two chickens, two roosters and money. You also need to feed Ifa with four rats, four fish, palm oil and liquor.",
+                    "SPA":"Ifá dice que no tiene otra fuente de apoyo, excepto Òlódùmarè, el Orí y Ifa. Es a través de Ifá que dará su riqueza, el éxito, la salud y la popularidad está asegurada Ifá dice que por lo general, como parte de sus anhelos la atención y el reconocimiento, tratará de demostrar a los demás lo inteligente que eres. Ifá dice que toda su ''inteligencia'' por lo general expone su locura. Por el contrario, si alguien trata de subestimar la inteligencia, esa persona se sorprendió cuando se dio cuenta de la persona que lo inteligente que eres en realidad. Ifá dice en conclusión, que traerá el iré de la riqueza, cónyuge, hijos, casa, el caballo, la longevidad y buena salud para usted. Tienes que confiar en Ifá en todo momento. Hay necesidad d para ofrecer Ebo de Arùkòré. Se aconseja ofrecer dos palomas, dos gallinas, dos gallos  y dinero. También es necesario para alimentar a Ifá con cuatro ratas, cuatro peces, aceite de palma y el licor.",
+                    "POR":"Ifá diz que não tem outra fonte de apoio, exceto Òlódùmarè, o Orí e Ifa. É através do Ifá que você dará sua riqueza, sucesso, saúde e popularidade estão garantidos.Ifá diz que geralmente, como parte de seus anseios por atenção e reconhecimento, tentará mostrar aos outros como você é inteligente. Ifá diz que toda sua ''inteligência'' costuma expor sua loucura. Ao contrário, se alguém tentar subestimar a inteligência, ficará chocado quando perceber que você realmente é inteligente. Ifá diz, em conclusão, que vai trazer riqueza, esposa, filhos, casa, cavalo, longevidade e boa saúde para você. Você tem que confiar em Ifá o tempo todo. É necessário oferecer o Ebo de Arùkòré. É aconselhável oferecer dois pombos, duas galinhas, dois galos e dinheiro. Você também precisa alimentar Ifa com quatro ratos, quatro peixes, óleo de palma e licor.",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 13, 
+                "translation":{
+                    "ENG":"Ifá says that you will be blessed with a property. Ifa assures you that even if there are difficulties to be faced. You must overcome them all. Ifá says that it has to take the issue of ensuring an adaptation of its own gravity. Ifá also advises you to be aware of how to relate to your brothers. He does not give you a chance for petty jealousy rivalry and / or envy.",
+                    "SPA":"Ifá dice que usted será bendecido con una propiedad. Ifa le asegura que incluso si hay dificultades que se enfrentan. Usted deberá superarlas  todas. Ifá dice que tiene que tomar el tema de asegurar una adaptación de su propia gravedad. Ifá también le aconseja que se advierte de la manera de relacionarse con sus hermanos. No le dé oportunidad para que la rivalidad celos mezquinos y / o la envidia.",
+                    "POR":"Ifá diz que você será abençoado com uma propriedade. Ifa garante que mesmo que haja dificuldades a serem enfrentadas. Você deve superar todos eles. Ifá diz que tem que assumir a questão de garantir uma adaptação à sua própria gravidade. Ifá também aconselha que você saiba como se relacionar com seus irmãos. Não dê chance à rivalidade para ter ciúmes mesquinhos e / ou inveja.",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 14, 
+                "translation":{
+                    "ENG":"Ifá says that it foresees I will go from the maternity of a sterile woman. This woman is between 30 and 45 years old. The woman in question is too proud. Even though she had never had a child in her life yet she had been the one making it difficult for men to focus on a long lasting relationship. This woman prefers a casual relationship than a serious relationship. If she says that this woman should think about having a partner of her own, if she hadn't had any of her. She has to be less arrogant towards her partner and think more seriously about having her own child in her life. If she also says that for the entire period that the woman in question should think seriously about having children, she was busy pursuing worldly possession. The woman has to offer Ebo with 200 brown rats, 24 grains that are first tied to her waist and then used as part of the ebo materials. If she already has a round bead tied at the waist, this is the one to use. Her partner must also offer a brown rat like ebo. These ebo materials will be brought to the outskirts of the city and placed alongside the road SEPARATELY. The couple should not go together. The husband must go first, while the wife goes home later, putting hers ebo a few meters from her husband's. Ifá says that if all these are carried out according to the specifications of Ifá, the following year he will meet the woman who will carry her own baby, either in her womb, ready to deliver, or on her back.",
+                    "SPA":"Ifá dice que prevé iré de la maternidad de una mujer estéril. Esta mujer es entre 30 y 45 años de edad. La mujer en cuestión es demasiada orgullosa. A pesar de que nunca había tenido un niño en su vida, sin embargo, había sido lo que hace difícil para los hombres que se enfoquen en una relación de larga duración. Esta mujer prefiere la relación casual que una relación seria. Si dice que esta mujer debe pensar en tener una pareja  propia, si no hubiera tenido ninguna. Ella tiene que ser menos arrogante con su pareja y pensar más seriamente en tener su propio hijo en su vida. Si también dice que durante todo el período que la mujer en cuestión debe pensarlo seriamente sobre tener hijos, ella estaba ocupada persiguiendo posesión mundana. La mujer tiene que ofrecer Ebo con 200 ratas marrones, 24  granos que  primero se ata  a la cintura y luego se usa como parte de los materiales ebo. Si ya tiene un grano redondo atado a la cintura,  es el que se debe utilizar. Su pareja también debe ofrecer una rata parda como ebo. Estos materiales ebo se llevarán a las afueras de la ciudad y se coloca junto a la carretera POR SEPARADO. La pareja no deben ir juntas. El marido debe ir primero, mientras que la mujer va más tarde a casa, poner ebo el a pocos metros del de su marido. Ifá dice que si todos estos se realizan de acuerdo a las especificaciones de Ifá, al año siguiente conocerá a la mujer que  llevara  a su propio bebé, ya sea en su seno, listos para entregar, o en la espalda. ",
+                    "POR":"Ifá diz que prevê que eu irei da maternidade de uma mulher estéril. Essa mulher tem entre 30 e 45 anos. A mulher em questão é muito orgulhosa. Mesmo que ela nunca tivesse tido um filho em sua vida, era o que tornava difícil para os homens se concentrarem em um relacionamento de longo prazo. Esta mulher prefere um relacionamento casual do que um relacionamento sério. Se você disser que essa mulher deveria pensar em ter um parceiro, se ela não tivesse. Ela tem que ser menos arrogante com seu parceiro e pensar mais seriamente em ter seu próprio filho em sua vida. Se você também disser que durante todo o período em que a mulher em questão deveria pensar seriamente em ter filhos, ela esteve ocupada perseguindo posses materiais. A mulher tem para oferecer o Ebo com 200 ratos marrons, 24 grãos que são primeiro amarrados na cintura e depois usados ​​como parte dos materiais do ebo. Se você já tem uma conta redonda presa à cintura, esta é a única a usar. Seu parceiro também deve oferecer um rato marrom como o ebo. Esses materiais ebo serão levados para a periferia da cidade e colocados ao longo da estrada SEPARADAMENTE. O casal não deve ir junto. O marido deve ir primeiro, enquanto a mulher vai para casa depois, colocar o ebo a poucos metros do marido. Ifá diz que se tudo isso for feito de acordo com as especificações de Ifá, no ano seguinte ele vai encontrar a mulher que vai carregar seu próprio filho, seja no útero, pronto para o parto, ou nas costas.",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 15, 
+                "translation":{
+                    "ENG":"Ifa assures you that you will live your life in comfort. You will not miss anything important in his life. Ifá says that his life was transformed from nothing to everything, from pain to comfort, from need to excesses and from failure to success. Ifá says that what pains he currently has, does not hurt Ifa at all. That is why it is necessary to offer ebo so that what is giving you pains and anxiety will also be of interest to Ifa. Ifa advises you to offer ebo with two pigeons, two guinea fowls, and money. If this can be done, you will find that all your wishes will be fulfilled to you, without further delay. After the ebo had been offered to you, Ifá says that you need to obtain Alupaida leaves, grind them into a fine paste and mix with soap and water for bathing. You also have to tell the truth all the time.",
+                    "SPA":"Ifa le asegura que vivirá su vida con comodidad. No te faltará nada importante en su vida. Ifá dice que su vida se transformó de la nada al todo, del dolor a la comodidad, de la necesidad a los excesos y del fracaso al éxito. Ifá dice que lo que los dolores que en la actualidad tiene, no  le duele a Ifa  en absoluto. Es por eso que es necesario ofrecer ebo para que lo que le está dando dolores y la ansiedad también será de interés para Ifa. Ifa le aconseja ofrecer ebo con dos palomas, dos aves de guinea y dinero. Si esto se puede hacer, te darás cuenta de que todos sus deseos se le cumplirán a usted, sin más demora. Después de que el ebo se le había ofrecido, Ifá dice que usted necesita para obtener hojas Alupaida, se muelen hasta obtener una pasta fina y mezclar con agua y jabón para el baño. También hay que decir la verdad todo el tiempo. ",
+                    "POR":"Ifa garante que você viverá sua vida com conforto. Você não perderá nada importante em sua vida. Ifá diz que sua vida se transformou do nada em tudo, da dor ao conforto, da necessidade aos excessos e do fracasso ao sucesso. Ifá diz que qualquer que seja a dor que você esteja sentindo, ela não dói em nada. Por isso é necessário oferecer o ebo para que o que está causando dores e ansiedade também seja do interesse de Ifa. Ifa o aconselha a oferecer ebo com dois pombos, duas galinhas d'angola e dinheiro. Se isso puder ser feito, você descobrirá que todos os seus desejos serão satisfeitos, sem mais demora. Depois que o ebo foi oferecido a você, Ifá diz que é preciso obter as folhas de Alupaida, triturá-las até formar uma pasta fina e misturar com água e sabão para o banho. Você também precisa dizer a verdade o tempo todo.",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 16, 
+                "translation":{
+                    "ENG":"Ifá says that what you eat will never lead to death. You will always be able to escape death caused by food poisoning. Ifá advises offering ebo with a mature male goat (or three roosters) and money.",
+                    "SPA":"Ifá dice que lo que comas nunca te llevará a la muerte. Usted siempre será capaz de escapar de la muerte causada por intoxicación alimentaría. Ifá aconseja ofrecer ebo con un macho cabrío maduro (o tres gallos) y el dinero. ",
+                    "POR":"Ifá diz que o que você come nunca leva à morte. Você sempre poderá escapar da morte causada por intoxicação alimentar. Ifá aconselha oferecer ebo com um bode adulto (ou três galos) e dinheiro.",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 17, 
+                "translation":{
                     "ENG":"",
                     "SPA":"",
                     "POR":"",
@@ -499,7 +544,97 @@
                 }
             },
             {
-                "id": 13, 
+                "id": 18, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 19, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 20, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 14, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 14, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 14, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 14, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 14, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 14, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 14, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 14, 
                 "translation":{
                     "ENG":"",
                     "SPA":"",
@@ -564,55 +699,164 @@
             
             {
                 "id": 1,
-                "orisaName": "yemoja",
-                "orisaNonSpecialCharactername": "yemoja",
-                "otherNames": ["yemaya", "lemanja", "iemanja"],
+                "orisaName": "Ifa:",
+                "orisaNonSpecialCharactername": "ifa",
+                "otherNames": [""],
                 "orisaURL": "#",
-                "reasonsENG":
-                    {
-                        "1": "this is the yemoja test in eng for ejiogbe",
-                        "2": "this is the yemoja test in eng for ejiogbe"
-                    },
-                "reasonsSPA":
-                    {
-                        "1": "this is the yemoja test in eng for ejiogbe",
-                        "2": "this is the yemoja test in eng for ejiogbe"
-                    },
-                "reasonsPOR":
-                    {
-                        "1": "this is the yemoja test in eng for ejiogbe",
-                        "2": "this is the yemoja test in eng for ejiogbe"
-                    },
-                "reasonsISBN":
-                    {
-                        "1": 9780981001319,
-                        "2": 9780981001319
-                    }
+                "reasonsENG":[
+                    [1, "for support, motherhood, prosperity and protection.", 9780981001319]
+                ],
+                "reasonsSPA":[
+                    [1, "para el apoyo, la maternidad, la prosperidad y la protección.", 9780981001319]                  
+                ],
+                "reasonsPOR":[
+                    [1, "para apoio, maternidade, prosperidade e proteção.", 9780981001319]
+                ]
             },
             {   
                 "id": 2,
-                "orisaName": "sango",
-                "orisaNonSpecialCharactername": "sango",
-                "otherNames": ["xango", "chango"],
+                "orisaName": "Orí ",
+                "orisaNonSpecialCharactername": "ori",
+                "otherNames": [""],
                 "orisaURL": "#",
-                "reasonsENG":
-                {
-                    "1": "this is the sango test in eng for ejiogbe",
-                    "2": "this is the sango test in eng for ejiogbe"
-                },
-                "reasonsSPA":               {
-                    "1": "this is the sango test in eng for ejiogbe",
-                    "2": "this is the sango test in eng for ejiogbe"
-                },
-                "reasonsPOR":               {
-                    "1": "this is the sango test in eng for ejiogbe",
-                    "2": "this is the sango test in eng for ejiogbe"
-                },
-                "reasonsISBN":{
-                    "1": 9780981001319,
-                    "2": 9780981001319
-                }
-            } 
+                "reasonsENG":[
+                    [1, "for prosperity, support, elevation and prominence", 9780981001319]
+                ],
+                "reasonsSPA":[
+                    [1, "para la prosperidad, el apoyo, la elevación y la prominencia", 9780981001319]
+                ],
+                "reasonsPOR":[
+                    [1, "para prosperidade, suporte, elevação e destaque", 9780981001319]
+                ]
+            },
+            {   
+                "id": 3,
+                "orisaName": "Ègbè:",
+                "orisaNonSpecialCharactername": "egbe",
+                "otherNames": [""],
+                "orisaURL": "#",
+                "reasonsENG":[
+                    [1, "for camaraderie, success, leadership and protection", 9780981001319]
+                ],
+                "reasonsSPA":[
+                    [1, "para la camaradería, el éxito, el liderazgo y la protección", 9780981001319]
+                ],
+                "reasonsPOR":[
+                    [1, "para camaradagem, sucesso, liderança e proteção", 9780981001319]
+                ]
+            },
+            {   
+                "id": 4,
+                "orisaName": "Obàtálá:",
+                "orisaNonSpecialCharactername": "obatala",
+                "otherNames": ["Oxala","Òsa","Oxanla","Orisanla"],
+                "orisaURL": "#",
+                "reasonsENG":[
+                    [1, "for success, elevation, motherhood and leadership", 9780981001319]
+                ],
+                "reasonsSPA":[
+                    [1, "para el éxito, la elevación, la maternidad y el liderazgo", 9780981001319]
+                ],
+                "reasonsPOR":[
+                    [1, "para sucesso, elevação, maternidade e liderança", 9780981001319]
+                ]
+            },
+            {   
+                "id": 5,
+                "orisaName": "òke ",
+                "orisaNonSpecialCharactername": "oke",
+                "otherNames": [""],
+                "orisaURL": "#",
+                "reasonsENG":[
+                    [1, "for victory and protection", 9780981001319]
+                ],
+                "reasonsSPA":[
+                    [1, "por la victoria y la protección", 9780981001319]
+                ],
+                "reasonsPOR":[
+                    [1, "pela vitória e proteção", 9780981001319]
+                ]
+            },
+            {   
+                "id": 6,
+                "orisaName": "Sàngó ",
+                "orisaNonSpecialCharactername": "",
+                "otherNames": ["chango","Chango","Sango", "Xango"],
+                "orisaURL": "#",
+                "reasonsENG":[
+                    [1, "for protection over enemies", 9780981001319]
+                ],
+                "reasonsSPA":[
+                    [1, "para la protección sobre los enemigos", 9780981001319]
+                ],
+                "reasonsPOR":[
+                    [1, "Para proteção contra inimigos", 9780981001319]
+                ]
+            },
+            {   
+                "id": 7,
+                "orisaName": "Ògún:",
+                "orisaNonSpecialCharactername": "ogun",
+                "otherNames": ["Ogun"],
+                "orisaURL": "#",
+                "reasonsENG":[
+                    [1, "For guidance and protection", 9780981001319]
+                ],
+                "reasonsSPA":[
+                    [1, "Para la dirección y la protección", 9780981001319]
+                ],
+                "reasonsPOR":[
+                    [1, "Para orientação e proteção", 9780981001319]
+                ]
+            },  
+            {   
+                "id": 8,
+                "orisaName": "Osun:",
+                "orisaNonSpecialCharactername": "osun",
+                "otherNames": ["Oshun","Ochun","Oxum"],
+                "orisaURL": "#",
+                "reasonsENG":[
+                    [1, "of a good wife, having children and support", 9780981001319]
+                ],
+                "reasonsSPA":[
+                    [1, "de buena esposa, tener hijos y el apoyo", 9780981001319]
+                ],
+                "reasonsPOR":[
+                    [1, "de uma boa esposa, tendo filhos e sustento", 9780981001319]
+                ]
+            },
+            {   
+                "id": 9,
+                "orisaName": "Esù:",
+                "orisaNonSpecialCharactername": "",
+                "otherNames": ["Exu"," Esù Òdàrà"," Echu"," Esù Elégbà"," Eleggua"],
+                "orisaURL": "#",
+                "reasonsENG":[
+                    [1, "Para suporte, direção, altitude e vitória", 9780981001319]
+                ],
+                "reasonsSPA":[
+                    [1, "Para el apoyo, dirección, altitud y la victoria", 9780981001319]
+                ],
+                "reasonsPOR":[
+                    [1, "Para suporte, direção, altitude e vitória", 9780981001319]
+                ]
+            },
+            {   
+                "id": 10,
+                "orisaName": "Aje Saluga:",
+                "orisaNonSpecialCharactername": "aje",
+                "otherNames": ["Aje"],
+                "orisaURL": "#",
+                "reasonsENG":[
+                    [1, "for prosperity and wealth", 9780981001319]
+                ],
+                "reasonsSPA":[
+                    [1, "para la prosperidad y la riqueza", 9780981001319]
+                ],
+                "reasonsPOR":[
+                    [1, "para prosperidade e riqueza", 9780981001319]
+                ]
+            }      
             
         ],
         "orisasConsagration":[
@@ -624,36 +868,6 @@
                     "POR":"esta es la prueba en portugues",
                     "Yoruba":"this is the prueba in yoruba ejiogbe",
                     "ISBN": "0981001319"                    
-                }
-             },
-             {
-                "id": 2, 
-                "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe",
-                    "ISBN": "0981001319"
-                }
-             },
-             {
-                "id": 3, 
-                "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe",
-                    "ISBN": "0981001319"
-                }
-             },
-             {
-                "id": 4, 
-                "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe",
-                    "ISBN": "0981001319"
                 }
              }
         ]

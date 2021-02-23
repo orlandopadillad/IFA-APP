@@ -224,12 +224,14 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
         orisashtmlOutPut = orisasHtmlOutputENG();
         function orisasHtmlOutputENG(){
         document.getElementById('orisasDataInEnglish').innerHTML = "";
-        for (let i = 0; i < dataFromJSON[oduForTheJSON].orisas.length; i++) {
+        for (var i = dataFromJSON[oduForTheJSON].orisas.length - 1; i >= 0; i--) { //reverse loop to keep the order of the json after a map iteration
             const loopToAllTheOrisasCreated = dataFromJSON[oduForTheJSON].orisas[i].reasonsENG; //iterates to all the reasons on all the orisas created
             const loopToAllTheISBNCreated = dataFromJSON[oduForTheJSON].orisas[i].reasonsISBN;
+
+
             var firstLevelOfLoopedInformationForAllTheOrisasCreated =`
-            <p><b>Orisa Name: </b><a href="${dataFromJSON[oduForTheJSON].orisas[i].orisaURL}">${dataFromJSON[oduForTheJSON].orisas[i].orisaName}</a><br>
-            <b>Reasons</b></p>
+            <b>${dataFromJSON[oduForTheJSON].orisas[i].id}. Òrisà  / Irúnmolè : </b><a href="${dataFromJSON[oduForTheJSON].orisas[i].orisaURL}">${dataFromJSON[oduForTheJSON].orisas[i].orisaName}</a> ${dataFromJSON[oduForTheJSON].orisas[i].otherNames}<br>
+            <b>Reasons:</b>
             <ul>
             <div id="reasons${dataFromJSON[oduForTheJSON].orisas[i].id}"></div>
             </ul>`;
@@ -238,35 +240,34 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
               .insertAdjacentHTML("afterbegin" , firstLevelOfLoopedInformationForAllTheOrisasCreated)
         
               valuesOfreasonsLoopENG = Object.values(loopToAllTheOrisasCreated);//iterates to all the values of the reasons
-              valuesOfreasonsISBN =  Object.values(loopToAllTheISBNCreated);//iterates to all the values of the ISBN
-              keysOfreasonsISBN =   Object.keys(loopToAllTheISBNCreated);
-            
-          for (let j = 0; j < (valuesOfreasonsLoopENG.length) && (valuesOfreasonsISBN.length)  && (keysOfreasonsISBN.length); j++) {
-            console.log();  
-            const elementlooped = `<li>${valuesOfreasonsLoopENG[j]} <a 
-             
-            data-bs-toggle="collapse" 
-            href="#Orisa${dataFromJSON[oduForTheJSON].orisas[i].orisaNonSpecialCharactername}Bibliography${keysOfreasonsISBN[j]}Fetched"  
-            role="button" 
-            aria-expanded="false" 
-            aria-controls="Orisa${dataFromJSON[oduForTheJSON].orisas[i].orisaNonSpecialCharactername}Bibliography${keysOfreasonsISBN[j]}Fetched" 
-            onclick="fetchBibliography(${valuesOfreasonsISBN[j]}, 'idOrisa${dataFromJSON[oduForTheJSON].orisas[i].orisaNonSpecialCharactername}Bibliography${keysOfreasonsISBN[j]}Fetched');">Bibliography</a></li>
-               
-                <div class="collapse" id="Orisa${dataFromJSON[oduForTheJSON].orisas[i].orisaNonSpecialCharactername}Bibliography${keysOfreasonsISBN[j]}Fetched">				
-                <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
-                     <div id="idOrisa${dataFromJSON[oduForTheJSON].orisas[i].orisaNonSpecialCharactername}Bibliography${keysOfreasonsISBN[j]}Fetched"></div>
-                </div>
-                </div>
+
+              //console.log(dataFromJSON[oduForTheJSON].orisas[i])
+        for (var j = valuesOfreasonsLoopENG.length - 1; j >= 0; j--){
+
+        const elementlooped = `<li>${valuesOfreasonsLoopENG[j][1]} <a 
+         
+        data-bs-toggle="collapse" 
+        href="#Orisa${dataFromJSON[oduForTheJSON].orisas[i].orisaNonSpecialCharactername}Bibliography${valuesOfreasonsLoopENG[j][0]}Fetched"  
+        role="button" 
+        aria-expanded="false" 
+        aria-controls="Orisa${dataFromJSON[oduForTheJSON].orisas[i].orisaNonSpecialCharactername}Bibliography${valuesOfreasonsLoopENG[j][0]}Fetched" 
+        onclick="fetchBibliography(${valuesOfreasonsLoopENG[j][2]}, 'idOrisa${dataFromJSON[oduForTheJSON].orisas[i].orisaNonSpecialCharactername}BibliographyFetched${valuesOfreasonsLoopENG[j][0]}');">Bibliography</a></li>
+           
+            <div class="collapse" id="Orisa${dataFromJSON[oduForTheJSON].orisas[i].orisaNonSpecialCharactername}Bibliography${valuesOfreasonsLoopENG[j][0]}Fetched">				
+            <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+                 <div id="idOrisa${dataFromJSON[oduForTheJSON].orisas[i].orisaNonSpecialCharactername}BibliographyFetched${valuesOfreasonsLoopENG[j][0]}"></div>
+            </div>
+            </div>
+    
+        `;    
         
-            `;    
-            
-              document
-              .querySelector(`#reasons${dataFromJSON[oduForTheJSON].orisas[i].id}`) //id where to put the info
-              .insertAdjacentHTML("afterbegin" , elementlooped);
-        
-              //console.log(`${elementlooped}`);
-            
-          }
+          document
+          .querySelector(`#reasons${dataFromJSON[oduForTheJSON].orisas[i].id}`) //id where to put the info
+          .insertAdjacentHTML("afterbegin" , elementlooped);
+    
+          //console.log(`${elementlooped}`);
+                
+              }
           
         } 
         
