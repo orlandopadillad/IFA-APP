@@ -55,14 +55,14 @@ document.write(`					<div id="sidebar">
             </header>
             <p>this web was designed to have all the ifa and orisa information in one place and makes an easy and free study for babalawos around the world. we try to link directing to the publisshers web to encourage the sale of their books to our audience</p>
             <ul class="contact">
-                <li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
+            <!-- <li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>-->
             </ul>
         </section>
 
     <!-- Footer -->
-        <footer id="footer">
+    <!-- <footer id="footer">
             <p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-        </footer>
+        </footer>-->
 
 </div>
 </div>`)
