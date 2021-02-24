@@ -82,9 +82,9 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
          })
          .join('');//transform the HTML in a string
          //console.log(verseshtmlOutPut) //log to grab all the info and put it into the HTML--- this can be deleted.
-         document
-             .querySelector('#verseDataInEnglish') //id where to put the info
-             .insertAdjacentHTML("afterbegin" , verseshtmlOutPut);// insert the text exactly after the id declared above
+            document
+                .querySelector('#verseDataInEnglish') //id where to put the info
+                .insertAdjacentHTML("afterbegin" , verseshtmlOutPut);// insert the text exactly after the id declared above
         //En of the verses OUTPUT in ENGLISH
 
         
@@ -113,9 +113,9 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
          })
          .join('');//transform the HTML in a string
          //console.log(ebohtmlOutPut) //log to grab all the info and put it into the HTML--- this can be deleted.
-         document
-             .querySelector('#eboDataInEnglish') //id where to put the info
-             .insertAdjacentHTML("afterbegin" , ebohtmlOutPut);// insert the text exactly after the id declared above
+            document
+                .querySelector('#eboDataInEnglish') //id where to put the info
+                .insertAdjacentHTML("afterbegin" , ebohtmlOutPut);// insert the text exactly after the id declared above
         //end of the ebo in ENGLISH
 
 
@@ -125,8 +125,7 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
             return `
  
             
-            <b>Taboo ${infoDisplayTaboos.id}</b><br>${infoDisplayTaboos.translation.ENG}
-            <p>
+            <b>Taboo ${infoDisplayTaboos.id}:</b><br>${infoDisplayTaboos.translation.ENG}
                 <a 
                     data-bs-toggle="collapse" 
                     href="#tabooBibliographyFetched${infoDisplayTaboos.id}"  
@@ -146,9 +145,9 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
          })
          .join('');//transform the HTML in a string
          //console.log(tabooshtmlOutPut) //log to grab all the info and put it into the HTML--- this can be deleted.
-         document
-             .querySelector('#taboosDataInEnglish') //id where to put the info
-             .insertAdjacentHTML("afterbegin" , tabooshtmlOutPut);// insert the text exactly after the id declared above
+            document
+                .querySelector('#taboosDataInEnglish') //id where to put the info
+                .insertAdjacentHTML("afterbegin" , tabooshtmlOutPut);// insert the text exactly after the id declared above
         //end of the taboos in ENGLISH
         
 
@@ -158,9 +157,7 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
             return `
         
             
-            <b>Name ${infoDisplayNames.id} </b><br><blockquote>\"${infoDisplayNames.translation.Yoruba}\"</blockquote>${infoDisplayNames.translation.ENG}
-            <br>
-            <p>       
+            <b>Name ${infoDisplayNames.id} </b><br><blockquote>\"${infoDisplayNames.translation.Yoruba}\"</blockquote>${infoDisplayNames.translation.ENG}.       
             <a 
                 data-bs-toggle="collapse" 
                 href="#namesBibliographyFetched${infoDisplayNames.id}"  
@@ -180,9 +177,9 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
          })
          .join('');//transform the HTML in a string
          //console.log(nameshtmlOutPut) //log to grab all the info and put it into the HTML--- this can be deleted.
-         document
-             .querySelector('#namesDataInEnglish') //id where to put the info
-             .insertAdjacentHTML("afterbegin" , nameshtmlOutPut);// insert the text exactly after the id declared above
+            document
+                .querySelector('#namesDataInEnglish') //id where to put the info
+                .insertAdjacentHTML("afterbegin" , nameshtmlOutPut);// insert the text exactly after the id declared above
         //end of the names in ENGLISH
                 
 
@@ -215,9 +212,9 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
          })
          .join('');//transform the HTML in a string
          //console.log(medicineshtmlOutPut) //log to grab all the info and put it into the HTML--- this can be deleted.
-         document
-             .querySelector('#medicinesDataInEnglish') //id where to put the info
-             .insertAdjacentHTML("afterbegin" , medicineshtmlOutPut);// insert the text exactly after the id declared above
+            document
+                .querySelector('#medicinesDataInEnglish') //id where to put the info
+                .insertAdjacentHTML("afterbegin" , medicineshtmlOutPut);// insert the text exactly after the id declared above
         //end of the medicines in ENGLISH
 
         //start of the orisas in ENGLISH
@@ -277,6 +274,36 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
          //end of the orisas in ENGLISH
 
         //start of the orisas consagration in ENGLISH
+        professionshtmlOutPut = dataFromJSON[oduForTheJSON]['professions'].map(infoDisplayprofessions => { //route to retreieve the information --- can be change but need to be update on all the places.
+            //below code "return" the HTML code
+            return `
+        
+            
+            <b>${infoDisplayprofessions.id}. </b>${infoDisplayprofessions.translation.ENG}
+                <a 
+                data-bs-toggle="collapse" 
+                href="#professionsBibliographyFetched${infoDisplayprofessions.id}"  
+                role="button" 
+                aria-expanded="false" 
+                aria-controls="professionsBibliography${infoDisplayprofessions.id}" 
+                onclick="fetchBibliography(${infoDisplayprofessions.translation.ISBN}, 'idprofessionsBibliographyFetched${infoDisplayprofessions.id}');">Bibliography</a></p>
+
+            <div class="collapse" id="professionsBibliographyFetched${infoDisplayprofessions.id}">				
+                <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+                     <div id="idprofessionsBibliographyFetched${infoDisplayprofessions.id}"></div>
+                </div>
+            </div>
+            
+            `;
+         })
+         .join('');//transform the HTML in a string
+         //console.log(professionshtmlOutPut) //log to grab all the info and put it into the HTML--- this can be deleted.
+            document
+                .querySelector('#ProfessionsInEnglish') //id where to put the info
+                .insertAdjacentHTML("afterbegin" , professionshtmlOutPut);// insert the text exactly after the id declared above
+        //end of the orisas consagration in ENGLISH
+
+        //start of the orisas consagration in ENGLISH
         orisasConsagrationhtmlOutPut = dataFromJSON[oduForTheJSON]['orisasConsagration'].map(infoDisplayOrisasConsagration => { //route to retreieve the information --- can be change but need to be update on all the places.
             //below code "return" the HTML code
             return `
@@ -303,11 +330,33 @@ var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish"
          })
          .join('');//transform the HTML in a string
          //console.log(orisasConsagrationhtmlOutPut) //log to grab all the info and put it into the HTML--- this can be deleted.
-         document
-             .querySelector('#orisasConsagrationDataInEnglish') //id where to put the info
-             .insertAdjacentHTML("afterbegin" , orisasConsagrationhtmlOutPut);// insert the text exactly after the id declared above
+            document
+                .querySelector('#orisasConsagrationDataInEnglish') //id where to put the info
+                .insertAdjacentHTML("afterbegin" , orisasConsagrationhtmlOutPut);// insert the text exactly after the id declared above
         //end of the orisas consagration in ENGLISH
+    //start spanish information request
+    
+        //start of the General Description OUTPUT in ENGLISH
 
+         //End of the General Description OUTPUT in ENGLISH
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //end spanish information request
     
 
 

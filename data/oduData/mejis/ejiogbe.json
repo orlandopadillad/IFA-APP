@@ -338,10 +338,81 @@
             {
                 "id": 1, 
                 "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe",
+                    "ENG":"Birds should not eat - to avoid unconsumed fortune.",
+                    "SPA":"No deben comer las aves - para evitar la fortuna sin consumar.",
+                    "POR":"Os pássaros não devem comer - para evitar fortuna não consumida.",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 2, 
+                "translation":{
+                    "ENG":"Must not eat goat - to avoid unconsumed fortune.",
+                    "SPA":"No debe comer cabra - para evitar la fortuna sin consumar.",
+                    "POR":"Não deve comer cabra - para evitar fortuna não consumida.",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 3, 
+                "translation":{
+                    "ENG":"You should not put blood on your Ifa, to avoid setbacks, accidents and disasters.",
+                    "SPA":"No debe poner la sangre en su Ifa, para evitar contratiempos, accidentes y desastres.",
+                    "POR":"Você não deve colocar sangue no seu Ifa, para evitar contratempos, acidentes e desastres.",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 4, 
+                "translation":{
+                    "ENG":"Red or black dresses should not be worn - to avoid misfortunes.",
+                    "SPA":"No se debe usar vestidos de color rojo o negro - para evitar desgracias.",
+                    "POR":"Vestidos vermelhos ou pretos não devem ser usados ​​- para evitar infortúnios.",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 5, 
+                "translation":{
+                    "ENG":"You don't have to eat peanuts - to avoid reproductive problems.",
+                    "SPA":"No tiene que comer maní - para evitar problemas de procrear.",
+                    "POR":"Você não precisa comer amendoim - para evitar problemas reprodutivos.",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 6, 
+                "translation":{
+                    "ENG":"You should not eat mushrooms - to avoid maternity problems.",
+                    "SPA":"No debe comer hongos - para evitar problemas de la maternidad.",
+                    "POR":"Você não deve comer cogumelos - para evitar problemas de maternidade.",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 7, 
+                "translation":{
+                    "ENG":"You should never tell lies - to avoid pain or disaster.",
+                    "SPA":"Nunca debe decir mentiras - para evitar el dolor o los desastres.",
+                    "POR":"Você nunca deve contar mentiras - para evitar dor ou desastre.",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 8, 
+                "translation":{
+                    "ENG":"You should never sleep in the dark, to avoid a reduction in luck.",
+                    "SPA":"Nunca debe dormir en la oscuridad, para evitar una reducción en la suerte.",
+                    "POR":"Você nunca deve dormir no escuro, para evitar uma redução na sorte.",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 9, 
+                "translation":{
+                    "ENG":"They should not eat ewedu grass, slimy - to prevent unconsumed fortune.",
+                    "SPA":"No deben comer hierba ewedu, viscosa - para evitar que la fortuna sin consumar.",
+                    "POR":"Eles não devem comer grama ewedu, viscosa - para evitar fortuna não consumida.",
                     "ISBN": "0981001319"
                 }
              }
@@ -350,43 +421,33 @@
             {
                 "id": 1, 
                 "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe",
+                    "ENG":"The wealth that surrounds me.",
+                    "SPA":"La riqueza que me rodea.",
+                    "POR":"A riqueza que me rodeia.",
+                    "Yoruba":"Ajeyimika.",
                     "ISBN": "0981001319"
                 }
              },
              {
                 "id": 2, 
                 "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe",
+                    "ENG":"Awo is honorable",
+                    "SPA":"Awo es honorable",
+                    "POR":"Awo é honrado",
+                    "Yoruba":"Awolola",
                     "ISBN": "0981001319"
                 }
              },
              {
                 "id": 3, 
                 "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe",
+                    "ENG":"The crown corresponds to the head",
+                    "SPA":"La corona corresponde a la cabeza",
+                    "POR":"A coroa corresponde à cabeça",
+                    "Yoruba":"Adeyeri",
                     "ISBN": "0981001319"
                 }
-             },
-             {
-                "id": 4, 
-                "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe",
-                    "ISBN": "0981001319"
-                }
-             } 
+             }
         ],
         "generalDescription":[
             {
@@ -657,46 +718,15 @@
             {
                 "id": 1, 
                 "translation":{
-                    "ENG":"this is the test of medicine in eng  at ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
+                    "ENG":"information coming soon",
+                    "SPA":"información próximamente",
+                    "POR":"informações em breve",
                     "Yoruba":"this is the prueba in yoruba ejiogbe",
-                    "ISBN": "0981001319"
-                }
-             },
-             {
-                "id": 2, 
-                "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe",
-                    "ISBN": "0981001319"
-                }
-             },
-             {
-                "id": 3, 
-                "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe",
-                    "ISBN": "0981001319"
-                }
-             },
-             {
-                "id": 4, 
-                "translation":{
-                    "ENG":"this is the test in eng ejiogbe",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe",
-                    "ISBN": "0981001319"
+                    "ISBN": "000000"
                 }
              }
         ],
         "orisas":[
-            
             {
                 "id": 1,
                 "orisaName": "Ifa:",
@@ -863,11 +893,58 @@
             {
                 "id": 1, 
                 "translation":{
-                    "ENG":"this is the test in eng ejiogbe consagration",
-                    "SPA":"esta es la prueba en espanol ejiogbe",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba ejiogbe",
-                    "ISBN": "0981001319"                    
+                    "ENG":"information coming soon",
+                    "SPA":"información próximamente",
+                    "POR":"informações em breve",
+                    "Yoruba":"información próximamente",
+                    "ISBN": "9780981001319"
+                }
+             }
+        ],
+        "professions":[
+            {
+                "id": 1, 
+                "translation":{
+                    "ENG":"Ifa priest, Òrisà priest",
+                    "SPA":"Ifa sacerdote, sacerdote Òrisà",
+                    "POR":"Padre Ifa, padre Òrisà",
+                    "ISBN": "9780981001319"
+                }
+             },
+             {
+                "id": 2, 
+                "translation":{
+                    "ENG":"Medical / For alternative medicine",
+                    "SPA":"Médico / Para la medicina alternativa",
+                    "POR":"Médico / Para medicina alternativa",
+                    "ISBN": "9780981001319"
+                }
+             },
+             {
+                "id": 3, 
+                "translation":{
+                    "ENG":"Administrator",
+                    "SPA":"Administrador",
+                    "POR":"Administrador",
+                    "ISBN": "9780981001319"
+                }
+             },
+             {
+                "id": 4, 
+                "translation":{
+                    "ENG":"Hospitality, Hotel, Music, Professional Public Relations",
+                    "SPA":"Hospitalidad, Hotel, Música, Relaciones Públicas Profesional",
+                    "POR":"Hospitalidade, hotelaria, música, relações públicas profissionais",
+                    "ISBN": "9780981001319"
+                }
+             },
+             {
+                "id": 5, 
+                "translation":{
+                    "ENG":"Storyteller, historian, storyteller, commentator, wellness director, etc.",
+                    "SPA":"Narrador, historiador, narrador, comentarista, director de bienestar, etc.",
+                    "POR":"Contador de histórias, historiador, contador de histórias, comentarista, diretor de bem-estar, etc.",
+                    "ISBN": "9780981001319"
                 }
              }
         ]
