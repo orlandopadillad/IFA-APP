@@ -9,6 +9,8 @@
 
 function fetchGeneralDescriptionDataENG (){
 //Start of deleters(delete the text from the previous function execution)
+var otherNameshtmlOutPut = document.getElementById("otherOduNames").innerHTML="";
+
 var generalDescriptionhtmlOutPut = document.getElementById("generalDescriptionDataInEnglish").innerHTML="";
 var verseshtmlOutPut  = document.getElementById("verseDataInEnglish").innerHTML="";
 var ebohtmlOutPut = document.getElementById("eboDataInEnglish").innerHTML="";
@@ -16,8 +18,32 @@ var tabooshtmlOutPut  = document.getElementById("taboosDataInEnglish").innerHTML
 var nameshtmlOutPut = document.getElementById("namesDataInEnglish").innerHTML="";
 var medicineshtmlOutPut = document.getElementById("medicinesDataInEnglish").innerHTML="";
 var orisashtmlOutPut = document.getElementById("orisasDataInEnglish").innerHTML="";
-var orisasConsagrationhtmlOutPut = document.getElementById("orisasDataInEnglish").innerHTML="";
-var orisasConsagrationhtmlOutPut = document.getElementById("otherOduNames").innerHTML="";
+var orisasConsagrationhtmlOutPut = document.getElementById("orisasConsagrationDataInEnglish").innerHTML="";
+var professionshtmlOutPut = document.getElementById("ProfessionsInEnglish").innerHTML="";
+var itanifahtmlOutPut = document.getElementById("itanIfaInEnglish").innerHTML="";
+
+var generalDescriptionhtmlOutPutSpanish = document.getElementById("generalDescriptionDataInSpanish").innerHTML="";
+var verseshtmlOutPutSpanish = document.getElementById("verseDataInSpanish").innerHTML="";
+var ebohtmlOutPutSpanish = document.getElementById("eboDataInSpanish").innerHTML="";
+var tabooshtmlOutPutSpanish = document.getElementById("taboosDataInSpanish").innerHTML="";
+var nameshtmlOutPutSpanish = document.getElementById("namesDataInSpanish").innerHTML="";
+var medicineshtmlOutPutSpanish = document.getElementById("medicinesDataInSpanish").innerHTML="";
+var orisashtmlOutPutSpanish = document.getElementById("orisasDataInSpanish").innerHTML="";
+var orisasConsagrationhtmlOutPutSpanish = document.getElementById("orisasConsagrationDataInSpanish").innerHTML="";
+var professionshtmlOutPutSpanish = document.getElementById("ProfessionsInSpanish").innerHTML="";
+var itanifahtmlOutPutSpanish = document.getElementById("itanIfaInEnglish").innerHTML="";
+
+var generalDescriptionhtmlPortugues = document.getElementById("generalDescriptionDataInPortugues").innerHTML="";
+var verseshtmlOutPutPortugues = document.getElementById("verseDataInPortugues").innerHTML="";
+var ebohtmlOutPutPortugues = document.getElementById("eboDataInPortugues").innerHTML="";
+var tabooshtmlOutPutPortugues = document.getElementById("taboosDataInPortugues").innerHTML="";
+var nameshtmlOutPutPortugues = document.getElementById("namesDataInPortugues").innerHTML="";
+var medicineshtmlOutPutPortugues = document.getElementById("medicinesDataInPortugues").innerHTML="";
+var orisasConsagrationhtmlOutPutPortugues = document.getElementById("orisasConsagrationDataInPortugues").innerHTML="";
+var orisashtmlOutPutPortugues = document.getElementById("orisasDataInPortugues").innerHTML="";
+var professionshtmlOutPutPortugues = document.getElementById("ProfessionsInPortugues").innerHTML="";
+var itanifahtmlOutPutPortugues = document.getElementById("itanIfaInEnglish").innerHTML="";
+
 
 
 //End of deleters(delete the text from the previous function execution)
@@ -219,7 +245,7 @@ var orisasConsagrationhtmlOutPut = document.getElementById("otherOduNames").inne
         //end of the medicines in ENGLISH
 
         //start of the orisas in ENGLISH
-        var orisashtmlOutPut = orisasHtmlOutputENG();
+        orisashtmlOutPut = orisasHtmlOutputENG();
         function orisasHtmlOutputENG(){
         document.getElementById('orisasDataInEnglish').innerHTML = "";
         for (let i = dataFromJSON[oduForTheJSON].orisas.length - 1; i >= 0; i--) { //reverse loop to keep the order of the json after a map iteration
@@ -272,7 +298,7 @@ var orisasConsagrationhtmlOutPut = document.getElementById("otherOduNames").inne
         }
          //end of the orisas in ENGLISH
 
-        //start of the orisas consagration in ENGLISH
+        //start of the professions consagration in ENGLISH
         professionshtmlOutPut = dataFromJSON[oduForTheJSON]['professions'].map(infoDisplayprofessions => { //route to retreieve the information --- can be change but need to be update on all the places.
             //below code "return" the HTML code
             return `
@@ -300,7 +326,7 @@ var orisasConsagrationhtmlOutPut = document.getElementById("otherOduNames").inne
             document
                 .querySelector('#ProfessionsInEnglish') //id where to put the info
                 .insertAdjacentHTML("afterbegin" , professionshtmlOutPut);// insert the text exactly after the id declared above
-        //end of the orisas consagration in ENGLISH
+        //end of the professions consagration in ENGLISH
 
     //start of the orisas consagration in ENGLISH
         orisasConsagrationhtmlOutPut = dataFromJSON[oduForTheJSON]['orisasConsagration'].map(infoDisplayOrisasConsagration => { //route to retreieve the information --- can be change but need to be update on all the places.
@@ -339,13 +365,41 @@ var orisasConsagrationhtmlOutPut = document.getElementById("otherOduNames").inne
             //below code "return" the HTML code
             return `${infoDisplayoduNames}`;
          })
-         .join('');//transform the HTML in a string
+         .join(', ');//transform the HTML in a string
          //console.log(otherNameshtmlOutPut) //log to grab all the info and put it into the HTML--- this can be deleted.
             document
                 .querySelector('#otherOduNames') //id where to put the info
                 .insertAdjacentHTML("afterbegin" , otherNameshtmlOutPut);// insert the text exactly after the id declared above
         //end of the orisas consagration in ENGLISH
+    //start of the ITAN IFA in ENGLISH
+        itanifahtmlOutPut = dataFromJSON[oduForTheJSON]['itanIfa'].map(infoDisplayitanIfa => { //route to retreieve the information --- can be change but need to be update on all the places.
+            //below code "return" the HTML code
+            return `
+        
+            
+            <b>${infoDisplayitanIfa.id} </b>${infoDisplayitanIfa.translation.ENG}
+                <a 
+                data-bs-toggle="collapse" 
+                href="#itanIfaBibliographyFetched${infoDisplayitanIfa.id}"  
+                role="button" 
+                aria-expanded="false" 
+                aria-controls="itanIfaBibliography${infoDisplayitanIfa.id}" 
+                onclick="fetchBibliography(${infoDisplayitanIfa.translation.ISBN}, 'iditanIfaBibliographyFetched${infoDisplayitanIfa.id}');">Bibliography</a></p>
 
+            <div class="collapse" id="itanIfaBibliographyFetched${infoDisplayitanIfa.id}">				
+                <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+                     <div id="iditanIfaBibliographyFetched${infoDisplayitanIfa.id}"></div>
+                </div>
+            </div>
+            
+            `;
+         })
+         .join('');//transform the HTML in a string
+        //console.log(itanifahtmlOutPut) //log to grab all the info and put it into the HTML--- this can be deleted.
+            document
+                .querySelector('#itanIfaInEnglish') //id where to put the info
+                .insertAdjacentHTML("afterbegin" , itanifahtmlOutPut);// insert the text exactly after the id declared above
+    //end of the ITAN IFA in ENGLISH
 
 //start spanish information request7
 
@@ -645,13 +699,370 @@ var orisasConsagrationhtmlOutPut = document.getElementById("otherOduNames").inne
                 .insertAdjacentHTML("afterbegin" , professionshtmlOutPutSpanish);// insert the text exactly after the id declared above
         //end of the orisas consagration in ENGLISH
 
+        //start of the ITAN IFA in Spanish
+        itanifahtmlOutPutSpanish = dataFromJSON[oduForTheJSON]['itanIfa'].map(infoDisplayitanIfaSpanish => { //route to retreieve the information --- can be change but need to be update on all the places.
+            //below code "return" the HTML code
+            return `
+        
+            
+            <b>${infoDisplayitanIfaSpanish.id} </b>${infoDisplayitanIfaSpanish.translation.SPA}
+                <a 
+                data-bs-toggle="collapse" 
+                href="#itanIfaBibliographySpanishFetched${infoDisplayitanIfaSpanish.id}"  
+                role="button" 
+                aria-expanded="false" 
+                aria-controls="itanIfaBibliographySpanish${infoDisplayitanIfaSpanish.id}" 
+                onclick="fetchBibliographySpanish(${infoDisplayitanIfaSpanish.translation.ISBN}, 'iditanIfaBibliographySpanishFetched${infoDisplayitanIfaSpanish.id}');">Bibliography</a></p>
 
-
-
-
-
+            <div class="collapse" id="itanIfaBibliographySpanishFetched${infoDisplayitanIfaSpanish.id}">				
+                <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+                     <div id="iditanIfaBibliographySpanishFetched${infoDisplayitanIfaSpanish.id}"></div>
+                </div>
+            </div>
+            
+            `;
+         })
+         .join('');//transform the HTML in a string
+        //console.log(itanifahtmlOutPutSpanish) //log to grab all the info and put it into the HTML--- this can be deleted.
+            document
+                .querySelector('#itanIfaInSpanish') //id where to put the info
+                .insertAdjacentHTML("afterbegin" , itanifahtmlOutPutSpanish);// insert the text exactly after the id declared above
+        //end of the ITAN IFA in Spanish
 //end spanish information request
+
+
+
+//Start Portugues information request
+
+
+ //start of the General Description OUTPUT in Portugues
     
+        generalDescriptionhtmlPortugues = dataFromJSON[oduForTheJSON]['generalDescription'].map(infoFilteredForgeneralDescriptionPortugues => { //route to retreieve the information --- can be change but need to be update on all the places.
+            //below code "return" the HTML code
+            return `
+                     <p><b>${infoFilteredForgeneralDescriptionPortugues.id}. </b>${infoFilteredForgeneralDescriptionPortugues.translation.POR}                  
+                     <a 
+              
+                     data-bs-toggle="collapse" 
+                     href="#generalDescriptionPortuguesBibliographyFetched${infoFilteredForgeneralDescriptionPortugues.id}"  
+                     role="button" 
+                     aria-expanded="false" 
+                     aria-controls="generalDescriptionPortuguesBibliography${infoFilteredForgeneralDescriptionPortugues.id}" 
+                     onclick="fetchBibliographyPortugues(${infoFilteredForgeneralDescriptionPortugues.translation.ISBN}, 'idgeneralDescriptionPortuguesBibliographyFetched${infoFilteredForgeneralDescriptionPortugues.id}');">Bibliography</a></li>
+                
+                 <div class="collapse" id="generalDescriptionPortuguesBibliographyFetched${infoFilteredForgeneralDescriptionPortugues.id}">				
+                     <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+                          <div id="idgeneralDescriptionPortuguesBibliographyFetched${infoFilteredForgeneralDescriptionPortugues.id}"></div>
+                     </div>
+                 </div>
+         `;})
+              .join('');//transform the HTML in a string
+              //console.log(generalDescriptionhtmlOutPut) //log to grab all the info and put it into the HTML--- this can be deleted.
+              document
+                  .querySelector('#generalDescriptionDataInPortugues') //id where to put the info
+                  .insertAdjacentHTML("afterbegin" , generalDescriptionhtmlPortugues);// insert the text exactly after the id declared above
+
+         //End of the General Description OUTPUT in Portugues
+
+        //start of the verses OUTPUT in Portugues
+        verseshtmlOutPutPortugues = dataFromJSON[oduForTheJSON]['verses'].map(infoDisplayForVersesPortugues => { //route to retreieve the information --- can be change but need to be update on all the places.
+            //below code "return" the HTML code
+            return `
+                    <b>Verso  ${infoDisplayForVersesPortugues.id}</b><br><blockquote>\"${infoDisplayForVersesPortugues.translation.Yoruba}\"</blockquote>${infoDisplayForVersesPortugues.translation.POR}                 
+                    <a
+                    data-bs-toggle="collapse" 
+                    href="#versesPortuguesBibliographyFetched${infoDisplayForVersesPortugues.id}"  
+                    role="button" 
+                    aria-expanded="false" 
+                    aria-controls="versesPortuguesBibliography${infoDisplayForVersesPortugues.id}" 
+                    onclick="fetchBibliographyPortugues(${infoDisplayForVersesPortugues.translation.ISBN}, 'idversesPortuguesBibliographyFetched${infoDisplayForVersesPortugues.id}');">Bibliography</a></p>
+               
+                <div class="collapse" id="versesPortuguesBibliographyFetched${infoDisplayForVersesPortugues.id}">				
+                    <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+                         <div id="idversesPortuguesBibliographyFetched${infoDisplayForVersesPortugues.id}"></div>
+                    </div>
+                </div>
+            `;
+         })
+         .join('');//transform the HTML in a string
+         //console.log(verseshtmlOutPutPortugues) //log to grab all the info and put it into the HTML--- this can be deleted.
+            document
+                .querySelector('#verseDataInPortugues') //id where to put the info
+                .insertAdjacentHTML("afterbegin" , verseshtmlOutPutPortugues);// insert the text exactly after the id declared above
+        //En of the verses OUTPUT in Portugues
+
+        //start of the ebo in Portugues
+        ebohtmlOutPutPortugues = dataFromJSON[oduForTheJSON]['ebo'].map(infoDisplayForEboPortugues => { //route to retreieve the information --- can be change but need to be update on all the places.
+            //below code "return" the HTML code
+            return `
+                    <b>Ẹbọ   ${infoDisplayForEboPortugues.id}</b>: ${infoDisplayForEboPortugues.translation.POR}
+                                    
+                    <a 
+             
+                    data-bs-toggle="collapse" 
+                    href="#eboPortuguesBibliographyFetched${infoDisplayForEboPortugues.id}"  
+                    role="button" 
+                    aria-expanded="false" 
+                    aria-controls="eboBibliography${infoDisplayForEboPortugues.id}" 
+                    onclick="fetchBibliographyPortugues(${infoDisplayForEboPortugues.translation.ISBN}, 'ideboPortuguesBibliographyFetched${infoDisplayForEboPortugues.id}');">Bibliography</a></p>
+               
+                <div class="collapse" id="eboPortuguesBibliographyFetched${infoDisplayForEboPortugues.id}">				
+                    <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+                         <div id="ideboPortuguesBibliographyFetched${infoDisplayForEboPortugues.id}"></div>
+                    </div>
+                </div>
+                `;//to display otherlanguages modify the .SPA to the require language
+         
+         })
+         .join('');//transform the HTML in a string
+         //console.log(ebohtmlOutPutPortugues) //log to grab all the info and put it into the HTML--- this can be deleted.
+            document
+                .querySelector('#eboDataInPortugues') //id where to put the info
+                .insertAdjacentHTML("afterbegin" , ebohtmlOutPutPortugues);// insert the text exactly after the id declared above
+        //end of the ebo in Portugues
+
+        //start of the taboos in Portugues
+        tabooshtmlOutPutPortugues = dataFromJSON[oduForTheJSON]['taboos'].map(infoDisplayTaboos => { //route to retreieve the information --- can be change but need to be update on all the places.
+            //below code "return" the HTML code
+            return `
+ 
+            
+            <b>Tabú ${infoDisplayTaboos.id}:</b> ${infoDisplayTaboos.translation.POR}
+                <a 
+                    data-bs-toggle="collapse" 
+                    href="#tabooPortuguesBibliographyFetched${infoDisplayTaboos.id}"  
+                    role="button" 
+                    aria-expanded="false" 
+                    aria-controls="tabooPortuguesBibliography${infoDisplayTaboos.id}" 
+                    onclick="fetchBibliographyPortugues(${infoDisplayTaboos.translation.ISBN}, 'idtabooPortuguesBibliographyFetched${infoDisplayTaboos.id}');">Bibliography</a></p>
+            
+                <div class="collapse" id="tabooPortuguesBibliographyFetched${infoDisplayTaboos.id}">				
+                    <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+                         <div id="idtabooPortuguesBibliographyFetched${infoDisplayTaboos.id}"></div>
+                    </div>
+                </div>
+           
+            
+            `;
+         })
+         .join('');//transform the HTML in a string
+         //console.log(tabooshtmlOutPut) //log to grab all the info and put it into the HTML--- this can be deleted.
+            document
+                .querySelector('#taboosDataInPortugues') //id where to put the info
+                .insertAdjacentHTML("afterbegin" , tabooshtmlOutPutPortugues);// insert the text exactly after the id declared above
+        //end of the taboos in Portugues
+
+        //start of the names in Portugues
+        nameshtmlOutPutPortugues = dataFromJSON[oduForTheJSON]['names'].map(infoDisplayNamesPortugues => { //route to retreieve the information --- can be change but need to be update on all the places.
+            //below code "return" the HTML code
+            return `
+        
+            
+            <b>Nombre ${infoDisplayNamesPortugues.id} </b><br><blockquote>\"${infoDisplayNamesPortugues.translation.Yoruba}\"</blockquote>${infoDisplayNamesPortugues.translation.POR}       
+            <a 
+                data-bs-toggle="collapse" 
+                href="#namesPortuguesBibliographyFetched${infoDisplayNamesPortugues.id}"  
+                role="button" 
+                aria-expanded="false" 
+                aria-controls="namesPortuguesBibliography${infoDisplayNamesPortugues.id}" 
+                onclick="fetchBibliographyPortugues(${infoDisplayNamesPortugues.translation.ISBN}, 'idnamesPortuguesBibliographyFetched${infoDisplayNamesPortugues.id}');">Bibliography</a></p>
+    
+            <div class="collapse" id="namesPortuguesBibliographyFetched${infoDisplayNamesPortugues.id}">				
+                <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+                     <div id="idnamesPortuguesBibliographyFetched${infoDisplayNamesPortugues.id}"></div>
+                </div>
+            </div>
+
+            
+            `;
+         })
+         .join('');//transform the HTML in a string
+         //console.log(nameshtmlOutPut) //log to grab all the info and put it into the HTML--- this can be deleted.
+            document
+                .querySelector('#namesDataInPortugues') //id where to put the info
+                .insertAdjacentHTML("afterbegin" , nameshtmlOutPutPortugues);// insert the text exactly after the id declared above
+        //end of the names in Portugues
+
+        //start of the medicines in ENGLISH
+        medicineshtmlOutPutPortugues = dataFromJSON[oduForTheJSON]['medicines'].map(infoDisplayMedicinesPortugues => { //route to retreieve the information --- can be change but need to be update on all the places.
+
+            //below code "return" the HTML code
+            return `
+ 
+            
+            <b>Medicina ${infoDisplayMedicinesPortugues.id} </b><br>${infoDisplayMedicinesPortugues.translation.POR}
+            <p>
+            <a 
+                data-bs-toggle="collapse" 
+                href="#medicinesPortuguesBibliographyFetched${infoDisplayMedicinesPortugues.id}"  
+                role="button" 
+                aria-expanded="false" 
+                aria-controls="medicinesPortuguesBibliography${infoDisplayMedicinesPortugues.id}" 
+                onclick="fetchBibliographyPortugues(${infoDisplayMedicinesPortugues.translation.ISBN}, 'idmedicinesPortuguesBibliographyFetched${infoDisplayMedicinesPortugues.id}');">Bibliography</a></p>
+
+            <div class="collapse" id="medicinesPortuguesBibliographyFetched${infoDisplayMedicinesPortugues.id}">				
+                <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+                     <div id="idmedicinesPortuguesBibliographyFetched${infoDisplayMedicinesPortugues.id}"></div>
+                </div>
+            </div>
+ 
+
+            
+            `;
+         })
+         .join('');//transform the HTML in a string
+         //console.log(medicineshtmlOutPutPortugues) //log to grab all the info and put it into the HTML--- this can be deleted.
+            document
+                .querySelector('#medicinesDataInPortugues') //id where to put the info
+                .insertAdjacentHTML("afterbegin" , medicineshtmlOutPutPortugues);// insert the text exactly after the id declared above
+        //end of the medicines in ENGLISH
+        //start of the orisas consagration in ENGLISH
+        orisasConsagrationhtmlOutPutPortugues = dataFromJSON[oduForTheJSON]['orisasConsagration'].map(infoDisplayOrisasConsagration => { //route to retreieve the information --- can be change but need to be update on all the places.
+        //below code "return" the HTML code
+        return `
+    
+        
+        <b>${infoDisplayOrisasConsagration.id} </b>${infoDisplayOrisasConsagration.translation.POR}<br>
+        <br>
+        <p>
+            <a 
+            data-bs-toggle="collapse" 
+            href="#orisasConsagrationPortuguesBibliographyFetched${infoDisplayOrisasConsagration.id}"  
+            role="button" 
+            aria-expanded="false" 
+            aria-controls="orisasConsagrationPortuguesBibliography${infoDisplayOrisasConsagration.id}" 
+            onclick="fetchBibliographyPortugues(${infoDisplayOrisasConsagration.translation.ISBN}, 'idorisasConsagrationPortuguesBibliographyFetched${infoDisplayOrisasConsagration.id}');">Bibliography</a></p>
+
+        <div class="collapse" id="orisasConsagrationPortuguesBibliographyFetched${infoDisplayOrisasConsagration.id}">				
+            <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+                 <div id="idorisasConsagrationPortuguesBibliographyFetched${infoDisplayOrisasConsagration.id}"></div>
+            </div>
+        </div>
+        
+        `;
+        })
+        .join('');//transform the HTML in a string
+        //console.log(orisasConsagrationhtmlOutPutPortugues) //log to grab all the info and put it into the HTML--- this can be deleted.
+            document
+                .querySelector('#orisasConsagrationDataInPortugues') //id where to put the info
+                .insertAdjacentHTML("afterbegin" , orisasConsagrationhtmlOutPutPortugues);// insert the text exactly after the id declared above
+        //end of the orisas consagration in ENGLISH
+
+        //start of the orisas in ENGLISH
+        orisashtmlOutPutPortugues = orisasHtmlOutputPOR();
+        function orisasHtmlOutputPOR(){
+        document.getElementById('orisasDataInPortugues').innerHTML = "";
+        for (let i = dataFromJSON[oduForTheJSON].orisas.length - 1; i >= 0; i--) { //reverse loop to keep the order of the json after a map iteration
+            const loopToAllTheOrisasCreatedESP = dataFromJSON[oduForTheJSON].orisas[i].reasonsPOR; //iterates to all the reasons on all the orisas created
+
+            var firstLevelOfLoopedInformationForAllTheOrisasCreatedPOR =`
+            <b>${dataFromJSON[oduForTheJSON].orisas[i].id}. Òrisà  / Irúnmolè : </b><a href="${dataFromJSON[oduForTheJSON].orisas[i].orisaURL}">${dataFromJSON[oduForTheJSON].orisas[i].orisaName}</a> ${dataFromJSON[oduForTheJSON].orisas[i].otherNames}<br>
+            <b>Reasons:</b>
+            <ul>
+            <div id="reasonsPortugues${dataFromJSON[oduForTheJSON].orisas[i].id}"></div>
+            </ul>`;
+            document
+              .querySelector('#orisasDataInPortugues') //id where to put the info
+              .insertAdjacentHTML("afterbegin" , firstLevelOfLoopedInformationForAllTheOrisasCreatedPOR)
+        
+              valuesOfreasonsLoopPOR = Object.values(loopToAllTheOrisasCreatedESP);//iterates to all the values of the reasons
+
+              //console.log(valuesOfreasonsLoopPOR)
+        for (let j = valuesOfreasonsLoopPOR.length - 1; j >= 0; j--){
+
+        const elementloopedPortugues = `<li>${valuesOfreasonsLoopPOR[j][1]} <a 
+         
+        data-bs-toggle="collapse" 
+        href="#OrisaPortugues${dataFromJSON[oduForTheJSON].orisas[i].orisaNonSpecialCharactername}Bibliography${valuesOfreasonsLoopPOR[j][0]}Fetched"  
+        role="button" 
+        aria-expanded="false" 
+        aria-controls="OrisaPortugues${dataFromJSON[oduForTheJSON].orisas[i].orisaNonSpecialCharactername}Bibliography${valuesOfreasonsLoopPOR[j][0]}Fetched" 
+        onclick="fetchBibliographyPortugues(${valuesOfreasonsLoopPOR[j][2]}, 'idOrisaPortugues${dataFromJSON[oduForTheJSON].orisas[i].orisaNonSpecialCharactername}BibliographyFetched${valuesOfreasonsLoopPOR[j][0]}');">Bibliography</a></li>
+           
+            <div class="collapse" id="OrisaPortugues${dataFromJSON[oduForTheJSON].orisas[i].orisaNonSpecialCharactername}Bibliography${valuesOfreasonsLoopPOR[j][0]}Fetched">				
+            <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+                 <div id="idOrisaPortugues${dataFromJSON[oduForTheJSON].orisas[i].orisaNonSpecialCharactername}BibliographyFetched${valuesOfreasonsLoopPOR[j][0]}"></div>
+            </div>
+            </div>
+    
+        `;    
+        
+          document
+          .querySelector(`#reasonsPortugues${dataFromJSON[oduForTheJSON].orisas[i].id}`) //id where to put the info
+          .insertAdjacentHTML("afterbegin" , elementloopedPortugues);
+    
+          //console.log(`${elementloopedPortugues}`);
+                
+              }
+          
+        } 
+        
+        
+        
+        }
+         //end of the orisas in ENGLISH
+        //start of the orisas consagration in ENGLISH
+        professionshtmlOutPutPortugues = dataFromJSON[oduForTheJSON]['professions'].map(infoDisplayprofessionsPortugues => { //route to retreieve the information --- can be change but need to be update on all the places.
+            //below code "return" the HTML code
+            return `
+        
+            
+            <b>${infoDisplayprofessionsPortugues.id}. </b>${infoDisplayprofessionsPortugues.translation.POR}
+                <a 
+                data-bs-toggle="collapse" 
+                href="#professionsPortuguesBibliographyFetched${infoDisplayprofessionsPortugues.id}"  
+                role="button" 
+                aria-expanded="false" 
+                aria-controls="professionsPortuguesBibliography${infoDisplayprofessionsPortugues.id}" 
+                onclick="fetchBibliographyPortugues(${infoDisplayprofessionsPortugues.translation.ISBN}, 'idprofessionsPortuguesBibliographyFetched${infoDisplayprofessionsPortugues.id}');">Bibliography</a></p>
+
+            <div class="collapse" id="professionsPortuguesBibliographyFetched${infoDisplayprofessionsPortugues.id}">				
+                <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+                     <div id="idprofessionsPortuguesBibliographyFetched${infoDisplayprofessionsPortugues.id}"></div>
+                </div>
+            </div>
+            
+            `;
+         })
+         .join('');//transform the HTML in a string
+         //console.log(professionshtmlOutPutPortugues) //log to grab all the info and put it into the HTML--- this can be deleted.
+            document
+                .querySelector('#ProfessionsInPortugues') //id where to put the info
+                .insertAdjacentHTML("afterbegin" , professionshtmlOutPutPortugues);// insert the text exactly after the id declared above
+        //end of the orisas consagration in ENGLISH
+
+        //start of the ITAN IFA in Portugues
+        itanifahtmlOutPutPortugues = dataFromJSON[oduForTheJSON]['itanIfa'].map(infoDisplayitanIfaPortugues => { //route to retreieve the information --- can be change but need to be update on all the places.
+            //below code "return" the HTML code
+            return `
+        
+            
+            <b>${infoDisplayitanIfaPortugues.id} </b>${infoDisplayitanIfaPortugues.translation.POR}
+                <a 
+                data-bs-toggle="collapse" 
+                href="#itanIfaBibliographyPortuguesFetched${infoDisplayitanIfaPortugues.id}"  
+                role="button" 
+                aria-expanded="false" 
+                aria-controls="itanIfaBibliographyPortugues${infoDisplayitanIfaPortugues.id}" 
+                onclick="fetchBibliographyPortugues(${infoDisplayitanIfaPortugues.translation.ISBN}, 'iditanIfaBibliographyPortuguesFetched${infoDisplayitanIfaPortugues.id}');">Bibliography</a></p>
+
+            <div class="collapse" id="itanIfaBibliographyPortuguesFetched${infoDisplayitanIfaPortugues.id}">				
+                <div class="card text-center" style="width: 100%;   margin-bottom: 50px;">
+                     <div id="iditanIfaBibliographyPortuguesFetched${infoDisplayitanIfaPortugues.id}"></div>
+                </div>
+            </div>
+            
+            `;
+         })
+         .join('');//transform the HTML in a string
+        //console.log(itanifahtmlOutPutPortugues) //log to grab all the info and put it into the HTML--- this can be deleted.
+            document
+                .querySelector('#itanIfaInPortugues') //id where to put the info
+                .insertAdjacentHTML("afterbegin" , itanifahtmlOutPutPortugues);// insert the text exactly after the id declared above
+        //end of the ITAN IFA in Portugues
+
+
+//End Portugues information request
 
 
         

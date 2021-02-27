@@ -1,42 +1,52 @@
 {
     "oyekuMeji":{
+        "oduNames":[
+            "EJI-OYE"
+        ],
         "ebo":[
             {
                 "id": 1, 
                 "translation":{
-                    "ENG":"this is the test in eng oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji",
+                    "ENG":"Ifa advises followers to offer Ebo with two pigeons (2) two chicks (2) two rats (2) two fish (2) guineas (2) roosters and money so that all the good things in life are for him / her always .",
+                    "SPA":"Ifa aconseja a los seguidores ofrecer Ebo con dos palomas (2) dos pichones (2) dos ratas (2) dos peces (2) guineas (2) gallos y dinero para que todas las cosas buenas de la vida sean para el/ella siempre.",
+                    "POR":"Ifa aconselha os seguidores a oferecer a Ebo com dois pombos (2) dois pintinhos (2) dois ratos (2) dois peixes (2) guinéus (2) galos e dinheiro para que todas as coisas boas da vida sejam para ele sempre.",
                     "ISBN": "0981001319"
                 }
              },
              {
                 "id": 2, 
                 "translation":{
-                    "ENG":"this is the test in eng oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji",
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
                     "ISBN": "0981001319"
                 }
              },
              {
-                "id": 3, 
+                "id": 2, 
                 "translation":{
-                    "ENG":"this is the test in eng oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji"
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
                 }
              },
              {
-                "id": 4, 
+                "id": 2, 
                 "translation":{
-                    "ENG":"this is the test in eng oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji"
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+                }
+             },
+             {
+                "id": 2, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
                 }
              }
         ],
@@ -44,42 +54,81 @@
             {
                 "id": 1, 
                 "translation":{
-                    "ENG":"this is the test in eng oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji",
+                    "ENG":"Ọpẹlẹ divination seeds are they which after being filled up with food Turned their stomach to the ground This was Ifa's declaration to Peregede The mother of Ojumo-mo, the day has dawned She was advised to offer ebo",
+                    "SPA":"Ọpẹlẹ semillas de adivinación son aquellas que después de ser llenas de comida volvieron su estómago al suelo Esta fue la declaración de Ifa a Peregede La madre de Ojumo-mo, el día amaneció Se le aconsejó que ofreciera ebo",
+                    "POR":"Sementes de adivinhação Ọpẹlẹ são aquelas que depois de serem enchidas com comida Viraram o estômago para o chão Esta foi a declaração de Ifa a Peregede A mãe de Ojumo-mo, o dia amanheceu Ela foi aconselhada a oferecer ebo",
+                    "Yoruba":"Ọpẹlẹ lo yotán Lo da'kun de'lẹ Dia fun Peregede Tii ṣe yéeyé Ojumo mọ Ẹbo ni wQn ni ko wáá ṣe",
                     "ISBN": "0981001319"
                 }
-             },
-             {
-                "id": 2, 
+            },
+            {
+                "id": 1, 
                 "translation":{
-                    "ENG":"this is the test in eng oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji",
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "Yoruba":"",
                     "ISBN": "0981001319"
                 }
-             },
-             {
-                "id": 3, 
+            },
+            {
+                "id": 1, 
                 "translation":{
-                    "ENG":"this is the test in eng oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji",
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "Yoruba":"",
                     "ISBN": "0981001319"
                 }
-             }
+            },
+            {
+                "id": 1, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "Yoruba":"",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 1, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "Yoruba":"",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 1, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "Yoruba":"",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 1, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "Yoruba":"",
+                    "ISBN": "0981001319"
+                }
+            }
         ],
         "taboos":[
             {
                 "id": 1, 
                 "translation":{
-                    "ENG":"this is the test in eng oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji",
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
                     "ISBN": "0981001319"
                 }
              }
@@ -88,225 +137,99 @@
             {
                 "id": 1, 
                 "translation":{
-                    "ENG":"this is the test in eng oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji",
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "Yoruba":"",
                     "ISBN": "0981001319"
                 }
-             },
-             {
-                "id": 2, 
-                "translation":{
-                    "ENG":"this is the test in eng oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji",
-                    "ISBN": "0981001319"
-                }
-             },
-             {
-                "id": 3, 
-                "translation":{
-                    "ENG":"this is the test in eng oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji",
-                    "ISBN": "0981001319"
-                }
-             },
-             {
-                "id": 4, 
-                "translation":{
-                    "ENG":"this is the test in eng oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji",
-                    "ISBN": "0981001319"
-                }
-             } 
+             }
         ],
         "generalDescription":[
             {
                 "id": 1, 
                 "translation":{
-                    "ENG":"this is the test in eng oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji",
+                    "ENG":"Ifa diz, que prevê todas as ira na vida da pessoa para quem este odù, òyèkú-meji é revelado. e que essa pessoa será abençoada com riqueza abundante, o bom e bom comportamento dos filhos e todas as outras coisas essenciais na vida. Ifa também diz que o momento mais apropriado para orar a Olódùmarè e outras divindades é de manhã cedo ao fazê-lo. Ifa diz que a todos eles suas orações serão atendidas. Ifa aconselha os seguidores a oferecer a Ebo com dois pombos (2) dois pintinhos (2) dois ratos (2) dois peixes (2) guinéus (2) galos e dinheiro para que todas as coisas boas da vida sejam para ele sempre.",
+                    "SPA":"Dice Ifa, que prevé todas las iras en la vida de la persona para quien este odù, òyèkú-meji se revela.  y que esta persona será bendecida con abundante riqueza, el bien y el buen comportamiento de los niños y todas las demás cosas esenciales de la vida. Ifa también dice que el momento mas apropiado para rezar le a Olódùmarè y otras deidades es temprano en hora de la mañana al hacerlo Ifa dice que a todos ellos/ellas su oración les será contestada. Ifa aconseja a los seguidores ofrecer Ebo con dos palomas (2) dos pichones (2) dos ratas (2) dos peces (2) guineas (2) gallos y dinero para que todas las cosas buenas de la vida sean para el/ella siempre. ",
+                    "POR":"Ifa diz, que prevê todas as ira na vida da pessoa para quem este odù, òyèkú-meji é revelado. e que essa pessoa será abençoada com riqueza abundante, o bom e bom comportamento dos filhos e todas as outras coisas essenciais na vida. Ifa também diz que o momento mais apropriado para orar a Olódùmarè e outras divindades é de manhã cedo ao fazê-lo. Ifa diz que a todos eles suas orações serão atendidas. Ifa aconselha os seguidores a oferecer a Ebo com dois pombos (2) dois pintinhos (2) dois ratos (2) dois peixes (2) guinéus (2) galos e dinheiro para que todas as coisas boas da vida sejam para ele sempre.",
+                    "ISBN": "0981001319"
+                }
+            },
+            {
+                "id": 2, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
                     "ISBN": "0981001319"
 
                 }
-             },
-             {
-                "id": 2, 
-                "translation":{
-                    "ENG":"this is the test in eng oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji",
-                    "ISBN": "0981001319"
-                }
-             },
-             {
-                "id": 3, 
-                "translation":{
-                    "ENG":"this is the test in eng oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji",
-                    "ISBN": "0981001319"
-                }
-             },
-             {
-                "id": 4, 
-                "translation":{
-                    "ENG":"this is the test in eng oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji",
-                    "ISBN": "0981001319"
-                }
-             }
+            }
         ],
         "medicines":[
             {
                 "id": 1, 
                 "translation":{
-                    "ENG":"this is the test of medicine in eng  at oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji",
-                    "ISBN": "0981001319"
-                }
-             },
-             {
-                "id": 2, 
-                "translation":{
-                    "ENG":"this is the test in eng oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji",
-                    "ISBN": "0981001319"
-                }
-             },
-             {
-                "id": 3, 
-                "translation":{
-                    "ENG":"this is the test in eng oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji",
-                    "ISBN": "0981001319"
-                }
-             },
-             {
-                "id": 4, 
-                "translation":{
-                    "ENG":"this is the test in eng oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji",
-                    "ISBN": "0981001319"
+                    "ENG":"information coming soon",
+                    "SPA":"información próximamente",
+                    "POR":"informações em breve",
+                    "Yoruba":"this is the prueba in yoruba ejiogbe",
+                    "ISBN": "9780981001319"
                 }
              }
         ],
         "orisas":[
-            
             {
                 "id": 1,
-                "orisaName": "yemoja",
-                "orisaNonSpecialCharactername": "yemoja",
-                "otherNames": ["yemaya", "lemanja", "iemanja"],
+                "orisaName": "Ifa:",
+                "orisaNonSpecialCharactername": "ifa",
+                "otherNames": [""],
                 "orisaURL": "#",
-                "reasonsENG":
-                    {
-                        "1": "this is the yemoja test in eng for oyekuMeji",
-                        "2": "this is the yemoja test in eng for oyekuMeji"
-                    },
-                "reasonsSPA":
-                    {
-                        "1": "this is the yemoja test in eng for oyekuMeji",
-                        "2": "this is the yemoja test in eng for oyekuMeji"
-                    },
-                "reasonsPOR":
-                    {
-                        "1": "this is the yemoja test in eng for oyekuMeji",
-                        "2": "this is the yemoja test in eng for oyekuMeji"
-                    },
-                "reasonsISBN":
-                    {
-                        "1": 9780981001319,
-                        "2": 9780981001319
-                    }
-            },
-            {   
-                "id": 2,
-                "orisaName": "sango",
-                "orisaNonSpecialCharactername": "sango",
-                "otherNames": ["xango", "chango"],
-                "orisaURL": "#",
-                "reasonsENG":
-                {
-                    "1": "this is the sango test in eng for oyekuMeji",
-                    "2": "this is the sango test in eng for oyekuMeji"
-                },
-                "reasonsSPA":               {
-                    "1": "this is the sango test in eng for oyekuMeji",
-                    "2": "this is the sango test in eng for oyekuMeji"
-                },
-                "reasonsPOR":               {
-                    "1": "this is the sango test in eng for oyekuMeji",
-                    "2": "this is the sango test in eng for oyekuMeji"
-                },
-                "reasonsISBN":{
-                    "1": 9780981001319,
-                    "2": 9780981001319
-                }
-            } 
-            
+                "reasonsENG":[
+                    [1, "", 9780981001319]
+                ],
+                "reasonsSPA":[
+                    [1, "", 9780981001319]                  
+                ],
+                "reasonsPOR":[
+                    [1, "", 9780981001319]
+                ]
+            }
         ],
         "orisasConsagration":[
             {
                 "id": 1, 
                 "translation":{
-                    "ENG":"this is the test in eng oyekuMeji consagration",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji",
-                    "ISBN": "0981001319"                    
-                }
-             },
-             {
-                "id": 2, 
-                "translation":{
-                    "ENG":"this is the test in eng oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji",
-                    "ISBN": "0981001319"
-                }
-             },
-             {
-                "id": 3, 
-                "translation":{
-                    "ENG":"this is the test in eng oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji",
-                    "ISBN": "0981001319"
-                }
-             },
-             {
-                "id": 4, 
-                "translation":{
-                    "ENG":"this is the test in eng oyekuMeji",
-                    "SPA":"esta es la prueba en espanol oyekuMeji",
-                    "POR":"esta es la prueba en portugues",
-                    "Yoruba":"this is the prueba in yoruba oyekuMeji",
-                    "ISBN": "0981001319"
+                    "ENG":"information coming soon",
+                    "SPA":"información próximamente",
+                    "POR":"informações em breve",
+                    "Yoruba":"información próximamente",
+                    "ISBN": "0000000000"
                 }
              }
+        ],
+        "professions":[
+            {
+                "id": 1, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "9780981001319"
+                }
+             }
+        ],
+        "itanIfa":[
+            {
+                "id": 1, 
+                "translation":{
+                    "ENG":"information coming soon",
+                    "SPA":"información próximamente",
+                    "POR":"informações em breve",
+                    "Yoruba":"información próximamente",
+                    "ISBN": "0000000000"
+                }
+            }    
         ]
     }
 }

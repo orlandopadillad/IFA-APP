@@ -1,196 +1,118 @@
 {
     "ekaIdi":{
-        "ebbos":[
-        {
-            "id": 1, 
-            "translation":{
-                "ENG":"this is the test in eng",
-                "SPA":"esta es la prueba en espanol",
-                "POR":"esta es la prueba en portugues",
-                "Yoruba":"this is the prueba in yoruba"
-            },
-            "ISBN":{
-                "isbnTen":"",
-                "isbnThirteen":""
-                },
-            "pageNumber": 0,
-            "url": "",
-            "coverbookPictures": ""
-         },
-         {
-            "id": 2, 
-            "Translation":{
-                "ENG":"this is the test in eng",
-                "SPA":"esta es la prueba en espanol",
-                "POR":"esta es la prueba en portugues",
-                "Yoruba":"this is the prueba in yoruba"
-            },
-            "ISBN":{
-                "isbnTen":"",
-                "isbnThirteen":""
-                },
-            "pageNumber": 0,
-            "url": "",
-            "coverbookPictures": ""
-         },
-         {
-            "id": 3, 
-            "Translation":{
-                "ENG":"this is the test in eng",
-                "SPA":"esta es la prueba en espanol",
-                "POR":"esta es la prueba en portugues",
-                "Yoruba":"this is the prueba in yoruba"
-            },
-            "ISBN":{
-                "isbnTen":"",
-                "isbnThirteen":""
-                },
-            "pageNumber": 0,
-            "url": "",
-            "coverbookPictures": ""
-         },
-         {
-            "id": 4, 
-            "Translation":{
-                "ENG":"this is the test in eng",
-                "SPA":"esta es la prueba en espanol",
-                "POR":"esta es la prueba en portugues",
-                "Yoruba":"this is the prueba in yoruba"
-            },
-            "ISBN":{
-                "isbnTen":"",
-                "isbnThirteen":""
-                },
-            "pageNumber": 0,
-            "url": "",
-            "coverbookPictures": ""
-         }
+        "oduNames":[
+
+        ],
+        "ebo":[
+            {
+                "id": 1, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+                }
+             }
         ],
         "verses":[
-        {
-            "id": 1, 
-            "Translation":{
-                "ENG":"this is the test in eng",
-                "SPA":"esta es la prueba en espanol",
-                "POR":"esta es la prueba en portugues",
-                "Yoruba":"this is the prueba in yoruba"
-            },
-            "ISBN":{
-                "isbnTen":"",
-                "isbnThirteen":""
-                },
-            "pageNumber": 0,
-            "url": "",
-            "coverbookPictures": ""
-         }
+            {
+                "id": 1, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "Yoruba":"",
+                    "ISBN": "0981001319"
+                }
+            }
         ],
         "taboos":[
-        {
-            "id": 1, 
-            "Translation":{
-                "ENG":"this is the test in eng",
-                "SPA":"esta es la prueba en espanol",
-                "POR":"esta es la prueba en portugues",
-                "Yoruba":"this is the prueba in yoruba"
-            },
-            "ISBN":{
-                "isbnTen":"",
-                "isbnThirteen":""
-                },
-            "pageNumber": 0,
-            "url": "",
-            "coverbookPictures": ""
-         }
+            {
+                "id": 1, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+                }
+             }
         ],
         "names":[
-        {
-            "id": 1, 
-            "Translation":{
-                "ENG":"this is the test in eng",
-                "SPA":"esta es la prueba en espanol",
-                "POR":"esta es la prueba en portugues",
-                "Yoruba":"this is the prueba in yoruba"
-            },
-            "ISBN":{
-                "isbnTen":"",
-                "isbnThirteen":""
-                },
-            "pageNumber": 0,
-            "url": "",
-            "coverbookPictures": ""
-         }
+            {
+                "id": 1, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "Yoruba":"",
+                    "ISBN": "0981001319"
+                }
+             }
         ],
         "generalDescription":[
-        {
-            "id": 1, 
-            "Translation":{
-                "ENG":"this is the test in eng",
-                "SPA":"esta es la prueba en espanol",
-                "POR":"esta es la prueba en portugues",
-                "Yoruba":"this is the prueba in yoruba"
-            },
-            "ISBN":{
-                "isbnTen":"",
-                "isbnThirteen":""
-                },
-            "pageNumber": 0,
-            "url": "",
-            "coverbookPictures": ""
-         }
+            {
+                "id": 1, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "0981001319"
+
+                }
+            }
         ],
         "medicines":[
-        {
-            "id": 1, 
-            "Translation":{
-                "ENG":"this is the test in eng",
-                "SPA":"esta es la prueba en espanol",
-                "POR":"esta es la prueba en portugues",
-                "Yoruba":"this is the prueba in yoruba"
-            },
-            "ISBN":{
-                "isbnTen":"",
-                "isbnThirteen":""
-                },
-            "pageNumber": 0,
-            "url": "",
-            "coverbookPictures": ""
-         }
+            {
+                "id": 1, 
+                "translation":{
+                    "ENG":"information coming soon",
+                    "SPA":"información próximamente",
+                    "POR":"informações em breve",
+                    "Yoruba":"this is the prueba in yoruba ejiogbe",
+                    "ISBN": "9780981001319"
+                }
+             }
         ],
         "orisas":[
-        {
-            "id": 1, 
-            "Translation":{
-                "ENG":"this is the test in eng",
-                "SPA":"esta es la prueba en espanol",
-                "POR":"esta es la prueba en portugues",
-                "Yoruba":"this is the prueba in yoruba"
-            },
-            "ISBN":{
-                "isbnTen":"",
-                "isbnThirteen":""
-                },
-            "pageNumber": 0,
-            "url": "",
-            "coverbookPictures": ""
-         }
+            {
+                "id": 1,
+                "orisaName": "Ifa:",
+                "orisaNonSpecialCharactername": "ifa",
+                "otherNames": [""],
+                "orisaURL": "#",
+                "reasonsENG":[
+                    [1, "", 9780981001319]
+                ],
+                "reasonsSPA":[
+                    [1, "", 9780981001319]                  
+                ],
+                "reasonsPOR":[
+                    [1, "", 9780981001319]
+                ]
+            }
         ],
         "orisasConsagration":[
-        {
-            "id": 1, 
-            "Translation":{
-                "ENG":"this is the test in eng",
-                "SPA":"esta es la prueba en espanol",
-                "POR":"esta es la prueba en portugues",
-                "Yoruba":"this is the prueba in yoruba"
-            },
-            "ISBN":{
-                "isbnTen":"",
-                "isbnThirteen":""
-                },
-            "pageNumber": 0,
-            "url": "",
-            "coverbookPictures": ""
-         }
+            {
+                "id": 1, 
+                "translation":{
+                    "ENG":"information coming soon",
+                    "SPA":"información próximamente",
+                    "POR":"informações em breve",
+                    "Yoruba":"información próximamente",
+                    "ISBN": "0000000000"
+                }
+             }
+        ],
+        "professions":[
+            {
+                "id": 1, 
+                "translation":{
+                    "ENG":"",
+                    "SPA":"",
+                    "POR":"",
+                    "ISBN": "9780981001319"
+                }
+             }
         ]
     }
 }
