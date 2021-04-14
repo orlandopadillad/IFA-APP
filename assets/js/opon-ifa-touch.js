@@ -318,7 +318,7 @@ var oduForTheJSON = ListofOdusNamesForTheJSON[oduIndexation];// set the default 
 oduIndexation = odus.indexOf(odu)//to know the index of the selected odu.
 
 //start to grab the information from the url action called Get URL Parameter Values from Query String in Javascript 
-document.onload = function() {
+window.onload = function() {
     try {
         var url_string = (window.location.href);//grabing the url information and put the values into lower case
         var url = new URL(url_string);//grab the url processed previous and create a NEW URL
